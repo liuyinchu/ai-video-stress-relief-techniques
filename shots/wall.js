@@ -3,6 +3,7 @@
   const stage = document.getElementById("stage");
   const portrait = stage.dataset.format === "portrait";
   const cover = stage.dataset.cover === "true";
+  const edition = window.FILM_EDITION || {};
   const W = portrait ? 1080 : 1920, H = portrait ? 1920 : 1080;
   const canvas = document.getElementById("scene");
   const ctx = canvas.getContext("2d", {alpha:false});
@@ -34,7 +35,7 @@
   ];
   let data;
   let captionCues;
-  const textCuts=[0.4, 3.5, 4.9, 5.4, 8.0, 8.7, 11.2, 15, 16.6, 17.4, 20.4, 22.7, 23.4, 27.7, 28.4, 32.4, 33.7, 34.4, 37.0, 41.7, 42.4, 45.6, 48.7, 49.4, 52.0, 54.7, 55.2, 55.5, 58.3, 59.5, 61.5];
+  const textCuts=edition.cuts || [0.4, 3.5, 4.9, 5.4, 8.0, 8.7, 11.2, 15, 16.6, 17.4, 20.4, 22.7, 23.4, 27.7, 28.4, 32.4, 33.7, 34.4, 37.0, 41.7, 42.4, 45.6, 48.7, 49.4, 52.0, 54.7, 55.2, 55.5, 58.3, 59.5, 61.5];
   const clamp = (v,a=0,b=1) => Math.max(a,Math.min(b,v));
   const smooth = u => {u=clamp(u);return u*u*u*(u*(u*6-15)+10);};
   const mix = (a,b,k)=>a+(b-a)*k;
@@ -85,8 +86,17 @@
     }
     ctx.restore();
   }
+  function retime(id,t) {
+    const keys=edition.retime && edition.retime[id];
+    if(!keys)return t;
+    for(let k=1;k<keys.length;k++){
+      if(t<=keys[k][0])return mix(keys[k-1][1],keys[k][1],clamp((t-keys[k-1][0])/(keys[k][0]-keys[k-1][0])));
+    }
+    return keys[keys.length-1][1];
+  }
   function station(s,i,t) {
     const local=clamp(t-s.start,0,s.end-s.start);
+    const artTime=retime(s.id,local);
     ctx.save();ctx.translate(s.x,s.y);
     const titleY=portrait?-475:-352, artY=portrait?35:20;
     // These faint edge fragments belong to a continuous mural, never individual cards.
@@ -97,30 +107,30 @@
       if(portrait){
         tracking("A SMALL RESET",0,-600,20,C.warm,6);
         text("先松",0,-426,152,C.white,600);text("一口气",0,-252,152,C.white,600);
-        ctx.save();ctx.translate(0,150);window.drawIllustration(ctx,"intro",local);ctx.restore();
+        ctx.save();ctx.translate(0,150);window.drawIllustration(ctx,"intro",artTime);ctx.restore();
         text("7 个让身体缓下来的小动作",0,510,39,C.warm,500);
       }else{
         tracking("A SMALL RESET",-430,-261,19,C.warm,5);
         text("先松",-430,-103,140,C.white,600);text("一口气",-430,60,140,C.white,600);
         text("7 个让身体缓下来的小动作",-430,240,33,C.warm,500);
-        ctx.save();ctx.translate(340,0);window.drawIllustration(ctx,"intro",local);ctx.restore();
+        ctx.save();ctx.translate(340,0);window.drawIllustration(ctx,"intro",artTime);ctx.restore();
       }
     }else if(i===8){
       tracking(labels[i][0],0,titleY-75,18,C.warm,4);
       text(labels[i][1],0,titleY+30,portrait?92:94,C.white,600);
-      ctx.save();ctx.translate(0,artY+25);window.drawIllustration(ctx,"outro",local);ctx.restore();
+      ctx.save();ctx.translate(0,artY+25);window.drawIllustration(ctx,"outro",artTime);ctx.restore();
       text("先松一口气",0,portrait?440:338,42,C.warm,500);
       text("不必全做，也不必立刻变好",0,portrait?510:397,30,C.muted,400);
     }else{
       tracking(labels[i][0],0,titleY-65,18,C.warm,4);
       text(labels[i][1],0,titleY+26,portrait?84:87,C.white,600);
-      ctx.save();ctx.translate(0,artY);window.drawIllustration(ctx,s.id,local);ctx.restore();
+      ctx.save();ctx.translate(0,artY);window.drawIllustration(ctx,s.id,artTime);ctx.restore();
       if(i===1){
-        const cue=local<3-1e-7?"吸气":local<3.7-1e-7?"再补一小口":local<10-1e-7?"慢慢呼出":"自然呼吸";
+        const cue=artTime<3-1e-7?"吸气":artTime<3.7-1e-7?"再补一小口":artTime<10-1e-7?"慢慢呼出":"自然呼吸";
         text(cue,0,artY+4,42,C.white,500);
         const sequence=["吸","补","呼"];
         sequence.forEach((label,j)=>{
-          let active=(j===0&&local<3)||(j===1&&local>=3&&local<3.7)||(j===2&&local>=3.7&&local<10);
+          let active=(j===0&&artTime<3-1e-7)||(j===1&&artTime>=3-1e-7&&artTime<3.7-1e-7)||(j===2&&artTime>=3.7-1e-7&&artTime<10-1e-7);
           text(label,(j-1)*170,portrait?435:338,31,active?C.warm:"#6c6667",500);
           if(j<2)line((j-1)*170+38,portrait?435:338,(j)*170-38,portrait?435:338,"#3d3431",1);
         });
@@ -133,7 +143,7 @@
     let n=data.segments.findIndex(s=>t>=s.start&&t<=s.end);
     if(n<0)return;
     const s=data.segments[n];const arr=lines[n];
-    const cue=captionCues.find(c=>t>=c.start&&t<c.end);
+    const cue=captionCues.find(c=>t+1e-7>=c.start&&t+1e-7<c.end);
     if(!cue)return;
     const selected=cue.text;
     const fade=Math.min(clamp((t-s.start)/.15),clamp((s.end-t)/.15));
@@ -174,10 +184,10 @@
   Shot.define({
     duration:cover?1:62,fps:30,cuts:cover?[]:textCuts,
     fonts:[["600 152px PingFang SC","先松一口气双吸长呼轻揉耳廓肩膀写下放下让目光休息只收拾一小块挑一个就好"],["500 20px Arial","A SMALL RESET"]],
-    setup:async()=>{data=await (await fetch("../content/timeline.json")).json();captionCues=await (await fetch("../content/captions.json")).json();},
+    setup:async()=>{data=await (await fetch(edition.timeline || "../content/timeline.json")).json();captionCues=await (await fetch(edition.captions || "../content/captions.json")).json();},
     post:{motionBlur:12,maxMotionBlur:12,shutter:.32,grain:0},
     blurAt(t){if(cover||textCuts.some(c=>Math.abs(t-c)<.034))return 1;return data.stations.slice(1).some(s=>t>s.start-.55&&t<s.start+.55)?12:2;},
-    meta:{title:"先松一口气",format:portrait?"9:16":"16:9",concept:"One continuous luminous mural, nine camera stations",version:"v1"},
+    meta:{title:"先松一口气",format:portrait?"9:16":"16:9",concept:"One continuous luminous mural, nine camera stations",version:edition.version || "v1"},
     render:frame
   });
 })();

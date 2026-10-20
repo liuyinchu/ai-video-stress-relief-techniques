@@ -11,3 +11,5 @@ reference/style/*.png
 
 __pycache__/
 *.pyc
+
+assets/audio/minimax/fitted/

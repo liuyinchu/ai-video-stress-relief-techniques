@@ -1,0 +1,2930 @@
+{
+  "generated_at_utc": "2026-10-20T17:52:59.537343+00:00",
+  "model": "/Users/yangshuyun/workspace/dev/ai-video/proj1-1019/out/models/whisper-large-v3-turbo-q4",
+  "offline": true,
+  "reference_prompt_used": false,
+  "timestamp_origin": "seconds from start of the raw MiniMax WAV; not final placed/tempo-adjusted time",
+  "limitations": [
+    "ASR timestamps are estimated; not forced alignment.",
+    "Acoustic silence can locate a pause but cannot label its linguistic meaning.",
+    "No human listening claim; independent ASR may contain recognition errors.",
+    "Raw timestamps must be transformed using the actual trimming, tempo and placement applied in the mix."
+  ],
+  "segments": [
+    {
+      "id": "intro",
+      "file": "assets/audio/minimax/raw/intro.wav",
+      "sha256": "ab4cbb7bb7da6d4cc44fa1d5535d5522fcbdcb8af33b220db7c3c681dc47c384",
+      "raw_duration": 4.63240625,
+      "sample_rate": 32000,
+      "expected_text": "压力上来，先别急着说服自己。给身体一点缓冲。",
+      "silence": {
+        "-42": [
+          {
+            "start": 0.0,
+            "end": 0.185562,
+            "duration": 0.185562
+          },
+          {
+            "start": 0.8995,
+            "end": 1.211719,
+            "duration": 0.312219
+          },
+          {
+            "start": 2.658875,
+            "end": 3.015844,
+            "duration": 0.356969
+          },
+          {
+            "start": 4.327562,
+            "end": 4.632406,
+            "duration": 0.304844
+          }
+        ],
+        "-36": [
+          {
+            "start": 0.0,
+            "end": 0.187562,
+            "duration": 0.187562
+          },
+          {
+            "start": 0.880812,
+            "end": 1.233125,
+            "duration": 0.352313
+          },
+          {
+            "start": 2.657125,
+            "end": 3.015875,
+            "duration": 0.35875
+          },
+          {
+            "start": 3.835313,
+            "end": 3.927156,
+            "duration": 0.091843
+          },
+          {
+            "start": 3.974281,
+            "end": 4.087094,
+            "duration": 0.112813
+          },
+          {
+            "start": 4.314531,
+            "end": 4.632406,
+            "duration": 0.317875
+          }
+        ],
+        "-30": [
+          {
+            "start": 0.0,
+            "end": 0.190906,
+            "duration": 0.190906
+          },
+          {
+            "start": 0.7645,
+            "end": 1.252281,
+            "duration": 0.487781
+          },
+          {
+            "start": 1.615438,
+            "end": 1.698625,
+            "duration": 0.083187
+          },
+          {
+            "start": 2.13575,
+            "end": 2.239094,
+            "duration": 0.103344
+          },
+          {
+            "start": 2.288687,
+            "end": 2.388719,
+            "duration": 0.100032
+          },
+          {
+            "start": 2.448406,
+            "end": 2.536781,
+            "duration": 0.088375
+          },
+          {
+            "start": 2.538125,
+            "end": 2.628188,
+            "duration": 0.090063
+          },
+          {
+            "start": 2.641625,
+            "end": 3.015906,
+            "duration": 0.374281
+          },
+          {
+            "start": 3.367188,
+            "end": 3.470687,
+            "duration": 0.103499
+          },
+          {
+            "start": 3.832406,
+            "end": 3.928844,
+            "duration": 0.096438
+          },
+          {
+            "start": 3.94375,
+            "end": 4.104906,
+            "duration": 0.161156
+          },
+          {
+            "start": 4.287031,
+            "end": 4.632406,
+            "duration": 0.345375
+          }
+        ]
+      },
+      "asr_seconds": 4.622,
+      "recognized_text": "压力上来,先别急着说服自己,给身体一点缓冲。",
+      "words": [
+        {
+          "word": "压",
+          "start": 0.0,
+          "end": 0.32,
+          "probability": 0.86328125
+        },
+        {
+          "word": "力",
+          "start": 0.32,
+          "end": 0.46,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "上",
+          "start": 0.46,
+          "end": 0.64,
+          "probability": 0.99462890625
+        },
+        {
+          "word": "来,",
+          "start": 0.64,
+          "end": 0.88,
+          "probability": 0.99560546875
+        },
+        {
+          "word": "先",
+          "start": 1.1,
+          "end": 1.38,
+          "probability": 0.89453125
+        },
+        {
+          "word": "别",
+          "start": 1.38,
+          "end": 1.6,
+          "probability": 0.998046875
+        },
+        {
+          "word": "急",
+          "start": 1.6,
+          "end": 1.76,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "着",
+          "start": 1.76,
+          "end": 1.94,
+          "probability": 0.99267578125
+        },
+        {
+          "word": "说",
+          "start": 1.94,
+          "end": 2.06,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "服",
+          "start": 2.06,
+          "end": 2.26,
+          "probability": 0.998046875
+        },
+        {
+          "word": "自己,",
+          "start": 2.26,
+          "end": 2.64,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "给",
+          "start": 2.88,
+          "end": 3.1,
+          "probability": 0.990234375
+        },
+        {
+          "word": "身",
+          "start": 3.1,
+          "end": 3.3,
+          "probability": 0.998046875
+        },
+        {
+          "word": "体",
+          "start": 3.3,
+          "end": 3.5,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "一点",
+          "start": 3.5,
+          "end": 3.74,
+          "probability": 0.99609375
+        },
+        {
+          "word": "缓",
+          "start": 3.74,
+          "end": 4.04,
+          "probability": 0.98388671875
+        },
+        {
+          "word": "冲。",
+          "start": 4.04,
+          "end": 4.26,
+          "probability": 0.9833984375
+        }
+      ],
+      "differences": [],
+      "phrases": [
+        {
+          "phrase": "压力上来",
+          "matched": true,
+          "start": 0.0,
+          "end": 0.88,
+          "asr_first_word": "压",
+          "asr_last_word": "来,",
+          "method": "exact normalized phrase match in independent ASR word stream",
+          "timing_status": "estimated; inspect nearby acoustic pauses before using as an animation cue"
+        },
+        {
+          "phrase": "先别急着说服自己",
+          "matched": true,
+          "start": 1.1,
+          "end": 2.64,
+          "asr_first_word": "先",
+          "asr_last_word": "自己,",
+          "method": "exact normalized phrase match in independent ASR word stream",
+          "timing_status": "estimated; inspect nearby acoustic pauses before using as an animation cue"
+        },
+        {
+          "phrase": "给身体一点缓冲",
+          "matched": true,
+          "start": 2.88,
+          "end": 4.26,
+          "asr_first_word": "给",
+          "asr_last_word": "冲。",
+          "method": "exact normalized phrase match in independent ASR word stream",
+          "timing_status": "estimated; inspect nearby acoustic pauses before using as an animation cue"
+        }
+      ],
+      "acoustic_phrase_status": "Bounded by pauses >=160ms; phrase count and order validated against independent ASR.",
+      "acoustic_phrases": [
+        {
+          "phrase": "压力上来",
+          "start": 0.185562,
+          "end": 0.8995,
+          "start_threshold_sensitivity": [
+            0.185562,
+            0.187562
+          ],
+          "end_threshold_sensitivity": [
+            0.880812,
+            0.8995
+          ],
+          "method": "Independent ASR labels plus -42dB silence edges; sensitivity sweep at -36dB.",
+          "caution": "Detector sensitivity is not a statistical confidence interval; quiet consonants can extend outside these bounds."
+        },
+        {
+          "phrase": "先别急着说服自己",
+          "start": 1.211719,
+          "end": 2.658875,
+          "start_threshold_sensitivity": [
+            1.211719,
+            1.233125
+          ],
+          "end_threshold_sensitivity": [
+            2.657125,
+            2.658875
+          ],
+          "method": "Independent ASR labels plus -42dB silence edges; sensitivity sweep at -36dB.",
+          "caution": "Detector sensitivity is not a statistical confidence interval; quiet consonants can extend outside these bounds."
+        },
+        {
+          "phrase": "给身体一点缓冲",
+          "start": 3.015844,
+          "end": 4.327562,
+          "start_threshold_sensitivity": [
+            3.015844,
+            3.015875
+          ],
+          "end_threshold_sensitivity": [
+            4.314531,
+            4.327562
+          ],
+          "method": "Independent ASR labels plus -42dB silence edges; sensitivity sweep at -36dB.",
+          "caution": "Detector sensitivity is not a statistical confidence interval; quiet consonants can extend outside these bounds."
+        }
+      ]
+    },
+    {
+      "id": "breath",
+      "file": "assets/audio/minimax/raw/breath.wav",
+      "sha256": "8972511f76af13864393155bc7e409ec79145490c00cb76891b92348719be52e",
+      "raw_duration": 6.98921875,
+      "sample_rate": 32000,
+      "expected_text": "一，鼻子吸气，再轻轻补一小口，嘴巴慢慢呼出。不要用力，头晕就停。",
+      "silence": {
+        "-42": [
+          {
+            "start": 0.0,
+            "end": 0.178437,
+            "duration": 0.178437
+          },
+          {
+            "start": 0.375281,
+            "end": 0.601344,
+            "duration": 0.226063
+          },
+          {
+            "start": 1.298875,
+            "end": 1.571813,
+            "duration": 0.272938
+          },
+          {
+            "start": 2.787469,
+            "end": 3.10225,
+            "duration": 0.314781
+          },
+          {
+            "start": 3.7655,
+            "end": 3.852,
+            "duration": 0.0865
+          },
+          {
+            "start": 4.227,
+            "end": 4.841,
+            "duration": 0.614
+          },
+          {
+            "start": 5.448563,
+            "end": 5.923531,
+            "duration": 0.474968
+          },
+          {
+            "start": 6.80825,
+            "end": 6.989219,
+            "duration": 0.180969
+          }
+        ],
+        "-36": [
+          {
+            "start": 0.0,
+            "end": 0.180906,
+            "duration": 0.180906
+          },
+          {
+            "start": 0.367781,
+            "end": 0.607812,
+            "duration": 0.240031
+          },
+          {
+            "start": 1.292438,
+            "end": 1.588938,
+            "duration": 0.2965
+          },
+          {
+            "start": 2.784687,
+            "end": 3.124375,
+            "duration": 0.339688
+          },
+          {
+            "start": 3.75225,
+            "end": 3.853938,
+            "duration": 0.101688
+          },
+          {
+            "start": 4.219281,
+            "end": 4.841031,
+            "duration": 0.62175
+          },
+          {
+            "start": 5.448094,
+            "end": 5.923563,
+            "duration": 0.475469
+          },
+          {
+            "start": 6.7795,
+            "end": 6.989219,
+            "duration": 0.209719
+          }
+        ],
+        "-30": [
+          {
+            "start": 0.0,
+            "end": 0.184688,
+            "duration": 0.184688
+          },
+          {
+            "start": 0.356563,
+            "end": 0.609531,
+            "duration": 0.252968
+          },
+          {
+            "start": 0.703344,
+            "end": 0.788438,
+            "duration": 0.085094
+          },
+          {
+            "start": 1.292406,
+            "end": 1.615,
+            "duration": 0.322594
+          },
+          {
+            "start": 2.576219,
+            "end": 2.694844,
+            "duration": 0.118625
+          },
+          {
+            "start": 2.781719,
+            "end": 3.155219,
+            "duration": 0.3735
+          },
+          {
+            "start": 3.741812,
+            "end": 3.856594,
+            "duration": 0.114782
+          },
+          {
+            "start": 4.014687,
+            "end": 4.103844,
+            "duration": 0.089157
+          },
+          {
+            "start": 4.207406,
+            "end": 4.859594,
+            "duration": 0.652188
+          },
+          {
+            "start": 5.433594,
+            "end": 5.923563,
+            "duration": 0.489969
+          },
+          {
+            "start": 5.923656,
+            "end": 6.011969,
+            "duration": 0.088313
+          },
+          {
+            "start": 6.496437,
+            "end": 6.65175,
+            "duration": 0.155313
+          },
+          {
+            "start": 6.669281,
+            "end": 6.989219,
+            "duration": 0.319938
+          }
+        ]
+      },
+      "asr_seconds": 3.411,
+      "recognized_text": "一 鼻子吸气 再轻轻补一小口 嘴巴慢慢呼出不要用力 头晕就停",
+      "words": [
+        {
+          "word": "一",
+          "start": 0.0,
+          "end": 0.32,
+          "probability": 0.5703125
+        },
+        {
+          "word": " 鼻",
+          "start": 0.52,
+          "end": 0.7,
+          "probability": 0.99658203125
+        },
+        {
+          "word": "子",
+          "start": 0.7,
+          "end": 0.86,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "吸",
+          "start": 0.86,
+          "end": 1.0,
+          "probability": 0.99462890625
+        },
+        {
+          "word": "气",
+          "start": 1.0,
+          "end": 1.28,
+          "probability": 0.90966796875
+        },
+        {
+          "word": " 再",
+          "start": 1.52,
+          "end": 1.68,
+          "probability": 0.99755859375
+        },
+        {
+          "word": "轻",
+          "start": 1.68,
+          "end": 1.9,
+          "probability": 0.99560546875
+        },
+        {
+          "word": "轻",
+          "start": 1.9,
+          "end": 2.14,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "补",
+          "start": 2.14,
+          "end": 2.26,
+          "probability": 0.9873046875
+        },
+        {
+          "word": "一",
+          "start": 2.26,
+          "end": 2.38,
+          "probability": 0.98828125
+        },
+        {
+          "word": "小",
+          "start": 2.38,
+          "end": 2.54,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "口",
+          "start": 2.54,
+          "end": 2.78,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 嘴",
+          "start": 3.12,
+          "end": 3.22,
+          "probability": 0.9931640625
+        },
+        {
+          "word": "巴",
+          "start": 3.22,
+          "end": 3.42,
+          "probability": 0.99755859375
+        },
+        {
+          "word": "慢慢",
+          "start": 3.42,
+          "end": 3.66,
+          "probability": 0.9697265625
+        },
+        {
+          "word": "呼",
+          "start": 3.66,
+          "end": 3.9,
+          "probability": 0.990234375
+        },
+        {
+          "word": "出",
+          "start": 3.9,
+          "end": 4.18,
+          "probability": 0.98486328125
+        },
+        {
+          "word": "不要",
+          "start": 4.18,
+          "end": 4.96,
+          "probability": 0.61962890625
+        },
+        {
+          "word": "用",
+          "start": 4.96,
+          "end": 5.22,
+          "probability": 0.9970703125
+        },
+        {
+          "word": "力",
+          "start": 5.22,
+          "end": 5.4,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 头",
+          "start": 5.88,
+          "end": 6.06,
+          "probability": 0.998046875
+        },
+        {
+          "word": "晕",
+          "start": 6.06,
+          "end": 6.28,
+          "probability": 0.98828125
+        },
+        {
+          "word": "就",
+          "start": 6.28,
+          "end": 6.48,
+          "probability": 0.998046875
+        },
+        {
+          "word": "停",
+          "start": 6.48,
+          "end": 6.72,
+          "probability": 0.99658203125
+        }
+      ],
+      "differences": [],
+      "phrases": [
+        {
+          "phrase": "一",
+          "matched": true,
+          "start": 0.0,
+          "end": 0.32,
+          "asr_first_word": "一",
+          "asr_last_word": "一",
+          "method": "exact normalized phrase match in independent ASR word stream",
+          "timing_status": "estimated; inspect nearby acoustic pauses before using as an animation cue"
+        },
+        {
+          "phrase": "鼻子吸气",
+          "matched": true,
+          "start": 0.52,
+          "end": 1.28,
+          "asr_first_word": " 鼻",
+          "asr_last_word": "气",
+          "method": "exact normalized phrase match in independent ASR word stream",
+          "timing_status": "estimated; inspect nearby acoustic pauses before using as an animation cue"
+        },
+        {
+          "phrase": "再轻轻补一小口",
+          "matched": true,
+          "start": 1.52,
+          "end": 2.78,
+          "asr_first_word": " 再",
+          "asr_last_word": "口",
+          "method": "exact normalized phrase match in independent ASR word stream",
+          "timing_status": "estimated; inspect nearby acoustic pauses before using as an animation cue"
+        },
+        {
+          "phrase": "嘴巴慢慢呼出",
+          "matched": true,
+          "start": 3.12,
+          "end": 4.18,
+          "asr_first_word": " 嘴",
+          "asr_last_word": "出",
+          "method": "exact normalized phrase match in independent ASR word stream",
+          "timing_status": "estimated; inspect nearby acoustic pauses before using as an animation cue"
+        },
+        {
+          "phrase": "不要用力",
+          "matched": true,
+          "start": 4.18,
+          "end": 5.4,
+          "asr_first_word": "不要",
+          "asr_last_word": "力",
+          "method": "exact normalized phrase match in independent ASR word stream",
+          "timing_status": "estimated; inspect nearby acoustic pauses before using as an animation cue"
+        },
+        {
+          "phrase": "头晕就停",
+          "matched": true,
+          "start": 5.88,
+          "end": 6.72,
+          "asr_first_word": " 头",
+          "asr_last_word": "停",
+          "method": "exact normalized phrase match in independent ASR word stream",
+          "timing_status": "estimated; inspect nearby acoustic pauses before using as an animation cue"
+        }
+      ],
+      "acoustic_phrase_status": "Bounded by pauses >=160ms; phrase count and order validated against independent ASR.",
+      "acoustic_phrases": [
+        {
+          "phrase": "一",
+          "start": 0.178437,
+          "end": 0.375281,
+          "start_threshold_sensitivity": [
+            0.178437,
+            0.180906
+          ],
+          "end_threshold_sensitivity": [
+            0.367781,
+            0.375281
+          ],
+          "method": "Independent ASR labels plus -42dB silence edges; sensitivity sweep at -36dB.",
+          "caution": "Detector sensitivity is not a statistical confidence interval; quiet consonants can extend outside these bounds."
+        },
+        {
+          "phrase": "鼻子吸气",
+          "start": 0.601344,
+          "end": 1.298875,
+          "start_threshold_sensitivity": [
+            0.601344,
+            0.607812
+          ],
+          "end_threshold_sensitivity": [
+            1.292438,
+            1.298875
+          ],
+          "method": "Independent ASR labels plus -42dB silence edges; sensitivity sweep at -36dB.",
+          "caution": "Detector sensitivity is not a statistical confidence interval; quiet consonants can extend outside these bounds."
+        },
+        {
+          "phrase": "再轻轻补一小口",
+          "start": 1.571813,
+          "end": 2.787469,
+          "start_threshold_sensitivity": [
+            1.571813,
+            1.588938
+          ],
+          "end_threshold_sensitivity": [
+            2.784687,
+            2.787469
+          ],
+          "method": "Independent ASR labels plus -42dB silence edges; sensitivity sweep at -36dB.",
+          "caution": "Detector sensitivity is not a statistical confidence interval; quiet consonants can extend outside these bounds."
+        },
+        {
+          "phrase": "嘴巴慢慢呼出",
+          "start": 3.10225,
+          "end": 4.227,
+          "start_threshold_sensitivity": [
+            3.10225,
+            3.124375
+          ],
+          "end_threshold_sensitivity": [
+            4.219281,
+            4.227
+          ],
+          "method": "Independent ASR labels plus -42dB silence edges; sensitivity sweep at -36dB.",
+          "caution": "Detector sensitivity is not a statistical confidence interval; quiet consonants can extend outside these bounds."
+        },
+        {
+          "phrase": "不要用力",
+          "start": 4.841,
+          "end": 5.448563,
+          "start_threshold_sensitivity": [
+            4.841,
+            4.841031
+          ],
+          "end_threshold_sensitivity": [
+            5.448094,
+            5.448563
+          ],
+          "method": "Independent ASR labels plus -42dB silence edges; sensitivity sweep at -36dB.",
+          "caution": "Detector sensitivity is not a statistical confidence interval; quiet consonants can extend outside these bounds."
+        },
+        {
+          "phrase": "头晕就停",
+          "start": 5.923531,
+          "end": 6.80825,
+          "start_threshold_sensitivity": [
+            5.923531,
+            5.923563
+          ],
+          "end_threshold_sensitivity": [
+            6.7795,
+            6.80825
+          ],
+          "method": "Independent ASR labels plus -42dB silence edges; sensitivity sweep at -36dB.",
+          "caution": "Detector sensitivity is not a statistical confidence interval; quiet consonants can extend outside these bounds."
+        }
+      ]
+    },
+    {
+      "id": "cool",
+      "file": "assets/audio/minimax/raw/cool.wav",
+      "sha256": "0d44c78e9afde781ebafb6908e61a9c0eb3f1ea3ee1c8b188a2539918716a209",
+      "raw_duration": 4.14478125,
+      "sample_rate": 32000,
+      "expected_text": "二，用凉毛巾轻敷脸颊，保持自然呼吸。",
+      "silence": {
+        "-42": [
+          {
+            "start": 0.0,
+            "end": 0.189438,
+            "duration": 0.189438
+          },
+          {
+            "start": 0.396031,
+            "end": 0.910906,
+            "duration": 0.514875
+          },
+          {
+            "start": 2.507625,
+            "end": 2.7515,
+            "duration": 0.243875
+          },
+          {
+            "start": 3.948281,
+            "end": 4.144781,
+            "duration": 0.1965
+          }
+        ],
+        "-36": [
+          {
+            "start": 0.0,
+            "end": 0.1895,
+            "duration": 0.1895
+          },
+          {
+            "start": 0.383437,
+            "end": 0.9145,
+            "duration": 0.531063
+          },
+          {
+            "start": 2.4975,
+            "end": 2.758062,
+            "duration": 0.260562
+          },
+          {
+            "start": 3.485562,
+            "end": 3.577906,
+            "duration": 0.092344
+          },
+          {
+            "start": 3.934,
+            "end": 4.144781,
+            "duration": 0.210781
+          }
+        ],
+        "-30": [
+          {
+            "start": 0.0,
+            "end": 0.189531,
+            "duration": 0.189531
+          },
+          {
+            "start": 0.345656,
+            "end": 0.916719,
+            "duration": 0.571063
+          },
+          {
+            "start": 1.618719,
+            "end": 1.721812,
+            "duration": 0.103093
+          },
+          {
+            "start": 1.881719,
+            "end": 1.969062,
+            "duration": 0.087343
+          },
+          {
+            "start": 2.120062,
+            "end": 2.270406,
+            "duration": 0.150344
+          },
+          {
+            "start": 2.36125,
+            "end": 2.760063,
+            "duration": 0.398813
+          },
+          {
+            "start": 2.857906,
+            "end": 2.966125,
+            "duration": 0.108219
+          },
+          {
+            "start": 3.149781,
+            "end": 3.245906,
+            "duration": 0.096125
+          },
+          {
+            "start": 3.459375,
+            "end": 3.578375,
+            "duration": 0.119
+          },
+          {
+            "start": 3.916156,
+            "end": 4.144781,
+            "duration": 0.228625
+          }
+        ]
+      },
+      "asr_seconds": 4.182,
+      "recognized_text": "2. 用凉毛巾轻敷脸颊,保持自然呼吸",
+      "words": [
+        {
+          "word": "2.",
+          "start": 0.0,
+          "end": 0.3,
+          "probability": 0.67041015625
+        },
+        {
+          "word": " 用",
+          "start": 0.94,
+          "end": 1.0,
+          "probability": 0.984375
+        },
+        {
+          "word": "凉",
+          "start": 1.0,
+          "end": 1.16,
+          "probability": 0.94775390625
+        },
+        {
+          "word": "毛",
+          "start": 1.16,
+          "end": 1.32,
+          "probability": 0.998046875
+        },
+        {
+          "word": "巾",
+          "start": 1.32,
+          "end": 1.58,
+          "probability": 0.95361328125
+        },
+        {
+          "word": "轻",
+          "start": 1.58,
+          "end": 1.86,
+          "probability": 0.84326171875
+        },
+        {
+          "word": "敷",
+          "start": 1.86,
+          "end": 2.02,
+          "probability": 0.888671875
+        },
+        {
+          "word": "脸",
+          "start": 2.02,
+          "end": 2.18,
+          "probability": 0.9931640625
+        },
+        {
+          "word": "颊,",
+          "start": 2.18,
+          "end": 2.46,
+          "probability": 0.9521484375
+        },
+        {
+          "word": "保",
+          "start": 2.6,
+          "end": 2.82,
+          "probability": 0.98046875
+        },
+        {
+          "word": "持",
+          "start": 2.82,
+          "end": 3.1,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "自",
+          "start": 3.1,
+          "end": 3.3,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "然",
+          "start": 3.3,
+          "end": 3.46,
+          "probability": 1.0
+        },
+        {
+          "word": "呼",
+          "start": 3.46,
+          "end": 3.62,
+          "probability": 0.982421875
+        },
+        {
+          "word": "吸",
+          "start": 3.62,
+          "end": 3.86,
+          "probability": 0.9951171875
+        }
+      ],
+      "differences": [
+        {
+          "expected": "二",
+          "recognized": "2",
+          "operation": "replace"
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "二",
+          "matched": true,
+          "asr_orthographic_variant": "2",
+          "variant_caution": "Observed numeral/homophone spelling difference, retained in differences; not proof of correct or incorrect pronunciation.",
+          "start": 0.0,
+          "end": 0.3,
+          "asr_first_word": "2.",
+          "asr_last_word": "2.",
+          "method": "explicitly recorded ASR orthographic variant",
+          "timing_status": "estimated; inspect nearby acoustic pauses before using as an animation cue"
+        },
+        {
+          "phrase": "用凉毛巾轻敷脸颊",
+          "matched": true,
+          "start": 0.94,
+          "end": 2.46,
+          "asr_first_word": " 用",
+          "asr_last_word": "颊,",
+          "method": "exact normalized phrase match in independent ASR word stream",
+          "timing_status": "estimated; inspect nearby acoustic pauses before using as an animation cue"
+        },
+        {
+          "phrase": "保持自然呼吸",
+          "matched": true,
+          "start": 2.6,
+          "end": 3.86,
+          "asr_first_word": "保",
+          "asr_last_word": "吸",
+          "method": "exact normalized phrase match in independent ASR word stream",
+          "timing_status": "estimated; inspect nearby acoustic pauses before using as an animation cue"
+        }
+      ],
+      "acoustic_phrase_status": "Bounded by pauses >=160ms; phrase count and order validated against independent ASR.",
+      "acoustic_phrases": [
+        {
+          "phrase": "二",
+          "start": 0.189438,
+          "end": 0.396031,
+          "start_threshold_sensitivity": [
+            0.189438,
+            0.1895
+          ],
+          "end_threshold_sensitivity": [
+            0.383437,
+            0.396031
+          ],
+          "method": "Independent ASR labels plus -42dB silence edges; sensitivity sweep at -36dB.",
+          "caution": "Detector sensitivity is not a statistical confidence interval; quiet consonants can extend outside these bounds."
+        },
+        {
+          "phrase": "用凉毛巾轻敷脸颊",
+          "start": 0.910906,
+          "end": 2.507625,
+          "start_threshold_sensitivity": [
+            0.910906,
+            0.9145
+          ],
+          "end_threshold_sensitivity": [
+            2.4975,
+            2.507625
+          ],
+          "method": "Independent ASR labels plus -42dB silence edges; sensitivity sweep at -36dB.",
+          "caution": "Detector sensitivity is not a statistical confidence interval; quiet consonants can extend outside these bounds."
+        },
+        {
+          "phrase": "保持自然呼吸",
+          "start": 2.7515,
+          "end": 3.948281,
+          "start_threshold_sensitivity": [
+            2.7515,
+            2.758062
+          ],
+          "end_threshold_sensitivity": [
+            3.934,
+            3.948281
+          ],
+          "method": "Independent ASR labels plus -42dB silence edges; sensitivity sweep at -36dB.",
+          "caution": "Detector sensitivity is not a statistical confidence interval; quiet consonants can extend outside these bounds."
+        }
+      ]
+    },
+    {
+      "id": "ear",
+      "file": "assets/audio/minimax/raw/ear.wav",
+      "sha256": "b65de2f11532cbc50286d48ef1aa9c3708349cc85773b134fe6c8b4da1f70e22",
+      "raw_duration": 3.21596875,
+      "sample_rate": 32000,
+      "expected_text": "三，轻揉耳廓，以舒服为准。",
+      "silence": {
+        "-42": [
+          {
+            "start": 0.0,
+            "end": 0.183688,
+            "duration": 0.183688
+          },
+          {
+            "start": 0.556,
+            "end": 0.866719,
+            "duration": 0.310719
+          },
+          {
+            "start": 1.68875,
+            "end": 2.098,
+            "duration": 0.40925
+          },
+          {
+            "start": 2.986375,
+            "end": 3.215969,
+            "duration": 0.229594
+          }
+        ],
+        "-36": [
+          {
+            "start": 0.0,
+            "end": 0.20125,
+            "duration": 0.20125
+          },
+          {
+            "start": 0.548344,
+            "end": 0.867469,
+            "duration": 0.319125
+          },
+          {
+            "start": 1.684344,
+            "end": 2.102625,
+            "duration": 0.418281
+          },
+          {
+            "start": 2.444469,
+            "end": 2.533125,
+            "duration": 0.088656
+          },
+          {
+            "start": 2.982656,
+            "end": 3.215969,
+            "duration": 0.233313
+          }
+        ],
+        "-30": [
+          {
+            "start": 0.0,
+            "end": 0.207,
+            "duration": 0.207
+          },
+          {
+            "start": 0.5315,
+            "end": 0.877156,
+            "duration": 0.345656
+          },
+          {
+            "start": 1.350844,
+            "end": 1.56825,
+            "duration": 0.217406
+          },
+          {
+            "start": 1.6835,
+            "end": 2.107531,
+            "duration": 0.424031
+          },
+          {
+            "start": 2.422188,
+            "end": 2.534969,
+            "duration": 0.112781
+          },
+          {
+            "start": 2.942031,
+            "end": 3.215969,
+            "duration": 0.273938
+          }
+        ]
+      },
+      "asr_seconds": 3.272,
+      "recognized_text": "3.轻柔耳阔,以舒服为准。",
+      "words": [
+        {
+          "word": "3.",
+          "start": 0.0,
+          "end": 0.36,
+          "probability": 0.58203125
+        },
+        {
+          "word": "轻",
+          "start": 0.92,
+          "end": 1.04,
+          "probability": 0.7509765625
+        },
+        {
+          "word": "柔",
+          "start": 1.04,
+          "end": 1.24,
+          "probability": 0.9619140625
+        },
+        {
+          "word": "耳",
+          "start": 1.24,
+          "end": 1.44,
+          "probability": 0.791015625
+        },
+        {
+          "word": "阔,",
+          "start": 1.44,
+          "end": 1.68,
+          "probability": 0.7373046875
+        },
+        {
+          "word": "以",
+          "start": 1.88,
+          "end": 2.2,
+          "probability": 0.9794921875
+        },
+        {
+          "word": "舒",
+          "start": 2.2,
+          "end": 2.36,
+          "probability": 0.998046875
+        },
+        {
+          "word": "服",
+          "start": 2.36,
+          "end": 2.56,
+          "probability": 0.98974609375
+        },
+        {
+          "word": "为",
+          "start": 2.56,
+          "end": 2.72,
+          "probability": 0.99462890625
+        },
+        {
+          "word": "准。",
+          "start": 2.72,
+          "end": 2.98,
+          "probability": 1.0
+        }
+      ],
+      "differences": [
+        {
+          "expected": "三",
+          "recognized": "3",
+          "operation": "replace"
+        },
+        {
+          "expected": "揉",
+          "recognized": "柔",
+          "operation": "replace"
+        },
+        {
+          "expected": "廓",
+          "recognized": "阔",
+          "operation": "replace"
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "三",
+          "matched": true,
+          "asr_orthographic_variant": "3",
+          "variant_caution": "Observed numeral/homophone spelling difference, retained in differences; not proof of correct or incorrect pronunciation.",
+          "start": 0.0,
+          "end": 0.36,
+          "asr_first_word": "3.",
+          "asr_last_word": "3.",
+          "method": "explicitly recorded ASR orthographic variant",
+          "timing_status": "estimated; inspect nearby acoustic pauses before using as an animation cue"
+        },
+        {
+          "phrase": "轻揉耳廓",
+          "matched": true,
+          "asr_orthographic_variant": "轻柔耳阔",
+          "variant_caution": "Observed numeral/homophone spelling difference, retained in differences; not proof of correct or incorrect pronunciation.",
+          "start": 0.92,
+          "end": 1.68,
+          "asr_first_word": "轻",
+          "asr_last_word": "阔,",
+          "method": "explicitly recorded ASR orthographic variant",
+          "timing_status": "estimated; inspect nearby acoustic pauses before using as an animation cue"
+        },
+        {
+          "phrase": "以舒服为准",
+          "matched": true,
+          "start": 1.88,
+          "end": 2.98,
+          "asr_first_word": "以",
+          "asr_last_word": "准。",
+          "method": "exact normalized phrase match in independent ASR word stream",
+          "timing_status": "estimated; inspect nearby acoustic pauses before using as an animation cue"
+        }
+      ],
+      "acoustic_phrase_status": "Bounded by pauses >=160ms; phrase count and order validated against independent ASR.",
+      "acoustic_phrases": [
+        {
+          "phrase": "三",
+          "start": 0.183688,
+          "end": 0.556,
+          "start_threshold_sensitivity": [
+            0.183688,
+            0.20125
+          ],
+          "end_threshold_sensitivity": [
+            0.548344,
+            0.556
+          ],
+          "method": "Independent ASR labels plus -42dB silence edges; sensitivity sweep at -36dB.",
+          "caution": "Detector sensitivity is not a statistical confidence interval; quiet consonants can extend outside these bounds."
+        },
+        {
+          "phrase": "轻揉耳廓",
+          "start": 0.866719,
+          "end": 1.68875,
+          "start_threshold_sensitivity": [
+            0.866719,
+            0.867469
+          ],
+          "end_threshold_sensitivity": [
+            1.684344,
+            1.68875
+          ],
+          "method": "Independent ASR labels plus -42dB silence edges; sensitivity sweep at -36dB.",
+          "caution": "Detector sensitivity is not a statistical confidence interval; quiet consonants can extend outside these bounds."
+        },
+        {
+          "phrase": "以舒服为准",
+          "start": 2.098,
+          "end": 2.986375,
+          "start_threshold_sensitivity": [
+            2.098,
+            2.102625
+          ],
+          "end_threshold_sensitivity": [
+            2.982656,
+            2.986375
+          ],
+          "method": "Independent ASR labels plus -42dB silence edges; sensitivity sweep at -36dB.",
+          "caution": "Detector sensitivity is not a statistical confidence interval; quiet consonants can extend outside these bounds."
+        }
+      ]
+    },
+    {
+      "id": "shake",
+      "file": "assets/audio/minimax/raw/shake.wav",
+      "sha256": "eec679966b22db7220e634fe60c73e70d2d496759d4c605bd43ac3dc6c069fbd",
+      "raw_duration": 3.9358125,
+      "sample_rate": 32000,
+      "expected_text": "四，轻轻抖动手脚，放松肩膀，别甩头。",
+      "silence": {
+        "-42": [
+          {
+            "start": 0.0,
+            "end": 0.135,
+            "duration": 0.135
+          },
+          {
+            "start": 0.443344,
+            "end": 0.741563,
+            "duration": 0.298219
+          },
+          {
+            "start": 1.832188,
+            "end": 2.139625,
+            "duration": 0.307437
+          },
+          {
+            "start": 2.875844,
+            "end": 3.171438,
+            "duration": 0.295594
+          },
+          {
+            "start": 3.737625,
+            "end": 3.935812,
+            "duration": 0.198187
+          }
+        ],
+        "-36": [
+          {
+            "start": 0.0,
+            "end": 0.150063,
+            "duration": 0.150063
+          },
+          {
+            "start": 0.436781,
+            "end": 0.764281,
+            "duration": 0.3275
+          },
+          {
+            "start": 1.830188,
+            "end": 2.171438,
+            "duration": 0.34125
+          },
+          {
+            "start": 2.811,
+            "end": 3.173906,
+            "duration": 0.362906
+          },
+          {
+            "start": 3.726656,
+            "end": 3.935812,
+            "duration": 0.209156
+          }
+        ],
+        "-30": [
+          {
+            "start": 0.0,
+            "end": 0.307625,
+            "duration": 0.307625
+          },
+          {
+            "start": 0.419719,
+            "end": 0.793188,
+            "duration": 0.373469
+          },
+          {
+            "start": 1.828656,
+            "end": 2.17275,
+            "duration": 0.344094
+          },
+          {
+            "start": 2.808875,
+            "end": 3.174344,
+            "duration": 0.365469
+          },
+          {
+            "start": 3.511813,
+            "end": 3.598063,
+            "duration": 0.08625
+          },
+          {
+            "start": 3.714875,
+            "end": 3.935812,
+            "duration": 0.220937
+          }
+        ]
+      },
+      "asr_seconds": 4.126,
+      "recognized_text": "4 轻轻抖动手脚 放松肩膀 别甩头",
+      "words": [
+        {
+          "word": "4",
+          "start": 0.0,
+          "end": 0.36,
+          "probability": 0.71142578125
+        },
+        {
+          "word": " 轻",
+          "start": 0.76,
+          "end": 0.9,
+          "probability": 0.81640625
+        },
+        {
+          "word": "轻",
+          "start": 0.9,
+          "end": 1.12,
+          "probability": 0.99755859375
+        },
+        {
+          "word": "抖",
+          "start": 1.12,
+          "end": 1.3,
+          "probability": 0.9619140625
+        },
+        {
+          "word": "动",
+          "start": 1.3,
+          "end": 1.42,
+          "probability": 0.98388671875
+        },
+        {
+          "word": "手",
+          "start": 1.42,
+          "end": 1.58,
+          "probability": 0.99658203125
+        },
+        {
+          "word": "脚",
+          "start": 1.58,
+          "end": 1.9,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " 放",
+          "start": 2.1,
+          "end": 2.24,
+          "probability": 0.98828125
+        },
+        {
+          "word": "松",
+          "start": 2.24,
+          "end": 2.42,
+          "probability": 0.982421875
+        },
+        {
+          "word": "肩",
+          "start": 2.42,
+          "end": 2.68,
+          "probability": 0.9921875
+        },
+        {
+          "word": "膀",
+          "start": 2.68,
+          "end": 2.88,
+          "probability": 0.986328125
+        },
+        {
+          "word": " 别",
+          "start": 3.08,
+          "end": 3.24,
+          "probability": 0.98681640625
+        },
+        {
+          "word": "甩",
+          "start": 3.24,
+          "end": 3.44,
+          "probability": 0.89111328125
+        },
+        {
+          "word": "头",
+          "start": 3.44,
+          "end": 3.68,
+          "probability": 0.99267578125
+        }
+      ],
+      "differences": [
+        {
+          "expected": "四",
+          "recognized": "4",
+          "operation": "replace"
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "四",
+          "matched": true,
+          "asr_orthographic_variant": "4",
+          "variant_caution": "Observed numeral/homophone spelling difference, retained in differences; not proof of correct or incorrect pronunciation.",
+          "start": 0.0,
+          "end": 0.36,
+          "asr_first_word": "4",
+          "asr_last_word": "4",
+          "method": "explicitly recorded ASR orthographic variant",
+          "timing_status": "estimated; inspect nearby acoustic pauses before using as an animation cue"
+        },
+        {
+          "phrase": "轻轻抖动手脚",
+          "matched": true,
+          "start": 0.76,
+          "end": 1.9,
+          "asr_first_word": " 轻",
+          "asr_last_word": "脚",
+          "method": "exact normalized phrase match in independent ASR word stream",
+          "timing_status": "estimated; inspect nearby acoustic pauses before using as an animation cue"
+        },
+        {
+          "phrase": "放松肩膀",
+          "matched": true,
+          "start": 2.1,
+          "end": 2.88,
+          "asr_first_word": " 放",
+          "asr_last_word": "膀",
+          "method": "exact normalized phrase match in independent ASR word stream",
+          "timing_status": "estimated; inspect nearby acoustic pauses before using as an animation cue"
+        },
+        {
+          "phrase": "别甩头",
+          "matched": true,
+          "start": 3.08,
+          "end": 3.68,
+          "asr_first_word": " 别",
+          "asr_last_word": "头",
+          "method": "exact normalized phrase match in independent ASR word stream",
+          "timing_status": "estimated; inspect nearby acoustic pauses before using as an animation cue"
+        }
+      ],
+      "acoustic_phrase_status": "Bounded by pauses >=160ms; phrase count and order validated against independent ASR.",
+      "acoustic_phrases": [
+        {
+          "phrase": "四",
+          "start": 0.135,
+          "end": 0.443344,
+          "start_threshold_sensitivity": [
+            0.135,
+            0.150063
+          ],
+          "end_threshold_sensitivity": [
+            0.436781,
+            0.443344
+          ],
+          "method": "Independent ASR labels plus -42dB silence edges; sensitivity sweep at -36dB.",
+          "caution": "Detector sensitivity is not a statistical confidence interval; quiet consonants can extend outside these bounds."
+        },
+        {
+          "phrase": "轻轻抖动手脚",
+          "start": 0.741563,
+          "end": 1.832188,
+          "start_threshold_sensitivity": [
+            0.741563,
+            0.764281
+          ],
+          "end_threshold_sensitivity": [
+            1.830188,
+            1.832188
+          ],
+          "method": "Independent ASR labels plus -42dB silence edges; sensitivity sweep at -36dB.",
+          "caution": "Detector sensitivity is not a statistical confidence interval; quiet consonants can extend outside these bounds."
+        },
+        {
+          "phrase": "放松肩膀",
+          "start": 2.139625,
+          "end": 2.875844,
+          "start_threshold_sensitivity": [
+            2.139625,
+            2.171438
+          ],
+          "end_threshold_sensitivity": [
+            2.811,
+            2.875844
+          ],
+          "method": "Independent ASR labels plus -42dB silence edges; sensitivity sweep at -36dB.",
+          "caution": "Detector sensitivity is not a statistical confidence interval; quiet consonants can extend outside these bounds."
+        },
+        {
+          "phrase": "别甩头",
+          "start": 3.171438,
+          "end": 3.737625,
+          "start_threshold_sensitivity": [
+            3.171438,
+            3.173906
+          ],
+          "end_threshold_sensitivity": [
+            3.726656,
+            3.737625
+          ],
+          "method": "Independent ASR labels plus -42dB silence edges; sensitivity sweep at -36dB.",
+          "caution": "Detector sensitivity is not a statistical confidence interval; quiet consonants can extend outside these bounds."
+        }
+      ]
+    },
+    {
+      "id": "paper",
+      "file": "assets/audio/minimax/raw/paper.wav",
+      "sha256": "ebbd59ecd45414acbe8fcba1b4b281818bc131a42915aa809eaa09af67bfb13b",
+      "raw_duration": 4.0170625,
+      "sample_rate": 32000,
+      "expected_text": "五，把烦心事写下来，揉成纸团，再丢掉。",
+      "silence": {
+        "-42": [
+          {
+            "start": 0.0,
+            "end": 0.0890937,
+            "duration": 0.089094
+          },
+          {
+            "start": 0.344875,
+            "end": 0.645437,
+            "duration": 0.300562
+          },
+          {
+            "start": 1.999125,
+            "end": 2.244781,
+            "duration": 0.245656
+          },
+          {
+            "start": 3.035375,
+            "end": 3.256406,
+            "duration": 0.221031
+          },
+          {
+            "start": 3.778281,
+            "end": 4.017062,
+            "duration": 0.238781
+          }
+        ],
+        "-36": [
+          {
+            "start": 0.0,
+            "end": 0.0910313,
+            "duration": 0.091031
+          },
+          {
+            "start": 0.33725,
+            "end": 0.647,
+            "duration": 0.30975
+          },
+          {
+            "start": 1.986094,
+            "end": 2.245344,
+            "duration": 0.25925
+          },
+          {
+            "start": 3.026375,
+            "end": 3.262688,
+            "duration": 0.236313
+          },
+          {
+            "start": 3.775594,
+            "end": 4.017062,
+            "duration": 0.241468
+          }
+        ],
+        "-30": [
+          {
+            "start": 0.0,
+            "end": 0.0965938,
+            "duration": 0.096594
+          },
+          {
+            "start": 0.325094,
+            "end": 0.649375,
+            "duration": 0.324281
+          },
+          {
+            "start": 0.731406,
+            "end": 0.819906,
+            "duration": 0.0885
+          },
+          {
+            "start": 1.938719,
+            "end": 2.24775,
+            "duration": 0.309031
+          },
+          {
+            "start": 2.751125,
+            "end": 2.838969,
+            "duration": 0.087844
+          },
+          {
+            "start": 3.002938,
+            "end": 3.276906,
+            "duration": 0.273968
+          },
+          {
+            "start": 3.773687,
+            "end": 4.017062,
+            "duration": 0.243375
+          }
+        ]
+      },
+      "asr_seconds": 3.261,
+      "recognized_text": "五 把凡心事写下来 揉成纸团 再丢掉",
+      "words": [
+        {
+          "word": "五",
+          "start": 0.0,
+          "end": 0.28,
+          "probability": 0.50341796875
+        },
+        {
+          "word": " 把",
+          "start": 0.48,
+          "end": 0.74,
+          "probability": 0.9765625
+        },
+        {
+          "word": "凡",
+          "start": 0.74,
+          "end": 0.92,
+          "probability": 0.6630859375
+        },
+        {
+          "word": "心",
+          "start": 0.92,
+          "end": 1.12,
+          "probability": 0.84814453125
+        },
+        {
+          "word": "事",
+          "start": 1.12,
+          "end": 1.28,
+          "probability": 0.7197265625
+        },
+        {
+          "word": "写",
+          "start": 1.28,
+          "end": 1.52,
+          "probability": 0.98046875
+        },
+        {
+          "word": "下",
+          "start": 1.52,
+          "end": 1.7,
+          "probability": 0.91015625
+        },
+        {
+          "word": "来",
+          "start": 1.7,
+          "end": 1.98,
+          "probability": 0.99609375
+        },
+        {
+          "word": " 揉",
+          "start": 2.2,
+          "end": 2.36,
+          "probability": 0.998046875
+        },
+        {
+          "word": "成",
+          "start": 2.36,
+          "end": 2.5,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "纸",
+          "start": 2.5,
+          "end": 2.72,
+          "probability": 0.9912109375
+        },
+        {
+          "word": "团",
+          "start": 2.72,
+          "end": 2.98,
+          "probability": 0.9912109375
+        },
+        {
+          "word": " 再",
+          "start": 3.14,
+          "end": 3.36,
+          "probability": 0.998046875
+        },
+        {
+          "word": "丢",
+          "start": 3.36,
+          "end": 3.56,
+          "probability": 0.994140625
+        },
+        {
+          "word": "掉",
+          "start": 3.56,
+          "end": 3.74,
+          "probability": 0.99462890625
+        }
+      ],
+      "differences": [
+        {
+          "expected": "烦",
+          "recognized": "凡",
+          "operation": "replace"
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "五",
+          "matched": true,
+          "start": 0.0,
+          "end": 0.28,
+          "asr_first_word": "五",
+          "asr_last_word": "五",
+          "method": "exact normalized phrase match in independent ASR word stream",
+          "timing_status": "estimated; inspect nearby acoustic pauses before using as an animation cue"
+        },
+        {
+          "phrase": "把烦心事写下来",
+          "matched": true,
+          "asr_orthographic_variant": "把凡心事写下来",
+          "variant_caution": "Observed numeral/homophone spelling difference, retained in differences; not proof of correct or incorrect pronunciation.",
+          "start": 0.48,
+          "end": 1.98,
+          "asr_first_word": " 把",
+          "asr_last_word": "来",
+          "method": "explicitly recorded ASR orthographic variant",
+          "timing_status": "estimated; inspect nearby acoustic pauses before using as an animation cue"
+        },
+        {
+          "phrase": "揉成纸团",
+          "matched": true,
+          "start": 2.2,
+          "end": 2.98,
+          "asr_first_word": " 揉",
+          "asr_last_word": "团",
+          "method": "exact normalized phrase match in independent ASR word stream",
+          "timing_status": "estimated; inspect nearby acoustic pauses before using as an animation cue"
+        },
+        {
+          "phrase": "再丢掉",
+          "matched": true,
+          "start": 3.14,
+          "end": 3.74,
+          "asr_first_word": " 再",
+          "asr_last_word": "掉",
+          "method": "exact normalized phrase match in independent ASR word stream",
+          "timing_status": "estimated; inspect nearby acoustic pauses before using as an animation cue"
+        }
+      ],
+      "action_words": [
+        {
+          "phrase": "写下来",
+          "matched": true,
+          "start": 1.28,
+          "end": 1.98,
+          "asr_first_word": "写",
+          "asr_last_word": "来",
+          "method": "exact normalized phrase match in independent ASR word stream",
+          "timing_status": "estimated; inspect nearby acoustic pauses before using as an animation cue"
+        },
+        {
+          "phrase": "揉成纸团",
+          "matched": true,
+          "start": 2.2,
+          "end": 2.98,
+          "asr_first_word": " 揉",
+          "asr_last_word": "团",
+          "method": "exact normalized phrase match in independent ASR word stream",
+          "timing_status": "estimated; inspect nearby acoustic pauses before using as an animation cue"
+        },
+        {
+          "phrase": "再丢掉",
+          "matched": true,
+          "start": 3.14,
+          "end": 3.74,
+          "asr_first_word": " 再",
+          "asr_last_word": "掉",
+          "method": "exact normalized phrase match in independent ASR word stream",
+          "timing_status": "estimated; inspect nearby acoustic pauses before using as an animation cue"
+        }
+      ],
+      "acoustic_phrase_status": "Bounded by pauses >=160ms; phrase count and order validated against independent ASR.",
+      "acoustic_phrases": [
+        {
+          "phrase": "五",
+          "start": 0.0890937,
+          "end": 0.344875,
+          "start_threshold_sensitivity": [
+            0.0890937,
+            0.0910313
+          ],
+          "end_threshold_sensitivity": [
+            0.33725,
+            0.344875
+          ],
+          "method": "Independent ASR labels plus -42dB silence edges; sensitivity sweep at -36dB.",
+          "caution": "Detector sensitivity is not a statistical confidence interval; quiet consonants can extend outside these bounds."
+        },
+        {
+          "phrase": "把烦心事写下来",
+          "start": 0.645437,
+          "end": 1.999125,
+          "start_threshold_sensitivity": [
+            0.645437,
+            0.647
+          ],
+          "end_threshold_sensitivity": [
+            1.986094,
+            1.999125
+          ],
+          "method": "Independent ASR labels plus -42dB silence edges; sensitivity sweep at -36dB.",
+          "caution": "Detector sensitivity is not a statistical confidence interval; quiet consonants can extend outside these bounds."
+        },
+        {
+          "phrase": "揉成纸团",
+          "start": 2.244781,
+          "end": 3.035375,
+          "start_threshold_sensitivity": [
+            2.244781,
+            2.245344
+          ],
+          "end_threshold_sensitivity": [
+            3.026375,
+            3.035375
+          ],
+          "method": "Independent ASR labels plus -42dB silence edges; sensitivity sweep at -36dB.",
+          "caution": "Detector sensitivity is not a statistical confidence interval; quiet consonants can extend outside these bounds."
+        },
+        {
+          "phrase": "再丢掉",
+          "start": 3.256406,
+          "end": 3.778281,
+          "start_threshold_sensitivity": [
+            3.256406,
+            3.262688
+          ],
+          "end_threshold_sensitivity": [
+            3.775594,
+            3.778281
+          ],
+          "method": "Independent ASR labels plus -42dB silence edges; sensitivity sweep at -36dB.",
+          "caution": "Detector sensitivity is not a statistical confidence interval; quiet consonants can extend outside these bounds."
+        }
+      ]
+    },
+    {
+      "id": "nature",
+      "file": "assets/audio/minimax/raw/nature.wav",
+      "sha256": "26306a05e834f679e6f364c6f58c577dab772cbdd839fe6b7ab65007dfad6a60",
+      "raw_duration": 4.28409375,
+      "sample_rate": 32000,
+      "expected_text": "六，看一会儿树叶、云朵，让目光慢下来。",
+      "silence": {
+        "-42": [
+          {
+            "start": 0.0,
+            "end": 0.181531,
+            "duration": 0.181531
+          },
+          {
+            "start": 0.418844,
+            "end": 1.034969,
+            "duration": 0.616125
+          },
+          {
+            "start": 1.94775,
+            "end": 2.210562,
+            "duration": 0.262812
+          },
+          {
+            "start": 2.63325,
+            "end": 3.032938,
+            "duration": 0.399688
+          },
+          {
+            "start": 4.013844,
+            "end": 4.284094,
+            "duration": 0.27025
+          }
+        ],
+        "-36": [
+          {
+            "start": 0.0,
+            "end": 0.183563,
+            "duration": 0.183563
+          },
+          {
+            "start": 0.404594,
+            "end": 1.035,
+            "duration": 0.630406
+          },
+          {
+            "start": 1.918375,
+            "end": 2.24475,
+            "duration": 0.326375
+          },
+          {
+            "start": 2.633156,
+            "end": 3.035188,
+            "duration": 0.402032
+          },
+          {
+            "start": 3.97475,
+            "end": 4.284094,
+            "duration": 0.309344
+          }
+        ],
+        "-30": [
+          {
+            "start": 0.0,
+            "end": 0.185719,
+            "duration": 0.185719
+          },
+          {
+            "start": 0.358656,
+            "end": 1.035031,
+            "duration": 0.676375
+          },
+          {
+            "start": 1.896719,
+            "end": 2.251906,
+            "duration": 0.355187
+          },
+          {
+            "start": 2.591938,
+            "end": 3.03575,
+            "duration": 0.443812
+          },
+          {
+            "start": 3.290188,
+            "end": 3.373406,
+            "duration": 0.083218
+          },
+          {
+            "start": 3.822219,
+            "end": 4.284094,
+            "duration": 0.461875
+          }
+        ]
+      },
+      "asr_seconds": 4.087,
+      "recognized_text": "六,看一会儿树叶,云朵,让目光慢下来。",
+      "words": [
+        {
+          "word": "六,",
+          "start": 0.0,
+          "end": 0.32,
+          "probability": 0.59033203125
+        },
+        {
+          "word": "看",
+          "start": 0.64,
+          "end": 1.16,
+          "probability": 0.96630859375
+        },
+        {
+          "word": "一",
+          "start": 1.16,
+          "end": 1.3,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "会",
+          "start": 1.3,
+          "end": 1.42,
+          "probability": 0.951171875
+        },
+        {
+          "word": "儿",
+          "start": 1.42,
+          "end": 1.54,
+          "probability": 0.9169921875
+        },
+        {
+          "word": "树",
+          "start": 1.54,
+          "end": 1.68,
+          "probability": 0.99658203125
+        },
+        {
+          "word": "叶,",
+          "start": 1.68,
+          "end": 1.92,
+          "probability": 0.9921875
+        },
+        {
+          "word": "云",
+          "start": 2.12,
+          "end": 2.4,
+          "probability": 0.99169921875
+        },
+        {
+          "word": "朵,",
+          "start": 2.4,
+          "end": 2.62,
+          "probability": 0.9892578125
+        },
+        {
+          "word": "让",
+          "start": 2.86,
+          "end": 3.12,
+          "probability": 0.994140625
+        },
+        {
+          "word": "目",
+          "start": 3.12,
+          "end": 3.26,
+          "probability": 0.994140625
+        },
+        {
+          "word": "光",
+          "start": 3.26,
+          "end": 3.48,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "慢",
+          "start": 3.48,
+          "end": 3.64,
+          "probability": 0.85107421875
+        },
+        {
+          "word": "下",
+          "start": 3.64,
+          "end": 3.84,
+          "probability": 0.9951171875
+        },
+        {
+          "word": "来。",
+          "start": 3.84,
+          "end": 4.06,
+          "probability": 1.0
+        }
+      ],
+      "differences": [],
+      "phrases": [
+        {
+          "phrase": "六",
+          "matched": true,
+          "start": 0.0,
+          "end": 0.32,
+          "asr_first_word": "六,",
+          "asr_last_word": "六,",
+          "method": "exact normalized phrase match in independent ASR word stream",
+          "timing_status": "estimated; inspect nearby acoustic pauses before using as an animation cue"
+        },
+        {
+          "phrase": "看一会儿树叶",
+          "matched": true,
+          "start": 0.64,
+          "end": 1.92,
+          "asr_first_word": "看",
+          "asr_last_word": "叶,",
+          "method": "exact normalized phrase match in independent ASR word stream",
+          "timing_status": "estimated; inspect nearby acoustic pauses before using as an animation cue"
+        },
+        {
+          "phrase": "云朵",
+          "matched": true,
+          "start": 2.12,
+          "end": 2.62,
+          "asr_first_word": "云",
+          "asr_last_word": "朵,",
+          "method": "exact normalized phrase match in independent ASR word stream",
+          "timing_status": "estimated; inspect nearby acoustic pauses before using as an animation cue"
+        },
+        {
+          "phrase": "让目光慢下来",
+          "matched": true,
+          "start": 2.86,
+          "end": 4.06,
+          "asr_first_word": "让",
+          "asr_last_word": "来。",
+          "method": "exact normalized phrase match in independent ASR word stream",
+          "timing_status": "estimated; inspect nearby acoustic pauses before using as an animation cue"
+        }
+      ],
+      "acoustic_phrase_status": "Bounded by pauses >=160ms; phrase count and order validated against independent ASR.",
+      "acoustic_phrases": [
+        {
+          "phrase": "六",
+          "start": 0.181531,
+          "end": 0.418844,
+          "start_threshold_sensitivity": [
+            0.181531,
+            0.183563
+          ],
+          "end_threshold_sensitivity": [
+            0.404594,
+            0.418844
+          ],
+          "method": "Independent ASR labels plus -42dB silence edges; sensitivity sweep at -36dB.",
+          "caution": "Detector sensitivity is not a statistical confidence interval; quiet consonants can extend outside these bounds."
+        },
+        {
+          "phrase": "看一会儿树叶",
+          "start": 1.034969,
+          "end": 1.94775,
+          "start_threshold_sensitivity": [
+            1.034969,
+            1.035
+          ],
+          "end_threshold_sensitivity": [
+            1.918375,
+            1.94775
+          ],
+          "method": "Independent ASR labels plus -42dB silence edges; sensitivity sweep at -36dB.",
+          "caution": "Detector sensitivity is not a statistical confidence interval; quiet consonants can extend outside these bounds."
+        },
+        {
+          "phrase": "云朵",
+          "start": 2.210562,
+          "end": 2.63325,
+          "start_threshold_sensitivity": [
+            2.210562,
+            2.24475
+          ],
+          "end_threshold_sensitivity": [
+            2.633156,
+            2.63325
+          ],
+          "method": "Independent ASR labels plus -42dB silence edges; sensitivity sweep at -36dB.",
+          "caution": "Detector sensitivity is not a statistical confidence interval; quiet consonants can extend outside these bounds."
+        },
+        {
+          "phrase": "让目光慢下来",
+          "start": 3.032938,
+          "end": 4.013844,
+          "start_threshold_sensitivity": [
+            3.032938,
+            3.035188
+          ],
+          "end_threshold_sensitivity": [
+            3.97475,
+            4.013844
+          ],
+          "method": "Independent ASR labels plus -42dB silence edges; sensitivity sweep at -36dB.",
+          "caution": "Detector sensitivity is not a statistical confidence interval; quiet consonants can extend outside these bounds."
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "file": "assets/audio/minimax/raw/order.wav",
+      "sha256": "8ef38a97b081dc52adaab52930619ad27e256372fdf13a8c2038f321ded86cac",
+      "raw_duration": 3.98225,
+      "sample_rate": 32000,
+      "expected_text": "七，只整理桌面一小块，让眼前恢复一点秩序。",
+      "silence": {
+        "-42": [
+          {
+            "start": 0.0,
+            "end": 0.138281,
+            "duration": 0.138281
+          },
+          {
+            "start": 0.447813,
+            "end": 0.686219,
+            "duration": 0.238406
+          },
+          {
+            "start": 1.98125,
+            "end": 2.224281,
+            "duration": 0.243031
+          },
+          {
+            "start": 3.728469,
+            "end": 3.98225,
+            "duration": 0.253781
+          }
+        ],
+        "-36": [
+          {
+            "start": 0.0,
+            "end": 0.160406,
+            "duration": 0.160406
+          },
+          {
+            "start": 0.439812,
+            "end": 0.686281,
+            "duration": 0.246469
+          },
+          {
+            "start": 1.979437,
+            "end": 2.226313,
+            "duration": 0.246876
+          },
+          {
+            "start": 2.771656,
+            "end": 2.85775,
+            "duration": 0.086094
+          },
+          {
+            "start": 2.947781,
+            "end": 3.027844,
+            "duration": 0.080063
+          },
+          {
+            "start": 3.723781,
+            "end": 3.98225,
+            "duration": 0.258469
+          }
+        ],
+        "-30": [
+          {
+            "start": 0.0,
+            "end": 0.170781,
+            "duration": 0.170781
+          },
+          {
+            "start": 0.42425,
+            "end": 0.704625,
+            "duration": 0.280375
+          },
+          {
+            "start": 1.076625,
+            "end": 1.1655,
+            "duration": 0.088875
+          },
+          {
+            "start": 1.669813,
+            "end": 1.857719,
+            "duration": 0.187906
+          },
+          {
+            "start": 1.9505,
+            "end": 2.228063,
+            "duration": 0.277563
+          },
+          {
+            "start": 2.450281,
+            "end": 2.547188,
+            "duration": 0.096907
+          },
+          {
+            "start": 2.744969,
+            "end": 2.859844,
+            "duration": 0.114875
+          },
+          {
+            "start": 2.935313,
+            "end": 3.031594,
+            "duration": 0.096281
+          },
+          {
+            "start": 3.231781,
+            "end": 3.362812,
+            "duration": 0.131031
+          },
+          {
+            "start": 3.682281,
+            "end": 3.98225,
+            "duration": 0.299969
+          }
+        ]
+      },
+      "asr_seconds": 4.147,
+      "recognized_text": "7.只整理桌面一小块,让眼前恢复一点秩序。",
+      "words": [
+        {
+          "word": "7.",
+          "start": 0.0,
+          "end": 0.32,
+          "probability": 0.43310546875
+        },
+        {
+          "word": "只",
+          "start": 0.66,
+          "end": 0.76,
+          "probability": 0.611328125
+        },
+        {
+          "word": "整",
+          "start": 0.76,
+          "end": 0.9,
+          "probability": 0.99755859375
+        },
+        {
+          "word": "理",
+          "start": 0.9,
+          "end": 1.06,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "桌",
+          "start": 1.06,
+          "end": 1.24,
+          "probability": 0.998046875
+        },
+        {
+          "word": "面",
+          "start": 1.24,
+          "end": 1.4,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "一",
+          "start": 1.4,
+          "end": 1.52,
+          "probability": 0.98876953125
+        },
+        {
+          "word": "小",
+          "start": 1.52,
+          "end": 1.7,
+          "probability": 0.99658203125
+        },
+        {
+          "word": "块,",
+          "start": 1.7,
+          "end": 1.96,
+          "probability": 0.97021484375
+        },
+        {
+          "word": "让",
+          "start": 2.1,
+          "end": 2.3,
+          "probability": 0.97265625
+        },
+        {
+          "word": "眼",
+          "start": 2.3,
+          "end": 2.48,
+          "probability": 0.98974609375
+        },
+        {
+          "word": "前",
+          "start": 2.48,
+          "end": 2.72,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "恢",
+          "start": 2.72,
+          "end": 2.94,
+          "probability": 0.9970703125
+        },
+        {
+          "word": "复",
+          "start": 2.94,
+          "end": 3.08,
+          "probability": 0.998046875
+        },
+        {
+          "word": "一点",
+          "start": 3.08,
+          "end": 3.24,
+          "probability": 0.9912109375
+        },
+        {
+          "word": "秩",
+          "start": 3.24,
+          "end": 3.56,
+          "probability": 0.9970703125
+        },
+        {
+          "word": "序。",
+          "start": 3.56,
+          "end": 3.74,
+          "probability": 0.99755859375
+        }
+      ],
+      "differences": [
+        {
+          "expected": "七",
+          "recognized": "7",
+          "operation": "replace"
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "七",
+          "matched": true,
+          "asr_orthographic_variant": "7",
+          "variant_caution": "Observed numeral/homophone spelling difference, retained in differences; not proof of correct or incorrect pronunciation.",
+          "start": 0.0,
+          "end": 0.32,
+          "asr_first_word": "7.",
+          "asr_last_word": "7.",
+          "method": "explicitly recorded ASR orthographic variant",
+          "timing_status": "estimated; inspect nearby acoustic pauses before using as an animation cue"
+        },
+        {
+          "phrase": "只整理桌面一小块",
+          "matched": true,
+          "start": 0.66,
+          "end": 1.96,
+          "asr_first_word": "只",
+          "asr_last_word": "块,",
+          "method": "exact normalized phrase match in independent ASR word stream",
+          "timing_status": "estimated; inspect nearby acoustic pauses before using as an animation cue"
+        },
+        {
+          "phrase": "让眼前恢复一点秩序",
+          "matched": true,
+          "start": 2.1,
+          "end": 3.74,
+          "asr_first_word": "让",
+          "asr_last_word": "序。",
+          "method": "exact normalized phrase match in independent ASR word stream",
+          "timing_status": "estimated; inspect nearby acoustic pauses before using as an animation cue"
+        }
+      ],
+      "acoustic_phrase_status": "Bounded by pauses >=160ms; phrase count and order validated against independent ASR.",
+      "acoustic_phrases": [
+        {
+          "phrase": "七",
+          "start": 0.138281,
+          "end": 0.447813,
+          "start_threshold_sensitivity": [
+            0.138281,
+            0.160406
+          ],
+          "end_threshold_sensitivity": [
+            0.439812,
+            0.447813
+          ],
+          "method": "Independent ASR labels plus -42dB silence edges; sensitivity sweep at -36dB.",
+          "caution": "Detector sensitivity is not a statistical confidence interval; quiet consonants can extend outside these bounds."
+        },
+        {
+          "phrase": "只整理桌面一小块",
+          "start": 0.686219,
+          "end": 1.98125,
+          "start_threshold_sensitivity": [
+            0.686219,
+            0.686281
+          ],
+          "end_threshold_sensitivity": [
+            1.979437,
+            1.98125
+          ],
+          "method": "Independent ASR labels plus -42dB silence edges; sensitivity sweep at -36dB.",
+          "caution": "Detector sensitivity is not a statistical confidence interval; quiet consonants can extend outside these bounds."
+        },
+        {
+          "phrase": "让眼前恢复一点秩序",
+          "start": 2.224281,
+          "end": 3.728469,
+          "start_threshold_sensitivity": [
+            2.224281,
+            2.226313
+          ],
+          "end_threshold_sensitivity": [
+            3.723781,
+            3.728469
+          ],
+          "method": "Independent ASR labels plus -42dB silence edges; sensitivity sweep at -36dB.",
+          "caution": "Detector sensitivity is not a statistical confidence interval; quiet consonants can extend outside these bounds."
+        }
+      ]
+    },
+    {
+      "id": "outro",
+      "file": "assets/audio/minimax/raw/outro.wav",
+      "sha256": "7f401d6d279c0ba398cc26a2fa0c946c8f5d5467020d53bc24c2b2ef911dd324",
+      "raw_duration": 5.30578125,
+      "sample_rate": 32000,
+      "expected_text": "不必全做，挑一个就好。先松一口气，再处理眼前的事。",
+      "silence": {
+        "-42": [
+          {
+            "start": 0.0,
+            "end": 0.195344,
+            "duration": 0.195344
+          },
+          {
+            "start": 0.860313,
+            "end": 1.236781,
+            "duration": 0.376468
+          },
+          {
+            "start": 2.007719,
+            "end": 2.643844,
+            "duration": 0.636125
+          },
+          {
+            "start": 3.553719,
+            "end": 3.918656,
+            "duration": 0.364937
+          },
+          {
+            "start": 5.060688,
+            "end": 5.305781,
+            "duration": 0.245093
+          }
+        ],
+        "-36": [
+          {
+            "start": 0.0,
+            "end": 0.195406,
+            "duration": 0.195406
+          },
+          {
+            "start": 0.85825,
+            "end": 1.236813,
+            "duration": 0.378563
+          },
+          {
+            "start": 1.997437,
+            "end": 2.646531,
+            "duration": 0.649094
+          },
+          {
+            "start": 3.55125,
+            "end": 3.920125,
+            "duration": 0.368875
+          },
+          {
+            "start": 5.059719,
+            "end": 5.305781,
+            "duration": 0.246062
+          }
+        ],
+        "-30": [
+          {
+            "start": 0.0,
+            "end": 0.211781,
+            "duration": 0.211781
+          },
+          {
+            "start": 0.85725,
+            "end": 1.325156,
+            "duration": 0.467906
+          },
+          {
+            "start": 1.821875,
+            "end": 1.937219,
+            "duration": 0.115344
+          },
+          {
+            "start": 1.996438,
+            "end": 2.6975,
+            "duration": 0.701062
+          },
+          {
+            "start": 3.240719,
+            "end": 3.341094,
+            "duration": 0.100375
+          },
+          {
+            "start": 3.523438,
+            "end": 3.9585,
+            "duration": 0.435062
+          },
+          {
+            "start": 4.023906,
+            "end": 4.151094,
+            "duration": 0.127188
+          },
+          {
+            "start": 4.432406,
+            "end": 4.539219,
+            "duration": 0.106813
+          },
+          {
+            "start": 5.057,
+            "end": 5.305781,
+            "duration": 0.248781
+          }
+        ]
+      },
+      "asr_seconds": 3.291,
+      "recognized_text": "不必全做 挑一个就好先松一口气 再处理眼前的事",
+      "words": [
+        {
+          "word": "不",
+          "start": 0.0,
+          "end": 0.26,
+          "probability": 0.9814453125
+        },
+        {
+          "word": "必",
+          "start": 0.26,
+          "end": 0.4,
+          "probability": 0.85107421875
+        },
+        {
+          "word": "全",
+          "start": 0.4,
+          "end": 0.58,
+          "probability": 0.9697265625
+        },
+        {
+          "word": "做",
+          "start": 0.58,
+          "end": 0.82,
+          "probability": 0.7548828125
+        },
+        {
+          "word": " 挑",
+          "start": 1.2,
+          "end": 1.36,
+          "probability": 0.99365234375
+        },
+        {
+          "word": "一个",
+          "start": 1.36,
+          "end": 1.62,
+          "probability": 0.88671875
+        },
+        {
+          "word": "就",
+          "start": 1.62,
+          "end": 1.78,
+          "probability": 0.98974609375
+        },
+        {
+          "word": "好",
+          "start": 1.78,
+          "end": 2.06,
+          "probability": 0.99462890625
+        },
+        {
+          "word": "先",
+          "start": 2.4200000000000004,
+          "end": 2.78,
+          "probability": 0.2939453125
+        },
+        {
+          "word": "松",
+          "start": 2.78,
+          "end": 2.94,
+          "probability": 0.98974609375
+        },
+        {
+          "word": "一",
+          "start": 2.94,
+          "end": 3.1,
+          "probability": 0.99169921875
+        },
+        {
+          "word": "口",
+          "start": 3.1,
+          "end": 3.22,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "气",
+          "start": 3.22,
+          "end": 3.52,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " 再",
+          "start": 3.92,
+          "end": 4.0,
+          "probability": 0.99658203125
+        },
+        {
+          "word": "处",
+          "start": 4.0,
+          "end": 4.18,
+          "probability": 0.9892578125
+        },
+        {
+          "word": "理",
+          "start": 4.18,
+          "end": 4.3,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "眼",
+          "start": 4.3,
+          "end": 4.46,
+          "probability": 0.99365234375
+        },
+        {
+          "word": "前",
+          "start": 4.46,
+          "end": 4.7,
+          "probability": 1.0
+        },
+        {
+          "word": "的",
+          "start": 4.7,
+          "end": 4.84,
+          "probability": 0.99560546875
+        },
+        {
+          "word": "事",
+          "start": 4.84,
+          "end": 5.02,
+          "probability": 0.99755859375
+        }
+      ],
+      "differences": [],
+      "phrases": [
+        {
+          "phrase": "不必全做",
+          "matched": true,
+          "start": 0.0,
+          "end": 0.82,
+          "asr_first_word": "不",
+          "asr_last_word": "做",
+          "method": "exact normalized phrase match in independent ASR word stream",
+          "timing_status": "estimated; inspect nearby acoustic pauses before using as an animation cue"
+        },
+        {
+          "phrase": "挑一个就好",
+          "matched": true,
+          "start": 1.2,
+          "end": 2.06,
+          "asr_first_word": " 挑",
+          "asr_last_word": "好",
+          "method": "exact normalized phrase match in independent ASR word stream",
+          "timing_status": "estimated; inspect nearby acoustic pauses before using as an animation cue"
+        },
+        {
+          "phrase": "先松一口气",
+          "matched": true,
+          "start": 2.4200000000000004,
+          "end": 3.52,
+          "asr_first_word": "先",
+          "asr_last_word": "气",
+          "method": "exact normalized phrase match in independent ASR word stream",
+          "timing_status": "estimated; inspect nearby acoustic pauses before using as an animation cue"
+        },
+        {
+          "phrase": "再处理眼前的事",
+          "matched": true,
+          "start": 3.92,
+          "end": 5.02,
+          "asr_first_word": " 再",
+          "asr_last_word": "事",
+          "method": "exact normalized phrase match in independent ASR word stream",
+          "timing_status": "estimated; inspect nearby acoustic pauses before using as an animation cue"
+        }
+      ],
+      "acoustic_phrase_status": "Bounded by pauses >=160ms; phrase count and order validated against independent ASR.",
+      "acoustic_phrases": [
+        {
+          "phrase": "不必全做",
+          "start": 0.195344,
+          "end": 0.860313,
+          "start_threshold_sensitivity": [
+            0.195344,
+            0.195406
+          ],
+          "end_threshold_sensitivity": [
+            0.85825,
+            0.860313
+          ],
+          "method": "Independent ASR labels plus -42dB silence edges; sensitivity sweep at -36dB.",
+          "caution": "Detector sensitivity is not a statistical confidence interval; quiet consonants can extend outside these bounds."
+        },
+        {
+          "phrase": "挑一个就好",
+          "start": 1.236781,
+          "end": 2.007719,
+          "start_threshold_sensitivity": [
+            1.236781,
+            1.236813
+          ],
+          "end_threshold_sensitivity": [
+            1.997437,
+            2.007719
+          ],
+          "method": "Independent ASR labels plus -42dB silence edges; sensitivity sweep at -36dB.",
+          "caution": "Detector sensitivity is not a statistical confidence interval; quiet consonants can extend outside these bounds."
+        },
+        {
+          "phrase": "先松一口气",
+          "start": 2.643844,
+          "end": 3.553719,
+          "start_threshold_sensitivity": [
+            2.643844,
+            2.646531
+          ],
+          "end_threshold_sensitivity": [
+            3.55125,
+            3.553719
+          ],
+          "method": "Independent ASR labels plus -42dB silence edges; sensitivity sweep at -36dB.",
+          "caution": "Detector sensitivity is not a statistical confidence interval; quiet consonants can extend outside these bounds."
+        },
+        {
+          "phrase": "再处理眼前的事",
+          "start": 3.918656,
+          "end": 5.060688,
+          "start_threshold_sensitivity": [
+            3.918656,
+            3.920125
+          ],
+          "end_threshold_sensitivity": [
+            5.059719,
+            5.060688
+          ],
+          "method": "Independent ASR labels plus -42dB silence edges; sensitivity sweep at -36dB.",
+          "caution": "Detector sensitivity is not a statistical confidence interval; quiet consonants can extend outside these bounds."
+        }
+      ]
+    }
+  ]
+}

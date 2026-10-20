@@ -56,4 +56,4 @@
 
 目标：`assets/audio/voice/outro.wav`
 
-目前审片中的macOS Tingting仅为临时配音，不能标注为MiniMax。最终语音到位后，先核对时长及发音，再重跑混音和封装。
+初版使用macOS Tingting临时配音。2026-10-21已通过Chrome生成九段MiniMax正式语音，详见minimax-v2.md；旧音轨与v1保留作对照。

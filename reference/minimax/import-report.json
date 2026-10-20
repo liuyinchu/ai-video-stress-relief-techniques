@@ -1,0 +1,713 @@
+{
+  "generated_at_utc": "2026-10-20T17:52:04.687275+00:00",
+  "source": {
+    "provider": "MiniMax Audio",
+    "model": "speech-2.8-hd",
+    "voice_label": "温暖闺蜜",
+    "web_settings": {
+      "speed": 1,
+      "pitch": 0,
+      "volume": 1
+    },
+    "provenance": "Downloaded via user-authorized Chrome UI by main production thread"
+  },
+  "policy": {
+    "max_atempo": 1.1,
+    "tail_margin_seconds": 0.1,
+    "preserve_raw": true,
+    "preserve_internal_pauses": true,
+    "stretch_short_segments": false
+  },
+  "segments": [
+    {
+      "id": "intro",
+      "start": 0.4,
+      "end": 4.9,
+      "maximum_duration_seconds": 4.5,
+      "target_duration_seconds": 4.4,
+      "raw": {
+        "path": "assets/audio/minimax/raw/intro.wav",
+        "sha256": "ab4cbb7bb7da6d4cc44fa1d5535d5522fcbdcb8af33b220db7c3c681dc47c384",
+        "pcm": {
+          "container_extension": ".wav",
+          "bytes": 298576,
+          "codec": "pcm",
+          "sample_rate": 32000,
+          "channels": 1,
+          "bit_depth": 16,
+          "frames": 148237,
+          "duration_seconds": 4.63240625
+        },
+        "decoded_duration_seconds": 4.632416666666667,
+        "analysis_pcm": {
+          "sample_rate": 48000,
+          "channels": 2,
+          "format": "float64"
+        },
+        "signal": {
+          "peak_dbfs": -21.46,
+          "rms_dbfs": -35.258,
+          "clipped_samples": 0,
+          "nonfinite_samples": 0
+        }
+      },
+      "edges": {
+        "head_trim_seconds": 0.0,
+        "tail_trim_seconds": 0.10741666666666666,
+        "trim_start_seconds": 0.0,
+        "trim_end_seconds": 4.525,
+        "duration_after_trim_seconds": 4.525,
+        "first_detected_activity_seconds": 0.16,
+        "last_detected_activity_seconds": 4.345,
+        "rms_activity_threshold_dbfs": -65.0,
+        "peak_activity_threshold_dbfs": -55.0,
+        "head_guard_seconds": 0.12,
+        "tail_guard_seconds": 0.18,
+        "minimum_edge_removal_seconds": 0.08,
+        "internal_pauses_preserved": true
+      },
+      "status": "ready",
+      "fitted": {
+        "status": "ready",
+        "path": "assets/audio/minimax/fitted/intro.wav",
+        "sha256": "72120e07fcdcebd7d481a32cede5961ae7f4fcc05ab2b3f85626029761271dd1",
+        "pcm": {
+          "container_extension": ".wav",
+          "bytes": 633486,
+          "codec": "pcm",
+          "sample_rate": 48000,
+          "channels": 1,
+          "bit_depth": 24,
+          "frames": 211128,
+          "duration_seconds": 4.3985
+        },
+        "signal": {
+          "peak_dbfs": -21.503,
+          "rms_dbfs": -35.162,
+          "clipped_samples": 0,
+          "nonfinite_samples": 0
+        },
+        "duration_seconds": 4.3985,
+        "atempo": 1.028409091,
+        "accelerated": true,
+        "stretched_to_fill": false,
+        "remaining_slot_seconds": 0.1015
+      },
+      "raw_unchanged": true
+    },
+    {
+      "id": "breath",
+      "start": 5.4,
+      "end": 16.6,
+      "maximum_duration_seconds": 11.2,
+      "target_duration_seconds": 11.1,
+      "raw": {
+        "path": "assets/audio/minimax/raw/breath.wav",
+        "sha256": "8972511f76af13864393155bc7e409ec79145490c00cb76891b92348719be52e",
+        "pcm": {
+          "container_extension": ".wav",
+          "bytes": 449412,
+          "codec": "pcm",
+          "sample_rate": 32000,
+          "channels": 1,
+          "bit_depth": 16,
+          "frames": 223655,
+          "duration_seconds": 6.98921875
+        },
+        "decoded_duration_seconds": 6.989229166666667,
+        "analysis_pcm": {
+          "sample_rate": 48000,
+          "channels": 2,
+          "format": "float64"
+        },
+        "signal": {
+          "peak_dbfs": -19.726,
+          "rms_dbfs": -33.848,
+          "clipped_samples": 0,
+          "nonfinite_samples": 0
+        }
+      },
+      "edges": {
+        "head_trim_seconds": 0.0,
+        "tail_trim_seconds": 0.0,
+        "trim_start_seconds": 0.0,
+        "trim_end_seconds": 6.989229166666667,
+        "duration_after_trim_seconds": 6.989229166666667,
+        "first_detected_activity_seconds": 0.175,
+        "last_detected_activity_seconds": 6.83,
+        "rms_activity_threshold_dbfs": -65.0,
+        "peak_activity_threshold_dbfs": -55.0,
+        "head_guard_seconds": 0.12,
+        "tail_guard_seconds": 0.18,
+        "minimum_edge_removal_seconds": 0.08,
+        "internal_pauses_preserved": true
+      },
+      "status": "ready",
+      "fitted": {
+        "status": "ready",
+        "path": "assets/audio/minimax/fitted/breath.wav",
+        "sha256": "5b59f651f7f2d3f14f49a3cfcf3d40cb03da24c9bd2282fe33251ddd61a6d1ae",
+        "pcm": {
+          "container_extension": ".wav",
+          "bytes": 1006552,
+          "codec": "pcm",
+          "sample_rate": 48000,
+          "channels": 1,
+          "bit_depth": 24,
+          "frames": 335483,
+          "duration_seconds": 6.989229166666667
+        },
+        "signal": {
+          "peak_dbfs": -19.726,
+          "rms_dbfs": -33.848,
+          "clipped_samples": 0,
+          "nonfinite_samples": 0
+        },
+        "duration_seconds": 6.989229166666667,
+        "atempo": 1.0,
+        "accelerated": false,
+        "stretched_to_fill": false,
+        "remaining_slot_seconds": 4.210771
+      },
+      "raw_unchanged": true
+    },
+    {
+      "id": "cool",
+      "start": 17.4,
+      "end": 22.7,
+      "maximum_duration_seconds": 5.3,
+      "target_duration_seconds": 5.2,
+      "raw": {
+        "path": "assets/audio/minimax/raw/cool.wav",
+        "sha256": "0d44c78e9afde781ebafb6908e61a9c0eb3f1ea3ee1c8b188a2539918716a209",
+        "pcm": {
+          "container_extension": ".wav",
+          "bytes": 267368,
+          "codec": "pcm",
+          "sample_rate": 32000,
+          "channels": 1,
+          "bit_depth": 16,
+          "frames": 132633,
+          "duration_seconds": 4.14478125
+        },
+        "decoded_duration_seconds": 4.144791666666666,
+        "analysis_pcm": {
+          "sample_rate": 48000,
+          "channels": 2,
+          "format": "float64"
+        },
+        "signal": {
+          "peak_dbfs": -18.762,
+          "rms_dbfs": -33.995,
+          "clipped_samples": 0,
+          "nonfinite_samples": 0
+        }
+      },
+      "edges": {
+        "head_trim_seconds": 0.0,
+        "tail_trim_seconds": 0.0,
+        "trim_start_seconds": 0.0,
+        "trim_end_seconds": 4.144791666666666,
+        "duration_after_trim_seconds": 4.144791666666666,
+        "first_detected_activity_seconds": 0.105,
+        "last_detected_activity_seconds": 3.97,
+        "rms_activity_threshold_dbfs": -65.0,
+        "peak_activity_threshold_dbfs": -55.0,
+        "head_guard_seconds": 0.12,
+        "tail_guard_seconds": 0.18,
+        "minimum_edge_removal_seconds": 0.08,
+        "internal_pauses_preserved": true
+      },
+      "status": "ready",
+      "fitted": {
+        "status": "ready",
+        "path": "assets/audio/minimax/fitted/cool.wav",
+        "sha256": "68b6fe34b90f25e623f704b90b82c723697949e43414f3bc459abab6cd73fdf5",
+        "pcm": {
+          "container_extension": ".wav",
+          "bytes": 596952,
+          "codec": "pcm",
+          "sample_rate": 48000,
+          "channels": 1,
+          "bit_depth": 24,
+          "frames": 198950,
+          "duration_seconds": 4.144791666666666
+        },
+        "signal": {
+          "peak_dbfs": -18.762,
+          "rms_dbfs": -33.995,
+          "clipped_samples": 0,
+          "nonfinite_samples": 0
+        },
+        "duration_seconds": 4.144791666666666,
+        "atempo": 1.0,
+        "accelerated": false,
+        "stretched_to_fill": false,
+        "remaining_slot_seconds": 1.155208
+      },
+      "raw_unchanged": true
+    },
+    {
+      "id": "ear",
+      "start": 23.4,
+      "end": 27.7,
+      "maximum_duration_seconds": 4.3,
+      "target_duration_seconds": 4.2,
+      "raw": {
+        "path": "assets/audio/minimax/raw/ear.wav",
+        "sha256": "b65de2f11532cbc50286d48ef1aa9c3708349cc85773b134fe6c8b4da1f70e22",
+        "pcm": {
+          "container_extension": ".wav",
+          "bytes": 207924,
+          "codec": "pcm",
+          "sample_rate": 32000,
+          "channels": 1,
+          "bit_depth": 16,
+          "frames": 102911,
+          "duration_seconds": 3.21596875
+        },
+        "decoded_duration_seconds": 3.2159791666666666,
+        "analysis_pcm": {
+          "sample_rate": 48000,
+          "channels": 2,
+          "format": "float64"
+        },
+        "signal": {
+          "peak_dbfs": -21.104,
+          "rms_dbfs": -34.959,
+          "clipped_samples": 0,
+          "nonfinite_samples": 0
+        }
+      },
+      "edges": {
+        "head_trim_seconds": 0.0,
+        "tail_trim_seconds": 0.0,
+        "trim_start_seconds": 0.0,
+        "trim_end_seconds": 3.2159791666666666,
+        "duration_after_trim_seconds": 3.2159791666666666,
+        "first_detected_activity_seconds": 0.155,
+        "last_detected_activity_seconds": 3.01,
+        "rms_activity_threshold_dbfs": -65.0,
+        "peak_activity_threshold_dbfs": -55.0,
+        "head_guard_seconds": 0.12,
+        "tail_guard_seconds": 0.18,
+        "minimum_edge_removal_seconds": 0.08,
+        "internal_pauses_preserved": true
+      },
+      "status": "ready",
+      "fitted": {
+        "status": "ready",
+        "path": "assets/audio/minimax/fitted/ear.wav",
+        "sha256": "c901f1a016cc6b21ebbb8bf9e05dc504b5e1a9b2d0aef9902c682928b8614c02",
+        "pcm": {
+          "container_extension": ".wav",
+          "bytes": 463204,
+          "codec": "pcm",
+          "sample_rate": 48000,
+          "channels": 1,
+          "bit_depth": 24,
+          "frames": 154367,
+          "duration_seconds": 3.2159791666666666
+        },
+        "signal": {
+          "peak_dbfs": -21.104,
+          "rms_dbfs": -34.959,
+          "clipped_samples": 0,
+          "nonfinite_samples": 0
+        },
+        "duration_seconds": 3.2159791666666666,
+        "atempo": 1.0,
+        "accelerated": false,
+        "stretched_to_fill": false,
+        "remaining_slot_seconds": 1.084021
+      },
+      "raw_unchanged": true
+    },
+    {
+      "id": "shake",
+      "start": 28.4,
+      "end": 33.7,
+      "maximum_duration_seconds": 5.3,
+      "target_duration_seconds": 5.2,
+      "raw": {
+        "path": "assets/audio/minimax/raw/shake.wav",
+        "sha256": "eec679966b22db7220e634fe60c73e70d2d496759d4c605bd43ac3dc6c069fbd",
+        "pcm": {
+          "container_extension": ".wav",
+          "bytes": 253994,
+          "codec": "pcm",
+          "sample_rate": 32000,
+          "channels": 1,
+          "bit_depth": 16,
+          "frames": 125946,
+          "duration_seconds": 3.9358125
+        },
+        "decoded_duration_seconds": 3.9358125,
+        "analysis_pcm": {
+          "sample_rate": 48000,
+          "channels": 2,
+          "format": "float64"
+        },
+        "signal": {
+          "peak_dbfs": -21.379,
+          "rms_dbfs": -35.44,
+          "clipped_samples": 0,
+          "nonfinite_samples": 0
+        }
+      },
+      "edges": {
+        "head_trim_seconds": 0.0,
+        "tail_trim_seconds": 0.0,
+        "trim_start_seconds": 0.0,
+        "trim_end_seconds": 3.9358125,
+        "duration_after_trim_seconds": 3.9358125,
+        "first_detected_activity_seconds": 0.12,
+        "last_detected_activity_seconds": 3.755,
+        "rms_activity_threshold_dbfs": -65.0,
+        "peak_activity_threshold_dbfs": -55.0,
+        "head_guard_seconds": 0.12,
+        "tail_guard_seconds": 0.18,
+        "minimum_edge_removal_seconds": 0.08,
+        "internal_pauses_preserved": true
+      },
+      "status": "ready",
+      "fitted": {
+        "status": "ready",
+        "path": "assets/audio/minimax/fitted/shake.wav",
+        "sha256": "ca478bd84b92a54dd27939e59e68d08bc483768b886ef3b555a8177881c66d4b",
+        "pcm": {
+          "container_extension": ".wav",
+          "bytes": 566860,
+          "codec": "pcm",
+          "sample_rate": 48000,
+          "channels": 1,
+          "bit_depth": 24,
+          "frames": 188919,
+          "duration_seconds": 3.9358125
+        },
+        "signal": {
+          "peak_dbfs": -21.379,
+          "rms_dbfs": -35.44,
+          "clipped_samples": 0,
+          "nonfinite_samples": 0
+        },
+        "duration_seconds": 3.9358125,
+        "atempo": 1.0,
+        "accelerated": false,
+        "stretched_to_fill": false,
+        "remaining_slot_seconds": 1.364188
+      },
+      "raw_unchanged": true
+    },
+    {
+      "id": "paper",
+      "start": 34.4,
+      "end": 41.7,
+      "maximum_duration_seconds": 7.3,
+      "target_duration_seconds": 7.2,
+      "raw": {
+        "path": "assets/audio/minimax/raw/paper.wav",
+        "sha256": "ebbd59ecd45414acbe8fcba1b4b281818bc131a42915aa809eaa09af67bfb13b",
+        "pcm": {
+          "container_extension": ".wav",
+          "bytes": 259194,
+          "codec": "pcm",
+          "sample_rate": 32000,
+          "channels": 1,
+          "bit_depth": 16,
+          "frames": 128546,
+          "duration_seconds": 4.0170625
+        },
+        "decoded_duration_seconds": 4.0170625,
+        "analysis_pcm": {
+          "sample_rate": 48000,
+          "channels": 2,
+          "format": "float64"
+        },
+        "signal": {
+          "peak_dbfs": -20.894,
+          "rms_dbfs": -34.48,
+          "clipped_samples": 0,
+          "nonfinite_samples": 0
+        }
+      },
+      "edges": {
+        "head_trim_seconds": 0.0,
+        "tail_trim_seconds": 0.0,
+        "trim_start_seconds": 0.0,
+        "trim_end_seconds": 4.0170625,
+        "duration_after_trim_seconds": 4.0170625,
+        "first_detected_activity_seconds": 0.085,
+        "last_detected_activity_seconds": 3.87,
+        "rms_activity_threshold_dbfs": -65.0,
+        "peak_activity_threshold_dbfs": -55.0,
+        "head_guard_seconds": 0.12,
+        "tail_guard_seconds": 0.18,
+        "minimum_edge_removal_seconds": 0.08,
+        "internal_pauses_preserved": true
+      },
+      "status": "ready",
+      "fitted": {
+        "status": "ready",
+        "path": "assets/audio/minimax/fitted/paper.wav",
+        "sha256": "bfb27f5d6ed8a76652b59f4924b2bf7370d256cac1d30076d5cde743c4bc990a",
+        "pcm": {
+          "container_extension": ".wav",
+          "bytes": 578560,
+          "codec": "pcm",
+          "sample_rate": 48000,
+          "channels": 1,
+          "bit_depth": 24,
+          "frames": 192819,
+          "duration_seconds": 4.0170625
+        },
+        "signal": {
+          "peak_dbfs": -20.894,
+          "rms_dbfs": -34.48,
+          "clipped_samples": 0,
+          "nonfinite_samples": 0
+        },
+        "duration_seconds": 4.0170625,
+        "atempo": 1.0,
+        "accelerated": false,
+        "stretched_to_fill": false,
+        "remaining_slot_seconds": 3.282938
+      },
+      "raw_unchanged": true
+    },
+    {
+      "id": "nature",
+      "start": 42.4,
+      "end": 48.7,
+      "maximum_duration_seconds": 6.3,
+      "target_duration_seconds": 6.2,
+      "raw": {
+        "path": "assets/audio/minimax/raw/nature.wav",
+        "sha256": "26306a05e834f679e6f364c6f58c577dab772cbdd839fe6b7ab65007dfad6a60",
+        "pcm": {
+          "container_extension": ".wav",
+          "bytes": 276284,
+          "codec": "pcm",
+          "sample_rate": 32000,
+          "channels": 1,
+          "bit_depth": 16,
+          "frames": 137091,
+          "duration_seconds": 4.28409375
+        },
+        "decoded_duration_seconds": 4.284104166666666,
+        "analysis_pcm": {
+          "sample_rate": 48000,
+          "channels": 2,
+          "format": "float64"
+        },
+        "signal": {
+          "peak_dbfs": -19.886,
+          "rms_dbfs": -34.472,
+          "clipped_samples": 0,
+          "nonfinite_samples": 0
+        }
+      },
+      "edges": {
+        "head_trim_seconds": 0.0,
+        "tail_trim_seconds": 0.0,
+        "trim_start_seconds": 0.0,
+        "trim_end_seconds": 4.284104166666666,
+        "duration_after_trim_seconds": 4.284104166666666,
+        "first_detected_activity_seconds": 0.17,
+        "last_detected_activity_seconds": 4.085,
+        "rms_activity_threshold_dbfs": -65.0,
+        "peak_activity_threshold_dbfs": -55.0,
+        "head_guard_seconds": 0.12,
+        "tail_guard_seconds": 0.18,
+        "minimum_edge_removal_seconds": 0.08,
+        "internal_pauses_preserved": true
+      },
+      "status": "ready",
+      "fitted": {
+        "status": "ready",
+        "path": "assets/audio/minimax/fitted/nature.wav",
+        "sha256": "8a4dddb3c907554f981d59d1321eb5948b42deeff2637a3b1716735033ca2326",
+        "pcm": {
+          "container_extension": ".wav",
+          "bytes": 617014,
+          "codec": "pcm",
+          "sample_rate": 48000,
+          "channels": 1,
+          "bit_depth": 24,
+          "frames": 205637,
+          "duration_seconds": 4.284104166666666
+        },
+        "signal": {
+          "peak_dbfs": -19.886,
+          "rms_dbfs": -34.472,
+          "clipped_samples": 0,
+          "nonfinite_samples": 0
+        },
+        "duration_seconds": 4.284104166666666,
+        "atempo": 1.0,
+        "accelerated": false,
+        "stretched_to_fill": false,
+        "remaining_slot_seconds": 2.015896
+      },
+      "raw_unchanged": true
+    },
+    {
+      "id": "order",
+      "start": 49.4,
+      "end": 54.7,
+      "maximum_duration_seconds": 5.3,
+      "target_duration_seconds": 5.2,
+      "raw": {
+        "path": "assets/audio/minimax/raw/order.wav",
+        "sha256": "8ef38a97b081dc52adaab52930619ad27e256372fdf13a8c2038f321ded86cac",
+        "pcm": {
+          "container_extension": ".wav",
+          "bytes": 256966,
+          "codec": "pcm",
+          "sample_rate": 32000,
+          "channels": 1,
+          "bit_depth": 16,
+          "frames": 127432,
+          "duration_seconds": 3.98225
+        },
+        "decoded_duration_seconds": 3.98225,
+        "analysis_pcm": {
+          "sample_rate": 48000,
+          "channels": 2,
+          "format": "float64"
+        },
+        "signal": {
+          "peak_dbfs": -21.122,
+          "rms_dbfs": -34.019,
+          "clipped_samples": 0,
+          "nonfinite_samples": 0
+        }
+      },
+      "edges": {
+        "head_trim_seconds": 0.0,
+        "tail_trim_seconds": 0.0,
+        "trim_start_seconds": 0.0,
+        "trim_end_seconds": 3.98225,
+        "duration_after_trim_seconds": 3.98225,
+        "first_detected_activity_seconds": 0.13,
+        "last_detected_activity_seconds": 3.835,
+        "rms_activity_threshold_dbfs": -65.0,
+        "peak_activity_threshold_dbfs": -55.0,
+        "head_guard_seconds": 0.12,
+        "tail_guard_seconds": 0.18,
+        "minimum_edge_removal_seconds": 0.08,
+        "internal_pauses_preserved": true
+      },
+      "status": "ready",
+      "fitted": {
+        "status": "ready",
+        "path": "assets/audio/minimax/fitted/order.wav",
+        "sha256": "22f7f640c35f551e3faec01457e12c1c6614b10c055ccca8d276d1f1aa978328",
+        "pcm": {
+          "container_extension": ".wav",
+          "bytes": 573546,
+          "codec": "pcm",
+          "sample_rate": 48000,
+          "channels": 1,
+          "bit_depth": 24,
+          "frames": 191148,
+          "duration_seconds": 3.98225
+        },
+        "signal": {
+          "peak_dbfs": -21.122,
+          "rms_dbfs": -34.019,
+          "clipped_samples": 0,
+          "nonfinite_samples": 0
+        },
+        "duration_seconds": 3.98225,
+        "atempo": 1.0,
+        "accelerated": false,
+        "stretched_to_fill": false,
+        "remaining_slot_seconds": 1.31775
+      },
+      "raw_unchanged": true
+    },
+    {
+      "id": "outro",
+      "start": 55.5,
+      "end": 61.5,
+      "maximum_duration_seconds": 6.0,
+      "target_duration_seconds": 5.9,
+      "raw": {
+        "path": "assets/audio/minimax/raw/outro.wav",
+        "sha256": "7f401d6d279c0ba398cc26a2fa0c946c8f5d5467020d53bc24c2b2ef911dd324",
+        "pcm": {
+          "container_extension": ".wav",
+          "bytes": 341672,
+          "codec": "pcm",
+          "sample_rate": 32000,
+          "channels": 1,
+          "bit_depth": 16,
+          "frames": 169785,
+          "duration_seconds": 5.30578125
+        },
+        "decoded_duration_seconds": 5.305791666666667,
+        "analysis_pcm": {
+          "sample_rate": 48000,
+          "channels": 2,
+          "format": "float64"
+        },
+        "signal": {
+          "peak_dbfs": -20.996,
+          "rms_dbfs": -34.98,
+          "clipped_samples": 0,
+          "nonfinite_samples": 0
+        }
+      },
+      "edges": {
+        "head_trim_seconds": 0.0,
+        "tail_trim_seconds": 0.0,
+        "trim_start_seconds": 0.0,
+        "trim_end_seconds": 5.305791666666667,
+        "duration_after_trim_seconds": 5.305791666666667,
+        "first_detected_activity_seconds": 0.195,
+        "last_detected_activity_seconds": 5.075,
+        "rms_activity_threshold_dbfs": -65.0,
+        "peak_activity_threshold_dbfs": -55.0,
+        "head_guard_seconds": 0.12,
+        "tail_guard_seconds": 0.18,
+        "minimum_edge_removal_seconds": 0.08,
+        "internal_pauses_preserved": true
+      },
+      "status": "ready",
+      "fitted": {
+        "status": "ready",
+        "path": "assets/audio/minimax/fitted/outro.wav",
+        "sha256": "917ce1e3124e0f50b607c69b337b895a34207a23acbf83800ab7e8984265c520",
+        "pcm": {
+          "container_extension": ".wav",
+          "bytes": 764136,
+          "codec": "pcm",
+          "sample_rate": 48000,
+          "channels": 1,
+          "bit_depth": 24,
+          "frames": 254678,
+          "duration_seconds": 5.305791666666667
+        },
+        "signal": {
+          "peak_dbfs": -20.996,
+          "rms_dbfs": -34.98,
+          "clipped_samples": 0,
+          "nonfinite_samples": 0
+        },
+        "duration_seconds": 5.305791666666667,
+        "atempo": 1.0,
+        "accelerated": false,
+        "stretched_to_fill": false,
+        "remaining_slot_seconds": 0.694208
+      },
+      "raw_unchanged": true
+    }
+  ],
+  "complete": true,
+  "timeline_published": true,
+  "ready_count": 9,
+  "expected_count": 9,
+  "needs_web_regeneration": [],
+  "timeline_path": "content/timeline-minimax.json"
+}

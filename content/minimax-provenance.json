@@ -1,0 +1,28 @@
+{
+  "provider": "MiniMax Audio",
+  "site": "https://www.minimax.cn/audio/text-to-speech",
+  "method": "Chrome webpage controlled with Computer Use",
+  "model": "speech-2.8-hd",
+  "voice": "温暖闺蜜 - 温柔清亮,舒缓且充满关切,亲切自然",
+  "settings": {
+    "speed": 1,
+    "pitch": 0,
+    "volume": 1
+  },
+  "format": "WAV 无水印",
+  "date": "2026-10-21",
+  "segments": [
+    "intro",
+    "breath",
+    "cool",
+    "ear",
+    "shake",
+    "paper",
+    "nature",
+    "order",
+    "outro"
+  ],
+  "credits_used": 340,
+  "browser_proof": "output/minimax/chrome-generation-proof.jpg",
+  "user_direction": "平静、温暖的中文女声"
+}

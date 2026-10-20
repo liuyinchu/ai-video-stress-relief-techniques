@@ -2,7 +2,13 @@
 
 62秒中文短视频，连续发光墙镜头，横版1920×1080与竖版1080×1920。所有工程在远端 `yangshuyun@10.10.10.1:/Users/yangshuyun/workspace/dev/ai-video/shortvideo-1020`。
 
-## 当前制作状态
+## 当前版本：MiniMax v2
+
+正式旁白已通过Chrome网页生成，模型speech-2.8-hd、音色「温暖闺蜜」。新版使用`content/timeline-minimax.json`、`content/captions-minimax.json`和`shots/*-minimax.html`；审片入口为`output/review-minimax.html`或原有`output/review.html`。旧v1及临时音轨保留。
+
+完整重建新版：`bash scripts/build-minimax.sh`。原始九段WAV与来源记录已保存；不用再次请求MiniMax生成。修改语音后须重新做时间核验。详见`docs/minimax-v2.md`。
+
+## 初版制作结构
 
 - 台本与时间轴：`content/timeline.json`、`content/narration.txt`
 - 分镜：`docs/storyboard.md`
