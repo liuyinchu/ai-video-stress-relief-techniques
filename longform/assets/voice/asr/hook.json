@@ -1,0 +1,1486 @@
+{
+  "id": "hook",
+  "audio": "longform/assets/voice/raw/hook.wav",
+  "source_sha256": "95bbdbe735182e642e1a286df0ac26bc08f210b2fffbdadb1b26e1f7ba523ad9",
+  "model_path": "/Users/yangshuyun/workspace/dev/ai-video/proj1-1019/out/models/whisper-large-v3-turbo-q4",
+  "model_revision": "660c343bbf4e52ac257f0b7d952e5388e6f93bef",
+  "offline": true,
+  "reference_prompt_used": false,
+  "timestamp_origin": "seconds from unchanged raw chapter WAV start",
+  "asr_seconds": 5.281424,
+  "audio_info": {
+    "duration": 19.6744375,
+    "sample_rate": 32000,
+    "sample_frames": 629582,
+    "channels": 1
+  },
+  "recognized_text": "压力一来,身体常常比念头先动起来心跳加快,呼吸变浅,肩膀抬高这是站或逃反应明明坐在桌前,却像在等待一场冲刺要缓下来,可以从呼吸、触觉和眼前的小动作入手给身体留一点余地,再去处理压力的来源",
+  "words": [
+    {
+      "word": "压",
+      "start": 0.0,
+      "end": 0.28,
+      "probability": 0.89697265625,
+      "index": 0
+    },
+    {
+      "word": "力",
+      "start": 0.28,
+      "end": 0.4,
+      "probability": 0.99951171875,
+      "index": 1
+    },
+    {
+      "word": "一",
+      "start": 0.4,
+      "end": 0.54,
+      "probability": 0.99853515625,
+      "index": 2
+    },
+    {
+      "word": "来,",
+      "start": 0.54,
+      "end": 0.78,
+      "probability": 0.9990234375,
+      "index": 3
+    },
+    {
+      "word": "身",
+      "start": 0.94,
+      "end": 1.22,
+      "probability": 0.9794921875,
+      "index": 4
+    },
+    {
+      "word": "体",
+      "start": 1.22,
+      "end": 1.38,
+      "probability": 0.99951171875,
+      "index": 5
+    },
+    {
+      "word": "常",
+      "start": 1.38,
+      "end": 1.52,
+      "probability": 0.96826171875,
+      "index": 6
+    },
+    {
+      "word": "常",
+      "start": 1.52,
+      "end": 1.7,
+      "probability": 0.9990234375,
+      "index": 7
+    },
+    {
+      "word": "比",
+      "start": 1.7,
+      "end": 1.84,
+      "probability": 0.9970703125,
+      "index": 8
+    },
+    {
+      "word": "念",
+      "start": 1.84,
+      "end": 1.98,
+      "probability": 0.99560546875,
+      "index": 9
+    },
+    {
+      "word": "头",
+      "start": 1.98,
+      "end": 2.18,
+      "probability": 0.99951171875,
+      "index": 10
+    },
+    {
+      "word": "先",
+      "start": 2.18,
+      "end": 2.34,
+      "probability": 0.880859375,
+      "index": 11
+    },
+    {
+      "word": "动",
+      "start": 2.34,
+      "end": 2.5,
+      "probability": 0.99462890625,
+      "index": 12
+    },
+    {
+      "word": "起",
+      "start": 2.5,
+      "end": 2.68,
+      "probability": 0.99951171875,
+      "index": 13
+    },
+    {
+      "word": "来",
+      "start": 2.68,
+      "end": 2.94,
+      "probability": 0.99951171875,
+      "index": 14
+    },
+    {
+      "word": "心",
+      "start": 2.94,
+      "end": 3.34,
+      "probability": 0.34130859375,
+      "index": 15
+    },
+    {
+      "word": "跳",
+      "start": 3.34,
+      "end": 3.54,
+      "probability": 0.99609375,
+      "index": 16
+    },
+    {
+      "word": "加",
+      "start": 3.54,
+      "end": 3.72,
+      "probability": 0.998046875,
+      "index": 17
+    },
+    {
+      "word": "快,",
+      "start": 3.72,
+      "end": 4.0,
+      "probability": 0.9990234375,
+      "index": 18
+    },
+    {
+      "word": "呼",
+      "start": 4.3,
+      "end": 4.44,
+      "probability": 0.99853515625,
+      "index": 19
+    },
+    {
+      "word": "吸",
+      "start": 4.44,
+      "end": 4.6,
+      "probability": 0.99365234375,
+      "index": 20
+    },
+    {
+      "word": "变",
+      "start": 4.6,
+      "end": 4.82,
+      "probability": 1.0,
+      "index": 21
+    },
+    {
+      "word": "浅,",
+      "start": 4.82,
+      "end": 5.06,
+      "probability": 0.98046875,
+      "index": 22
+    },
+    {
+      "word": "肩",
+      "start": 5.3,
+      "end": 5.54,
+      "probability": 0.9990234375,
+      "index": 23
+    },
+    {
+      "word": "膀",
+      "start": 5.54,
+      "end": 5.7,
+      "probability": 0.99609375,
+      "index": 24
+    },
+    {
+      "word": "抬",
+      "start": 5.7,
+      "end": 5.9,
+      "probability": 0.99609375,
+      "index": 25
+    },
+    {
+      "word": "高",
+      "start": 5.9,
+      "end": 6.12,
+      "probability": 0.9990234375,
+      "index": 26
+    },
+    {
+      "word": "这是",
+      "start": 6.12,
+      "end": 6.68,
+      "probability": 0.9599609375,
+      "index": 27
+    },
+    {
+      "word": "站",
+      "start": 6.68,
+      "end": 6.88,
+      "probability": 0.42822265625,
+      "index": 28
+    },
+    {
+      "word": "或",
+      "start": 6.88,
+      "end": 7.1,
+      "probability": 0.91357421875,
+      "index": 29
+    },
+    {
+      "word": "逃",
+      "start": 7.1,
+      "end": 7.34,
+      "probability": 0.83203125,
+      "index": 30
+    },
+    {
+      "word": "反",
+      "start": 7.34,
+      "end": 7.54,
+      "probability": 0.99853515625,
+      "index": 31
+    },
+    {
+      "word": "应",
+      "start": 7.54,
+      "end": 7.76,
+      "probability": 0.96240234375,
+      "index": 32
+    },
+    {
+      "word": "明",
+      "start": 7.76,
+      "end": 8.24,
+      "probability": 0.50634765625,
+      "index": 33
+    },
+    {
+      "word": "明",
+      "start": 8.24,
+      "end": 8.36,
+      "probability": 0.99755859375,
+      "index": 34
+    },
+    {
+      "word": "坐",
+      "start": 8.36,
+      "end": 8.48,
+      "probability": 0.99853515625,
+      "index": 35
+    },
+    {
+      "word": "在",
+      "start": 8.48,
+      "end": 8.64,
+      "probability": 1.0,
+      "index": 36
+    },
+    {
+      "word": "桌",
+      "start": 8.64,
+      "end": 8.82,
+      "probability": 0.9990234375,
+      "index": 37
+    },
+    {
+      "word": "前,",
+      "start": 8.82,
+      "end": 9.1,
+      "probability": 0.99853515625,
+      "index": 38
+    },
+    {
+      "word": "却",
+      "start": 9.26,
+      "end": 9.62,
+      "probability": 0.9990234375,
+      "index": 39
+    },
+    {
+      "word": "像",
+      "start": 9.62,
+      "end": 9.74,
+      "probability": 0.9873046875,
+      "index": 40
+    },
+    {
+      "word": "在",
+      "start": 9.74,
+      "end": 9.9,
+      "probability": 0.99755859375,
+      "index": 41
+    },
+    {
+      "word": "等",
+      "start": 9.9,
+      "end": 10.02,
+      "probability": 0.99951171875,
+      "index": 42
+    },
+    {
+      "word": "待",
+      "start": 10.02,
+      "end": 10.2,
+      "probability": 1.0,
+      "index": 43
+    },
+    {
+      "word": "一",
+      "start": 10.2,
+      "end": 10.34,
+      "probability": 1.0,
+      "index": 44
+    },
+    {
+      "word": "场",
+      "start": 10.34,
+      "end": 10.5,
+      "probability": 0.99951171875,
+      "index": 45
+    },
+    {
+      "word": "冲",
+      "start": 10.5,
+      "end": 10.76,
+      "probability": 0.9912109375,
+      "index": 46
+    },
+    {
+      "word": "刺",
+      "start": 10.76,
+      "end": 10.98,
+      "probability": 0.998046875,
+      "index": 47
+    },
+    {
+      "word": "要",
+      "start": 10.98,
+      "end": 11.56,
+      "probability": 0.9951171875,
+      "index": 48
+    },
+    {
+      "word": "缓",
+      "start": 11.56,
+      "end": 11.74,
+      "probability": 0.99560546875,
+      "index": 49
+    },
+    {
+      "word": "下",
+      "start": 11.74,
+      "end": 11.9,
+      "probability": 0.9775390625,
+      "index": 50
+    },
+    {
+      "word": "来,",
+      "start": 11.9,
+      "end": 12.16,
+      "probability": 1.0,
+      "index": 51
+    },
+    {
+      "word": "可以",
+      "start": 12.3,
+      "end": 12.62,
+      "probability": 0.99951171875,
+      "index": 52
+    },
+    {
+      "word": "从",
+      "start": 12.62,
+      "end": 12.84,
+      "probability": 1.0,
+      "index": 53
+    },
+    {
+      "word": "呼",
+      "start": 12.84,
+      "end": 13.06,
+      "probability": 0.99951171875,
+      "index": 54
+    },
+    {
+      "word": "吸、",
+      "start": 13.06,
+      "end": 13.38,
+      "probability": 0.99755859375,
+      "index": 55
+    },
+    {
+      "word": "触",
+      "start": 13.64,
+      "end": 13.82,
+      "probability": 0.994140625,
+      "index": 56
+    },
+    {
+      "word": "觉",
+      "start": 13.82,
+      "end": 14.08,
+      "probability": 0.98779296875,
+      "index": 57
+    },
+    {
+      "word": "和",
+      "start": 14.08,
+      "end": 14.44,
+      "probability": 0.9921875,
+      "index": 58
+    },
+    {
+      "word": "眼",
+      "start": 14.44,
+      "end": 14.6,
+      "probability": 0.9990234375,
+      "index": 59
+    },
+    {
+      "word": "前",
+      "start": 14.6,
+      "end": 14.76,
+      "probability": 1.0,
+      "index": 60
+    },
+    {
+      "word": "的",
+      "start": 14.76,
+      "end": 14.86,
+      "probability": 1.0,
+      "index": 61
+    },
+    {
+      "word": "小",
+      "start": 14.86,
+      "end": 15.04,
+      "probability": 1.0,
+      "index": 62
+    },
+    {
+      "word": "动",
+      "start": 15.04,
+      "end": 15.2,
+      "probability": 1.0,
+      "index": 63
+    },
+    {
+      "word": "作",
+      "start": 15.2,
+      "end": 15.38,
+      "probability": 0.998046875,
+      "index": 64
+    },
+    {
+      "word": "入",
+      "start": 15.38,
+      "end": 15.52,
+      "probability": 0.9990234375,
+      "index": 65
+    },
+    {
+      "word": "手",
+      "start": 15.52,
+      "end": 15.74,
+      "probability": 1.0,
+      "index": 66
+    },
+    {
+      "word": "给",
+      "start": 15.74,
+      "end": 16.22,
+      "probability": 0.9814453125,
+      "index": 67
+    },
+    {
+      "word": "身",
+      "start": 16.22,
+      "end": 16.4,
+      "probability": 0.99951171875,
+      "index": 68
+    },
+    {
+      "word": "体",
+      "start": 16.4,
+      "end": 16.68,
+      "probability": 1.0,
+      "index": 69
+    },
+    {
+      "word": "留",
+      "start": 16.68,
+      "end": 16.96,
+      "probability": 0.9990234375,
+      "index": 70
+    },
+    {
+      "word": "一点",
+      "start": 16.96,
+      "end": 17.24,
+      "probability": 0.9990234375,
+      "index": 71
+    },
+    {
+      "word": "余",
+      "start": 17.24,
+      "end": 17.44,
+      "probability": 0.9921875,
+      "index": 72
+    },
+    {
+      "word": "地,",
+      "start": 17.44,
+      "end": 17.62,
+      "probability": 0.99658203125,
+      "index": 73
+    },
+    {
+      "word": "再",
+      "start": 17.82,
+      "end": 18.16,
+      "probability": 0.9990234375,
+      "index": 74
+    },
+    {
+      "word": "去",
+      "start": 18.16,
+      "end": 18.32,
+      "probability": 1.0,
+      "index": 75
+    },
+    {
+      "word": "处",
+      "start": 18.32,
+      "end": 18.48,
+      "probability": 0.998046875,
+      "index": 76
+    },
+    {
+      "word": "理",
+      "start": 18.48,
+      "end": 18.6,
+      "probability": 1.0,
+      "index": 77
+    },
+    {
+      "word": "压",
+      "start": 18.6,
+      "end": 18.78,
+      "probability": 1.0,
+      "index": 78
+    },
+    {
+      "word": "力",
+      "start": 18.78,
+      "end": 18.9,
+      "probability": 1.0,
+      "index": 79
+    },
+    {
+      "word": "的",
+      "start": 18.9,
+      "end": 19.02,
+      "probability": 1.0,
+      "index": 80
+    },
+    {
+      "word": "来",
+      "start": 19.02,
+      "end": 19.16,
+      "probability": 1.0,
+      "index": 81
+    },
+    {
+      "word": "源",
+      "start": 19.16,
+      "end": 19.38,
+      "probability": 0.99951171875,
+      "index": 82
+    }
+  ],
+  "asr_segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 2.94,
+      "text": "压力一来,身体常常比念头先动起来",
+      "tokens": [
+        50365,
+        5014,
+        233,
+        13486,
+        2257,
+        6912,
+        11,
+        19847,
+        29485,
+        11279,
+        11279,
+        11706,
+        33679,
+        39862,
+        10108,
+        34961,
+        9147,
+        6912,
+        50512
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.08250132328321953,
+      "compression_ratio": 1.1866666666666668,
+      "no_speech_prob": 1.502963899169263e-11,
+      "words": [
+        {
+          "word": "压",
+          "start": 0.0,
+          "end": 0.28,
+          "probability": 0.89697265625
+        },
+        {
+          "word": "力",
+          "start": 0.28,
+          "end": 0.4,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "一",
+          "start": 0.4,
+          "end": 0.54,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "来,",
+          "start": 0.54,
+          "end": 0.78,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "身",
+          "start": 0.94,
+          "end": 1.22,
+          "probability": 0.9794921875
+        },
+        {
+          "word": "体",
+          "start": 1.22,
+          "end": 1.38,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "常",
+          "start": 1.38,
+          "end": 1.52,
+          "probability": 0.96826171875
+        },
+        {
+          "word": "常",
+          "start": 1.52,
+          "end": 1.7,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "比",
+          "start": 1.7,
+          "end": 1.84,
+          "probability": 0.9970703125
+        },
+        {
+          "word": "念",
+          "start": 1.84,
+          "end": 1.98,
+          "probability": 0.99560546875
+        },
+        {
+          "word": "头",
+          "start": 1.98,
+          "end": 2.18,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "先",
+          "start": 2.18,
+          "end": 2.34,
+          "probability": 0.880859375
+        },
+        {
+          "word": "动",
+          "start": 2.34,
+          "end": 2.5,
+          "probability": 0.99462890625
+        },
+        {
+          "word": "起",
+          "start": 2.5,
+          "end": 2.68,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "来",
+          "start": 2.68,
+          "end": 2.94,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 2.94,
+      "end": 6.12,
+      "text": "心跳加快,呼吸变浅,肩膀抬高",
+      "tokens": [
+        50512,
+        7945,
+        29366,
+        9990,
+        10251,
+        11,
+        38718,
+        46431,
+        2129,
+        246,
+        11038,
+        227,
+        11,
+        14356,
+        102,
+        39708,
+        222,
+        7235,
+        105,
+        12979,
+        50673
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.08250132328321953,
+      "compression_ratio": 1.1866666666666668,
+      "no_speech_prob": 1.502963899169263e-11,
+      "words": [
+        {
+          "word": "心",
+          "start": 2.94,
+          "end": 3.34,
+          "probability": 0.34130859375
+        },
+        {
+          "word": "跳",
+          "start": 3.34,
+          "end": 3.54,
+          "probability": 0.99609375
+        },
+        {
+          "word": "加",
+          "start": 3.54,
+          "end": 3.72,
+          "probability": 0.998046875
+        },
+        {
+          "word": "快,",
+          "start": 3.72,
+          "end": 4.0,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "呼",
+          "start": 4.3,
+          "end": 4.44,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "吸",
+          "start": 4.44,
+          "end": 4.6,
+          "probability": 0.99365234375
+        },
+        {
+          "word": "变",
+          "start": 4.6,
+          "end": 4.82,
+          "probability": 1.0
+        },
+        {
+          "word": "浅,",
+          "start": 4.82,
+          "end": 5.06,
+          "probability": 0.98046875
+        },
+        {
+          "word": "肩",
+          "start": 5.3,
+          "end": 5.54,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "膀",
+          "start": 5.54,
+          "end": 5.7,
+          "probability": 0.99609375
+        },
+        {
+          "word": "抬",
+          "start": 5.7,
+          "end": 5.9,
+          "probability": 0.99609375
+        },
+        {
+          "word": "高",
+          "start": 5.9,
+          "end": 6.12,
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.12,
+      "end": 7.76,
+      "text": "这是站或逃反应",
+      "tokens": [
+        50673,
+        27455,
+        34155,
+        19780,
+        2215,
+        225,
+        22138,
+        44297,
+        50754
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.08250132328321953,
+      "compression_ratio": 1.1866666666666668,
+      "no_speech_prob": 1.502963899169263e-11,
+      "words": [
+        {
+          "word": "这是",
+          "start": 6.12,
+          "end": 6.68,
+          "probability": 0.9599609375
+        },
+        {
+          "word": "站",
+          "start": 6.68,
+          "end": 6.88,
+          "probability": 0.42822265625
+        },
+        {
+          "word": "或",
+          "start": 6.88,
+          "end": 7.1,
+          "probability": 0.91357421875
+        },
+        {
+          "word": "逃",
+          "start": 7.1,
+          "end": 7.34,
+          "probability": 0.83203125
+        },
+        {
+          "word": "反",
+          "start": 7.34,
+          "end": 7.54,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "应",
+          "start": 7.54,
+          "end": 7.76,
+          "probability": 0.96240234375
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 7.76,
+      "end": 10.98,
+      "text": "明明坐在桌前,却像在等待一场冲刺",
+      "tokens": [
+        50754,
+        11100,
+        11100,
+        31123,
+        3581,
+        162,
+        5475,
+        8945,
+        11,
+        5322,
+        112,
+        12760,
+        3581,
+        10187,
+        18390,
+        2257,
+        50255,
+        5676,
+        110,
+        2437,
+        118,
+        50914
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.08250132328321953,
+      "compression_ratio": 1.1866666666666668,
+      "no_speech_prob": 1.502963899169263e-11,
+      "words": [
+        {
+          "word": "明",
+          "start": 7.76,
+          "end": 8.24,
+          "probability": 0.50634765625
+        },
+        {
+          "word": "明",
+          "start": 8.24,
+          "end": 8.36,
+          "probability": 0.99755859375
+        },
+        {
+          "word": "坐",
+          "start": 8.36,
+          "end": 8.48,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "在",
+          "start": 8.48,
+          "end": 8.64,
+          "probability": 1.0
+        },
+        {
+          "word": "桌",
+          "start": 8.64,
+          "end": 8.82,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "前,",
+          "start": 8.82,
+          "end": 9.1,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "却",
+          "start": 9.26,
+          "end": 9.62,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "像",
+          "start": 9.62,
+          "end": 9.74,
+          "probability": 0.9873046875
+        },
+        {
+          "word": "在",
+          "start": 9.74,
+          "end": 9.9,
+          "probability": 0.99755859375
+        },
+        {
+          "word": "等",
+          "start": 9.9,
+          "end": 10.02,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "待",
+          "start": 10.02,
+          "end": 10.2,
+          "probability": 1.0
+        },
+        {
+          "word": "一",
+          "start": 10.2,
+          "end": 10.34,
+          "probability": 1.0
+        },
+        {
+          "word": "场",
+          "start": 10.34,
+          "end": 10.5,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "冲",
+          "start": 10.5,
+          "end": 10.76,
+          "probability": 0.9912109375
+        },
+        {
+          "word": "刺",
+          "start": 10.76,
+          "end": 10.98,
+          "probability": 0.998046875
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 10.98,
+      "end": 15.74,
+      "text": "要缓下来,可以从呼吸、触觉和眼前的小动作入手",
+      "tokens": [
+        50914,
+        4275,
+        38109,
+        241,
+        4438,
+        6912,
+        11,
+        6723,
+        35630,
+        38718,
+        46431,
+        1231,
+        6758,
+        99,
+        24447,
+        12565,
+        25281,
+        8945,
+        1546,
+        7322,
+        34961,
+        11914,
+        14028,
+        11389,
+        51153
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.08250132328321953,
+      "compression_ratio": 1.1866666666666668,
+      "no_speech_prob": 1.502963899169263e-11,
+      "words": [
+        {
+          "word": "要",
+          "start": 10.98,
+          "end": 11.56,
+          "probability": 0.9951171875
+        },
+        {
+          "word": "缓",
+          "start": 11.56,
+          "end": 11.74,
+          "probability": 0.99560546875
+        },
+        {
+          "word": "下",
+          "start": 11.74,
+          "end": 11.9,
+          "probability": 0.9775390625
+        },
+        {
+          "word": "来,",
+          "start": 11.9,
+          "end": 12.16,
+          "probability": 1.0
+        },
+        {
+          "word": "可以",
+          "start": 12.3,
+          "end": 12.62,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "从",
+          "start": 12.62,
+          "end": 12.84,
+          "probability": 1.0
+        },
+        {
+          "word": "呼",
+          "start": 12.84,
+          "end": 13.06,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "吸、",
+          "start": 13.06,
+          "end": 13.38,
+          "probability": 0.99755859375
+        },
+        {
+          "word": "触",
+          "start": 13.64,
+          "end": 13.82,
+          "probability": 0.994140625
+        },
+        {
+          "word": "觉",
+          "start": 13.82,
+          "end": 14.08,
+          "probability": 0.98779296875
+        },
+        {
+          "word": "和",
+          "start": 14.08,
+          "end": 14.44,
+          "probability": 0.9921875
+        },
+        {
+          "word": "眼",
+          "start": 14.44,
+          "end": 14.6,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "前",
+          "start": 14.6,
+          "end": 14.76,
+          "probability": 1.0
+        },
+        {
+          "word": "的",
+          "start": 14.76,
+          "end": 14.86,
+          "probability": 1.0
+        },
+        {
+          "word": "小",
+          "start": 14.86,
+          "end": 15.04,
+          "probability": 1.0
+        },
+        {
+          "word": "动",
+          "start": 15.04,
+          "end": 15.2,
+          "probability": 1.0
+        },
+        {
+          "word": "作",
+          "start": 15.2,
+          "end": 15.38,
+          "probability": 0.998046875
+        },
+        {
+          "word": "入",
+          "start": 15.38,
+          "end": 15.52,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "手",
+          "start": 15.52,
+          "end": 15.74,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 15.74,
+      "end": 19.38,
+      "text": "给身体留一点余地,再去处理压力的来源",
+      "tokens": [
+        51153,
+        23197,
+        19847,
+        29485,
+        24456,
+        49042,
+        1593,
+        247,
+        10928,
+        11,
+        8623,
+        6734,
+        1787,
+        226,
+        13876,
+        5014,
+        233,
+        13486,
+        1546,
+        6912,
+        47402,
+        51336
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.08250132328321953,
+      "compression_ratio": 1.1866666666666668,
+      "no_speech_prob": 1.502963899169263e-11,
+      "words": [
+        {
+          "word": "给",
+          "start": 15.74,
+          "end": 16.22,
+          "probability": 0.9814453125
+        },
+        {
+          "word": "身",
+          "start": 16.22,
+          "end": 16.4,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "体",
+          "start": 16.4,
+          "end": 16.68,
+          "probability": 1.0
+        },
+        {
+          "word": "留",
+          "start": 16.68,
+          "end": 16.96,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "一点",
+          "start": 16.96,
+          "end": 17.24,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "余",
+          "start": 17.24,
+          "end": 17.44,
+          "probability": 0.9921875
+        },
+        {
+          "word": "地,",
+          "start": 17.44,
+          "end": 17.62,
+          "probability": 0.99658203125
+        },
+        {
+          "word": "再",
+          "start": 17.82,
+          "end": 18.16,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "去",
+          "start": 18.16,
+          "end": 18.32,
+          "probability": 1.0
+        },
+        {
+          "word": "处",
+          "start": 18.32,
+          "end": 18.48,
+          "probability": 0.998046875
+        },
+        {
+          "word": "理",
+          "start": 18.48,
+          "end": 18.6,
+          "probability": 1.0
+        },
+        {
+          "word": "压",
+          "start": 18.6,
+          "end": 18.78,
+          "probability": 1.0
+        },
+        {
+          "word": "力",
+          "start": 18.78,
+          "end": 18.9,
+          "probability": 1.0
+        },
+        {
+          "word": "的",
+          "start": 18.9,
+          "end": 19.02,
+          "probability": 1.0
+        },
+        {
+          "word": "来",
+          "start": 19.02,
+          "end": 19.16,
+          "probability": 1.0
+        },
+        {
+          "word": "源",
+          "start": 19.16,
+          "end": 19.38,
+          "probability": 0.99951171875
+        }
+      ]
+    }
+  ],
+  "silence": {
+    "-42": [
+      {
+        "start": 0.0,
+        "end": 0.155312,
+        "duration": 0.155312
+      },
+      {
+        "start": 0.842281,
+        "end": 1.088219,
+        "duration": 0.245938
+      },
+      {
+        "start": 2.860313,
+        "end": 3.210594,
+        "duration": 0.350281
+      },
+      {
+        "start": 4.030563,
+        "end": 4.411406,
+        "duration": 0.380843
+      },
+      {
+        "start": 5.119937,
+        "end": 5.3975,
+        "duration": 0.277563
+      },
+      {
+        "start": 6.161188,
+        "end": 6.512156,
+        "duration": 0.350968
+      },
+      {
+        "start": 7.767094,
+        "end": 8.149156,
+        "duration": 0.382062
+      },
+      {
+        "start": 9.172594,
+        "end": 9.482531,
+        "duration": 0.309937
+      },
+      {
+        "start": 11.010281,
+        "end": 11.464937,
+        "duration": 0.454656
+      },
+      {
+        "start": 12.158437,
+        "end": 12.479688,
+        "duration": 0.321251
+      },
+      {
+        "start": 12.914781,
+        "end": 13.019656,
+        "duration": 0.104875
+      },
+      {
+        "start": 13.455344,
+        "end": 13.630125,
+        "duration": 0.174781
+      },
+      {
+        "start": 14.159906,
+        "end": 14.40325,
+        "duration": 0.243344
+      },
+      {
+        "start": 15.725531,
+        "end": 16.143844,
+        "duration": 0.418313
+      },
+      {
+        "start": 16.695312,
+        "end": 16.88025,
+        "duration": 0.184938
+      },
+      {
+        "start": 17.643719,
+        "end": 18.057844,
+        "duration": 0.414125
+      },
+      {
+        "start": 19.45625,
+        "end": 19.674437,
+        "duration": 0.218187
+      }
+    ],
+    "-36": [
+      {
+        "start": 0.0,
+        "end": 0.155938,
+        "duration": 0.155938
+      },
+      {
+        "start": 0.833438,
+        "end": 1.100188,
+        "duration": 0.26675
+      },
+      {
+        "start": 2.80125,
+        "end": 3.244969,
+        "duration": 0.443719
+      },
+      {
+        "start": 4.014656,
+        "end": 4.413156,
+        "duration": 0.3985
+      },
+      {
+        "start": 5.039156,
+        "end": 5.416031,
+        "duration": 0.376875
+      },
+      {
+        "start": 6.152531,
+        "end": 6.512219,
+        "duration": 0.359688
+      },
+      {
+        "start": 7.764781,
+        "end": 8.151438,
+        "duration": 0.386657
+      },
+      {
+        "start": 9.166063,
+        "end": 9.494969,
+        "duration": 0.328906
+      },
+      {
+        "start": 11.004563,
+        "end": 11.466469,
+        "duration": 0.461906
+      },
+      {
+        "start": 12.147469,
+        "end": 12.479719,
+        "duration": 0.33225
+      },
+      {
+        "start": 12.897375,
+        "end": 13.022906,
+        "duration": 0.125531
+      },
+      {
+        "start": 13.445625,
+        "end": 13.638938,
+        "duration": 0.193313
+      },
+      {
+        "start": 14.149812,
+        "end": 14.40375,
+        "duration": 0.253938
+      },
+      {
+        "start": 15.723156,
+        "end": 16.143875,
+        "duration": 0.420719
+      },
+      {
+        "start": 16.687438,
+        "end": 16.89175,
+        "duration": 0.204312
+      },
+      {
+        "start": 17.637844,
+        "end": 18.060094,
+        "duration": 0.42225
+      },
+      {
+        "start": 19.445094,
+        "end": 19.674437,
+        "duration": 0.229343
+      }
+    ]
+  },
+  "generated_at_utc": "2026-10-20T18:34:46.195743+00:00"
+}

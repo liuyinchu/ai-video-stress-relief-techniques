@@ -1,0 +1,22 @@
+[
+  {
+    "path": "output/review-landscape-v1.mp4",
+    "bytes": 8649486,
+    "sha256": "5a489184d2f33ef7e2a79492b28ccf7caade1e8a9e790c3f88dd8753c08ce3b7"
+  },
+  {
+    "path": "output/review-portrait-v1.mp4",
+    "bytes": 7993473,
+    "sha256": "484ba10ab2cf2a9872c48716d51ceafc994d4505cace4869c496f80f470ca034"
+  },
+  {
+    "path": "output/review-landscape-minimax-v2.mp4",
+    "bytes": 8544394,
+    "sha256": "dae5246746025ad5ba59f05f5cd0b95d4d6ec73302a86fd9cfcb350eed63b144"
+  },
+  {
+    "path": "output/review-portrait-minimax-v2.mp4",
+    "bytes": 8014868,
+    "sha256": "8b85e808fbe966fb390e8f0f3525f92bc07701643d863a9ed2ae1fea45e74620"
+  }
+]

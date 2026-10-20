@@ -1,0 +1,3071 @@
+{
+  "id": "paper",
+  "audio": "longform/assets/voice/raw/paper.wav",
+  "source_sha256": "f7aca8e1461d1100307b78e64566c18a755cad291b1fa9831d036757f74bec35",
+  "model_path": "/Users/yangshuyun/workspace/dev/ai-video/proj1-1019/out/models/whisper-large-v3-turbo-q4",
+  "model_revision": "660c343bbf4e52ac257f0b7d952e5388e6f93bef",
+  "offline": true,
+  "reference_prompt_used": false,
+  "timestamp_origin": "seconds from unchanged raw chapter WAV start",
+  "asr_seconds": 9.160882,
+  "audio_info": {
+    "duration": 43.37303125,
+    "sample_rate": 32000,
+    "sample_frames": 1387937,
+    "channels": 1
+  },
+  "recognized_text": "第五种让繁星室暂时落到纸上找张废纸写下此刻最让你恼火的几句话不用修饰然后揉成纸团丢进纸篓如果只是想让手动起来也可以慢慢撕一张废纸听纸纤维断开的声音动作有开头也有结束你能决定什么时候停下一向2024年的实验发现受到挑衅后写下想法再丢弃或碎纸的人愤怒感比保留纸张的人下降的更多研究针对的是愤怒可能起作用的是把情绪写出来再用丢气给他画一个句号研究并不说明破坏的越用力就越解压",
+  "words": [
+    {
+      "word": "第",
+      "start": 0.0,
+      "end": 0.28,
+      "probability": 0.85595703125,
+      "index": 0
+    },
+    {
+      "word": "五",
+      "start": 0.28,
+      "end": 0.4,
+      "probability": 0.98974609375,
+      "index": 1
+    },
+    {
+      "word": "种",
+      "start": 0.4,
+      "end": 0.64,
+      "probability": 0.98193359375,
+      "index": 2
+    },
+    {
+      "word": "让",
+      "start": 0.64,
+      "end": 0.88,
+      "probability": 0.363525390625,
+      "index": 3
+    },
+    {
+      "word": "繁",
+      "start": 0.88,
+      "end": 1.08,
+      "probability": 0.7470703125,
+      "index": 4
+    },
+    {
+      "word": "星",
+      "start": 1.08,
+      "end": 1.26,
+      "probability": 0.9775390625,
+      "index": 5
+    },
+    {
+      "word": "室",
+      "start": 1.26,
+      "end": 1.46,
+      "probability": 0.66015625,
+      "index": 6
+    },
+    {
+      "word": "暂",
+      "start": 1.46,
+      "end": 1.72,
+      "probability": 0.982421875,
+      "index": 7
+    },
+    {
+      "word": "时",
+      "start": 1.72,
+      "end": 1.88,
+      "probability": 0.998046875,
+      "index": 8
+    },
+    {
+      "word": "落",
+      "start": 1.88,
+      "end": 2.0,
+      "probability": 0.990234375,
+      "index": 9
+    },
+    {
+      "word": "到",
+      "start": 2.0,
+      "end": 2.16,
+      "probability": 0.99462890625,
+      "index": 10
+    },
+    {
+      "word": "纸",
+      "start": 2.16,
+      "end": 2.32,
+      "probability": 0.998046875,
+      "index": 11
+    },
+    {
+      "word": "上",
+      "start": 2.32,
+      "end": 2.6,
+      "probability": 0.99853515625,
+      "index": 12
+    },
+    {
+      "word": "找",
+      "start": 2.6,
+      "end": 3.18,
+      "probability": 0.354248046875,
+      "index": 13
+    },
+    {
+      "word": "张",
+      "start": 3.18,
+      "end": 3.32,
+      "probability": 0.98779296875,
+      "index": 14
+    },
+    {
+      "word": "废",
+      "start": 3.32,
+      "end": 3.48,
+      "probability": 0.9970703125,
+      "index": 15
+    },
+    {
+      "word": "纸",
+      "start": 3.48,
+      "end": 3.76,
+      "probability": 0.9990234375,
+      "index": 16
+    },
+    {
+      "word": "写",
+      "start": 3.76,
+      "end": 4.28,
+      "probability": 0.96875,
+      "index": 17
+    },
+    {
+      "word": "下",
+      "start": 4.28,
+      "end": 4.42,
+      "probability": 0.99658203125,
+      "index": 18
+    },
+    {
+      "word": "此",
+      "start": 4.42,
+      "end": 4.58,
+      "probability": 0.9990234375,
+      "index": 19
+    },
+    {
+      "word": "刻",
+      "start": 4.58,
+      "end": 4.8,
+      "probability": 0.98974609375,
+      "index": 20
+    },
+    {
+      "word": "最",
+      "start": 4.8,
+      "end": 5.06,
+      "probability": 0.9921875,
+      "index": 21
+    },
+    {
+      "word": "让",
+      "start": 5.06,
+      "end": 5.2,
+      "probability": 0.998046875,
+      "index": 22
+    },
+    {
+      "word": "你",
+      "start": 5.2,
+      "end": 5.34,
+      "probability": 0.99951171875,
+      "index": 23
+    },
+    {
+      "word": "恼",
+      "start": 5.34,
+      "end": 5.48,
+      "probability": 0.9365234375,
+      "index": 24
+    },
+    {
+      "word": "火",
+      "start": 5.48,
+      "end": 5.68,
+      "probability": 0.9716796875,
+      "index": 25
+    },
+    {
+      "word": "的",
+      "start": 5.68,
+      "end": 5.8,
+      "probability": 0.99951171875,
+      "index": 26
+    },
+    {
+      "word": "几",
+      "start": 5.8,
+      "end": 5.96,
+      "probability": 0.9990234375,
+      "index": 27
+    },
+    {
+      "word": "句",
+      "start": 5.96,
+      "end": 6.1,
+      "probability": 1.0,
+      "index": 28
+    },
+    {
+      "word": "话",
+      "start": 6.1,
+      "end": 6.34,
+      "probability": 1.0,
+      "index": 29
+    },
+    {
+      "word": "不用",
+      "start": 6.34,
+      "end": 6.98,
+      "probability": 0.9814453125,
+      "index": 30
+    },
+    {
+      "word": "修",
+      "start": 6.98,
+      "end": 7.24,
+      "probability": 0.9423828125,
+      "index": 31
+    },
+    {
+      "word": "饰",
+      "start": 7.24,
+      "end": 7.44,
+      "probability": 0.9765625,
+      "index": 32
+    },
+    {
+      "word": "然后",
+      "start": 7.44,
+      "end": 8.18,
+      "probability": 0.85498046875,
+      "index": 33
+    },
+    {
+      "word": "揉",
+      "start": 8.18,
+      "end": 8.44,
+      "probability": 0.99609375,
+      "index": 34
+    },
+    {
+      "word": "成",
+      "start": 8.44,
+      "end": 8.62,
+      "probability": 0.99951171875,
+      "index": 35
+    },
+    {
+      "word": "纸",
+      "start": 8.62,
+      "end": 8.82,
+      "probability": 0.99951171875,
+      "index": 36
+    },
+    {
+      "word": "团",
+      "start": 8.82,
+      "end": 9.08,
+      "probability": 0.9921875,
+      "index": 37
+    },
+    {
+      "word": "丢",
+      "start": 9.08,
+      "end": 9.54,
+      "probability": 0.966796875,
+      "index": 38
+    },
+    {
+      "word": "进",
+      "start": 9.54,
+      "end": 9.72,
+      "probability": 0.99462890625,
+      "index": 39
+    },
+    {
+      "word": "纸",
+      "start": 9.72,
+      "end": 9.94,
+      "probability": 0.9951171875,
+      "index": 40
+    },
+    {
+      "word": "篓",
+      "start": 9.94,
+      "end": 10.08,
+      "probability": 0.9365234375,
+      "index": 41
+    },
+    {
+      "word": "如果",
+      "start": 10.480000000000002,
+      "end": 10.88,
+      "probability": 0.9970703125,
+      "index": 42
+    },
+    {
+      "word": "只是",
+      "start": 10.88,
+      "end": 11.2,
+      "probability": 0.99755859375,
+      "index": 43
+    },
+    {
+      "word": "想",
+      "start": 11.2,
+      "end": 11.38,
+      "probability": 0.99951171875,
+      "index": 44
+    },
+    {
+      "word": "让",
+      "start": 11.38,
+      "end": 11.54,
+      "probability": 0.60888671875,
+      "index": 45
+    },
+    {
+      "word": "手",
+      "start": 11.54,
+      "end": 11.74,
+      "probability": 0.99951171875,
+      "index": 46
+    },
+    {
+      "word": "动",
+      "start": 11.74,
+      "end": 11.88,
+      "probability": 0.9990234375,
+      "index": 47
+    },
+    {
+      "word": "起",
+      "start": 11.88,
+      "end": 12.1,
+      "probability": 0.99951171875,
+      "index": 48
+    },
+    {
+      "word": "来",
+      "start": 12.1,
+      "end": 12.3,
+      "probability": 1.0,
+      "index": 49
+    },
+    {
+      "word": "也可以",
+      "start": 12.3,
+      "end": 12.82,
+      "probability": 0.99072265625,
+      "index": 50
+    },
+    {
+      "word": "慢慢",
+      "start": 12.82,
+      "end": 13.32,
+      "probability": 0.99560546875,
+      "index": 51
+    },
+    {
+      "word": "撕",
+      "start": 13.32,
+      "end": 13.5,
+      "probability": 0.98828125,
+      "index": 52
+    },
+    {
+      "word": "一",
+      "start": 13.5,
+      "end": 13.66,
+      "probability": 0.99853515625,
+      "index": 53
+    },
+    {
+      "word": "张",
+      "start": 13.66,
+      "end": 13.8,
+      "probability": 0.99951171875,
+      "index": 54
+    },
+    {
+      "word": "废",
+      "start": 13.8,
+      "end": 14.0,
+      "probability": 1.0,
+      "index": 55
+    },
+    {
+      "word": "纸",
+      "start": 14.0,
+      "end": 14.26,
+      "probability": 1.0,
+      "index": 56
+    },
+    {
+      "word": "听",
+      "start": 14.26,
+      "end": 14.94,
+      "probability": 0.99267578125,
+      "index": 57
+    },
+    {
+      "word": "纸",
+      "start": 14.94,
+      "end": 15.12,
+      "probability": 0.9921875,
+      "index": 58
+    },
+    {
+      "word": "纤",
+      "start": 15.12,
+      "end": 15.28,
+      "probability": 0.9873046875,
+      "index": 59
+    },
+    {
+      "word": "维",
+      "start": 15.28,
+      "end": 15.42,
+      "probability": 0.986328125,
+      "index": 60
+    },
+    {
+      "word": "断",
+      "start": 15.42,
+      "end": 15.6,
+      "probability": 0.994140625,
+      "index": 61
+    },
+    {
+      "word": "开",
+      "start": 15.6,
+      "end": 15.82,
+      "probability": 0.99951171875,
+      "index": 62
+    },
+    {
+      "word": "的",
+      "start": 15.82,
+      "end": 15.98,
+      "probability": 0.99951171875,
+      "index": 63
+    },
+    {
+      "word": "声",
+      "start": 15.98,
+      "end": 16.14,
+      "probability": 0.99853515625,
+      "index": 64
+    },
+    {
+      "word": "音",
+      "start": 16.14,
+      "end": 16.76,
+      "probability": 0.9990234375,
+      "index": 65
+    },
+    {
+      "word": "动",
+      "start": 16.76,
+      "end": 17.26,
+      "probability": 0.98779296875,
+      "index": 66
+    },
+    {
+      "word": "作",
+      "start": 17.26,
+      "end": 17.46,
+      "probability": 0.99951171875,
+      "index": 67
+    },
+    {
+      "word": "有",
+      "start": 17.46,
+      "end": 17.66,
+      "probability": 0.9990234375,
+      "index": 68
+    },
+    {
+      "word": "开",
+      "start": 17.66,
+      "end": 17.86,
+      "probability": 1.0,
+      "index": 69
+    },
+    {
+      "word": "头",
+      "start": 17.86,
+      "end": 18.1,
+      "probability": 0.9990234375,
+      "index": 70
+    },
+    {
+      "word": "也",
+      "start": 18.1,
+      "end": 18.44,
+      "probability": 0.9404296875,
+      "index": 71
+    },
+    {
+      "word": "有",
+      "start": 18.44,
+      "end": 18.58,
+      "probability": 0.99951171875,
+      "index": 72
+    },
+    {
+      "word": "结",
+      "start": 18.58,
+      "end": 18.76,
+      "probability": 0.998046875,
+      "index": 73
+    },
+    {
+      "word": "束",
+      "start": 18.76,
+      "end": 19.0,
+      "probability": 0.99951171875,
+      "index": 74
+    },
+    {
+      "word": "你",
+      "start": 19.0,
+      "end": 19.56,
+      "probability": 0.99560546875,
+      "index": 75
+    },
+    {
+      "word": "能",
+      "start": 19.56,
+      "end": 19.7,
+      "probability": 0.99951171875,
+      "index": 76
+    },
+    {
+      "word": "决",
+      "start": 19.7,
+      "end": 19.9,
+      "probability": 0.99951171875,
+      "index": 77
+    },
+    {
+      "word": "定",
+      "start": 19.9,
+      "end": 20.06,
+      "probability": 0.9990234375,
+      "index": 78
+    },
+    {
+      "word": "什么",
+      "start": 20.06,
+      "end": 20.4,
+      "probability": 0.99951171875,
+      "index": 79
+    },
+    {
+      "word": "时候",
+      "start": 20.4,
+      "end": 20.7,
+      "probability": 0.99951171875,
+      "index": 80
+    },
+    {
+      "word": "停",
+      "start": 20.7,
+      "end": 20.9,
+      "probability": 0.99951171875,
+      "index": 81
+    },
+    {
+      "word": "下",
+      "start": 20.9,
+      "end": 21.18,
+      "probability": 0.99462890625,
+      "index": 82
+    },
+    {
+      "word": "一",
+      "start": 21.76,
+      "end": 22.16,
+      "probability": 0.927734375,
+      "index": 83
+    },
+    {
+      "word": "向",
+      "start": 22.16,
+      "end": 22.32,
+      "probability": 0.484619140625,
+      "index": 84
+    },
+    {
+      "word": "20",
+      "start": 22.32,
+      "end": 22.6,
+      "probability": 0.9951171875,
+      "index": 85
+    },
+    {
+      "word": "24",
+      "start": 22.6,
+      "end": 22.88,
+      "probability": 0.998046875,
+      "index": 86
+    },
+    {
+      "word": "年的",
+      "start": 22.88,
+      "end": 23.2,
+      "probability": 0.9990234375,
+      "index": 87
+    },
+    {
+      "word": "实",
+      "start": 23.2,
+      "end": 23.36,
+      "probability": 0.9951171875,
+      "index": 88
+    },
+    {
+      "word": "验",
+      "start": 23.36,
+      "end": 23.46,
+      "probability": 0.99951171875,
+      "index": 89
+    },
+    {
+      "word": "发",
+      "start": 23.46,
+      "end": 23.68,
+      "probability": 0.99951171875,
+      "index": 90
+    },
+    {
+      "word": "现",
+      "start": 23.68,
+      "end": 23.92,
+      "probability": 0.99951171875,
+      "index": 91
+    },
+    {
+      "word": "受",
+      "start": 23.92,
+      "end": 24.36,
+      "probability": 0.98681640625,
+      "index": 92
+    },
+    {
+      "word": "到",
+      "start": 24.36,
+      "end": 24.54,
+      "probability": 0.9990234375,
+      "index": 93
+    },
+    {
+      "word": "挑",
+      "start": 24.54,
+      "end": 24.68,
+      "probability": 0.99609375,
+      "index": 94
+    },
+    {
+      "word": "衅",
+      "start": 24.68,
+      "end": 24.82,
+      "probability": 0.9619140625,
+      "index": 95
+    },
+    {
+      "word": "后",
+      "start": 24.82,
+      "end": 25.08,
+      "probability": 0.9990234375,
+      "index": 96
+    },
+    {
+      "word": "写",
+      "start": 25.08,
+      "end": 25.52,
+      "probability": 0.9990234375,
+      "index": 97
+    },
+    {
+      "word": "下",
+      "start": 25.52,
+      "end": 25.68,
+      "probability": 0.99755859375,
+      "index": 98
+    },
+    {
+      "word": "想",
+      "start": 25.68,
+      "end": 25.86,
+      "probability": 0.99853515625,
+      "index": 99
+    },
+    {
+      "word": "法",
+      "start": 25.86,
+      "end": 26.14,
+      "probability": 1.0,
+      "index": 100
+    },
+    {
+      "word": "再",
+      "start": 26.14,
+      "end": 26.5,
+      "probability": 0.67333984375,
+      "index": 101
+    },
+    {
+      "word": "丢",
+      "start": 26.5,
+      "end": 26.68,
+      "probability": 0.9990234375,
+      "index": 102
+    },
+    {
+      "word": "弃",
+      "start": 26.68,
+      "end": 26.86,
+      "probability": 0.9736328125,
+      "index": 103
+    },
+    {
+      "word": "或",
+      "start": 26.86,
+      "end": 27.18,
+      "probability": 0.99365234375,
+      "index": 104
+    },
+    {
+      "word": "碎",
+      "start": 27.18,
+      "end": 27.36,
+      "probability": 0.994140625,
+      "index": 105
+    },
+    {
+      "word": "纸",
+      "start": 27.36,
+      "end": 27.54,
+      "probability": 1.0,
+      "index": 106
+    },
+    {
+      "word": "的人",
+      "start": 27.54,
+      "end": 27.86,
+      "probability": 0.99755859375,
+      "index": 107
+    },
+    {
+      "word": "愤",
+      "start": 27.86,
+      "end": 28.48,
+      "probability": 0.96728515625,
+      "index": 108
+    },
+    {
+      "word": "怒",
+      "start": 28.48,
+      "end": 28.64,
+      "probability": 0.9990234375,
+      "index": 109
+    },
+    {
+      "word": "感",
+      "start": 28.64,
+      "end": 28.8,
+      "probability": 0.99951171875,
+      "index": 110
+    },
+    {
+      "word": "比",
+      "start": 28.8,
+      "end": 29.12,
+      "probability": 0.99658203125,
+      "index": 111
+    },
+    {
+      "word": "保",
+      "start": 29.12,
+      "end": 29.28,
+      "probability": 1.0,
+      "index": 112
+    },
+    {
+      "word": "留",
+      "start": 29.28,
+      "end": 29.44,
+      "probability": 0.9990234375,
+      "index": 113
+    },
+    {
+      "word": "纸",
+      "start": 29.44,
+      "end": 29.66,
+      "probability": 0.99365234375,
+      "index": 114
+    },
+    {
+      "word": "张",
+      "start": 29.66,
+      "end": 29.8,
+      "probability": 0.98193359375,
+      "index": 115
+    },
+    {
+      "word": "的人",
+      "start": 29.8,
+      "end": 30.1,
+      "probability": 0.998046875,
+      "index": 116
+    },
+    {
+      "word": "下",
+      "start": 30.1,
+      "end": 30.42,
+      "probability": 0.9951171875,
+      "index": 117
+    },
+    {
+      "word": "降",
+      "start": 30.42,
+      "end": 30.6,
+      "probability": 0.99951171875,
+      "index": 118
+    },
+    {
+      "word": "的",
+      "start": 30.6,
+      "end": 30.7,
+      "probability": 0.509765625,
+      "index": 119
+    },
+    {
+      "word": "更",
+      "start": 30.7,
+      "end": 30.84,
+      "probability": 1.0,
+      "index": 120
+    },
+    {
+      "word": "多",
+      "start": 30.84,
+      "end": 31.14,
+      "probability": 1.0,
+      "index": 121
+    },
+    {
+      "word": "研",
+      "start": 31.14,
+      "end": 31.74,
+      "probability": 0.96728515625,
+      "index": 122
+    },
+    {
+      "word": "究",
+      "start": 31.74,
+      "end": 31.9,
+      "probability": 0.99951171875,
+      "index": 123
+    },
+    {
+      "word": "针",
+      "start": 31.9,
+      "end": 32.1,
+      "probability": 0.99609375,
+      "index": 124
+    },
+    {
+      "word": "对",
+      "start": 32.1,
+      "end": 32.28,
+      "probability": 0.9990234375,
+      "index": 125
+    },
+    {
+      "word": "的是",
+      "start": 32.28,
+      "end": 32.74,
+      "probability": 0.888671875,
+      "index": 126
+    },
+    {
+      "word": "愤",
+      "start": 32.74,
+      "end": 33.0,
+      "probability": 0.9990234375,
+      "index": 127
+    },
+    {
+      "word": "怒",
+      "start": 33.0,
+      "end": 33.24,
+      "probability": 0.9990234375,
+      "index": 128
+    },
+    {
+      "word": "可能",
+      "start": 33.24,
+      "end": 33.92,
+      "probability": 0.9892578125,
+      "index": 129
+    },
+    {
+      "word": "起",
+      "start": 33.92,
+      "end": 34.12,
+      "probability": 0.9990234375,
+      "index": 130
+    },
+    {
+      "word": "作",
+      "start": 34.12,
+      "end": 34.28,
+      "probability": 0.9990234375,
+      "index": 131
+    },
+    {
+      "word": "用",
+      "start": 34.28,
+      "end": 34.48,
+      "probability": 1.0,
+      "index": 132
+    },
+    {
+      "word": "的",
+      "start": 34.48,
+      "end": 34.66,
+      "probability": 0.599609375,
+      "index": 133
+    },
+    {
+      "word": "是",
+      "start": 34.66,
+      "end": 35.18,
+      "probability": 0.93603515625,
+      "index": 134
+    },
+    {
+      "word": "把",
+      "start": 35.18,
+      "end": 35.34,
+      "probability": 0.9990234375,
+      "index": 135
+    },
+    {
+      "word": "情",
+      "start": 35.34,
+      "end": 35.54,
+      "probability": 0.99951171875,
+      "index": 136
+    },
+    {
+      "word": "绪",
+      "start": 35.54,
+      "end": 35.72,
+      "probability": 0.99658203125,
+      "index": 137
+    },
+    {
+      "word": "写",
+      "start": 35.72,
+      "end": 35.96,
+      "probability": 0.99951171875,
+      "index": 138
+    },
+    {
+      "word": "出来",
+      "start": 35.96,
+      "end": 36.36,
+      "probability": 0.9990234375,
+      "index": 139
+    },
+    {
+      "word": "再",
+      "start": 36.36,
+      "end": 36.76,
+      "probability": 0.9716796875,
+      "index": 140
+    },
+    {
+      "word": "用",
+      "start": 36.76,
+      "end": 36.94,
+      "probability": 0.99951171875,
+      "index": 141
+    },
+    {
+      "word": "丢",
+      "start": 36.94,
+      "end": 37.14,
+      "probability": 0.9990234375,
+      "index": 142
+    },
+    {
+      "word": "气",
+      "start": 37.14,
+      "end": 37.36,
+      "probability": 0.49560546875,
+      "index": 143
+    },
+    {
+      "word": "给",
+      "start": 37.36,
+      "end": 37.66,
+      "probability": 0.99951171875,
+      "index": 144
+    },
+    {
+      "word": "他",
+      "start": 37.66,
+      "end": 37.82,
+      "probability": 0.57861328125,
+      "index": 145
+    },
+    {
+      "word": "画",
+      "start": 37.82,
+      "end": 37.96,
+      "probability": 0.955078125,
+      "index": 146
+    },
+    {
+      "word": "一个",
+      "start": 37.96,
+      "end": 38.18,
+      "probability": 0.99951171875,
+      "index": 147
+    },
+    {
+      "word": "句",
+      "start": 38.18,
+      "end": 38.32,
+      "probability": 0.9892578125,
+      "index": 148
+    },
+    {
+      "word": "号",
+      "start": 38.32,
+      "end": 38.6,
+      "probability": 0.9951171875,
+      "index": 149
+    },
+    {
+      "word": "研",
+      "start": 39.160000000000004,
+      "end": 39.56,
+      "probability": 1.0,
+      "index": 150
+    },
+    {
+      "word": "究",
+      "start": 39.56,
+      "end": 39.76,
+      "probability": 1.0,
+      "index": 151
+    },
+    {
+      "word": "并",
+      "start": 39.76,
+      "end": 40.0,
+      "probability": 1.0,
+      "index": 152
+    },
+    {
+      "word": "不",
+      "start": 40.0,
+      "end": 40.12,
+      "probability": 0.99853515625,
+      "index": 153
+    },
+    {
+      "word": "说",
+      "start": 40.12,
+      "end": 40.3,
+      "probability": 0.9990234375,
+      "index": 154
+    },
+    {
+      "word": "明",
+      "start": 40.3,
+      "end": 40.6,
+      "probability": 1.0,
+      "index": 155
+    },
+    {
+      "word": "破",
+      "start": 40.6,
+      "end": 41.14,
+      "probability": 0.9775390625,
+      "index": 156
+    },
+    {
+      "word": "坏",
+      "start": 41.14,
+      "end": 41.4,
+      "probability": 0.998046875,
+      "index": 157
+    },
+    {
+      "word": "的",
+      "start": 41.4,
+      "end": 41.56,
+      "probability": 0.95361328125,
+      "index": 158
+    },
+    {
+      "word": "越",
+      "start": 41.56,
+      "end": 41.82,
+      "probability": 0.99755859375,
+      "index": 159
+    },
+    {
+      "word": "用",
+      "start": 41.82,
+      "end": 42.04,
+      "probability": 1.0,
+      "index": 160
+    },
+    {
+      "word": "力",
+      "start": 42.04,
+      "end": 42.22,
+      "probability": 0.99951171875,
+      "index": 161
+    },
+    {
+      "word": "就",
+      "start": 42.22,
+      "end": 42.54,
+      "probability": 0.99951171875,
+      "index": 162
+    },
+    {
+      "word": "越",
+      "start": 42.54,
+      "end": 42.72,
+      "probability": 1.0,
+      "index": 163
+    },
+    {
+      "word": "解",
+      "start": 42.72,
+      "end": 42.88,
+      "probability": 0.9931640625,
+      "index": 164
+    },
+    {
+      "word": "压",
+      "start": 42.88,
+      "end": 43.14,
+      "probability": 0.998046875,
+      "index": 165
+    }
+  ],
+  "asr_segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 2.6,
+      "text": "第五种让繁星室暂时落到纸上",
+      "tokens": [
+        50365,
+        7536,
+        21001,
+        39810,
+        33650,
+        23141,
+        223,
+        20682,
+        2415,
+        97,
+        23826,
+        224,
+        15729,
+        30848,
+        4511,
+        16853,
+        116,
+        5708,
+        50497
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1267339033239028,
+      "compression_ratio": 1.2456140350877194,
+      "no_speech_prob": 1.5326753755040556e-11,
+      "words": [
+        {
+          "word": "第",
+          "start": 0.0,
+          "end": 0.28,
+          "probability": 0.85595703125
+        },
+        {
+          "word": "五",
+          "start": 0.28,
+          "end": 0.4,
+          "probability": 0.98974609375
+        },
+        {
+          "word": "种",
+          "start": 0.4,
+          "end": 0.64,
+          "probability": 0.98193359375
+        },
+        {
+          "word": "让",
+          "start": 0.64,
+          "end": 0.88,
+          "probability": 0.363525390625
+        },
+        {
+          "word": "繁",
+          "start": 0.88,
+          "end": 1.08,
+          "probability": 0.7470703125
+        },
+        {
+          "word": "星",
+          "start": 1.08,
+          "end": 1.26,
+          "probability": 0.9775390625
+        },
+        {
+          "word": "室",
+          "start": 1.26,
+          "end": 1.46,
+          "probability": 0.66015625
+        },
+        {
+          "word": "暂",
+          "start": 1.46,
+          "end": 1.72,
+          "probability": 0.982421875
+        },
+        {
+          "word": "时",
+          "start": 1.72,
+          "end": 1.88,
+          "probability": 0.998046875
+        },
+        {
+          "word": "落",
+          "start": 1.88,
+          "end": 2.0,
+          "probability": 0.990234375
+        },
+        {
+          "word": "到",
+          "start": 2.0,
+          "end": 2.16,
+          "probability": 0.99462890625
+        },
+        {
+          "word": "纸",
+          "start": 2.16,
+          "end": 2.32,
+          "probability": 0.998046875
+        },
+        {
+          "word": "上",
+          "start": 2.32,
+          "end": 2.6,
+          "probability": 0.99853515625
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 2.6,
+      "end": 3.76,
+      "text": "找张废纸",
+      "tokens": [
+        50497,
+        25085,
+        44059,
+        6346,
+        253,
+        16853,
+        116,
+        50554
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1267339033239028,
+      "compression_ratio": 1.2456140350877194,
+      "no_speech_prob": 1.5326753755040556e-11,
+      "words": [
+        {
+          "word": "找",
+          "start": 2.6,
+          "end": 3.18,
+          "probability": 0.354248046875
+        },
+        {
+          "word": "张",
+          "start": 3.18,
+          "end": 3.32,
+          "probability": 0.98779296875
+        },
+        {
+          "word": "废",
+          "start": 3.32,
+          "end": 3.48,
+          "probability": 0.9970703125
+        },
+        {
+          "word": "纸",
+          "start": 3.48,
+          "end": 3.76,
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 3.76,
+      "end": 6.34,
+      "text": "写下此刻最让你恼火的几句话",
+      "tokens": [
+        50554,
+        5676,
+        247,
+        4438,
+        17947,
+        45500,
+        8661,
+        33650,
+        2166,
+        11845,
+        120,
+        26171,
+        1546,
+        6336,
+        254,
+        34592,
+        21596,
+        50684
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1267339033239028,
+      "compression_ratio": 1.2456140350877194,
+      "no_speech_prob": 1.5326753755040556e-11,
+      "words": [
+        {
+          "word": "写",
+          "start": 3.76,
+          "end": 4.28,
+          "probability": 0.96875
+        },
+        {
+          "word": "下",
+          "start": 4.28,
+          "end": 4.42,
+          "probability": 0.99658203125
+        },
+        {
+          "word": "此",
+          "start": 4.42,
+          "end": 4.58,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "刻",
+          "start": 4.58,
+          "end": 4.8,
+          "probability": 0.98974609375
+        },
+        {
+          "word": "最",
+          "start": 4.8,
+          "end": 5.06,
+          "probability": 0.9921875
+        },
+        {
+          "word": "让",
+          "start": 5.06,
+          "end": 5.2,
+          "probability": 0.998046875
+        },
+        {
+          "word": "你",
+          "start": 5.2,
+          "end": 5.34,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "恼",
+          "start": 5.34,
+          "end": 5.48,
+          "probability": 0.9365234375
+        },
+        {
+          "word": "火",
+          "start": 5.48,
+          "end": 5.68,
+          "probability": 0.9716796875
+        },
+        {
+          "word": "的",
+          "start": 5.68,
+          "end": 5.8,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "几",
+          "start": 5.8,
+          "end": 5.96,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "句",
+          "start": 5.96,
+          "end": 6.1,
+          "probability": 1.0
+        },
+        {
+          "word": "话",
+          "start": 6.1,
+          "end": 6.34,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 6.34,
+      "end": 7.44,
+      "text": "不用修饰",
+      "tokens": [
+        50684,
+        24384,
+        7792,
+        106,
+        41520,
+        108,
+        50739
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1267339033239028,
+      "compression_ratio": 1.2456140350877194,
+      "no_speech_prob": 1.5326753755040556e-11,
+      "words": [
+        {
+          "word": "不用",
+          "start": 6.34,
+          "end": 6.98,
+          "probability": 0.9814453125
+        },
+        {
+          "word": "修",
+          "start": 6.98,
+          "end": 7.24,
+          "probability": 0.9423828125
+        },
+        {
+          "word": "饰",
+          "start": 7.24,
+          "end": 7.44,
+          "probability": 0.9765625
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 7.44,
+      "end": 9.08,
+      "text": "然后揉成纸团",
+      "tokens": [
+        50739,
+        26636,
+        11673,
+        231,
+        11336,
+        16853,
+        116,
+        3919,
+        95,
+        50821
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1267339033239028,
+      "compression_ratio": 1.2456140350877194,
+      "no_speech_prob": 1.5326753755040556e-11,
+      "words": [
+        {
+          "word": "然后",
+          "start": 7.44,
+          "end": 8.18,
+          "probability": 0.85498046875
+        },
+        {
+          "word": "揉",
+          "start": 8.18,
+          "end": 8.44,
+          "probability": 0.99609375
+        },
+        {
+          "word": "成",
+          "start": 8.44,
+          "end": 8.62,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "纸",
+          "start": 8.62,
+          "end": 8.82,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "团",
+          "start": 8.82,
+          "end": 9.08,
+          "probability": 0.9921875
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 9.08,
+      "end": 10.08,
+      "text": "丢进纸篓",
+      "tokens": [
+        50821,
+        940,
+        95,
+        36700,
+        16853,
+        116,
+        20878,
+        241,
+        50870
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1267339033239028,
+      "compression_ratio": 1.2456140350877194,
+      "no_speech_prob": 1.5326753755040556e-11,
+      "words": [
+        {
+          "word": "丢",
+          "start": 9.08,
+          "end": 9.54,
+          "probability": 0.966796875
+        },
+        {
+          "word": "进",
+          "start": 9.54,
+          "end": 9.72,
+          "probability": 0.99462890625
+        },
+        {
+          "word": "纸",
+          "start": 9.72,
+          "end": 9.94,
+          "probability": 0.9951171875
+        },
+        {
+          "word": "篓",
+          "start": 9.94,
+          "end": 10.08,
+          "probability": 0.9365234375
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 10.480000000000002,
+      "end": 12.3,
+      "text": "如果只是想让手动起来",
+      "tokens": [
+        50870,
+        13119,
+        36859,
+        7093,
+        33650,
+        11389,
+        34961,
+        9147,
+        6912,
+        50982
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1267339033239028,
+      "compression_ratio": 1.2456140350877194,
+      "no_speech_prob": 1.5326753755040556e-11,
+      "words": [
+        {
+          "word": "如果",
+          "start": 10.480000000000002,
+          "end": 10.88,
+          "probability": 0.9970703125
+        },
+        {
+          "word": "只是",
+          "start": 10.88,
+          "end": 11.2,
+          "probability": 0.99755859375
+        },
+        {
+          "word": "想",
+          "start": 11.2,
+          "end": 11.38,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "让",
+          "start": 11.38,
+          "end": 11.54,
+          "probability": 0.60888671875
+        },
+        {
+          "word": "手",
+          "start": 11.54,
+          "end": 11.74,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "动",
+          "start": 11.74,
+          "end": 11.88,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "起",
+          "start": 11.88,
+          "end": 12.1,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "来",
+          "start": 12.1,
+          "end": 12.3,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 12.3,
+      "end": 14.26,
+      "text": "也可以慢慢撕一张废纸",
+      "tokens": [
+        50982,
+        47935,
+        41439,
+        20559,
+        243,
+        2257,
+        44059,
+        6346,
+        253,
+        16853,
+        116,
+        51078
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1267339033239028,
+      "compression_ratio": 1.2456140350877194,
+      "no_speech_prob": 1.5326753755040556e-11,
+      "words": [
+        {
+          "word": "也可以",
+          "start": 12.3,
+          "end": 12.82,
+          "probability": 0.99072265625
+        },
+        {
+          "word": "慢慢",
+          "start": 12.82,
+          "end": 13.32,
+          "probability": 0.99560546875
+        },
+        {
+          "word": "撕",
+          "start": 13.32,
+          "end": 13.5,
+          "probability": 0.98828125
+        },
+        {
+          "word": "一",
+          "start": 13.5,
+          "end": 13.66,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "张",
+          "start": 13.66,
+          "end": 13.8,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "废",
+          "start": 13.8,
+          "end": 14.0,
+          "probability": 1.0
+        },
+        {
+          "word": "纸",
+          "start": 14.0,
+          "end": 14.26,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 14.26,
+      "end": 16.76,
+      "text": "听纸纤维断开的声音",
+      "tokens": [
+        51078,
+        31022,
+        16853,
+        116,
+        16853,
+        97,
+        10115,
+        112,
+        4307,
+        255,
+        18937,
+        1546,
+        32045,
+        18034,
+        51188
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1267339033239028,
+      "compression_ratio": 1.2456140350877194,
+      "no_speech_prob": 1.5326753755040556e-11,
+      "words": [
+        {
+          "word": "听",
+          "start": 14.26,
+          "end": 14.94,
+          "probability": 0.99267578125
+        },
+        {
+          "word": "纸",
+          "start": 14.94,
+          "end": 15.12,
+          "probability": 0.9921875
+        },
+        {
+          "word": "纤",
+          "start": 15.12,
+          "end": 15.28,
+          "probability": 0.9873046875
+        },
+        {
+          "word": "维",
+          "start": 15.28,
+          "end": 15.42,
+          "probability": 0.986328125
+        },
+        {
+          "word": "断",
+          "start": 15.42,
+          "end": 15.6,
+          "probability": 0.994140625
+        },
+        {
+          "word": "开",
+          "start": 15.6,
+          "end": 15.82,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "的",
+          "start": 15.82,
+          "end": 15.98,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "声",
+          "start": 15.98,
+          "end": 16.14,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "音",
+          "start": 16.14,
+          "end": 16.76,
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 0,
+      "start": 16.76,
+      "end": 19.0,
+      "text": "动作有开头也有结束",
+      "tokens": [
+        51188,
+        34961,
+        11914,
+        2412,
+        18937,
+        39862,
+        6404,
+        2412,
+        45641,
+        44320,
+        51316
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1267339033239028,
+      "compression_ratio": 1.2456140350877194,
+      "no_speech_prob": 1.5326753755040556e-11,
+      "words": [
+        {
+          "word": "动",
+          "start": 16.76,
+          "end": 17.26,
+          "probability": 0.98779296875
+        },
+        {
+          "word": "作",
+          "start": 17.26,
+          "end": 17.46,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "有",
+          "start": 17.46,
+          "end": 17.66,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "开",
+          "start": 17.66,
+          "end": 17.86,
+          "probability": 1.0
+        },
+        {
+          "word": "头",
+          "start": 17.86,
+          "end": 18.1,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "也",
+          "start": 18.1,
+          "end": 18.44,
+          "probability": 0.9404296875
+        },
+        {
+          "word": "有",
+          "start": 18.44,
+          "end": 18.58,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "结",
+          "start": 18.58,
+          "end": 18.76,
+          "probability": 0.998046875
+        },
+        {
+          "word": "束",
+          "start": 18.76,
+          "end": 19.0,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "seek": 0,
+      "start": 19.0,
+      "end": 21.18,
+      "text": "你能决定什么时候停下",
+      "tokens": [
+        51316,
+        2166,
+        8225,
+        5676,
+        111,
+        12088,
+        10440,
+        29111,
+        36135,
+        4438,
+        51426
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1267339033239028,
+      "compression_ratio": 1.2456140350877194,
+      "no_speech_prob": 1.5326753755040556e-11,
+      "words": [
+        {
+          "word": "你",
+          "start": 19.0,
+          "end": 19.56,
+          "probability": 0.99560546875
+        },
+        {
+          "word": "能",
+          "start": 19.56,
+          "end": 19.7,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "决",
+          "start": 19.7,
+          "end": 19.9,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "定",
+          "start": 19.9,
+          "end": 20.06,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "什么",
+          "start": 20.06,
+          "end": 20.4,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "时候",
+          "start": 20.4,
+          "end": 20.7,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "停",
+          "start": 20.7,
+          "end": 20.9,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "下",
+          "start": 20.9,
+          "end": 21.18,
+          "probability": 0.99462890625
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "seek": 0,
+      "start": 21.76,
+      "end": 23.92,
+      "text": "一向2024年的实验发现",
+      "tokens": [
+        51426,
+        2257,
+        24282,
+        2009,
+        7911,
+        34128,
+        24726,
+        49657,
+        234,
+        28926,
+        20204,
+        51565
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1267339033239028,
+      "compression_ratio": 1.2456140350877194,
+      "no_speech_prob": 1.5326753755040556e-11,
+      "words": [
+        {
+          "word": "一",
+          "start": 21.76,
+          "end": 22.16,
+          "probability": 0.927734375
+        },
+        {
+          "word": "向",
+          "start": 22.16,
+          "end": 22.32,
+          "probability": 0.484619140625
+        },
+        {
+          "word": "20",
+          "start": 22.32,
+          "end": 22.6,
+          "probability": 0.9951171875
+        },
+        {
+          "word": "24",
+          "start": 22.6,
+          "end": 22.88,
+          "probability": 0.998046875
+        },
+        {
+          "word": "年的",
+          "start": 22.88,
+          "end": 23.2,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "实",
+          "start": 23.2,
+          "end": 23.36,
+          "probability": 0.9951171875
+        },
+        {
+          "word": "验",
+          "start": 23.36,
+          "end": 23.46,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "发",
+          "start": 23.46,
+          "end": 23.68,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "现",
+          "start": 23.68,
+          "end": 23.92,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "seek": 0,
+      "start": 23.92,
+      "end": 25.08,
+      "text": "受到挑衅后",
+      "tokens": [
+        51565,
+        23151,
+        4511,
+        49067,
+        9890,
+        227,
+        13547,
+        51622
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1267339033239028,
+      "compression_ratio": 1.2456140350877194,
+      "no_speech_prob": 1.5326753755040556e-11,
+      "words": [
+        {
+          "word": "受",
+          "start": 23.92,
+          "end": 24.36,
+          "probability": 0.98681640625
+        },
+        {
+          "word": "到",
+          "start": 24.36,
+          "end": 24.54,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "挑",
+          "start": 24.54,
+          "end": 24.68,
+          "probability": 0.99609375
+        },
+        {
+          "word": "衅",
+          "start": 24.68,
+          "end": 24.82,
+          "probability": 0.9619140625
+        },
+        {
+          "word": "后",
+          "start": 24.82,
+          "end": 25.08,
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "seek": 0,
+      "start": 25.08,
+      "end": 27.86,
+      "text": "写下想法再丢弃或碎纸的人",
+      "tokens": [
+        51622,
+        5676,
+        247,
+        4438,
+        7093,
+        11148,
+        8623,
+        940,
+        95,
+        5702,
+        225,
+        19780,
+        16337,
+        236,
+        16853,
+        116,
+        29979,
+        51759
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1267339033239028,
+      "compression_ratio": 1.2456140350877194,
+      "no_speech_prob": 1.5326753755040556e-11,
+      "words": [
+        {
+          "word": "写",
+          "start": 25.08,
+          "end": 25.52,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "下",
+          "start": 25.52,
+          "end": 25.68,
+          "probability": 0.99755859375
+        },
+        {
+          "word": "想",
+          "start": 25.68,
+          "end": 25.86,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "法",
+          "start": 25.86,
+          "end": 26.14,
+          "probability": 1.0
+        },
+        {
+          "word": "再",
+          "start": 26.14,
+          "end": 26.5,
+          "probability": 0.67333984375
+        },
+        {
+          "word": "丢",
+          "start": 26.5,
+          "end": 26.68,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "弃",
+          "start": 26.68,
+          "end": 26.86,
+          "probability": 0.9736328125
+        },
+        {
+          "word": "或",
+          "start": 26.86,
+          "end": 27.18,
+          "probability": 0.99365234375
+        },
+        {
+          "word": "碎",
+          "start": 27.18,
+          "end": 27.36,
+          "probability": 0.994140625
+        },
+        {
+          "word": "纸",
+          "start": 27.36,
+          "end": 27.54,
+          "probability": 1.0
+        },
+        {
+          "word": "的人",
+          "start": 27.54,
+          "end": 27.86,
+          "probability": 0.99755859375
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "seek": 2786,
+      "start": 27.86,
+      "end": 31.14,
+      "text": "愤怒感比保留纸张的人下降的更多",
+      "tokens": [
+        50365,
+        4820,
+        97,
+        3757,
+        240,
+        9709,
+        11706,
+        24302,
+        24456,
+        16853,
+        116,
+        44059,
+        29979,
+        4438,
+        47421,
+        1546,
+        19002,
+        6392,
+        50531
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.11413855936335421,
+      "compression_ratio": 1.1666666666666667,
+      "no_speech_prob": 8.20114028771135e-12,
+      "words": [
+        {
+          "word": "愤",
+          "start": 27.86,
+          "end": 28.48,
+          "probability": 0.96728515625
+        },
+        {
+          "word": "怒",
+          "start": 28.48,
+          "end": 28.64,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "感",
+          "start": 28.64,
+          "end": 28.8,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "比",
+          "start": 28.8,
+          "end": 29.12,
+          "probability": 0.99658203125
+        },
+        {
+          "word": "保",
+          "start": 29.12,
+          "end": 29.28,
+          "probability": 1.0
+        },
+        {
+          "word": "留",
+          "start": 29.28,
+          "end": 29.44,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "纸",
+          "start": 29.44,
+          "end": 29.66,
+          "probability": 0.99365234375
+        },
+        {
+          "word": "张",
+          "start": 29.66,
+          "end": 29.8,
+          "probability": 0.98193359375
+        },
+        {
+          "word": "的人",
+          "start": 29.8,
+          "end": 30.1,
+          "probability": 0.998046875
+        },
+        {
+          "word": "下",
+          "start": 30.1,
+          "end": 30.42,
+          "probability": 0.9951171875
+        },
+        {
+          "word": "降",
+          "start": 30.42,
+          "end": 30.6,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "的",
+          "start": 30.6,
+          "end": 30.7,
+          "probability": 0.509765625
+        },
+        {
+          "word": "更",
+          "start": 30.7,
+          "end": 30.84,
+          "probability": 1.0
+        },
+        {
+          "word": "多",
+          "start": 30.84,
+          "end": 31.14,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "seek": 2786,
+      "start": 31.14,
+      "end": 33.24,
+      "text": "研究针对的是愤怒",
+      "tokens": [
+        50531,
+        23230,
+        242,
+        44704,
+        25153,
+        230,
+        8713,
+        24620,
+        4820,
+        97,
+        3757,
+        240,
+        50632
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.11413855936335421,
+      "compression_ratio": 1.1666666666666667,
+      "no_speech_prob": 8.20114028771135e-12,
+      "words": [
+        {
+          "word": "研",
+          "start": 31.14,
+          "end": 31.74,
+          "probability": 0.96728515625
+        },
+        {
+          "word": "究",
+          "start": 31.74,
+          "end": 31.9,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "针",
+          "start": 31.9,
+          "end": 32.1,
+          "probability": 0.99609375
+        },
+        {
+          "word": "对",
+          "start": 32.1,
+          "end": 32.28,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "的是",
+          "start": 32.28,
+          "end": 32.74,
+          "probability": 0.888671875
+        },
+        {
+          "word": "愤",
+          "start": 32.74,
+          "end": 33.0,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "怒",
+          "start": 33.0,
+          "end": 33.24,
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "seek": 2786,
+      "start": 33.24,
+      "end": 34.66,
+      "text": "可能起作用的",
+      "tokens": [
+        50632,
+        16657,
+        9147,
+        11914,
+        9254,
+        1546,
+        50708
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.11413855936335421,
+      "compression_ratio": 1.1666666666666667,
+      "no_speech_prob": 8.20114028771135e-12,
+      "words": [
+        {
+          "word": "可能",
+          "start": 33.24,
+          "end": 33.92,
+          "probability": 0.9892578125
+        },
+        {
+          "word": "起",
+          "start": 33.92,
+          "end": 34.12,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "作",
+          "start": 34.12,
+          "end": 34.28,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "用",
+          "start": 34.28,
+          "end": 34.48,
+          "probability": 1.0
+        },
+        {
+          "word": "的",
+          "start": 34.48,
+          "end": 34.66,
+          "probability": 0.599609375
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "seek": 2786,
+      "start": 34.66,
+      "end": 36.36,
+      "text": "是把情绪写出来",
+      "tokens": [
+        50708,
+        1541,
+        16075,
+        10570,
+        10115,
+        103,
+        5676,
+        247,
+        44561,
+        50791
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.11413855936335421,
+      "compression_ratio": 1.1666666666666667,
+      "no_speech_prob": 8.20114028771135e-12,
+      "words": [
+        {
+          "word": "是",
+          "start": 34.66,
+          "end": 35.18,
+          "probability": 0.93603515625
+        },
+        {
+          "word": "把",
+          "start": 35.18,
+          "end": 35.34,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "情",
+          "start": 35.34,
+          "end": 35.54,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "绪",
+          "start": 35.54,
+          "end": 35.72,
+          "probability": 0.99658203125
+        },
+        {
+          "word": "写",
+          "start": 35.72,
+          "end": 35.96,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "出来",
+          "start": 35.96,
+          "end": 36.36,
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "seek": 2786,
+      "start": 36.36,
+      "end": 38.6,
+      "text": "再用丢气给他画一个句号",
+      "tokens": [
+        50791,
+        8623,
+        9254,
+        940,
+        95,
+        42204,
+        23197,
+        5000,
+        27126,
+        20182,
+        34592,
+        26987,
+        50905
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.11413855936335421,
+      "compression_ratio": 1.1666666666666667,
+      "no_speech_prob": 8.20114028771135e-12,
+      "words": [
+        {
+          "word": "再",
+          "start": 36.36,
+          "end": 36.76,
+          "probability": 0.9716796875
+        },
+        {
+          "word": "用",
+          "start": 36.76,
+          "end": 36.94,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "丢",
+          "start": 36.94,
+          "end": 37.14,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "气",
+          "start": 37.14,
+          "end": 37.36,
+          "probability": 0.49560546875
+        },
+        {
+          "word": "给",
+          "start": 37.36,
+          "end": 37.66,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "他",
+          "start": 37.66,
+          "end": 37.82,
+          "probability": 0.57861328125
+        },
+        {
+          "word": "画",
+          "start": 37.82,
+          "end": 37.96,
+          "probability": 0.955078125
+        },
+        {
+          "word": "一个",
+          "start": 37.96,
+          "end": 38.18,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "句",
+          "start": 38.18,
+          "end": 38.32,
+          "probability": 0.9892578125
+        },
+        {
+          "word": "号",
+          "start": 38.32,
+          "end": 38.6,
+          "probability": 0.9951171875
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "seek": 2786,
+      "start": 39.160000000000004,
+      "end": 40.6,
+      "text": "研究并不说明",
+      "tokens": [
+        50905,
+        23230,
+        242,
+        44704,
+        3509,
+        114,
+        1960,
+        8090,
+        11100,
+        51003
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.11413855936335421,
+      "compression_ratio": 1.1666666666666667,
+      "no_speech_prob": 8.20114028771135e-12,
+      "words": [
+        {
+          "word": "研",
+          "start": 39.160000000000004,
+          "end": 39.56,
+          "probability": 1.0
+        },
+        {
+          "word": "究",
+          "start": 39.56,
+          "end": 39.76,
+          "probability": 1.0
+        },
+        {
+          "word": "并",
+          "start": 39.76,
+          "end": 40.0,
+          "probability": 1.0
+        },
+        {
+          "word": "不",
+          "start": 40.0,
+          "end": 40.12,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "说",
+          "start": 40.12,
+          "end": 40.3,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "明",
+          "start": 40.3,
+          "end": 40.6,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "seek": 2786,
+      "start": 40.6,
+      "end": 43.14,
+      "text": "破坏的越用力就越解压",
+      "tokens": [
+        51003,
+        39560,
+        14872,
+        237,
+        1546,
+        25761,
+        9254,
+        13486,
+        3111,
+        25761,
+        17278,
+        5014,
+        233,
+        51130
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.11413855936335421,
+      "compression_ratio": 1.1666666666666667,
+      "no_speech_prob": 8.20114028771135e-12,
+      "words": [
+        {
+          "word": "破",
+          "start": 40.6,
+          "end": 41.14,
+          "probability": 0.9775390625
+        },
+        {
+          "word": "坏",
+          "start": 41.14,
+          "end": 41.4,
+          "probability": 0.998046875
+        },
+        {
+          "word": "的",
+          "start": 41.4,
+          "end": 41.56,
+          "probability": 0.95361328125
+        },
+        {
+          "word": "越",
+          "start": 41.56,
+          "end": 41.82,
+          "probability": 0.99755859375
+        },
+        {
+          "word": "用",
+          "start": 41.82,
+          "end": 42.04,
+          "probability": 1.0
+        },
+        {
+          "word": "力",
+          "start": 42.04,
+          "end": 42.22,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "就",
+          "start": 42.22,
+          "end": 42.54,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "越",
+          "start": 42.54,
+          "end": 42.72,
+          "probability": 1.0
+        },
+        {
+          "word": "解",
+          "start": 42.72,
+          "end": 42.88,
+          "probability": 0.9931640625
+        },
+        {
+          "word": "压",
+          "start": 42.88,
+          "end": 43.14,
+          "probability": 0.998046875
+        }
+      ]
+    }
+  ],
+  "silence": {
+    "-42": [
+      {
+        "start": 0.0,
+        "end": 0.180938,
+        "duration": 0.180938
+      },
+      {
+        "start": 2.609625,
+        "end": 3.089125,
+        "duration": 0.4795
+      },
+      {
+        "start": 3.774125,
+        "end": 4.165406,
+        "duration": 0.391281
+      },
+      {
+        "start": 6.369125,
+        "end": 6.804031,
+        "duration": 0.434906
+      },
+      {
+        "start": 7.4945,
+        "end": 7.918781,
+        "duration": 0.424281
+      },
+      {
+        "start": 9.180063,
+        "end": 9.4715,
+        "duration": 0.291437
+      },
+      {
+        "start": 10.095656,
+        "end": 10.644875,
+        "duration": 0.549219
+      },
+      {
+        "start": 12.289281,
+        "end": 12.638781,
+        "duration": 0.3495
+      },
+      {
+        "start": 14.246906,
+        "end": 14.831781,
+        "duration": 0.584875
+      },
+      {
+        "start": 16.440625,
+        "end": 17.166438,
+        "duration": 0.725813
+      },
+      {
+        "start": 18.186719,
+        "end": 18.389281,
+        "duration": 0.202562
+      },
+      {
+        "start": 19.030094,
+        "end": 19.487625,
+        "duration": 0.457531
+      },
+      {
+        "start": 21.190531,
+        "end": 22.045406,
+        "duration": 0.854875
+      },
+      {
+        "start": 23.921406,
+        "end": 24.220781,
+        "duration": 0.299375
+      },
+      {
+        "start": 25.127906,
+        "end": 25.417469,
+        "duration": 0.289563
+      },
+      {
+        "start": 26.160031,
+        "end": 26.373625,
+        "duration": 0.213594
+      },
+      {
+        "start": 26.945969,
+        "end": 27.139469,
+        "duration": 0.1935
+      },
+      {
+        "start": 27.908812,
+        "end": 28.346563,
+        "duration": 0.437751
+      },
+      {
+        "start": 28.861594,
+        "end": 29.064813,
+        "duration": 0.203219
+      },
+      {
+        "start": 31.160625,
+        "end": 31.621125,
+        "duration": 0.4605
+      },
+      {
+        "start": 32.467562,
+        "end": 32.64725,
+        "duration": 0.179688
+      },
+      {
+        "start": 33.191156,
+        "end": 33.716844,
+        "duration": 0.525688
+      },
+      {
+        "start": 34.732531,
+        "end": 35.096938,
+        "duration": 0.364407
+      },
+      {
+        "start": 36.360062,
+        "end": 36.661313,
+        "duration": 0.301251
+      },
+      {
+        "start": 37.428906,
+        "end": 37.600406,
+        "duration": 0.1715
+      },
+      {
+        "start": 38.591563,
+        "end": 39.434906,
+        "duration": 0.843343
+      },
+      {
+        "start": 40.645281,
+        "end": 41.052531,
+        "duration": 0.40725
+      },
+      {
+        "start": 41.601156,
+        "end": 41.70725,
+        "duration": 0.106094
+      },
+      {
+        "start": 42.265313,
+        "end": 42.458375,
+        "duration": 0.193062
+      },
+      {
+        "start": 43.165469,
+        "end": 43.373031,
+        "duration": 0.207562
+      }
+    ],
+    "-36": [
+      {
+        "start": 0.0,
+        "end": 0.180938,
+        "duration": 0.180938
+      },
+      {
+        "start": 2.607031,
+        "end": 3.089187,
+        "duration": 0.482156
+      },
+      {
+        "start": 3.769062,
+        "end": 4.166062,
+        "duration": 0.397
+      },
+      {
+        "start": 4.611125,
+        "end": 4.749156,
+        "duration": 0.138031
+      },
+      {
+        "start": 6.323313,
+        "end": 6.828344,
+        "duration": 0.505031
+      },
+      {
+        "start": 7.490469,
+        "end": 7.921156,
+        "duration": 0.430687
+      },
+      {
+        "start": 9.169844,
+        "end": 9.471531,
+        "duration": 0.301687
+      },
+      {
+        "start": 10.0945,
+        "end": 10.645344,
+        "duration": 0.550844
+      },
+      {
+        "start": 12.268719,
+        "end": 12.641031,
+        "duration": 0.372312
+      },
+      {
+        "start": 14.244312,
+        "end": 14.833656,
+        "duration": 0.589344
+      },
+      {
+        "start": 16.419594,
+        "end": 17.166469,
+        "duration": 0.746875
+      },
+      {
+        "start": 18.178344,
+        "end": 18.390125,
+        "duration": 0.211781
+      },
+      {
+        "start": 19.027,
+        "end": 19.489781,
+        "duration": 0.462781
+      },
+      {
+        "start": 20.116656,
+        "end": 20.233656,
+        "duration": 0.117
+      },
+      {
+        "start": 21.169812,
+        "end": 22.047563,
+        "duration": 0.877751
+      },
+      {
+        "start": 23.918781,
+        "end": 24.2315,
+        "duration": 0.312719
+      },
+      {
+        "start": 25.116969,
+        "end": 25.43025,
+        "duration": 0.313281
+      },
+      {
+        "start": 26.114906,
+        "end": 26.392594,
+        "duration": 0.277688
+      },
+      {
+        "start": 26.937625,
+        "end": 27.1415,
+        "duration": 0.203875
+      },
+      {
+        "start": 27.845437,
+        "end": 28.359844,
+        "duration": 0.514407
+      },
+      {
+        "start": 28.859344,
+        "end": 29.079406,
+        "duration": 0.220062
+      },
+      {
+        "start": 30.175031,
+        "end": 30.313375,
+        "duration": 0.138344
+      },
+      {
+        "start": 31.120719,
+        "end": 31.623406,
+        "duration": 0.502687
+      },
+      {
+        "start": 32.466344,
+        "end": 32.651187,
+        "duration": 0.184843
+      },
+      {
+        "start": 33.149031,
+        "end": 33.716938,
+        "duration": 0.567907
+      },
+      {
+        "start": 34.722469,
+        "end": 35.112313,
+        "duration": 0.389844
+      },
+      {
+        "start": 36.359063,
+        "end": 36.677906,
+        "duration": 0.318843
+      },
+      {
+        "start": 37.423313,
+        "end": 37.600437,
+        "duration": 0.177124
+      },
+      {
+        "start": 38.590187,
+        "end": 39.439062,
+        "duration": 0.848875
+      },
+      {
+        "start": 40.638719,
+        "end": 41.052531,
+        "duration": 0.413812
+      },
+      {
+        "start": 41.598969,
+        "end": 41.712906,
+        "duration": 0.113937
+      },
+      {
+        "start": 42.264625,
+        "end": 42.464844,
+        "duration": 0.200219
+      },
+      {
+        "start": 43.146469,
+        "end": 43.373031,
+        "duration": 0.226562
+      }
+    ]
+  },
+  "generated_at_utc": "2026-10-20T18:43:11.854031+00:00"
+}

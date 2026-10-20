@@ -1,0 +1,615 @@
+{
+  "id": "hook",
+  "source_sha256": "95bbdbe735182e642e1a286df0ac26bc08f210b2fffbdadb1b26e1f7ba523ad9",
+  "expected_text": "压力一来，身体常常比念头先动起来：心跳加快，呼吸变浅，肩膀抬高。这是“战或逃”反应，明明坐在桌前，却像在等待一场冲刺。\n\n要缓下来，可以从呼吸、触觉和眼前的小动作入手，给身体留一点余地，再去处理压力的来源。",
+  "recognized_text": "压力一来,身体常常比念头先动起来心跳加快,呼吸变浅,肩膀抬高这是站或逃反应明明坐在桌前,却像在等待一场冲刺要缓下来,可以从呼吸、触觉和眼前的小动作入手给身体留一点余地,再去处理压力的来源",
+  "exact_char_ratio": 0.9884,
+  "differences": [
+    {
+      "operation": "replace",
+      "expected": "战",
+      "recognized": "站",
+      "expected_char_indices": [
+        29
+      ],
+      "word_indices": [
+        28
+      ],
+      "start": 6.68,
+      "end": 6.88
+    }
+  ],
+  "segments": [
+    {
+      "id": "s01",
+      "chapter": "hook",
+      "text": "压力一来，身体常常比念头先动起来：心跳加快，呼吸变浅，肩膀抬高。这是“战或逃”反应，明明坐在桌前，却像在等待一场冲刺。",
+      "start": 0.155312,
+      "end": 11.010281,
+      "first_word": 0,
+      "last_word": 47,
+      "exact_char_ratio": 0.9796,
+      "missing_chars": 0,
+      "timing_source": "independent ASR whole-word anchors",
+      "visual_intent": "墙面上红色心跳、呼吸和肩部张力三个局部依次亮起，出现“战或逃”标签；人物固定，镜头短促靠近后停住。",
+      "raw_word_start": 0.0,
+      "raw_word_end": 10.98
+    },
+    {
+      "id": "s02",
+      "chapter": "hook",
+      "text": "要缓下来，可以从呼吸、触觉和眼前的小动作入手，给身体留一点余地，再去处理压力的来源。",
+      "start": 11.464937,
+      "end": 19.45625,
+      "first_word": 48,
+      "last_word": 82,
+      "exact_char_ratio": 1.0,
+      "missing_chars": 0,
+      "timing_source": "independent ASR whole-word anchors",
+      "visual_intent": "红色线条由中心向外辐射；三条蓝色路径通向七个工具节点，镜头沿墙平移，不切页。",
+      "raw_word_start": 10.98,
+      "raw_word_end": 19.38
+    }
+  ],
+  "captions": [
+    {
+      "text": "压力一来，身体常常比念头先动起来：",
+      "segment_id": "s01",
+      "chapter": "hook",
+      "expected_char_range": [
+        0,
+        15
+      ],
+      "word_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "exact_chars": 15,
+      "substituted_chars": 0,
+      "missing_chars": 0,
+      "warnings": [],
+      "raw_word_start": 0.0,
+      "raw_word_end": 2.94,
+      "pause_refinements": [
+        {
+          "edge": "end",
+          "silence": {
+            "start": 2.860313,
+            "end": 3.210594,
+            "duration": 0.350281
+          },
+          "method": "joint adjacent-word pause"
+        },
+        {
+          "edge": "start",
+          "silence": {
+            "start": 0.0,
+            "end": 0.155312,
+            "duration": 0.155312
+          },
+          "method": "observed file head silence"
+        }
+      ],
+      "start": 0.1,
+      "end": 3.033333333333333,
+      "speech_start": 0.155312,
+      "speech_end": 2.860313,
+      "first_word": 0,
+      "last_word": 14,
+      "asr_text": "压力一来,身体常常比念头先动起来",
+      "timing_source": "ASR whole-word anchors with nearby observed silence edges",
+      "low_probability_words": [],
+      "start_frame": 3,
+      "end_frame": 91,
+      "id": "hook-c001"
+    },
+    {
+      "text": "心跳加快，呼吸变浅，",
+      "segment_id": "s01",
+      "chapter": "hook",
+      "expected_char_range": [
+        15,
+        23
+      ],
+      "word_indices": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "exact_chars": 8,
+      "substituted_chars": 0,
+      "missing_chars": 0,
+      "warnings": [
+        "ASR word probability below review threshold 0.65; not a calibrated confidence interval."
+      ],
+      "raw_word_start": 2.94,
+      "raw_word_end": 5.06,
+      "pause_refinements": [
+        {
+          "edge": "start",
+          "silence": {
+            "start": 2.860313,
+            "end": 3.210594,
+            "duration": 0.350281
+          },
+          "method": "joint adjacent-word pause"
+        },
+        {
+          "edge": "end",
+          "silence": {
+            "start": 5.119937,
+            "end": 5.3975,
+            "duration": 0.277563
+          },
+          "method": "joint adjacent-word pause"
+        }
+      ],
+      "start": 3.1666666666666665,
+      "end": 5.266666666666667,
+      "speech_start": 3.210594,
+      "speech_end": 5.119937,
+      "first_word": 15,
+      "last_word": 22,
+      "asr_text": "心跳加快,呼吸变浅,",
+      "timing_source": "ASR whole-word anchors with nearby observed silence edges",
+      "low_probability_words": [
+        {
+          "index": 15,
+          "word": "心",
+          "start": 2.94,
+          "end": 3.34,
+          "probability": 0.34130859375
+        }
+      ],
+      "start_frame": 95,
+      "end_frame": 158,
+      "id": "hook-c002"
+    },
+    {
+      "text": "肩膀抬高。",
+      "segment_id": "s01",
+      "chapter": "hook",
+      "expected_char_range": [
+        23,
+        27
+      ],
+      "word_indices": [
+        23,
+        24,
+        25,
+        26
+      ],
+      "exact_chars": 4,
+      "substituted_chars": 0,
+      "missing_chars": 0,
+      "warnings": [],
+      "raw_word_start": 5.3,
+      "raw_word_end": 6.12,
+      "pause_refinements": [
+        {
+          "edge": "start",
+          "silence": {
+            "start": 5.119937,
+            "end": 5.3975,
+            "duration": 0.277563
+          },
+          "method": "joint adjacent-word pause"
+        },
+        {
+          "edge": "end",
+          "silence": {
+            "start": 6.161188,
+            "end": 6.512156,
+            "duration": 0.350968
+          },
+          "method": "joint adjacent-word pause"
+        }
+      ],
+      "start": 5.333333333333333,
+      "end": 6.333333333333333,
+      "speech_start": 5.3975,
+      "speech_end": 6.161188,
+      "first_word": 23,
+      "last_word": 26,
+      "asr_text": "肩膀抬高",
+      "timing_source": "ASR whole-word anchors with nearby observed silence edges",
+      "low_probability_words": [],
+      "start_frame": 160,
+      "end_frame": 190,
+      "id": "hook-c003"
+    },
+    {
+      "text": "这是“战或逃”反应，",
+      "segment_id": "s01",
+      "chapter": "hook",
+      "expected_char_range": [
+        27,
+        34
+      ],
+      "word_indices": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "exact_chars": 6,
+      "substituted_chars": 1,
+      "missing_chars": 0,
+      "warnings": [
+        "ASR differs from script; read the independent evidence and listen.",
+        "ASR word probability below review threshold 0.65; not a calibrated confidence interval."
+      ],
+      "raw_word_start": 6.12,
+      "raw_word_end": 7.76,
+      "pause_refinements": [
+        {
+          "edge": "start",
+          "silence": {
+            "start": 6.161188,
+            "end": 6.512156,
+            "duration": 0.350968
+          },
+          "method": "joint adjacent-word pause"
+        },
+        {
+          "edge": "end",
+          "silence": {
+            "start": 7.767094,
+            "end": 8.149156,
+            "duration": 0.382062
+          },
+          "method": "joint adjacent-word pause"
+        }
+      ],
+      "start": 6.466666666666667,
+      "end": 7.933333333333334,
+      "speech_start": 6.512156,
+      "speech_end": 7.767094,
+      "first_word": 27,
+      "last_word": 32,
+      "asr_text": "这是站或逃反应",
+      "timing_source": "ASR whole-word anchors with nearby observed silence edges",
+      "low_probability_words": [
+        {
+          "index": 28,
+          "word": "站",
+          "start": 6.68,
+          "end": 6.88,
+          "probability": 0.42822265625
+        }
+      ],
+      "start_frame": 194,
+      "end_frame": 238,
+      "id": "hook-c004"
+    },
+    {
+      "text": "明明坐在桌前，",
+      "segment_id": "s01",
+      "chapter": "hook",
+      "expected_char_range": [
+        34,
+        40
+      ],
+      "word_indices": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "exact_chars": 6,
+      "substituted_chars": 0,
+      "missing_chars": 0,
+      "warnings": [
+        "ASR word probability below review threshold 0.65; not a calibrated confidence interval."
+      ],
+      "raw_word_start": 7.76,
+      "raw_word_end": 9.1,
+      "pause_refinements": [
+        {
+          "edge": "start",
+          "silence": {
+            "start": 7.767094,
+            "end": 8.149156,
+            "duration": 0.382062
+          },
+          "method": "joint adjacent-word pause"
+        },
+        {
+          "edge": "end",
+          "silence": {
+            "start": 9.172594,
+            "end": 9.482531,
+            "duration": 0.309937
+          },
+          "method": "joint adjacent-word pause"
+        }
+      ],
+      "start": 8.1,
+      "end": 9.333333333333334,
+      "speech_start": 8.149156,
+      "speech_end": 9.172594,
+      "first_word": 33,
+      "last_word": 38,
+      "asr_text": "明明坐在桌前,",
+      "timing_source": "ASR whole-word anchors with nearby observed silence edges",
+      "low_probability_words": [
+        {
+          "index": 33,
+          "word": "明",
+          "start": 7.76,
+          "end": 8.24,
+          "probability": 0.50634765625
+        }
+      ],
+      "start_frame": 243,
+      "end_frame": 280,
+      "id": "hook-c005"
+    },
+    {
+      "text": "却像在等待一场冲刺。",
+      "segment_id": "s01",
+      "chapter": "hook",
+      "expected_char_range": [
+        40,
+        49
+      ],
+      "word_indices": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "exact_chars": 9,
+      "substituted_chars": 0,
+      "missing_chars": 0,
+      "warnings": [],
+      "raw_word_start": 9.26,
+      "raw_word_end": 10.98,
+      "pause_refinements": [
+        {
+          "edge": "start",
+          "silence": {
+            "start": 9.172594,
+            "end": 9.482531,
+            "duration": 0.309937
+          },
+          "method": "joint adjacent-word pause"
+        },
+        {
+          "edge": "end",
+          "silence": {
+            "start": 11.010281,
+            "end": 11.464937,
+            "duration": 0.454656
+          },
+          "method": "joint adjacent-word pause"
+        }
+      ],
+      "start": 9.433333333333334,
+      "end": 11.166666666666666,
+      "speech_start": 9.482531,
+      "speech_end": 11.010281,
+      "first_word": 39,
+      "last_word": 47,
+      "asr_text": "却像在等待一场冲刺",
+      "timing_source": "ASR whole-word anchors with nearby observed silence edges",
+      "low_probability_words": [],
+      "start_frame": 283,
+      "end_frame": 335,
+      "id": "hook-c006"
+    },
+    {
+      "text": "要缓下来，可以从呼吸、触觉和眼前的小动作入手，",
+      "segment_id": "s02",
+      "chapter": "hook",
+      "expected_char_range": [
+        49,
+        69
+      ],
+      "word_indices": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66
+      ],
+      "exact_chars": 20,
+      "substituted_chars": 0,
+      "missing_chars": 0,
+      "warnings": [],
+      "raw_word_start": 10.98,
+      "raw_word_end": 15.74,
+      "pause_refinements": [
+        {
+          "edge": "start",
+          "silence": {
+            "start": 11.010281,
+            "end": 11.464937,
+            "duration": 0.454656
+          },
+          "method": "joint adjacent-word pause"
+        },
+        {
+          "edge": "end",
+          "silence": {
+            "start": 15.725531,
+            "end": 16.143844,
+            "duration": 0.418313
+          },
+          "method": "joint adjacent-word pause"
+        }
+      ],
+      "start": 11.4,
+      "end": 15.866666666666667,
+      "speech_start": 11.464937,
+      "speech_end": 15.725531,
+      "first_word": 48,
+      "last_word": 66,
+      "asr_text": "要缓下来,可以从呼吸、触觉和眼前的小动作入手",
+      "timing_source": "ASR whole-word anchors with nearby observed silence edges",
+      "low_probability_words": [],
+      "start_frame": 342,
+      "end_frame": 476,
+      "id": "hook-c007"
+    },
+    {
+      "text": "给身体留一点余地，",
+      "segment_id": "s02",
+      "chapter": "hook",
+      "expected_char_range": [
+        69,
+        77
+      ],
+      "word_indices": [
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73
+      ],
+      "exact_chars": 8,
+      "substituted_chars": 0,
+      "missing_chars": 0,
+      "warnings": [],
+      "raw_word_start": 15.74,
+      "raw_word_end": 17.62,
+      "pause_refinements": [
+        {
+          "edge": "start",
+          "silence": {
+            "start": 15.725531,
+            "end": 16.143844,
+            "duration": 0.418313
+          },
+          "method": "joint adjacent-word pause"
+        },
+        {
+          "edge": "end",
+          "silence": {
+            "start": 17.643719,
+            "end": 18.057844,
+            "duration": 0.414125
+          },
+          "method": "joint adjacent-word pause"
+        }
+      ],
+      "start": 16.1,
+      "end": 17.8,
+      "speech_start": 16.143844,
+      "speech_end": 17.643719,
+      "first_word": 67,
+      "last_word": 73,
+      "asr_text": "给身体留一点余地,",
+      "timing_source": "ASR whole-word anchors with nearby observed silence edges",
+      "low_probability_words": [],
+      "start_frame": 483,
+      "end_frame": 534,
+      "id": "hook-c008"
+    },
+    {
+      "text": "再去处理压力的来源。",
+      "segment_id": "s02",
+      "chapter": "hook",
+      "expected_char_range": [
+        77,
+        86
+      ],
+      "word_indices": [
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82
+      ],
+      "exact_chars": 9,
+      "substituted_chars": 0,
+      "missing_chars": 0,
+      "warnings": [],
+      "raw_word_start": 17.82,
+      "raw_word_end": 19.38,
+      "pause_refinements": [
+        {
+          "edge": "start",
+          "silence": {
+            "start": 17.643719,
+            "end": 18.057844,
+            "duration": 0.414125
+          },
+          "method": "joint adjacent-word pause"
+        },
+        {
+          "edge": "end",
+          "silence": {
+            "start": 19.45625,
+            "end": 19.674437,
+            "duration": 0.218187
+          },
+          "method": "observed file tail silence"
+        }
+      ],
+      "start": 18.0,
+      "end": 19.6,
+      "speech_start": 18.057844,
+      "speech_end": 19.45625,
+      "first_word": 74,
+      "last_word": 82,
+      "asr_text": "再去处理压力的来源",
+      "timing_source": "ASR whole-word anchors with nearby observed silence edges",
+      "low_probability_words": [],
+      "start_frame": 540,
+      "end_frame": 588,
+      "id": "hook-c009"
+    }
+  ],
+  "word_cues": [],
+  "warnings": [],
+  "errors": [],
+  "needs_review": true
+}

@@ -1,0 +1,3113 @@
+{
+  "id": "order",
+  "audio": "longform/assets/voice/raw/order.wav",
+  "source_sha256": "d7610db8d0d1ee81dfae67226944ad86472869d6e4beeec4646f6d91d02462a1",
+  "model_path": "/Users/yangshuyun/workspace/dev/ai-video/proj1-1019/out/models/whisper-large-v3-turbo-q4",
+  "model_revision": "660c343bbf4e52ac257f0b7d952e5388e6f93bef",
+  "offline": true,
+  "reference_prompt_used": false,
+  "timestamp_origin": "seconds from unchanged raw chapter WAV start",
+  "asr_seconds": 9.133923,
+  "audio_info": {
+    "duration": 41.3296875,
+    "sample_rate": 32000,
+    "sample_frames": 1322550,
+    "channels": 1
+  },
+  "recognized_text": "第七种,整理一平米,先别把整个房间当任务,只选桌面的一小块,丢掉废纸,把杯子放好,让常用物品各归其位。一平米是个提醒,把目标缩小到你现在做得完,每完成一个小动作,就有一个看得见的结果,注意力也有了具体的落点。有研究发现对家中杂乱的描述与情绪和皮质唇的日间变化有关但这只是相关不能证明收拾桌面一定降低压力激素整理更实在的价值是在一团乱里找到一小块能着手改变的地方可能带来一点安定感做到这里就可以停不必变成一场大扫除",
+  "words": [
+    {
+      "word": "第",
+      "start": 0.0,
+      "end": 0.3,
+      "probability": 0.955078125,
+      "index": 0
+    },
+    {
+      "word": "七",
+      "start": 0.3,
+      "end": 0.46,
+      "probability": 0.974609375,
+      "index": 1
+    },
+    {
+      "word": "种,",
+      "start": 0.46,
+      "end": 0.7,
+      "probability": 0.99365234375,
+      "index": 2
+    },
+    {
+      "word": "整",
+      "start": 1.0,
+      "end": 1.16,
+      "probability": 0.99853515625,
+      "index": 3
+    },
+    {
+      "word": "理",
+      "start": 1.16,
+      "end": 1.32,
+      "probability": 1.0,
+      "index": 4
+    },
+    {
+      "word": "一",
+      "start": 1.32,
+      "end": 1.48,
+      "probability": 0.9951171875,
+      "index": 5
+    },
+    {
+      "word": "平",
+      "start": 1.48,
+      "end": 1.62,
+      "probability": 0.951171875,
+      "index": 6
+    },
+    {
+      "word": "米,",
+      "start": 1.62,
+      "end": 1.82,
+      "probability": 0.9072265625,
+      "index": 7
+    },
+    {
+      "word": "先",
+      "start": 2.3,
+      "end": 2.44,
+      "probability": 0.9970703125,
+      "index": 8
+    },
+    {
+      "word": "别",
+      "start": 2.44,
+      "end": 2.6,
+      "probability": 0.99658203125,
+      "index": 9
+    },
+    {
+      "word": "把",
+      "start": 2.6,
+      "end": 2.76,
+      "probability": 0.9990234375,
+      "index": 10
+    },
+    {
+      "word": "整",
+      "start": 2.76,
+      "end": 2.9,
+      "probability": 1.0,
+      "index": 11
+    },
+    {
+      "word": "个",
+      "start": 2.9,
+      "end": 3.04,
+      "probability": 0.99951171875,
+      "index": 12
+    },
+    {
+      "word": "房",
+      "start": 3.04,
+      "end": 3.22,
+      "probability": 0.99951171875,
+      "index": 13
+    },
+    {
+      "word": "间",
+      "start": 3.22,
+      "end": 3.42,
+      "probability": 0.9990234375,
+      "index": 14
+    },
+    {
+      "word": "当",
+      "start": 3.42,
+      "end": 3.64,
+      "probability": 0.99951171875,
+      "index": 15
+    },
+    {
+      "word": "任",
+      "start": 3.64,
+      "end": 3.8,
+      "probability": 0.99951171875,
+      "index": 16
+    },
+    {
+      "word": "务,",
+      "start": 3.8,
+      "end": 3.98,
+      "probability": 0.9970703125,
+      "index": 17
+    },
+    {
+      "word": "只",
+      "start": 4.3,
+      "end": 4.44,
+      "probability": 0.98583984375,
+      "index": 18
+    },
+    {
+      "word": "选",
+      "start": 4.44,
+      "end": 4.6,
+      "probability": 0.9990234375,
+      "index": 19
+    },
+    {
+      "word": "桌",
+      "start": 4.6,
+      "end": 4.76,
+      "probability": 0.9990234375,
+      "index": 20
+    },
+    {
+      "word": "面",
+      "start": 4.76,
+      "end": 4.9,
+      "probability": 1.0,
+      "index": 21
+    },
+    {
+      "word": "的",
+      "start": 4.9,
+      "end": 5.02,
+      "probability": 1.0,
+      "index": 22
+    },
+    {
+      "word": "一",
+      "start": 5.02,
+      "end": 5.14,
+      "probability": 1.0,
+      "index": 23
+    },
+    {
+      "word": "小",
+      "start": 5.14,
+      "end": 5.34,
+      "probability": 1.0,
+      "index": 24
+    },
+    {
+      "word": "块,",
+      "start": 5.34,
+      "end": 5.54,
+      "probability": 0.99951171875,
+      "index": 25
+    },
+    {
+      "word": "丢",
+      "start": 5.84,
+      "end": 6.06,
+      "probability": 0.99609375,
+      "index": 26
+    },
+    {
+      "word": "掉",
+      "start": 6.06,
+      "end": 6.24,
+      "probability": 0.99951171875,
+      "index": 27
+    },
+    {
+      "word": "废",
+      "start": 6.24,
+      "end": 6.38,
+      "probability": 0.98828125,
+      "index": 28
+    },
+    {
+      "word": "纸,",
+      "start": 6.38,
+      "end": 6.58,
+      "probability": 0.9951171875,
+      "index": 29
+    },
+    {
+      "word": "把",
+      "start": 6.8,
+      "end": 7.02,
+      "probability": 1.0,
+      "index": 30
+    },
+    {
+      "word": "杯",
+      "start": 7.02,
+      "end": 7.16,
+      "probability": 0.99560546875,
+      "index": 31
+    },
+    {
+      "word": "子",
+      "start": 7.16,
+      "end": 7.28,
+      "probability": 1.0,
+      "index": 32
+    },
+    {
+      "word": "放",
+      "start": 7.28,
+      "end": 7.46,
+      "probability": 1.0,
+      "index": 33
+    },
+    {
+      "word": "好,",
+      "start": 7.46,
+      "end": 7.7,
+      "probability": 0.99951171875,
+      "index": 34
+    },
+    {
+      "word": "让",
+      "start": 8.06,
+      "end": 8.22,
+      "probability": 0.99951171875,
+      "index": 35
+    },
+    {
+      "word": "常",
+      "start": 8.22,
+      "end": 8.4,
+      "probability": 0.9951171875,
+      "index": 36
+    },
+    {
+      "word": "用",
+      "start": 8.4,
+      "end": 8.56,
+      "probability": 0.99951171875,
+      "index": 37
+    },
+    {
+      "word": "物",
+      "start": 8.56,
+      "end": 8.74,
+      "probability": 0.99853515625,
+      "index": 38
+    },
+    {
+      "word": "品",
+      "start": 8.74,
+      "end": 8.94,
+      "probability": 0.9990234375,
+      "index": 39
+    },
+    {
+      "word": "各",
+      "start": 8.94,
+      "end": 9.22,
+      "probability": 0.9921875,
+      "index": 40
+    },
+    {
+      "word": "归",
+      "start": 9.22,
+      "end": 9.38,
+      "probability": 0.97021484375,
+      "index": 41
+    },
+    {
+      "word": "其",
+      "start": 9.38,
+      "end": 9.58,
+      "probability": 0.94921875,
+      "index": 42
+    },
+    {
+      "word": "位。",
+      "start": 9.58,
+      "end": 9.74,
+      "probability": 0.9658203125,
+      "index": 43
+    },
+    {
+      "word": "一",
+      "start": 10.12,
+      "end": 10.42,
+      "probability": 0.9990234375,
+      "index": 44
+    },
+    {
+      "word": "平",
+      "start": 10.42,
+      "end": 10.58,
+      "probability": 0.99951171875,
+      "index": 45
+    },
+    {
+      "word": "米",
+      "start": 10.58,
+      "end": 10.76,
+      "probability": 1.0,
+      "index": 46
+    },
+    {
+      "word": "是",
+      "start": 10.76,
+      "end": 10.94,
+      "probability": 0.99951171875,
+      "index": 47
+    },
+    {
+      "word": "个",
+      "start": 10.94,
+      "end": 11.06,
+      "probability": 0.998046875,
+      "index": 48
+    },
+    {
+      "word": "提",
+      "start": 11.06,
+      "end": 11.28,
+      "probability": 0.99658203125,
+      "index": 49
+    },
+    {
+      "word": "醒,",
+      "start": 11.28,
+      "end": 11.48,
+      "probability": 1.0,
+      "index": 50
+    },
+    {
+      "word": "把",
+      "start": 11.72,
+      "end": 11.92,
+      "probability": 1.0,
+      "index": 51
+    },
+    {
+      "word": "目",
+      "start": 11.92,
+      "end": 12.1,
+      "probability": 0.99951171875,
+      "index": 52
+    },
+    {
+      "word": "标",
+      "start": 12.1,
+      "end": 12.28,
+      "probability": 0.9970703125,
+      "index": 53
+    },
+    {
+      "word": "缩",
+      "start": 12.28,
+      "end": 12.5,
+      "probability": 0.98876953125,
+      "index": 54
+    },
+    {
+      "word": "小",
+      "start": 12.5,
+      "end": 12.66,
+      "probability": 0.99853515625,
+      "index": 55
+    },
+    {
+      "word": "到",
+      "start": 12.66,
+      "end": 12.86,
+      "probability": 0.99951171875,
+      "index": 56
+    },
+    {
+      "word": "你",
+      "start": 12.86,
+      "end": 13.02,
+      "probability": 0.99951171875,
+      "index": 57
+    },
+    {
+      "word": "现在",
+      "start": 13.02,
+      "end": 13.32,
+      "probability": 1.0,
+      "index": 58
+    },
+    {
+      "word": "做",
+      "start": 13.32,
+      "end": 13.5,
+      "probability": 0.9970703125,
+      "index": 59
+    },
+    {
+      "word": "得",
+      "start": 13.5,
+      "end": 13.62,
+      "probability": 0.93359375,
+      "index": 60
+    },
+    {
+      "word": "完,",
+      "start": 13.62,
+      "end": 13.82,
+      "probability": 0.9990234375,
+      "index": 61
+    },
+    {
+      "word": "每",
+      "start": 14.1,
+      "end": 14.26,
+      "probability": 0.99462890625,
+      "index": 62
+    },
+    {
+      "word": "完成",
+      "start": 14.26,
+      "end": 14.48,
+      "probability": 0.9990234375,
+      "index": 63
+    },
+    {
+      "word": "一个",
+      "start": 14.48,
+      "end": 14.72,
+      "probability": 1.0,
+      "index": 64
+    },
+    {
+      "word": "小",
+      "start": 14.72,
+      "end": 14.92,
+      "probability": 1.0,
+      "index": 65
+    },
+    {
+      "word": "动",
+      "start": 14.92,
+      "end": 15.1,
+      "probability": 0.99951171875,
+      "index": 66
+    },
+    {
+      "word": "作,",
+      "start": 15.1,
+      "end": 15.3,
+      "probability": 0.99951171875,
+      "index": 67
+    },
+    {
+      "word": "就",
+      "start": 15.52,
+      "end": 15.68,
+      "probability": 0.9990234375,
+      "index": 68
+    },
+    {
+      "word": "有",
+      "start": 15.68,
+      "end": 15.82,
+      "probability": 0.9990234375,
+      "index": 69
+    },
+    {
+      "word": "一个",
+      "start": 15.82,
+      "end": 16.0,
+      "probability": 0.99951171875,
+      "index": 70
+    },
+    {
+      "word": "看",
+      "start": 16.0,
+      "end": 16.2,
+      "probability": 0.99951171875,
+      "index": 71
+    },
+    {
+      "word": "得",
+      "start": 16.2,
+      "end": 16.3,
+      "probability": 0.998046875,
+      "index": 72
+    },
+    {
+      "word": "见",
+      "start": 16.3,
+      "end": 16.42,
+      "probability": 0.99755859375,
+      "index": 73
+    },
+    {
+      "word": "的",
+      "start": 16.42,
+      "end": 16.56,
+      "probability": 1.0,
+      "index": 74
+    },
+    {
+      "word": "结",
+      "start": 16.56,
+      "end": 16.74,
+      "probability": 0.99951171875,
+      "index": 75
+    },
+    {
+      "word": "果,",
+      "start": 16.74,
+      "end": 16.94,
+      "probability": 1.0,
+      "index": 76
+    },
+    {
+      "word": "注意",
+      "start": 17.32,
+      "end": 17.56,
+      "probability": 0.99951171875,
+      "index": 77
+    },
+    {
+      "word": "力",
+      "start": 17.56,
+      "end": 17.8,
+      "probability": 0.99951171875,
+      "index": 78
+    },
+    {
+      "word": "也",
+      "start": 17.8,
+      "end": 18.18,
+      "probability": 0.86767578125,
+      "index": 79
+    },
+    {
+      "word": "有",
+      "start": 18.18,
+      "end": 18.34,
+      "probability": 1.0,
+      "index": 80
+    },
+    {
+      "word": "了",
+      "start": 18.34,
+      "end": 18.52,
+      "probability": 1.0,
+      "index": 81
+    },
+    {
+      "word": "具",
+      "start": 18.52,
+      "end": 18.62,
+      "probability": 0.99951171875,
+      "index": 82
+    },
+    {
+      "word": "体",
+      "start": 18.62,
+      "end": 18.76,
+      "probability": 1.0,
+      "index": 83
+    },
+    {
+      "word": "的",
+      "start": 18.76,
+      "end": 18.92,
+      "probability": 1.0,
+      "index": 84
+    },
+    {
+      "word": "落",
+      "start": 18.92,
+      "end": 19.04,
+      "probability": 0.68115234375,
+      "index": 85
+    },
+    {
+      "word": "点。",
+      "start": 19.04,
+      "end": 19.24,
+      "probability": 0.99560546875,
+      "index": 86
+    },
+    {
+      "word": "有",
+      "start": 19.880000000000003,
+      "end": 20.28,
+      "probability": 0.9716796875,
+      "index": 87
+    },
+    {
+      "word": "研",
+      "start": 20.28,
+      "end": 20.44,
+      "probability": 0.9990234375,
+      "index": 88
+    },
+    {
+      "word": "究",
+      "start": 20.44,
+      "end": 20.58,
+      "probability": 0.99951171875,
+      "index": 89
+    },
+    {
+      "word": "发",
+      "start": 20.58,
+      "end": 20.76,
+      "probability": 0.99951171875,
+      "index": 90
+    },
+    {
+      "word": "现",
+      "start": 20.76,
+      "end": 21.0,
+      "probability": 0.99951171875,
+      "index": 91
+    },
+    {
+      "word": "对",
+      "start": 21.0,
+      "end": 21.34,
+      "probability": 0.5185546875,
+      "index": 92
+    },
+    {
+      "word": "家",
+      "start": 21.34,
+      "end": 21.54,
+      "probability": 0.990234375,
+      "index": 93
+    },
+    {
+      "word": "中",
+      "start": 21.54,
+      "end": 21.74,
+      "probability": 0.9990234375,
+      "index": 94
+    },
+    {
+      "word": "杂",
+      "start": 21.74,
+      "end": 21.96,
+      "probability": 0.98828125,
+      "index": 95
+    },
+    {
+      "word": "乱",
+      "start": 21.96,
+      "end": 22.12,
+      "probability": 0.9990234375,
+      "index": 96
+    },
+    {
+      "word": "的",
+      "start": 22.12,
+      "end": 22.22,
+      "probability": 1.0,
+      "index": 97
+    },
+    {
+      "word": "描",
+      "start": 22.22,
+      "end": 22.44,
+      "probability": 0.998046875,
+      "index": 98
+    },
+    {
+      "word": "述",
+      "start": 22.44,
+      "end": 22.68,
+      "probability": 0.9990234375,
+      "index": 99
+    },
+    {
+      "word": "与",
+      "start": 22.68,
+      "end": 23.06,
+      "probability": 0.9931640625,
+      "index": 100
+    },
+    {
+      "word": "情",
+      "start": 23.06,
+      "end": 23.18,
+      "probability": 0.99951171875,
+      "index": 101
+    },
+    {
+      "word": "绪",
+      "start": 23.18,
+      "end": 23.5,
+      "probability": 0.99609375,
+      "index": 102
+    },
+    {
+      "word": "和",
+      "start": 23.5,
+      "end": 23.72,
+      "probability": 0.99951171875,
+      "index": 103
+    },
+    {
+      "word": "皮",
+      "start": 23.72,
+      "end": 23.88,
+      "probability": 0.98828125,
+      "index": 104
+    },
+    {
+      "word": "质",
+      "start": 23.88,
+      "end": 24.06,
+      "probability": 0.919921875,
+      "index": 105
+    },
+    {
+      "word": "唇",
+      "start": 24.06,
+      "end": 24.2,
+      "probability": 0.728515625,
+      "index": 106
+    },
+    {
+      "word": "的",
+      "start": 24.2,
+      "end": 24.32,
+      "probability": 1.0,
+      "index": 107
+    },
+    {
+      "word": "日",
+      "start": 24.32,
+      "end": 24.46,
+      "probability": 0.99951171875,
+      "index": 108
+    },
+    {
+      "word": "间",
+      "start": 24.46,
+      "end": 24.62,
+      "probability": 0.5966796875,
+      "index": 109
+    },
+    {
+      "word": "变",
+      "start": 24.62,
+      "end": 24.82,
+      "probability": 0.9990234375,
+      "index": 110
+    },
+    {
+      "word": "化",
+      "start": 24.82,
+      "end": 24.98,
+      "probability": 0.99951171875,
+      "index": 111
+    },
+    {
+      "word": "有",
+      "start": 24.98,
+      "end": 25.14,
+      "probability": 0.99951171875,
+      "index": 112
+    },
+    {
+      "word": "关",
+      "start": 25.14,
+      "end": 25.36,
+      "probability": 1.0,
+      "index": 113
+    },
+    {
+      "word": "但",
+      "start": 25.36,
+      "end": 25.96,
+      "probability": 0.94091796875,
+      "index": 114
+    },
+    {
+      "word": "这",
+      "start": 25.96,
+      "end": 26.08,
+      "probability": 0.99853515625,
+      "index": 115
+    },
+    {
+      "word": "只是",
+      "start": 26.08,
+      "end": 26.32,
+      "probability": 0.99755859375,
+      "index": 116
+    },
+    {
+      "word": "相",
+      "start": 26.32,
+      "end": 26.52,
+      "probability": 1.0,
+      "index": 117
+    },
+    {
+      "word": "关",
+      "start": 26.52,
+      "end": 26.78,
+      "probability": 0.99951171875,
+      "index": 118
+    },
+    {
+      "word": "不能",
+      "start": 26.78,
+      "end": 27.34,
+      "probability": 0.9296875,
+      "index": 119
+    },
+    {
+      "word": "证",
+      "start": 27.34,
+      "end": 27.58,
+      "probability": 0.9990234375,
+      "index": 120
+    },
+    {
+      "word": "明",
+      "start": 27.58,
+      "end": 27.78,
+      "probability": 0.99951171875,
+      "index": 121
+    },
+    {
+      "word": "收",
+      "start": 27.78,
+      "end": 27.96,
+      "probability": 0.99609375,
+      "index": 122
+    },
+    {
+      "word": "拾",
+      "start": 27.96,
+      "end": 28.12,
+      "probability": 0.9921875,
+      "index": 123
+    },
+    {
+      "word": "桌",
+      "start": 28.12,
+      "end": 28.28,
+      "probability": 0.9990234375,
+      "index": 124
+    },
+    {
+      "word": "面",
+      "start": 28.28,
+      "end": 28.48,
+      "probability": 1.0,
+      "index": 125
+    },
+    {
+      "word": "一定",
+      "start": 28.48,
+      "end": 28.82,
+      "probability": 0.99853515625,
+      "index": 126
+    },
+    {
+      "word": "降",
+      "start": 28.82,
+      "end": 29.06,
+      "probability": 0.99560546875,
+      "index": 127
+    },
+    {
+      "word": "低",
+      "start": 29.06,
+      "end": 29.28,
+      "probability": 0.99951171875,
+      "index": 128
+    },
+    {
+      "word": "压",
+      "start": 29.28,
+      "end": 29.46,
+      "probability": 0.9990234375,
+      "index": 129
+    },
+    {
+      "word": "力",
+      "start": 29.46,
+      "end": 29.6,
+      "probability": 0.99951171875,
+      "index": 130
+    },
+    {
+      "word": "激",
+      "start": 29.6,
+      "end": 29.76,
+      "probability": 0.9921875,
+      "index": 131
+    },
+    {
+      "word": "素",
+      "start": 29.76,
+      "end": 29.96,
+      "probability": 0.9755859375,
+      "index": 132
+    },
+    {
+      "word": "整",
+      "start": 29.96,
+      "end": 30.68,
+      "probability": 0.99658203125,
+      "index": 133
+    },
+    {
+      "word": "理",
+      "start": 30.68,
+      "end": 30.88,
+      "probability": 0.99951171875,
+      "index": 134
+    },
+    {
+      "word": "更",
+      "start": 30.88,
+      "end": 31.08,
+      "probability": 0.9951171875,
+      "index": 135
+    },
+    {
+      "word": "实",
+      "start": 31.08,
+      "end": 31.3,
+      "probability": 0.99853515625,
+      "index": 136
+    },
+    {
+      "word": "在",
+      "start": 31.3,
+      "end": 31.42,
+      "probability": 0.9990234375,
+      "index": 137
+    },
+    {
+      "word": "的",
+      "start": 31.42,
+      "end": 31.54,
+      "probability": 0.99609375,
+      "index": 138
+    },
+    {
+      "word": "价",
+      "start": 31.54,
+      "end": 31.74,
+      "probability": 0.9970703125,
+      "index": 139
+    },
+    {
+      "word": "值",
+      "start": 31.74,
+      "end": 31.94,
+      "probability": 0.99951171875,
+      "index": 140
+    },
+    {
+      "word": "是",
+      "start": 31.94,
+      "end": 32.32,
+      "probability": 0.9912109375,
+      "index": 141
+    },
+    {
+      "word": "在",
+      "start": 32.32,
+      "end": 32.5,
+      "probability": 1.0,
+      "index": 142
+    },
+    {
+      "word": "一",
+      "start": 32.5,
+      "end": 32.6,
+      "probability": 0.9990234375,
+      "index": 143
+    },
+    {
+      "word": "团",
+      "start": 32.6,
+      "end": 32.76,
+      "probability": 0.990234375,
+      "index": 144
+    },
+    {
+      "word": "乱",
+      "start": 32.76,
+      "end": 32.98,
+      "probability": 1.0,
+      "index": 145
+    },
+    {
+      "word": "里",
+      "start": 32.98,
+      "end": 33.16,
+      "probability": 0.9951171875,
+      "index": 146
+    },
+    {
+      "word": "找",
+      "start": 33.16,
+      "end": 33.52,
+      "probability": 0.982421875,
+      "index": 147
+    },
+    {
+      "word": "到",
+      "start": 33.52,
+      "end": 33.66,
+      "probability": 0.99951171875,
+      "index": 148
+    },
+    {
+      "word": "一",
+      "start": 33.66,
+      "end": 33.78,
+      "probability": 0.99951171875,
+      "index": 149
+    },
+    {
+      "word": "小",
+      "start": 33.78,
+      "end": 33.96,
+      "probability": 0.99951171875,
+      "index": 150
+    },
+    {
+      "word": "块",
+      "start": 33.96,
+      "end": 34.16,
+      "probability": 0.99951171875,
+      "index": 151
+    },
+    {
+      "word": "能",
+      "start": 34.16,
+      "end": 34.38,
+      "probability": 0.9990234375,
+      "index": 152
+    },
+    {
+      "word": "着",
+      "start": 34.38,
+      "end": 34.5,
+      "probability": 0.99658203125,
+      "index": 153
+    },
+    {
+      "word": "手",
+      "start": 34.5,
+      "end": 34.68,
+      "probability": 0.9990234375,
+      "index": 154
+    },
+    {
+      "word": "改",
+      "start": 34.68,
+      "end": 34.84,
+      "probability": 0.99951171875,
+      "index": 155
+    },
+    {
+      "word": "变",
+      "start": 34.84,
+      "end": 35.02,
+      "probability": 0.9990234375,
+      "index": 156
+    },
+    {
+      "word": "的",
+      "start": 35.02,
+      "end": 35.14,
+      "probability": 1.0,
+      "index": 157
+    },
+    {
+      "word": "地方",
+      "start": 35.14,
+      "end": 35.44,
+      "probability": 1.0,
+      "index": 158
+    },
+    {
+      "word": "可能",
+      "start": 35.44,
+      "end": 35.94,
+      "probability": 0.99853515625,
+      "index": 159
+    },
+    {
+      "word": "带",
+      "start": 35.94,
+      "end": 36.14,
+      "probability": 1.0,
+      "index": 160
+    },
+    {
+      "word": "来",
+      "start": 36.14,
+      "end": 36.28,
+      "probability": 0.99951171875,
+      "index": 161
+    },
+    {
+      "word": "一点",
+      "start": 36.28,
+      "end": 36.48,
+      "probability": 0.99755859375,
+      "index": 162
+    },
+    {
+      "word": "安",
+      "start": 36.48,
+      "end": 36.64,
+      "probability": 0.99951171875,
+      "index": 163
+    },
+    {
+      "word": "定",
+      "start": 36.64,
+      "end": 36.82,
+      "probability": 0.9990234375,
+      "index": 164
+    },
+    {
+      "word": "感",
+      "start": 36.82,
+      "end": 37.04,
+      "probability": 1.0,
+      "index": 165
+    },
+    {
+      "word": "做",
+      "start": 37.04,
+      "end": 37.6,
+      "probability": 0.84521484375,
+      "index": 166
+    },
+    {
+      "word": "到",
+      "start": 37.6,
+      "end": 37.74,
+      "probability": 0.99951171875,
+      "index": 167
+    },
+    {
+      "word": "这里",
+      "start": 37.74,
+      "end": 38.06,
+      "probability": 0.99951171875,
+      "index": 168
+    },
+    {
+      "word": "就可以",
+      "start": 38.06,
+      "end": 38.54,
+      "probability": 0.9951171875,
+      "index": 169
+    },
+    {
+      "word": "停",
+      "start": 38.54,
+      "end": 38.88,
+      "probability": 0.99365234375,
+      "index": 170
+    },
+    {
+      "word": "不",
+      "start": 38.88,
+      "end": 39.46,
+      "probability": 0.99462890625,
+      "index": 171
+    },
+    {
+      "word": "必",
+      "start": 39.46,
+      "end": 39.58,
+      "probability": 0.9951171875,
+      "index": 172
+    },
+    {
+      "word": "变",
+      "start": 39.58,
+      "end": 39.78,
+      "probability": 1.0,
+      "index": 173
+    },
+    {
+      "word": "成",
+      "start": 39.78,
+      "end": 40.0,
+      "probability": 0.9990234375,
+      "index": 174
+    },
+    {
+      "word": "一",
+      "start": 40.0,
+      "end": 40.22,
+      "probability": 0.99951171875,
+      "index": 175
+    },
+    {
+      "word": "场",
+      "start": 40.22,
+      "end": 40.38,
+      "probability": 0.99951171875,
+      "index": 176
+    },
+    {
+      "word": "大",
+      "start": 40.38,
+      "end": 40.58,
+      "probability": 1.0,
+      "index": 177
+    },
+    {
+      "word": "扫",
+      "start": 40.58,
+      "end": 40.78,
+      "probability": 0.99755859375,
+      "index": 178
+    },
+    {
+      "word": "除",
+      "start": 40.78,
+      "end": 40.98,
+      "probability": 0.990234375,
+      "index": 179
+    }
+  ],
+  "asr_segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 9.74,
+      "text": "第七种,整理一平米,先别把整个房间当任务,只选桌面的一小块,丢掉废纸,把杯子放好,让常用物品各归其位。",
+      "tokens": [
+        50365,
+        7536,
+        29920,
+        39810,
+        11,
+        27662,
+        13876,
+        2257,
+        16716,
+        27742,
+        11,
+        10108,
+        18453,
+        16075,
+        27662,
+        7549,
+        38242,
+        31685,
+        16233,
+        26443,
+        5087,
+        94,
+        11,
+        14003,
+        2215,
+        231,
+        162,
+        5475,
+        8833,
+        1546,
+        2257,
+        7322,
+        47734,
+        11,
+        940,
+        95,
+        29327,
+        6346,
+        253,
+        16853,
+        116,
+        11,
+        16075,
+        45458,
+        7626,
+        12744,
+        2131,
+        11,
+        33650,
+        11279,
+        9254,
+        23516,
+        30246,
+        17516,
+        7391,
+        240,
+        9572,
+        11160,
+        1543,
+        50853
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.05828405681409334,
+      "compression_ratio": 1.226890756302521,
+      "no_speech_prob": 1.5559794772079805e-11,
+      "words": [
+        {
+          "word": "第",
+          "start": 0.0,
+          "end": 0.3,
+          "probability": 0.955078125
+        },
+        {
+          "word": "七",
+          "start": 0.3,
+          "end": 0.46,
+          "probability": 0.974609375
+        },
+        {
+          "word": "种,",
+          "start": 0.46,
+          "end": 0.7,
+          "probability": 0.99365234375
+        },
+        {
+          "word": "整",
+          "start": 1.0,
+          "end": 1.16,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "理",
+          "start": 1.16,
+          "end": 1.32,
+          "probability": 1.0
+        },
+        {
+          "word": "一",
+          "start": 1.32,
+          "end": 1.48,
+          "probability": 0.9951171875
+        },
+        {
+          "word": "平",
+          "start": 1.48,
+          "end": 1.62,
+          "probability": 0.951171875
+        },
+        {
+          "word": "米,",
+          "start": 1.62,
+          "end": 1.82,
+          "probability": 0.9072265625
+        },
+        {
+          "word": "先",
+          "start": 2.3,
+          "end": 2.44,
+          "probability": 0.9970703125
+        },
+        {
+          "word": "别",
+          "start": 2.44,
+          "end": 2.6,
+          "probability": 0.99658203125
+        },
+        {
+          "word": "把",
+          "start": 2.6,
+          "end": 2.76,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "整",
+          "start": 2.76,
+          "end": 2.9,
+          "probability": 1.0
+        },
+        {
+          "word": "个",
+          "start": 2.9,
+          "end": 3.04,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "房",
+          "start": 3.04,
+          "end": 3.22,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "间",
+          "start": 3.22,
+          "end": 3.42,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "当",
+          "start": 3.42,
+          "end": 3.64,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "任",
+          "start": 3.64,
+          "end": 3.8,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "务,",
+          "start": 3.8,
+          "end": 3.98,
+          "probability": 0.9970703125
+        },
+        {
+          "word": "只",
+          "start": 4.3,
+          "end": 4.44,
+          "probability": 0.98583984375
+        },
+        {
+          "word": "选",
+          "start": 4.44,
+          "end": 4.6,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "桌",
+          "start": 4.6,
+          "end": 4.76,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "面",
+          "start": 4.76,
+          "end": 4.9,
+          "probability": 1.0
+        },
+        {
+          "word": "的",
+          "start": 4.9,
+          "end": 5.02,
+          "probability": 1.0
+        },
+        {
+          "word": "一",
+          "start": 5.02,
+          "end": 5.14,
+          "probability": 1.0
+        },
+        {
+          "word": "小",
+          "start": 5.14,
+          "end": 5.34,
+          "probability": 1.0
+        },
+        {
+          "word": "块,",
+          "start": 5.34,
+          "end": 5.54,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "丢",
+          "start": 5.84,
+          "end": 6.06,
+          "probability": 0.99609375
+        },
+        {
+          "word": "掉",
+          "start": 6.06,
+          "end": 6.24,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "废",
+          "start": 6.24,
+          "end": 6.38,
+          "probability": 0.98828125
+        },
+        {
+          "word": "纸,",
+          "start": 6.38,
+          "end": 6.58,
+          "probability": 0.9951171875
+        },
+        {
+          "word": "把",
+          "start": 6.8,
+          "end": 7.02,
+          "probability": 1.0
+        },
+        {
+          "word": "杯",
+          "start": 7.02,
+          "end": 7.16,
+          "probability": 0.99560546875
+        },
+        {
+          "word": "子",
+          "start": 7.16,
+          "end": 7.28,
+          "probability": 1.0
+        },
+        {
+          "word": "放",
+          "start": 7.28,
+          "end": 7.46,
+          "probability": 1.0
+        },
+        {
+          "word": "好,",
+          "start": 7.46,
+          "end": 7.7,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "让",
+          "start": 8.06,
+          "end": 8.22,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "常",
+          "start": 8.22,
+          "end": 8.4,
+          "probability": 0.9951171875
+        },
+        {
+          "word": "用",
+          "start": 8.4,
+          "end": 8.56,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "物",
+          "start": 8.56,
+          "end": 8.74,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "品",
+          "start": 8.74,
+          "end": 8.94,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "各",
+          "start": 8.94,
+          "end": 9.22,
+          "probability": 0.9921875
+        },
+        {
+          "word": "归",
+          "start": 9.22,
+          "end": 9.38,
+          "probability": 0.97021484375
+        },
+        {
+          "word": "其",
+          "start": 9.38,
+          "end": 9.58,
+          "probability": 0.94921875
+        },
+        {
+          "word": "位。",
+          "start": 9.58,
+          "end": 9.74,
+          "probability": 0.9658203125
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 10.12,
+      "end": 19.24,
+      "text": "一平米是个提醒,把目标缩小到你现在做得完,每完成一个小动作,就有一个看得见的结果,注意力也有了具体的落点。",
+      "tokens": [
+        50881,
+        2257,
+        16716,
+        27742,
+        1541,
+        7549,
+        20949,
+        40796,
+        11,
+        16075,
+        11386,
+        162,
+        3921,
+        38109,
+        102,
+        7322,
+        4511,
+        2166,
+        25040,
+        10907,
+        5916,
+        14128,
+        11,
+        23664,
+        41509,
+        20182,
+        7322,
+        34961,
+        11914,
+        11,
+        3111,
+        2412,
+        20182,
+        4200,
+        5916,
+        23813,
+        1546,
+        45641,
+        9319,
+        11,
+        40794,
+        13486,
+        6404,
+        2412,
+        2289,
+        39806,
+        29485,
+        1546,
+        30848,
+        12579,
+        1543,
+        51329
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.05828405681409334,
+      "compression_ratio": 1.226890756302521,
+      "no_speech_prob": 1.5559794772079805e-11,
+      "words": [
+        {
+          "word": "一",
+          "start": 10.12,
+          "end": 10.42,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "平",
+          "start": 10.42,
+          "end": 10.58,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "米",
+          "start": 10.58,
+          "end": 10.76,
+          "probability": 1.0
+        },
+        {
+          "word": "是",
+          "start": 10.76,
+          "end": 10.94,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "个",
+          "start": 10.94,
+          "end": 11.06,
+          "probability": 0.998046875
+        },
+        {
+          "word": "提",
+          "start": 11.06,
+          "end": 11.28,
+          "probability": 0.99658203125
+        },
+        {
+          "word": "醒,",
+          "start": 11.28,
+          "end": 11.48,
+          "probability": 1.0
+        },
+        {
+          "word": "把",
+          "start": 11.72,
+          "end": 11.92,
+          "probability": 1.0
+        },
+        {
+          "word": "目",
+          "start": 11.92,
+          "end": 12.1,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "标",
+          "start": 12.1,
+          "end": 12.28,
+          "probability": 0.9970703125
+        },
+        {
+          "word": "缩",
+          "start": 12.28,
+          "end": 12.5,
+          "probability": 0.98876953125
+        },
+        {
+          "word": "小",
+          "start": 12.5,
+          "end": 12.66,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "到",
+          "start": 12.66,
+          "end": 12.86,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "你",
+          "start": 12.86,
+          "end": 13.02,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "现在",
+          "start": 13.02,
+          "end": 13.32,
+          "probability": 1.0
+        },
+        {
+          "word": "做",
+          "start": 13.32,
+          "end": 13.5,
+          "probability": 0.9970703125
+        },
+        {
+          "word": "得",
+          "start": 13.5,
+          "end": 13.62,
+          "probability": 0.93359375
+        },
+        {
+          "word": "完,",
+          "start": 13.62,
+          "end": 13.82,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "每",
+          "start": 14.1,
+          "end": 14.26,
+          "probability": 0.99462890625
+        },
+        {
+          "word": "完成",
+          "start": 14.26,
+          "end": 14.48,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "一个",
+          "start": 14.48,
+          "end": 14.72,
+          "probability": 1.0
+        },
+        {
+          "word": "小",
+          "start": 14.72,
+          "end": 14.92,
+          "probability": 1.0
+        },
+        {
+          "word": "动",
+          "start": 14.92,
+          "end": 15.1,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "作,",
+          "start": 15.1,
+          "end": 15.3,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "就",
+          "start": 15.52,
+          "end": 15.68,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "有",
+          "start": 15.68,
+          "end": 15.82,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "一个",
+          "start": 15.82,
+          "end": 16.0,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "看",
+          "start": 16.0,
+          "end": 16.2,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "得",
+          "start": 16.2,
+          "end": 16.3,
+          "probability": 0.998046875
+        },
+        {
+          "word": "见",
+          "start": 16.3,
+          "end": 16.42,
+          "probability": 0.99755859375
+        },
+        {
+          "word": "的",
+          "start": 16.42,
+          "end": 16.56,
+          "probability": 1.0
+        },
+        {
+          "word": "结",
+          "start": 16.56,
+          "end": 16.74,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "果,",
+          "start": 16.74,
+          "end": 16.94,
+          "probability": 1.0
+        },
+        {
+          "word": "注意",
+          "start": 17.32,
+          "end": 17.56,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "力",
+          "start": 17.56,
+          "end": 17.8,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "也",
+          "start": 17.8,
+          "end": 18.18,
+          "probability": 0.86767578125
+        },
+        {
+          "word": "有",
+          "start": 18.18,
+          "end": 18.34,
+          "probability": 1.0
+        },
+        {
+          "word": "了",
+          "start": 18.34,
+          "end": 18.52,
+          "probability": 1.0
+        },
+        {
+          "word": "具",
+          "start": 18.52,
+          "end": 18.62,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "体",
+          "start": 18.62,
+          "end": 18.76,
+          "probability": 1.0
+        },
+        {
+          "word": "的",
+          "start": 18.76,
+          "end": 18.92,
+          "probability": 1.0
+        },
+        {
+          "word": "落",
+          "start": 18.92,
+          "end": 19.04,
+          "probability": 0.68115234375
+        },
+        {
+          "word": "点。",
+          "start": 19.04,
+          "end": 19.24,
+          "probability": 0.99560546875
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 1924,
+      "start": 19.880000000000003,
+      "end": 21.0,
+      "text": "有研究发现",
+      "tokens": [
+        50365,
+        2412,
+        23230,
+        242,
+        44704,
+        28926,
+        20204,
+        50456
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.09144078130307405,
+      "compression_ratio": 1.2338709677419355,
+      "no_speech_prob": 1.3462070867775733e-11,
+      "words": [
+        {
+          "word": "有",
+          "start": 19.880000000000003,
+          "end": 20.28,
+          "probability": 0.9716796875
+        },
+        {
+          "word": "研",
+          "start": 20.28,
+          "end": 20.44,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "究",
+          "start": 20.44,
+          "end": 20.58,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "发",
+          "start": 20.58,
+          "end": 20.76,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "现",
+          "start": 20.76,
+          "end": 21.0,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 1924,
+      "start": 21.0,
+      "end": 22.68,
+      "text": "对家中杂乱的描述",
+      "tokens": [
+        50456,
+        8713,
+        5155,
+        5975,
+        4422,
+        224,
+        2930,
+        109,
+        1546,
+        11673,
+        237,
+        3316,
+        108,
+        50538
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.09144078130307405,
+      "compression_ratio": 1.2338709677419355,
+      "no_speech_prob": 1.3462070867775733e-11,
+      "words": [
+        {
+          "word": "对",
+          "start": 21.0,
+          "end": 21.34,
+          "probability": 0.5185546875
+        },
+        {
+          "word": "家",
+          "start": 21.34,
+          "end": 21.54,
+          "probability": 0.990234375
+        },
+        {
+          "word": "中",
+          "start": 21.54,
+          "end": 21.74,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "杂",
+          "start": 21.74,
+          "end": 21.96,
+          "probability": 0.98828125
+        },
+        {
+          "word": "乱",
+          "start": 21.96,
+          "end": 22.12,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "的",
+          "start": 22.12,
+          "end": 22.22,
+          "probability": 1.0
+        },
+        {
+          "word": "描",
+          "start": 22.22,
+          "end": 22.44,
+          "probability": 0.998046875
+        },
+        {
+          "word": "述",
+          "start": 22.44,
+          "end": 22.68,
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 1924,
+      "start": 22.68,
+      "end": 25.36,
+      "text": "与情绪和皮质唇的日间变化有关",
+      "tokens": [
+        50538,
+        940,
+        236,
+        10570,
+        10115,
+        103,
+        12565,
+        34582,
+        18464,
+        101,
+        17198,
+        229,
+        1546,
+        6890,
+        31685,
+        2129,
+        246,
+        23756,
+        2412,
+        28053,
+        50673
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.09144078130307405,
+      "compression_ratio": 1.2338709677419355,
+      "no_speech_prob": 1.3462070867775733e-11,
+      "words": [
+        {
+          "word": "与",
+          "start": 22.68,
+          "end": 23.06,
+          "probability": 0.9931640625
+        },
+        {
+          "word": "情",
+          "start": 23.06,
+          "end": 23.18,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "绪",
+          "start": 23.18,
+          "end": 23.5,
+          "probability": 0.99609375
+        },
+        {
+          "word": "和",
+          "start": 23.5,
+          "end": 23.72,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "皮",
+          "start": 23.72,
+          "end": 23.88,
+          "probability": 0.98828125
+        },
+        {
+          "word": "质",
+          "start": 23.88,
+          "end": 24.06,
+          "probability": 0.919921875
+        },
+        {
+          "word": "唇",
+          "start": 24.06,
+          "end": 24.2,
+          "probability": 0.728515625
+        },
+        {
+          "word": "的",
+          "start": 24.2,
+          "end": 24.32,
+          "probability": 1.0
+        },
+        {
+          "word": "日",
+          "start": 24.32,
+          "end": 24.46,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "间",
+          "start": 24.46,
+          "end": 24.62,
+          "probability": 0.5966796875
+        },
+        {
+          "word": "变",
+          "start": 24.62,
+          "end": 24.82,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "化",
+          "start": 24.82,
+          "end": 24.98,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "有",
+          "start": 24.98,
+          "end": 25.14,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "关",
+          "start": 25.14,
+          "end": 25.36,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 1924,
+      "start": 25.36,
+      "end": 26.78,
+      "text": "但这只是相关",
+      "tokens": [
+        50673,
+        8395,
+        5562,
+        36859,
+        15106,
+        28053,
+        50743
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.09144078130307405,
+      "compression_ratio": 1.2338709677419355,
+      "no_speech_prob": 1.3462070867775733e-11,
+      "words": [
+        {
+          "word": "但",
+          "start": 25.36,
+          "end": 25.96,
+          "probability": 0.94091796875
+        },
+        {
+          "word": "这",
+          "start": 25.96,
+          "end": 26.08,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "只是",
+          "start": 26.08,
+          "end": 26.32,
+          "probability": 0.99755859375
+        },
+        {
+          "word": "相",
+          "start": 26.32,
+          "end": 26.52,
+          "probability": 1.0
+        },
+        {
+          "word": "关",
+          "start": 26.52,
+          "end": 26.78,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 1924,
+      "start": 26.78,
+      "end": 29.96,
+      "text": "不能证明收拾桌面一定降低压力激素",
+      "tokens": [
+        50743,
+        28590,
+        5233,
+        223,
+        11100,
+        18681,
+        6852,
+        122,
+        162,
+        5475,
+        8833,
+        24272,
+        47421,
+        41377,
+        5014,
+        233,
+        13486,
+        26373,
+        222,
+        37204,
+        50903
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.09144078130307405,
+      "compression_ratio": 1.2338709677419355,
+      "no_speech_prob": 1.3462070867775733e-11,
+      "words": [
+        {
+          "word": "不能",
+          "start": 26.78,
+          "end": 27.34,
+          "probability": 0.9296875
+        },
+        {
+          "word": "证",
+          "start": 27.34,
+          "end": 27.58,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "明",
+          "start": 27.58,
+          "end": 27.78,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "收",
+          "start": 27.78,
+          "end": 27.96,
+          "probability": 0.99609375
+        },
+        {
+          "word": "拾",
+          "start": 27.96,
+          "end": 28.12,
+          "probability": 0.9921875
+        },
+        {
+          "word": "桌",
+          "start": 28.12,
+          "end": 28.28,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "面",
+          "start": 28.28,
+          "end": 28.48,
+          "probability": 1.0
+        },
+        {
+          "word": "一定",
+          "start": 28.48,
+          "end": 28.82,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "降",
+          "start": 28.82,
+          "end": 29.06,
+          "probability": 0.99560546875
+        },
+        {
+          "word": "低",
+          "start": 29.06,
+          "end": 29.28,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "压",
+          "start": 29.28,
+          "end": 29.46,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "力",
+          "start": 29.46,
+          "end": 29.6,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "激",
+          "start": 29.6,
+          "end": 29.76,
+          "probability": 0.9921875
+        },
+        {
+          "word": "素",
+          "start": 29.76,
+          "end": 29.96,
+          "probability": 0.9755859375
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 1924,
+      "start": 29.96,
+      "end": 31.94,
+      "text": "整理更实在的价值",
+      "tokens": [
+        50903,
+        27662,
+        13876,
+        19002,
+        24726,
+        3581,
+        1546,
+        1550,
+        115,
+        40242,
+        51001
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.09144078130307405,
+      "compression_ratio": 1.2338709677419355,
+      "no_speech_prob": 1.3462070867775733e-11,
+      "words": [
+        {
+          "word": "整",
+          "start": 29.96,
+          "end": 30.68,
+          "probability": 0.99658203125
+        },
+        {
+          "word": "理",
+          "start": 30.68,
+          "end": 30.88,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "更",
+          "start": 30.88,
+          "end": 31.08,
+          "probability": 0.9951171875
+        },
+        {
+          "word": "实",
+          "start": 31.08,
+          "end": 31.3,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "在",
+          "start": 31.3,
+          "end": 31.42,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "的",
+          "start": 31.42,
+          "end": 31.54,
+          "probability": 0.99609375
+        },
+        {
+          "word": "价",
+          "start": 31.54,
+          "end": 31.74,
+          "probability": 0.9970703125
+        },
+        {
+          "word": "值",
+          "start": 31.74,
+          "end": 31.94,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 1924,
+      "start": 31.94,
+      "end": 33.16,
+      "text": "是在一团乱里",
+      "tokens": [
+        51001,
+        1541,
+        3581,
+        2257,
+        3919,
+        95,
+        2930,
+        109,
+        15759,
+        51063
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.09144078130307405,
+      "compression_ratio": 1.2338709677419355,
+      "no_speech_prob": 1.3462070867775733e-11,
+      "words": [
+        {
+          "word": "是",
+          "start": 31.94,
+          "end": 32.32,
+          "probability": 0.9912109375
+        },
+        {
+          "word": "在",
+          "start": 32.32,
+          "end": 32.5,
+          "probability": 1.0
+        },
+        {
+          "word": "一",
+          "start": 32.5,
+          "end": 32.6,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "团",
+          "start": 32.6,
+          "end": 32.76,
+          "probability": 0.990234375
+        },
+        {
+          "word": "乱",
+          "start": 32.76,
+          "end": 32.98,
+          "probability": 1.0
+        },
+        {
+          "word": "里",
+          "start": 32.98,
+          "end": 33.16,
+          "probability": 0.9951171875
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 1924,
+      "start": 33.16,
+      "end": 35.44,
+      "text": "找到一小块能着手改变的地方",
+      "tokens": [
+        51063,
+        25085,
+        4511,
+        2257,
+        7322,
+        47734,
+        8225,
+        20708,
+        11389,
+        34490,
+        2129,
+        246,
+        1546,
+        30146,
+        51176
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.09144078130307405,
+      "compression_ratio": 1.2338709677419355,
+      "no_speech_prob": 1.3462070867775733e-11,
+      "words": [
+        {
+          "word": "找",
+          "start": 33.16,
+          "end": 33.52,
+          "probability": 0.982421875
+        },
+        {
+          "word": "到",
+          "start": 33.52,
+          "end": 33.66,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "一",
+          "start": 33.66,
+          "end": 33.78,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "小",
+          "start": 33.78,
+          "end": 33.96,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "块",
+          "start": 33.96,
+          "end": 34.16,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "能",
+          "start": 34.16,
+          "end": 34.38,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "着",
+          "start": 34.38,
+          "end": 34.5,
+          "probability": 0.99658203125
+        },
+        {
+          "word": "手",
+          "start": 34.5,
+          "end": 34.68,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "改",
+          "start": 34.68,
+          "end": 34.84,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "变",
+          "start": 34.84,
+          "end": 35.02,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "的",
+          "start": 35.02,
+          "end": 35.14,
+          "probability": 1.0
+        },
+        {
+          "word": "地方",
+          "start": 35.14,
+          "end": 35.44,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "seek": 1924,
+      "start": 35.44,
+      "end": 37.04,
+      "text": "可能带来一点安定感",
+      "tokens": [
+        51176,
+        16657,
+        4845,
+        99,
+        6912,
+        49042,
+        16206,
+        12088,
+        9709,
+        51258
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.09144078130307405,
+      "compression_ratio": 1.2338709677419355,
+      "no_speech_prob": 1.3462070867775733e-11,
+      "words": [
+        {
+          "word": "可能",
+          "start": 35.44,
+          "end": 35.94,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "带",
+          "start": 35.94,
+          "end": 36.14,
+          "probability": 1.0
+        },
+        {
+          "word": "来",
+          "start": 36.14,
+          "end": 36.28,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "一点",
+          "start": 36.28,
+          "end": 36.48,
+          "probability": 0.99755859375
+        },
+        {
+          "word": "安",
+          "start": 36.48,
+          "end": 36.64,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "定",
+          "start": 36.64,
+          "end": 36.82,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "感",
+          "start": 36.82,
+          "end": 37.04,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "seek": 1924,
+      "start": 37.04,
+      "end": 38.88,
+      "text": "做到这里就可以停",
+      "tokens": [
+        51258,
+        10907,
+        4511,
+        35102,
+        36781,
+        36135,
+        51349
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.09144078130307405,
+      "compression_ratio": 1.2338709677419355,
+      "no_speech_prob": 1.3462070867775733e-11,
+      "words": [
+        {
+          "word": "做",
+          "start": 37.04,
+          "end": 37.6,
+          "probability": 0.84521484375
+        },
+        {
+          "word": "到",
+          "start": 37.6,
+          "end": 37.74,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "这里",
+          "start": 37.74,
+          "end": 38.06,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "就可以",
+          "start": 38.06,
+          "end": 38.54,
+          "probability": 0.9951171875
+        },
+        {
+          "word": "停",
+          "start": 38.54,
+          "end": 38.88,
+          "probability": 0.99365234375
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "seek": 1924,
+      "start": 38.88,
+      "end": 40.98,
+      "text": "不必变成一场大扫除",
+      "tokens": [
+        51349,
+        1960,
+        28531,
+        2129,
+        246,
+        11336,
+        2257,
+        50255,
+        3582,
+        3416,
+        104,
+        32999,
+        51454
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.09144078130307405,
+      "compression_ratio": 1.2338709677419355,
+      "no_speech_prob": 1.3462070867775733e-11,
+      "words": [
+        {
+          "word": "不",
+          "start": 38.88,
+          "end": 39.46,
+          "probability": 0.99462890625
+        },
+        {
+          "word": "必",
+          "start": 39.46,
+          "end": 39.58,
+          "probability": 0.9951171875
+        },
+        {
+          "word": "变",
+          "start": 39.58,
+          "end": 39.78,
+          "probability": 1.0
+        },
+        {
+          "word": "成",
+          "start": 39.78,
+          "end": 40.0,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "一",
+          "start": 40.0,
+          "end": 40.22,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "场",
+          "start": 40.22,
+          "end": 40.38,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "大",
+          "start": 40.38,
+          "end": 40.58,
+          "probability": 1.0
+        },
+        {
+          "word": "扫",
+          "start": 40.58,
+          "end": 40.78,
+          "probability": 0.99755859375
+        },
+        {
+          "word": "除",
+          "start": 40.78,
+          "end": 40.98,
+          "probability": 0.990234375
+        }
+      ]
+    }
+  ],
+  "silence": {
+    "-42": [
+      {
+        "start": 0.0,
+        "end": 0.1835,
+        "duration": 0.1835
+      },
+      {
+        "start": 0.715812,
+        "end": 1.039406,
+        "duration": 0.323594
+      },
+      {
+        "start": 1.894813,
+        "end": 2.304594,
+        "duration": 0.409781
+      },
+      {
+        "start": 3.991969,
+        "end": 4.358906,
+        "duration": 0.366937
+      },
+      {
+        "start": 5.601687,
+        "end": 5.974563,
+        "duration": 0.372876
+      },
+      {
+        "start": 6.608437,
+        "end": 6.927219,
+        "duration": 0.318782
+      },
+      {
+        "start": 7.683625,
+        "end": 8.118844,
+        "duration": 0.435219
+      },
+      {
+        "start": 8.974656,
+        "end": 9.100031,
+        "duration": 0.125375
+      },
+      {
+        "start": 9.787688,
+        "end": 10.332063,
+        "duration": 0.544375
+      },
+      {
+        "start": 11.513563,
+        "end": 11.819781,
+        "duration": 0.306218
+      },
+      {
+        "start": 13.916719,
+        "end": 14.174844,
+        "duration": 0.258125
+      },
+      {
+        "start": 15.334437,
+        "end": 15.601344,
+        "duration": 0.266907
+      },
+      {
+        "start": 16.956688,
+        "end": 17.378125,
+        "duration": 0.421437
+      },
+      {
+        "start": 17.848594,
+        "end": 18.113125,
+        "duration": 0.264531
+      },
+      {
+        "start": 19.277281,
+        "end": 20.222375,
+        "duration": 0.945094
+      },
+      {
+        "start": 21.037,
+        "end": 21.277188,
+        "duration": 0.240188
+      },
+      {
+        "start": 22.709563,
+        "end": 22.9495,
+        "duration": 0.239937
+      },
+      {
+        "start": 23.542594,
+        "end": 23.675469,
+        "duration": 0.132875
+      },
+      {
+        "start": 25.420719,
+        "end": 25.887812,
+        "duration": 0.467093
+      },
+      {
+        "start": 26.828719,
+        "end": 27.202125,
+        "duration": 0.373406
+      },
+      {
+        "start": 28.502813,
+        "end": 28.678,
+        "duration": 0.175187
+      },
+      {
+        "start": 29.974063,
+        "end": 30.599625,
+        "duration": 0.625562
+      },
+      {
+        "start": 32.001844,
+        "end": 32.201594,
+        "duration": 0.19975
+      },
+      {
+        "start": 33.168219,
+        "end": 33.441344,
+        "duration": 0.273125
+      },
+      {
+        "start": 35.459531,
+        "end": 35.796906,
+        "duration": 0.337375
+      },
+      {
+        "start": 37.01825,
+        "end": 37.516312,
+        "duration": 0.498062
+      },
+      {
+        "start": 38.087875,
+        "end": 38.302844,
+        "duration": 0.214969
+      },
+      {
+        "start": 38.962594,
+        "end": 39.381906,
+        "duration": 0.419312
+      },
+      {
+        "start": 41.073594,
+        "end": 41.329687,
+        "duration": 0.256093
+      }
+    ],
+    "-36": [
+      {
+        "start": 0.0,
+        "end": 0.184625,
+        "duration": 0.184625
+      },
+      {
+        "start": 0.674219,
+        "end": 1.050687,
+        "duration": 0.376468
+      },
+      {
+        "start": 1.892281,
+        "end": 2.316469,
+        "duration": 0.424188
+      },
+      {
+        "start": 3.99175,
+        "end": 4.360469,
+        "duration": 0.368719
+      },
+      {
+        "start": 5.287813,
+        "end": 5.415406,
+        "duration": 0.127593
+      },
+      {
+        "start": 5.590531,
+        "end": 5.974594,
+        "duration": 0.384063
+      },
+      {
+        "start": 6.605625,
+        "end": 6.944969,
+        "duration": 0.339344
+      },
+      {
+        "start": 7.681906,
+        "end": 8.121,
+        "duration": 0.439094
+      },
+      {
+        "start": 8.972156,
+        "end": 9.100094,
+        "duration": 0.127938
+      },
+      {
+        "start": 9.785094,
+        "end": 10.3335,
+        "duration": 0.548406
+      },
+      {
+        "start": 11.497563,
+        "end": 11.821875,
+        "duration": 0.324312
+      },
+      {
+        "start": 13.910094,
+        "end": 14.176969,
+        "duration": 0.266875
+      },
+      {
+        "start": 15.333281,
+        "end": 15.605281,
+        "duration": 0.272
+      },
+      {
+        "start": 16.776531,
+        "end": 16.877031,
+        "duration": 0.1005
+      },
+      {
+        "start": 16.952344,
+        "end": 17.378187,
+        "duration": 0.425843
+      },
+      {
+        "start": 17.842125,
+        "end": 18.115406,
+        "duration": 0.273281
+      },
+      {
+        "start": 19.265062,
+        "end": 20.224281,
+        "duration": 0.959219
+      },
+      {
+        "start": 21.018031,
+        "end": 21.277219,
+        "duration": 0.259188
+      },
+      {
+        "start": 22.709094,
+        "end": 22.949813,
+        "duration": 0.240719
+      },
+      {
+        "start": 23.537625,
+        "end": 23.678875,
+        "duration": 0.14125
+      },
+      {
+        "start": 25.393812,
+        "end": 25.891469,
+        "duration": 0.497657
+      },
+      {
+        "start": 26.820469,
+        "end": 27.213594,
+        "duration": 0.393125
+      },
+      {
+        "start": 28.500094,
+        "end": 28.678625,
+        "duration": 0.178531
+      },
+      {
+        "start": 29.961156,
+        "end": 30.599656,
+        "duration": 0.6385
+      },
+      {
+        "start": 31.998281,
+        "end": 32.241719,
+        "duration": 0.243438
+      },
+      {
+        "start": 33.16475,
+        "end": 33.441344,
+        "duration": 0.276594
+      },
+      {
+        "start": 35.449,
+        "end": 35.796937,
+        "duration": 0.347937
+      },
+      {
+        "start": 36.991906,
+        "end": 37.516406,
+        "duration": 0.5245
+      },
+      {
+        "start": 38.085781,
+        "end": 38.308438,
+        "duration": 0.222657
+      },
+      {
+        "start": 38.952219,
+        "end": 39.381906,
+        "duration": 0.429687
+      },
+      {
+        "start": 41.048094,
+        "end": 41.329687,
+        "duration": 0.281593
+      }
+    ]
+  },
+  "generated_at_utc": "2026-10-20T18:46:18.847186+00:00"
+}

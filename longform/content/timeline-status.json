@@ -1,0 +1,31 @@
+{
+  "complete": true,
+  "missing_chapters": [],
+  "alignment_errors": [],
+  "processed_chapters": [
+    "hook",
+    "breath",
+    "cold",
+    "ear",
+    "shake",
+    "paper",
+    "fractal",
+    "order",
+    "closing"
+  ],
+  "estimated_duration": 384.23333333333335,
+  "audio_durations": {
+    "hook": 19.6744375,
+    "breath": 65.50428125,
+    "cold": 53.31828125,
+    "ear": 34.403,
+    "shake": 44.7894375,
+    "paper": 43.37303125,
+    "fractal": 46.2523125,
+    "order": 41.3296875,
+    "closing": 22.83234375
+  },
+  "duration": 400.8333333333333,
+  "captions": 157,
+  "needs_review": true
+}

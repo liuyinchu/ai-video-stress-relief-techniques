@@ -1,0 +1,1930 @@
+{
+  "id": "breath",
+  "source_sha256": "5341f582e792dcec9b7812b5a1c2db2de6b70b65c1819cb9e322f7204b26eea3",
+  "expected_text": "第一种，是双吸长呼，也叫生理性叹气。先坐稳，让肩膀自然放下。用鼻子吸一口气，吸到舒服的位置，再短短地补一小口。\n\n接着，用嘴慢慢呼出，像轻轻叹一口气。让呼气比吸气从容一些，不必挤空肺，也不用追求声音或力度。\n\n做完先恢复自然呼吸。可以试三到五轮，或更少，舒服最重要；头晕或不舒服就停，不必勉强。\n\n叹气本来就有生理作用。肺里密布着细小的肺泡，较深的吸气有助于重新撑开部分闭合的肺泡，让气体交换继续顺畅进行。\n\n把呼气拉长，也是在主动调整呼吸节奏。不过，二氧化碳并非排得越多越好；连续用力快喘，反而可能让人头晕。\n\n二零二三年，包含休伯曼在内的团队发现，每天练习五分钟、持续一个月，双吸长呼有助改善情绪、降低呼吸频率。效果也因人而异。",
+  "recognized_text": "第一种是双吸长呼,也叫生理性叹气先坐稳,让肩膀自然放下用鼻子吸一口气,吸到舒服的位置再短短的补一小口接着,用嘴慢慢呼出,想轻轻叹一口气让呼气比吸气从容一些不避挤空肺,也不用追求声音或力度做完先恢复自然呼吸,可以是三到五轮或更少舒服最重要头晕或不舒服就停不必勉强碳气本来就有生理作用肺里密布着细小的肺泡较深的吸气有助于重新撑开部分闭合的肺泡让气体交换继续顺畅进行把呼气拉长也是在主动调整呼吸节奏不过二氧化碳并非排得越多越好连续用力快喘反而可能让人头晕2023年包含修博曼在内的团队发现每天练习五分钟持续一个月双膝肠呼有助改善情绪降低呼吸频率效果也因人而异",
+  "exact_char_ratio": 0.9517,
+  "differences": [
+    {
+      "operation": "replace",
+      "expected": "地",
+      "recognized": "的",
+      "expected_char_indices": [
+        42
+      ],
+      "word_indices": [
+        41
+      ],
+      "start": 10.6,
+      "end": 10.72
+    },
+    {
+      "operation": "replace",
+      "expected": "像",
+      "recognized": "想",
+      "expected_char_indices": [
+        55
+      ],
+      "word_indices": [
+        53
+      ],
+      "start": 14.26,
+      "end": 14.44
+    },
+    {
+      "operation": "replace",
+      "expected": "必",
+      "recognized": "避",
+      "expected_char_indices": [
+        73
+      ],
+      "word_indices": [
+        70
+      ],
+      "start": 19.08,
+      "end": 19.2
+    },
+    {
+      "operation": "replace",
+      "expected": "试",
+      "recognized": "是",
+      "expected_char_indices": [
+        98
+      ],
+      "word_indices": [
+        93
+      ],
+      "start": 24.7,
+      "end": 24.94
+    },
+    {
+      "operation": "replace",
+      "expected": "叹",
+      "recognized": "碳",
+      "expected_char_indices": [
+        123
+      ],
+      "word_indices": [
+        117
+      ],
+      "start": 31.14,
+      "end": 31.86
+    },
+    {
+      "operation": "replace",
+      "expected": "二零二三",
+      "recognized": "2023",
+      "expected_char_indices": [
+        217,
+        218,
+        219,
+        220
+      ],
+      "word_indices": [
+        208,
+        209
+      ],
+      "start": 53.14,
+      "end": 54.12
+    },
+    {
+      "operation": "replace",
+      "expected": "休伯",
+      "recognized": "修博",
+      "expected_char_indices": [
+        224,
+        225
+      ],
+      "word_indices": [
+        213,
+        214
+      ],
+      "start": 54.98,
+      "end": 55.3
+    },
+    {
+      "operation": "replace",
+      "expected": "吸长",
+      "recognized": "膝肠",
+      "expected_char_indices": [
+        247,
+        248
+      ],
+      "word_indices": [
+        235,
+        236
+      ],
+      "start": 59.92,
+      "end": 60.3
+    }
+  ],
+  "segments": [
+    {
+      "id": "s04",
+      "chapter": "breath",
+      "text": "第一种，是双吸长呼，也叫生理性叹气。先坐稳，让肩膀自然放下。用鼻子吸一口气，吸到舒服的位置，再短短地补一小口。",
+      "start": 0.208156,
+      "end": 11.425406,
+      "first_word": 0,
+      "last_word": 45,
+      "exact_char_ratio": 0.9787,
+      "missing_chars": 0,
+      "timing_source": "independent ASR whole-word anchors",
+      "visual_intent": "近景鼻腔、肺部与柔和气流线；第一次吸气缓慢扩张，第二次小幅追加，文字严格随配音。",
+      "raw_word_start": 0.0,
+      "raw_word_end": 11.4
+    },
+    {
+      "id": "s05",
+      "chapter": "breath",
+      "text": "接着，用嘴慢慢呼出，像轻轻叹一口气。让呼气比吸气从容一些，不必挤空肺，也不用追求声音或力度。",
+      "start": 12.0095,
+      "end": 21.980625,
+      "first_word": 46,
+      "last_word": 82,
+      "exact_char_ratio": 0.95,
+      "missing_chars": 0,
+      "timing_source": "independent ASR whole-word anchors",
+      "visual_intent": "肺部缓慢回落，细长蓝色呼气带向右延伸；镜头保持静止，给动作充分时间。",
+      "raw_word_start": 11.4,
+      "raw_word_end": 21.98
+    },
+    {
+      "id": "s06",
+      "chapter": "breath",
+      "text": "做完先恢复自然呼吸。可以试三到五轮，或更少，舒服最重要；头晕或不舒服就停，不必勉强。",
+      "start": 22.535312,
+      "end": 31.205188,
+      "first_word": 83,
+      "last_word": 116,
+      "exact_char_ratio": 0.9722,
+      "missing_chars": 0,
+      "timing_source": "independent ASR whole-word anchors",
+      "visual_intent": "气流恢复普通小幅节律；三个离散循环刻度，呈现可停下的选择，不用倒计时逼迫跟做。",
+      "raw_word_start": 21.98,
+      "raw_word_end": 31.14
+    },
+    {
+      "id": "s07",
+      "chapter": "breath",
+      "text": "叹气本来就有生理作用。肺里密布着细小的肺泡，较深的吸气有助于重新撑开部分闭合的肺泡，让气体交换继续顺畅进行。",
+      "start": 31.756156,
+      "end": 42.870344,
+      "first_word": 117,
+      "last_word": 165,
+      "exact_char_ratio": 0.98,
+      "missing_chars": 0,
+      "timing_source": "independent ASR whole-word anchors",
+      "visual_intent": "从肺部缓慢推进肺泡示意；少数小囊重新展开，保持示意性质，不表现每次补吸必然修复肺部。",
+      "raw_word_start": 31.14,
+      "raw_word_end": 42.84
+    },
+    {
+      "id": "s08",
+      "chapter": "breath",
+      "text": "把呼气拉长，也是在主动调整呼吸节奏。不过，二氧化碳并非排得越多越好；连续用力快喘，反而可能让人头晕。",
+      "start": 43.498656,
+      "end": 53.225,
+      "first_word": 166,
+      "last_word": 207,
+      "exact_char_ratio": 1.0,
+      "missing_chars": 0,
+      "timing_source": "independent ASR whole-word anchors",
+      "visual_intent": "呼吸波形由急促转为舒缓；二氧化碳以平衡交换箭头表示，不做毒素排空或神经关机图。",
+      "raw_word_start": 43.42,
+      "raw_word_end": 53.14
+    },
+    {
+      "id": "s09",
+      "chapter": "breath",
+      "text": "二零二三年，包含休伯曼在内的团队发现，每天练习五分钟、持续一个月，双吸长呼有助改善情绪、降低呼吸频率。效果也因人而异。",
+      "start": 53.688156,
+      "end": 65.2555,
+      "first_word": 208,
+      "last_word": 256,
+      "exact_char_ratio": 0.8462,
+      "missing_chars": 0,
+      "timing_source": "independent ASR whole-word anchors",
+      "visual_intent": "墙面研究卡：2023 / 5 分钟每天 / 1 个月；情绪与呼吸频率用方向性图标，不编造下降幅度。",
+      "raw_word_start": 53.14,
+      "raw_word_end": 65.22
+    }
+  ],
+  "captions": [
+    {
+      "text": "第一种，是双吸长呼，",
+      "segment_id": "s04",
+      "chapter": "breath",
+      "expected_char_range": [
+        0,
+        8
+      ],
+      "word_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "exact_chars": 8,
+      "substituted_chars": 0,
+      "missing_chars": 0,
+      "warnings": [
+        "ASR word probability below review threshold 0.65; not a calibrated confidence interval."
+      ],
+      "raw_word_start": 0.0,
+      "raw_word_end": 1.98,
+      "pause_refinements": [
+        {
+          "edge": "end",
+          "silence": {
+            "start": 2.067813,
+            "end": 2.351875,
+            "duration": 0.284062
+          },
+          "method": "joint adjacent-word pause"
+        },
+        {
+          "edge": "start",
+          "silence": {
+            "start": 0.0,
+            "end": 0.208156,
+            "duration": 0.208156
+          },
+          "method": "observed file head silence"
+        }
+      ],
+      "start": 0.16666666666666666,
+      "end": 2.2333333333333334,
+      "speech_start": 0.208156,
+      "speech_end": 2.067813,
+      "first_word": 0,
+      "last_word": 6,
+      "asr_text": "第一种是双吸长呼,",
+      "timing_source": "ASR whole-word anchors with nearby observed silence edges",
+      "low_probability_words": [
+        {
+          "index": 5,
+          "word": "长",
+          "start": 1.48,
+          "end": 1.72,
+          "probability": 0.60205078125
+        }
+      ],
+      "start_frame": 5,
+      "end_frame": 67,
+      "id": "breath-c001"
+    },
+    {
+      "text": "也叫生理性叹气。",
+      "segment_id": "s04",
+      "chapter": "breath",
+      "expected_char_range": [
+        8,
+        15
+      ],
+      "word_indices": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "exact_chars": 7,
+      "substituted_chars": 0,
+      "missing_chars": 0,
+      "warnings": [],
+      "raw_word_start": 2.24,
+      "raw_word_end": 3.6,
+      "pause_refinements": [
+        {
+          "edge": "start",
+          "silence": {
+            "start": 2.067813,
+            "end": 2.351875,
+            "duration": 0.284062
+          },
+          "method": "joint adjacent-word pause"
+        },
+        {
+          "edge": "end",
+          "silence": {
+            "start": 3.648813,
+            "end": 4.12925,
+            "duration": 0.480437
+          },
+          "method": "joint adjacent-word pause"
+        }
+      ],
+      "start": 2.3,
+      "end": 3.8,
+      "speech_start": 2.351875,
+      "speech_end": 3.648813,
+      "first_word": 7,
+      "last_word": 13,
+      "asr_text": "也叫生理性叹气",
+      "timing_source": "ASR whole-word anchors with nearby observed silence edges",
+      "low_probability_words": [],
+      "start_frame": 69,
+      "end_frame": 114,
+      "id": "breath-c002"
+    },
+    {
+      "text": "先坐稳，让肩膀自然放下。",
+      "segment_id": "s04",
+      "chapter": "breath",
+      "expected_char_range": [
+        15,
+        25
+      ],
+      "word_indices": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "exact_chars": 10,
+      "substituted_chars": 0,
+      "missing_chars": 0,
+      "warnings": [
+        "ASR word probability below review threshold 0.65; not a calibrated confidence interval."
+      ],
+      "raw_word_start": 3.6,
+      "raw_word_end": 6.46,
+      "pause_refinements": [
+        {
+          "edge": "start",
+          "silence": {
+            "start": 3.648813,
+            "end": 4.12925,
+            "duration": 0.480437
+          },
+          "method": "joint adjacent-word pause"
+        },
+        {
+          "edge": "end",
+          "silence": {
+            "start": 6.483688,
+            "end": 7.049938,
+            "duration": 0.56625
+          },
+          "method": "joint adjacent-word pause"
+        }
+      ],
+      "start": 4.066666666666666,
+      "end": 6.633333333333334,
+      "speech_start": 4.12925,
+      "speech_end": 6.483688,
+      "first_word": 14,
+      "last_word": 23,
+      "asr_text": "先坐稳,让肩膀自然放下",
+      "timing_source": "ASR whole-word anchors with nearby observed silence edges",
+      "low_probability_words": [
+        {
+          "index": 14,
+          "word": "先",
+          "start": 3.6,
+          "end": 4.28,
+          "probability": 0.10955810546875
+        }
+      ],
+      "start_frame": 122,
+      "end_frame": 199,
+      "id": "breath-c003"
+    },
+    {
+      "text": "用鼻子吸一口气，",
+      "segment_id": "s04",
+      "chapter": "breath",
+      "expected_char_range": [
+        25,
+        32
+      ],
+      "word_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "exact_chars": 7,
+      "substituted_chars": 0,
+      "missing_chars": 0,
+      "warnings": [],
+      "raw_word_start": 6.46,
+      "raw_word_end": 8.16,
+      "pause_refinements": [
+        {
+          "edge": "start",
+          "silence": {
+            "start": 6.483688,
+            "end": 7.049938,
+            "duration": 0.56625
+          },
+          "method": "joint adjacent-word pause"
+        },
+        {
+          "edge": "end",
+          "silence": {
+            "start": 8.205938,
+            "end": 8.627375,
+            "duration": 0.421437
+          },
+          "method": "joint adjacent-word pause"
+        }
+      ],
+      "start": 7.0,
+      "end": 8.366666666666667,
+      "speech_start": 7.049938,
+      "speech_end": 8.205938,
+      "first_word": 24,
+      "last_word": 30,
+      "asr_text": "用鼻子吸一口气,",
+      "timing_source": "ASR whole-word anchors with nearby observed silence edges",
+      "low_probability_words": [],
+      "start_frame": 210,
+      "end_frame": 251,
+      "id": "breath-c004"
+    },
+    {
+      "text": "吸到舒服的位置，",
+      "segment_id": "s04",
+      "chapter": "breath",
+      "expected_char_range": [
+        32,
+        39
+      ],
+      "word_indices": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "exact_chars": 7,
+      "substituted_chars": 0,
+      "missing_chars": 0,
+      "warnings": [],
+      "raw_word_start": 8.46,
+      "raw_word_end": 9.72,
+      "pause_refinements": [
+        {
+          "edge": "start",
+          "silence": {
+            "start": 8.205938,
+            "end": 8.627375,
+            "duration": 0.421437
+          },
+          "method": "joint adjacent-word pause"
+        },
+        {
+          "edge": "end",
+          "silence": {
+            "start": 9.720313,
+            "end": 10.141625,
+            "duration": 0.421312
+          },
+          "method": "joint adjacent-word pause"
+        }
+      ],
+      "start": 8.566666666666666,
+      "end": 9.866666666666667,
+      "speech_start": 8.627375,
+      "speech_end": 9.720313,
+      "first_word": 31,
+      "last_word": 37,
+      "asr_text": "吸到舒服的位置",
+      "timing_source": "ASR whole-word anchors with nearby observed silence edges",
+      "low_probability_words": [],
+      "start_frame": 257,
+      "end_frame": 296,
+      "id": "breath-c005"
+    },
+    {
+      "text": "再短短地补一小口。",
+      "segment_id": "s04",
+      "chapter": "breath",
+      "expected_char_range": [
+        39,
+        47
+      ],
+      "word_indices": [
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "exact_chars": 7,
+      "substituted_chars": 1,
+      "missing_chars": 0,
+      "warnings": [
+        "ASR differs from script; read the independent evidence and listen."
+      ],
+      "raw_word_start": 9.72,
+      "raw_word_end": 11.4,
+      "pause_refinements": [
+        {
+          "edge": "start",
+          "silence": {
+            "start": 9.720313,
+            "end": 10.141625,
+            "duration": 0.421312
+          },
+          "method": "joint adjacent-word pause"
+        },
+        {
+          "edge": "end",
+          "silence": {
+            "start": 11.425406,
+            "end": 12.0095,
+            "duration": 0.584094
+          },
+          "method": "joint adjacent-word pause"
+        }
+      ],
+      "start": 10.1,
+      "end": 11.566666666666666,
+      "speech_start": 10.141625,
+      "speech_end": 11.425406,
+      "first_word": 38,
+      "last_word": 45,
+      "asr_text": "再短短的补一小口",
+      "timing_source": "ASR whole-word anchors with nearby observed silence edges",
+      "low_probability_words": [],
+      "start_frame": 303,
+      "end_frame": 347,
+      "id": "breath-c006"
+    },
+    {
+      "text": "接着，用嘴慢慢呼出，",
+      "segment_id": "s05",
+      "chapter": "breath",
+      "expected_char_range": [
+        47,
+        55
+      ],
+      "word_indices": [
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "exact_chars": 8,
+      "substituted_chars": 0,
+      "missing_chars": 0,
+      "warnings": [],
+      "raw_word_start": 11.4,
+      "raw_word_end": 13.9,
+      "pause_refinements": [
+        {
+          "edge": "start",
+          "silence": {
+            "start": 11.425406,
+            "end": 12.0095,
+            "duration": 0.584094
+          },
+          "method": "joint adjacent-word pause"
+        },
+        {
+          "edge": "end",
+          "silence": {
+            "start": 13.979313,
+            "end": 14.276719,
+            "duration": 0.297406
+          },
+          "method": "joint adjacent-word pause"
+        }
+      ],
+      "start": 11.966666666666667,
+      "end": 14.133333333333333,
+      "speech_start": 12.0095,
+      "speech_end": 13.979313,
+      "first_word": 46,
+      "last_word": 52,
+      "asr_text": "接着,用嘴慢慢呼出,",
+      "timing_source": "ASR whole-word anchors with nearby observed silence edges",
+      "low_probability_words": [],
+      "start_frame": 359,
+      "end_frame": 424,
+      "id": "breath-c007"
+    },
+    {
+      "text": "像轻轻叹一口气。",
+      "segment_id": "s05",
+      "chapter": "breath",
+      "expected_char_range": [
+        55,
+        62
+      ],
+      "word_indices": [
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "exact_chars": 6,
+      "substituted_chars": 1,
+      "missing_chars": 0,
+      "warnings": [
+        "ASR differs from script; read the independent evidence and listen.",
+        "ASR word probability below review threshold 0.65; not a calibrated confidence interval.",
+        "Non-exact lexical boundary anchor; review onset/end."
+      ],
+      "raw_word_start": 14.26,
+      "raw_word_end": 15.58,
+      "pause_refinements": [
+        {
+          "edge": "start",
+          "silence": {
+            "start": 13.979313,
+            "end": 14.276719,
+            "duration": 0.297406
+          },
+          "method": "joint adjacent-word pause"
+        },
+        {
+          "edge": "end",
+          "silence": {
+            "start": 15.614313,
+            "end": 16.214781,
+            "duration": 0.600468
+          },
+          "method": "joint adjacent-word pause"
+        }
+      ],
+      "start": 14.233333333333333,
+      "end": 15.766666666666667,
+      "speech_start": 14.276719,
+      "speech_end": 15.614313,
+      "first_word": 53,
+      "last_word": 59,
+      "asr_text": "想轻轻叹一口气",
+      "timing_source": "ASR whole-word anchors with nearby observed silence edges",
+      "low_probability_words": [
+        {
+          "index": 53,
+          "word": "想",
+          "start": 14.26,
+          "end": 14.44,
+          "probability": 0.497314453125
+        }
+      ],
+      "start_frame": 427,
+      "end_frame": 473,
+      "id": "breath-c008"
+    },
+    {
+      "text": "让呼气比吸气从容一些，",
+      "segment_id": "s05",
+      "chapter": "breath",
+      "expected_char_range": [
+        62,
+        72
+      ],
+      "word_indices": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68
+      ],
+      "exact_chars": 10,
+      "substituted_chars": 0,
+      "missing_chars": 0,
+      "warnings": [],
+      "raw_word_start": 15.58,
+      "raw_word_end": 18.34,
+      "pause_refinements": [
+        {
+          "edge": "start",
+          "silence": {
+            "start": 15.614313,
+            "end": 16.214781,
+            "duration": 0.600468
+          },
+          "method": "joint adjacent-word pause"
+        },
+        {
+          "edge": "end",
+          "silence": {
+            "start": 18.397188,
+            "end": 18.987094,
+            "duration": 0.589906
+          },
+          "method": "joint adjacent-word pause"
+        }
+      ],
+      "start": 16.166666666666668,
+      "end": 18.566666666666666,
+      "speech_start": 16.214781,
+      "speech_end": 18.397188,
+      "first_word": 60,
+      "last_word": 68,
+      "asr_text": "让呼气比吸气从容一些",
+      "timing_source": "ASR whole-word anchors with nearby observed silence edges",
+      "low_probability_words": [],
+      "start_frame": 485,
+      "end_frame": 557,
+      "id": "breath-c009"
+    },
+    {
+      "text": "不必挤空肺，也不用追求声音或力度。",
+      "segment_id": "s05",
+      "chapter": "breath",
+      "expected_char_range": [
+        72,
+        87
+      ],
+      "word_indices": [
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82
+      ],
+      "exact_chars": 14,
+      "substituted_chars": 1,
+      "missing_chars": 0,
+      "warnings": [
+        "ASR differs from script; read the independent evidence and listen."
+      ],
+      "raw_word_start": 18.34,
+      "raw_word_end": 21.98,
+      "pause_refinements": [
+        {
+          "edge": "start",
+          "silence": {
+            "start": 18.397188,
+            "end": 18.987094,
+            "duration": 0.589906
+          },
+          "method": "joint adjacent-word pause"
+        },
+        {
+          "edge": "end",
+          "silence": {
+            "start": 21.980625,
+            "end": 22.535312,
+            "duration": 0.554687
+          },
+          "method": "joint adjacent-word pause"
+        }
+      ],
+      "start": 18.933333333333334,
+      "end": 22.133333333333333,
+      "speech_start": 18.987094,
+      "speech_end": 21.980625,
+      "first_word": 69,
+      "last_word": 82,
+      "asr_text": "不避挤空肺,也不用追求声音或力度",
+      "timing_source": "ASR whole-word anchors with nearby observed silence edges",
+      "low_probability_words": [],
+      "start_frame": 568,
+      "end_frame": 664,
+      "id": "breath-c010"
+    },
+    {
+      "text": "做完先恢复自然呼吸。",
+      "segment_id": "s06",
+      "chapter": "breath",
+      "expected_char_range": [
+        87,
+        96
+      ],
+      "word_indices": [
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91
+      ],
+      "exact_chars": 9,
+      "substituted_chars": 0,
+      "missing_chars": 0,
+      "warnings": [],
+      "raw_word_start": 21.98,
+      "raw_word_end": 23.98,
+      "pause_refinements": [
+        {
+          "edge": "start",
+          "silence": {
+            "start": 21.980625,
+            "end": 22.535312,
+            "duration": 0.554687
+          },
+          "method": "joint adjacent-word pause"
+        },
+        {
+          "edge": "end",
+          "silence": {
+            "start": 24.073406,
+            "end": 24.548531,
+            "duration": 0.475125
+          },
+          "method": "joint adjacent-word pause"
+        }
+      ],
+      "start": 22.5,
+      "end": 24.233333333333334,
+      "speech_start": 22.535312,
+      "speech_end": 24.073406,
+      "first_word": 83,
+      "last_word": 91,
+      "asr_text": "做完先恢复自然呼吸,",
+      "timing_source": "ASR whole-word anchors with nearby observed silence edges",
+      "low_probability_words": [],
+      "start_frame": 675,
+      "end_frame": 727,
+      "id": "breath-c011"
+    },
+    {
+      "text": "可以试三到五轮，",
+      "segment_id": "s06",
+      "chapter": "breath",
+      "expected_char_range": [
+        96,
+        103
+      ],
+      "word_indices": [
+        92,
+        93,
+        94,
+        95,
+        96,
+        97
+      ],
+      "exact_chars": 6,
+      "substituted_chars": 1,
+      "missing_chars": 0,
+      "warnings": [
+        "ASR differs from script; read the independent evidence and listen."
+      ],
+      "raw_word_start": 24.48,
+      "raw_word_end": 25.72,
+      "pause_refinements": [
+        {
+          "edge": "start",
+          "silence": {
+            "start": 24.073406,
+            "end": 24.548531,
+            "duration": 0.475125
+          },
+          "method": "joint adjacent-word pause"
+        },
+        {
+          "edge": "end",
+          "silence": {
+            "start": 25.815313,
+            "end": 26.110906,
+            "duration": 0.295593
+          },
+          "method": "joint adjacent-word pause"
+        }
+      ],
+      "start": 24.5,
+      "end": 25.966666666666665,
+      "speech_start": 24.548531,
+      "speech_end": 25.815313,
+      "first_word": 92,
+      "last_word": 97,
+      "asr_text": "可以是三到五轮",
+      "timing_source": "ASR whole-word anchors with nearby observed silence edges",
+      "low_probability_words": [],
+      "start_frame": 735,
+      "end_frame": 779,
+      "id": "breath-c012"
+    },
+    {
+      "text": "或更少，舒服最重要；",
+      "segment_id": "s06",
+      "chapter": "breath",
+      "expected_char_range": [
+        103,
+        111
+      ],
+      "word_indices": [
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104
+      ],
+      "exact_chars": 8,
+      "substituted_chars": 0,
+      "missing_chars": 0,
+      "warnings": [],
+      "raw_word_start": 25.72,
+      "raw_word_end": 28.08,
+      "pause_refinements": [
+        {
+          "edge": "start",
+          "silence": {
+            "start": 25.815313,
+            "end": 26.110906,
+            "duration": 0.295593
+          },
+          "method": "joint adjacent-word pause"
+        },
+        {
+          "edge": "end",
+          "silence": {
+            "start": 28.10125,
+            "end": 28.607,
+            "duration": 0.50575
+          },
+          "method": "joint adjacent-word pause"
+        }
+      ],
+      "start": 26.066666666666666,
+      "end": 28.266666666666666,
+      "speech_start": 26.110906,
+      "speech_end": 28.10125,
+      "first_word": 98,
+      "last_word": 104,
+      "asr_text": "或更少舒服最重要",
+      "timing_source": "ASR whole-word anchors with nearby observed silence edges",
+      "low_probability_words": [],
+      "start_frame": 782,
+      "end_frame": 848,
+      "id": "breath-c013"
+    },
+    {
+      "text": "头晕或不舒服就停，",
+      "segment_id": "s06",
+      "chapter": "breath",
+      "expected_char_range": [
+        111,
+        119
+      ],
+      "word_indices": [
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112
+      ],
+      "exact_chars": 8,
+      "substituted_chars": 0,
+      "missing_chars": 0,
+      "warnings": [
+        "ASR word probability below review threshold 0.65; not a calibrated confidence interval."
+      ],
+      "raw_word_start": 28.08,
+      "raw_word_end": 30.02,
+      "pause_refinements": [
+        {
+          "edge": "start",
+          "silence": {
+            "start": 28.10125,
+            "end": 28.607,
+            "duration": 0.50575
+          },
+          "method": "joint adjacent-word pause"
+        },
+        {
+          "edge": "end",
+          "silence": {
+            "start": 30.103562,
+            "end": 30.430312,
+            "duration": 0.32675
+          },
+          "method": "joint adjacent-word pause"
+        }
+      ],
+      "start": 28.566666666666666,
+      "end": 30.266666666666666,
+      "speech_start": 28.607,
+      "speech_end": 30.103562,
+      "first_word": 105,
+      "last_word": 112,
+      "asr_text": "头晕或不舒服就停",
+      "timing_source": "ASR whole-word anchors with nearby observed silence edges",
+      "low_probability_words": [
+        {
+          "index": 105,
+          "word": "头",
+          "start": 28.08,
+          "end": 28.74,
+          "probability": 0.387451171875
+        }
+      ],
+      "start_frame": 857,
+      "end_frame": 908,
+      "id": "breath-c014"
+    },
+    {
+      "text": "不必勉强。",
+      "segment_id": "s06",
+      "chapter": "breath",
+      "expected_char_range": [
+        119,
+        123
+      ],
+      "word_indices": [
+        113,
+        114,
+        115,
+        116
+      ],
+      "exact_chars": 4,
+      "substituted_chars": 0,
+      "missing_chars": 0,
+      "warnings": [],
+      "raw_word_start": 30.02,
+      "raw_word_end": 31.14,
+      "pause_refinements": [
+        {
+          "edge": "start",
+          "silence": {
+            "start": 30.103562,
+            "end": 30.430312,
+            "duration": 0.32675
+          },
+          "method": "joint adjacent-word pause"
+        },
+        {
+          "edge": "end",
+          "silence": {
+            "start": 31.205188,
+            "end": 31.756156,
+            "duration": 0.550968
+          },
+          "method": "joint adjacent-word pause"
+        }
+      ],
+      "start": 30.366666666666667,
+      "end": 31.366666666666667,
+      "speech_start": 30.430312,
+      "speech_end": 31.205188,
+      "first_word": 113,
+      "last_word": 116,
+      "asr_text": "不必勉强",
+      "timing_source": "ASR whole-word anchors with nearby observed silence edges",
+      "low_probability_words": [],
+      "start_frame": 911,
+      "end_frame": 941,
+      "id": "breath-c015"
+    },
+    {
+      "text": "叹气本来就有生理作用。",
+      "segment_id": "s07",
+      "chapter": "breath",
+      "expected_char_range": [
+        123,
+        133
+      ],
+      "word_indices": [
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126
+      ],
+      "exact_chars": 9,
+      "substituted_chars": 1,
+      "missing_chars": 0,
+      "warnings": [
+        "ASR differs from script; read the independent evidence and listen.",
+        "Non-exact lexical boundary anchor; review onset/end."
+      ],
+      "raw_word_start": 31.14,
+      "raw_word_end": 33.5,
+      "pause_refinements": [
+        {
+          "edge": "start",
+          "silence": {
+            "start": 31.205188,
+            "end": 31.756156,
+            "duration": 0.550968
+          },
+          "method": "joint adjacent-word pause"
+        },
+        {
+          "edge": "end",
+          "silence": {
+            "start": 33.522188,
+            "end": 33.928438,
+            "duration": 0.40625
+          },
+          "method": "joint adjacent-word pause"
+        }
+      ],
+      "start": 31.7,
+      "end": 33.666666666666664,
+      "speech_start": 31.756156,
+      "speech_end": 33.522188,
+      "first_word": 117,
+      "last_word": 126,
+      "asr_text": "碳气本来就有生理作用",
+      "timing_source": "ASR whole-word anchors with nearby observed silence edges",
+      "low_probability_words": [],
+      "start_frame": 951,
+      "end_frame": 1010,
+      "id": "breath-c016"
+    },
+    {
+      "text": "肺里密布着细小的肺泡，",
+      "segment_id": "s07",
+      "chapter": "breath",
+      "expected_char_range": [
+        133,
+        143
+      ],
+      "word_indices": [
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136
+      ],
+      "exact_chars": 10,
+      "substituted_chars": 0,
+      "missing_chars": 0,
+      "warnings": [
+        "ASR word probability below review threshold 0.65; not a calibrated confidence interval."
+      ],
+      "raw_word_start": 33.5,
+      "raw_word_end": 35.88,
+      "pause_refinements": [
+        {
+          "edge": "start",
+          "silence": {
+            "start": 33.522188,
+            "end": 33.928438,
+            "duration": 0.40625
+          },
+          "method": "joint adjacent-word pause"
+        },
+        {
+          "edge": "end",
+          "silence": {
+            "start": 35.929187,
+            "end": 36.34275,
+            "duration": 0.413563
+          },
+          "method": "joint adjacent-word pause"
+        }
+      ],
+      "start": 33.86666666666667,
+      "end": 36.1,
+      "speech_start": 33.928438,
+      "speech_end": 35.929187,
+      "first_word": 127,
+      "last_word": 136,
+      "asr_text": "肺里密布着细小的肺泡",
+      "timing_source": "ASR whole-word anchors with nearby observed silence edges",
+      "low_probability_words": [
+        {
+          "index": 128,
+          "word": "里",
+          "start": 34.1,
+          "end": 34.3,
+          "probability": 0.64990234375
+        }
+      ],
+      "start_frame": 1016,
+      "end_frame": 1083,
+      "id": "breath-c017"
+    },
+    {
+      "text": "较深的吸气有助于重新撑开部分闭合的肺泡，",
+      "segment_id": "s07",
+      "chapter": "breath",
+      "expected_char_range": [
+        143,
+        162
+      ],
+      "word_indices": [
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154
+      ],
+      "exact_chars": 19,
+      "substituted_chars": 0,
+      "missing_chars": 0,
+      "warnings": [],
+      "raw_word_start": 35.88,
+      "raw_word_end": 40.04,
+      "pause_refinements": [
+        {
+          "edge": "start",
+          "silence": {
+            "start": 35.929187,
+            "end": 36.34275,
+            "duration": 0.413563
+          },
+          "method": "joint adjacent-word pause"
+        },
+        {
+          "edge": "end",
+          "silence": {
+            "start": 40.118281,
+            "end": 40.516344,
+            "duration": 0.398063
+          },
+          "method": "joint adjacent-word pause"
+        }
+      ],
+      "start": 36.3,
+      "end": 40.266666666666666,
+      "speech_start": 36.34275,
+      "speech_end": 40.118281,
+      "first_word": 137,
+      "last_word": 154,
+      "asr_text": "较深的吸气有助于重新撑开部分闭合的肺泡",
+      "timing_source": "ASR whole-word anchors with nearby observed silence edges",
+      "low_probability_words": [],
+      "start_frame": 1089,
+      "end_frame": 1208,
+      "id": "breath-c018"
+    },
+    {
+      "text": "让气体交换继续顺畅进行。",
+      "segment_id": "s07",
+      "chapter": "breath",
+      "expected_char_range": [
+        162,
+        173
+      ],
+      "word_indices": [
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165
+      ],
+      "exact_chars": 11,
+      "substituted_chars": 0,
+      "missing_chars": 0,
+      "warnings": [],
+      "raw_word_start": 40.04,
+      "raw_word_end": 42.84,
+      "pause_refinements": [
+        {
+          "edge": "start",
+          "silence": {
+            "start": 40.118281,
+            "end": 40.516344,
+            "duration": 0.398063
+          },
+          "method": "joint adjacent-word pause"
+        },
+        {
+          "edge": "end",
+          "silence": {
+            "start": 42.870344,
+            "end": 43.498656,
+            "duration": 0.628312
+          },
+          "method": "joint adjacent-word pause"
+        }
+      ],
+      "start": 40.46666666666667,
+      "end": 43.03333333333333,
+      "speech_start": 40.516344,
+      "speech_end": 42.870344,
+      "first_word": 155,
+      "last_word": 165,
+      "asr_text": "让气体交换继续顺畅进行",
+      "timing_source": "ASR whole-word anchors with nearby observed silence edges",
+      "low_probability_words": [],
+      "start_frame": 1214,
+      "end_frame": 1291,
+      "id": "breath-c019"
+    },
+    {
+      "text": "把呼气拉长，也是在主动调整呼吸节奏。",
+      "segment_id": "s08",
+      "chapter": "breath",
+      "expected_char_range": [
+        173,
+        189
+      ],
+      "word_indices": [
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180
+      ],
+      "exact_chars": 16,
+      "substituted_chars": 0,
+      "missing_chars": 0,
+      "warnings": [],
+      "raw_word_start": 43.42,
+      "raw_word_end": 46.68,
+      "pause_refinements": [
+        {
+          "edge": "start",
+          "silence": {
+            "start": 42.870344,
+            "end": 43.498656,
+            "duration": 0.628312
+          },
+          "method": "joint adjacent-word pause"
+        },
+        {
+          "edge": "end",
+          "silence": {
+            "start": 46.686344,
+            "end": 47.093844,
+            "duration": 0.4075
+          },
+          "method": "joint adjacent-word pause"
+        }
+      ],
+      "start": 43.43333333333333,
+      "end": 46.833333333333336,
+      "speech_start": 43.498656,
+      "speech_end": 46.686344,
+      "first_word": 166,
+      "last_word": 180,
+      "asr_text": "把呼气拉长也是在主动调整呼吸节奏",
+      "timing_source": "ASR whole-word anchors with nearby observed silence edges",
+      "low_probability_words": [],
+      "start_frame": 1303,
+      "end_frame": 1405,
+      "id": "breath-c020"
+    },
+    {
+      "text": "不过，二氧化碳并非排得越多越好；",
+      "segment_id": "s08",
+      "chapter": "breath",
+      "expected_char_range": [
+        189,
+        203
+      ],
+      "word_indices": [
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194
+      ],
+      "exact_chars": 14,
+      "substituted_chars": 0,
+      "missing_chars": 0,
+      "warnings": [],
+      "raw_word_start": 46.68,
+      "raw_word_end": 49.98,
+      "pause_refinements": [
+        {
+          "edge": "start",
+          "silence": {
+            "start": 46.686344,
+            "end": 47.093844,
+            "duration": 0.4075
+          },
+          "method": "joint adjacent-word pause"
+        },
+        {
+          "edge": "end",
+          "silence": {
+            "start": 49.939656,
+            "end": 50.359437,
+            "duration": 0.419781
+          },
+          "method": "joint adjacent-word pause"
+        }
+      ],
+      "start": 47.03333333333333,
+      "end": 50.1,
+      "speech_start": 47.093844,
+      "speech_end": 49.939656,
+      "first_word": 181,
+      "last_word": 194,
+      "asr_text": "不过二氧化碳并非排得越多越好",
+      "timing_source": "ASR whole-word anchors with nearby observed silence edges",
+      "low_probability_words": [],
+      "start_frame": 1411,
+      "end_frame": 1503,
+      "id": "breath-c021"
+    },
+    {
+      "text": "连续用力快喘，",
+      "segment_id": "s08",
+      "chapter": "breath",
+      "expected_char_range": [
+        203,
+        209
+      ],
+      "word_indices": [
+        195,
+        196,
+        197,
+        198,
+        199,
+        200
+      ],
+      "exact_chars": 6,
+      "substituted_chars": 0,
+      "missing_chars": 0,
+      "warnings": [],
+      "raw_word_start": 49.98,
+      "raw_word_end": 51.38,
+      "pause_refinements": [
+        {
+          "edge": "start",
+          "silence": {
+            "start": 49.939656,
+            "end": 50.359437,
+            "duration": 0.419781
+          },
+          "method": "joint adjacent-word pause"
+        },
+        {
+          "edge": "end",
+          "silence": {
+            "start": 51.40775,
+            "end": 51.793,
+            "duration": 0.38525
+          },
+          "method": "joint adjacent-word pause"
+        }
+      ],
+      "start": 50.3,
+      "end": 51.56666666666667,
+      "speech_start": 50.359437,
+      "speech_end": 51.40775,
+      "first_word": 195,
+      "last_word": 200,
+      "asr_text": "连续用力快喘",
+      "timing_source": "ASR whole-word anchors with nearby observed silence edges",
+      "low_probability_words": [],
+      "start_frame": 1509,
+      "end_frame": 1547,
+      "id": "breath-c022"
+    },
+    {
+      "text": "反而可能让人头晕。",
+      "segment_id": "s08",
+      "chapter": "breath",
+      "expected_char_range": [
+        209,
+        217
+      ],
+      "word_indices": [
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207
+      ],
+      "exact_chars": 8,
+      "substituted_chars": 0,
+      "missing_chars": 0,
+      "warnings": [],
+      "raw_word_start": 51.38,
+      "raw_word_end": 53.14,
+      "pause_refinements": [
+        {
+          "edge": "start",
+          "silence": {
+            "start": 51.40775,
+            "end": 51.793,
+            "duration": 0.38525
+          },
+          "method": "joint adjacent-word pause"
+        },
+        {
+          "edge": "end",
+          "silence": {
+            "start": 53.225,
+            "end": 53.688156,
+            "duration": 0.463156
+          },
+          "method": "joint adjacent-word pause"
+        }
+      ],
+      "start": 51.733333333333334,
+      "end": 53.36666666666667,
+      "speech_start": 51.793,
+      "speech_end": 53.225,
+      "first_word": 201,
+      "last_word": 207,
+      "asr_text": "反而可能让人头晕",
+      "timing_source": "ASR whole-word anchors with nearby observed silence edges",
+      "low_probability_words": [],
+      "start_frame": 1552,
+      "end_frame": 1601,
+      "id": "breath-c023"
+    },
+    {
+      "text": "二零二三年，包含休伯曼在内的团队发现，",
+      "segment_id": "s09",
+      "chapter": "breath",
+      "expected_char_range": [
+        217,
+        234
+      ],
+      "word_indices": [
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222
+      ],
+      "exact_chars": 11,
+      "substituted_chars": 6,
+      "missing_chars": 0,
+      "warnings": [
+        "ASR differs from script; read the independent evidence and listen.",
+        "Non-exact lexical boundary anchor; review onset/end."
+      ],
+      "raw_word_start": 53.14,
+      "raw_word_end": 56.6,
+      "pause_refinements": [
+        {
+          "edge": "start",
+          "silence": {
+            "start": 53.225,
+            "end": 53.688156,
+            "duration": 0.463156
+          },
+          "method": "joint adjacent-word pause"
+        },
+        {
+          "edge": "end",
+          "silence": {
+            "start": 56.643656,
+            "end": 56.920781,
+            "duration": 0.277125
+          },
+          "method": "joint adjacent-word pause"
+        }
+      ],
+      "start": 53.63333333333333,
+      "end": 56.8,
+      "speech_start": 53.688156,
+      "speech_end": 56.643656,
+      "first_word": 208,
+      "last_word": 222,
+      "asr_text": "2023年包含修博曼在内的团队发现",
+      "timing_source": "ASR whole-word anchors with nearby observed silence edges",
+      "low_probability_words": [],
+      "start_frame": 1609,
+      "end_frame": 1704,
+      "id": "breath-c024"
+    },
+    {
+      "text": "每天练习五分钟、持续一个月，",
+      "segment_id": "s09",
+      "chapter": "breath",
+      "expected_char_range": [
+        234,
+        246
+      ],
+      "word_indices": [
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233
+      ],
+      "exact_chars": 12,
+      "substituted_chars": 0,
+      "missing_chars": 0,
+      "warnings": [
+        "ASR word probability below review threshold 0.65; not a calibrated confidence interval."
+      ],
+      "raw_word_start": 56.6,
+      "raw_word_end": 59.38,
+      "pause_refinements": [
+        {
+          "edge": "start",
+          "silence": {
+            "start": 56.643656,
+            "end": 56.920781,
+            "duration": 0.277125
+          },
+          "method": "joint adjacent-word pause"
+        },
+        {
+          "edge": "end",
+          "silence": {
+            "start": 59.367594,
+            "end": 59.698969,
+            "duration": 0.331375
+          },
+          "method": "joint adjacent-word pause"
+        }
+      ],
+      "start": 56.86666666666667,
+      "end": 59.53333333333333,
+      "speech_start": 56.920781,
+      "speech_end": 59.367594,
+      "first_word": 223,
+      "last_word": 233,
+      "asr_text": "每天练习五分钟持续一个月",
+      "timing_source": "ASR whole-word anchors with nearby observed silence edges",
+      "low_probability_words": [
+        {
+          "index": 227,
+          "word": "五",
+          "start": 57.6,
+          "end": 57.76,
+          "probability": 0.5419921875
+        },
+        {
+          "index": 230,
+          "word": "持",
+          "start": 58.22,
+          "end": 58.6,
+          "probability": 0.5478515625
+        }
+      ],
+      "start_frame": 1706,
+      "end_frame": 1786,
+      "id": "breath-c025"
+    },
+    {
+      "text": "双吸长呼有助改善情绪、降低呼吸频率。",
+      "segment_id": "s09",
+      "chapter": "breath",
+      "expected_char_range": [
+        246,
+        262
+      ],
+      "word_indices": [
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249
+      ],
+      "exact_chars": 14,
+      "substituted_chars": 2,
+      "missing_chars": 0,
+      "warnings": [
+        "ASR differs from script; read the independent evidence and listen."
+      ],
+      "raw_word_start": 59.38,
+      "raw_word_end": 63.42,
+      "pause_refinements": [
+        {
+          "edge": "start",
+          "silence": {
+            "start": 59.367594,
+            "end": 59.698969,
+            "duration": 0.331375
+          },
+          "method": "joint adjacent-word pause"
+        },
+        {
+          "edge": "end",
+          "silence": {
+            "start": 63.421937,
+            "end": 63.792406,
+            "duration": 0.370469
+          },
+          "method": "joint adjacent-word pause"
+        }
+      ],
+      "start": 59.63333333333333,
+      "end": 63.56666666666667,
+      "speech_start": 59.698969,
+      "speech_end": 63.421937,
+      "first_word": 234,
+      "last_word": 249,
+      "asr_text": "双膝肠呼有助改善情绪降低呼吸频率",
+      "timing_source": "ASR whole-word anchors with nearby observed silence edges",
+      "low_probability_words": [],
+      "start_frame": 1789,
+      "end_frame": 1907,
+      "id": "breath-c026"
+    },
+    {
+      "text": "效果也因人而异。",
+      "segment_id": "s09",
+      "chapter": "breath",
+      "expected_char_range": [
+        262,
+        269
+      ],
+      "word_indices": [
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256
+      ],
+      "exact_chars": 7,
+      "substituted_chars": 0,
+      "missing_chars": 0,
+      "warnings": [],
+      "raw_word_start": 63.42,
+      "raw_word_end": 65.22,
+      "pause_refinements": [
+        {
+          "edge": "start",
+          "silence": {
+            "start": 63.421937,
+            "end": 63.792406,
+            "duration": 0.370469
+          },
+          "method": "joint adjacent-word pause"
+        },
+        {
+          "edge": "end",
+          "silence": {
+            "start": 65.2555,
+            "end": 65.504281,
+            "duration": 0.248781
+          },
+          "method": "observed file tail silence"
+        }
+      ],
+      "start": 63.733333333333334,
+      "end": 65.4,
+      "speech_start": 63.792406,
+      "speech_end": 65.2555,
+      "first_word": 250,
+      "last_word": 256,
+      "asr_text": "效果也因人而异",
+      "timing_source": "ASR whole-word anchors with nearby observed silence edges",
+      "low_probability_words": [],
+      "start_frame": 1912,
+      "end_frame": 1962,
+      "id": "breath-c027"
+    }
+  ],
+  "word_cues": [
+    {
+      "id": "breath-inhale",
+      "chapter": "breath",
+      "segment_id": "s04",
+      "phrase": "用鼻子吸一口气",
+      "start": 7.049938,
+      "end": 8.205938,
+      "source_start": 7.049938,
+      "source_end": 8.205938,
+      "first_word": 24,
+      "last_word": 30,
+      "exact_char_ratio": 1.0,
+      "needs_review": false,
+      "timing_source": "independent ASR whole-word anchors and observed phrase-onset silence"
+    },
+    {
+      "id": "breath-top-up",
+      "chapter": "breath",
+      "segment_id": "s04",
+      "phrase": "再短短地补一小口",
+      "start": 10.141625,
+      "end": 11.425406,
+      "source_start": 10.141625,
+      "source_end": 11.425406,
+      "first_word": 38,
+      "last_word": 45,
+      "exact_char_ratio": 0.875,
+      "needs_review": true,
+      "timing_source": "independent ASR whole-word anchors and observed phrase-onset silence"
+    },
+    {
+      "id": "breath-first-exhale",
+      "chapter": "breath",
+      "segment_id": "s05",
+      "phrase": "用嘴慢慢呼出",
+      "start": 12.625063,
+      "end": 13.979313,
+      "source_start": 12.625063,
+      "source_end": 13.979313,
+      "first_word": 48,
+      "last_word": 52,
+      "exact_char_ratio": 1.0,
+      "needs_review": false,
+      "timing_source": "independent ASR whole-word anchors and observed phrase-onset silence"
+    }
+  ],
+  "warnings": [
+    "s09: exact normalized character agreement below 90%"
+  ],
+  "errors": [],
+  "needs_review": true
+}

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>压力上来，先让身体缓一缓 — 横屏封面</title>
+<style>
+  html,body{margin:0;background:#06060e;width:2560px;height:1440px;overflow:hidden}
+  canvas{display:block;width:2560px;height:1440px}
+</style>
+</head>
+<body>
+<canvas id="cover" width="2560" height="1440" aria-label="压力上来，先让身体缓一缓。七种生理与心理小技巧。"></canvas>
+<script src="./shots/biology.js"></script>
+<script src="./shots/nature.js"></script>
+<script>
+(() => {
+  'use strict';
+  const W=2560,H=1440,canvas=document.getElementById('cover'),c=canvas.getContext('2d');
+  const P={ink:'#06060e',gold:'#daa27d',warm:'#ac7859',ice:'#496d85',paper:'#e7ddd2'};
+  const hash=n=>{const x=Math.sin(n*127.1+311.7)*43758.5453123;return x-Math.floor(x);};
+  function glow(ctx,x,y,r,rgb,alpha){const g=ctx.createRadialGradient(x,y,0,x,y,r);g.addColorStop(0,`rgba(${rgb},${alpha})`);g.addColorStop(.38,`rgba(${rgb},${alpha*.38})`);g.addColorStop(1,`rgba(${rgb},0)`);ctx.fillStyle=g;ctx.fillRect(x-r,y-r,r*2,r*2);}
+  function asset(size,scale,fn){const x=new OffscreenCanvas(size,size),q=x.getContext('2d');q.translate(size/2,size/2);q.scale(scale,scale);fn(q);return x;}
+  function drawAsset(img,x,y,size,angle=0,alpha=1){c.save();c.translate(x,y);c.rotate(angle);c.globalAlpha=alpha;c.drawImage(img,-size/2,-size/2,size,size);c.restore();}
+  function tracking(text,x,y,font,space,color){c.font=font;c.textBaseline='alphabetic';c.fillStyle=color;for(const ch of text){c.fillText(ch,x,y);x+=c.measureText(ch).width+space;}return x;}
+  async function drawCover(){
+    await document.fonts.ready;
+    c.fillStyle=P.ink;c.fillRect(0,0,W,H);
+    const bg=c.createLinearGradient(0,0,W,H);bg.addColorStop(0,'#080910');bg.addColorStop(.44,'#06060e');bg.addColorStop(1,'#0a0d17');c.fillStyle=bg;c.fillRect(0,0,W,H);
+    glow(c,1900,660,950,'115,87,68',.09);
+    glow(c,2260,960,700,'43,83,113',.075);
+    // Material grain is fixed, very fine, and never competes with the typography.
+    for(let i=0;i<34000;i++){const x=hash(i*3+8)*W,y=hash(i*3+9)*H;c.fillStyle=i%3?'rgba(192,170,145,.022)':'rgba(103,134,157,.021)';c.fillRect(x,y,.65,.65);}
+
+    // Three related studies, at different depths. Each is reused from the film.
+    const ring=asset(1320,1.8,q=>window.LongScenes.title(q,5.5,8,{beat:0,beatProgress:.8,beatT:5.5}));
+    const leaf=asset(1600,1.65,q=>window.LongScenes.fractal(q,58,64,{beat:3,beatProgress:.7,beatT:9}));
+    const alveoli=asset(1200,1.8,q=>{q.translate(-258,2);window.LongScenes.breath(q,48,80,{beat:3,beatProgress:.88,beatT:12});});
+
+    // Broad, shallow illumination ties the three materials into one composition.
+    glow(c,1830,655,520,'218,162,125',.055);
+    drawAsset(ring,2120,425,910,.12,.61);
+    drawAsset(leaf,1890,1020,1480,-.1,.96);
+    // Small depth shadow between the botanical sheet and the alveolar volume.
+    c.save();c.translate(1825,835);c.scale(1,.42);glow(c,0,0,355,'0,0,0',.74);c.restore();
+    drawAsset(alveoli,1815,680,1170,-.11,1);
+
+    // Keep the reading column completely quiet, including at thumbnail sizes.
+    const silence=c.createLinearGradient(900,0,1350,0);silence.addColorStop(0,'rgba(6,6,14,1)');silence.addColorStop(1,'rgba(6,6,14,0)');c.fillStyle=silence;c.fillRect(0,0,1350,H);
+
+    tracking('七种生理与心理小技巧',178,252,'500 37px "PingFang SC","Heiti SC",sans-serif',2.5,'#b79a82');
+    c.fillStyle=P.gold;c.fillRect(180,302,72,3);
+    c.textAlign='left';c.textBaseline='alphabetic';
+    c.font='650 190px "PingFang SC","Heiti SC",sans-serif';
+    c.fillStyle='#e5d9cc';c.fillText('压力上来',165,530);
+    c.fillStyle='#eee4d7';c.fillText('先让身体',165,760);
+    c.font='650 214px "PingFang SC","Heiti SC",sans-serif';
+    const titleInk=c.createLinearGradient(165,815,855,1040);titleInk.addColorStop(0,'#e8b88e');titleInk.addColorStop(.55,'#daa27d');titleInk.addColorStop(1,'#b48060');c.fillStyle=titleInk;c.fillText('缓一缓',161,1015);
+
+    tracking('呼吸 · 触觉 · 自然 · 秩序',180,1169,'400 31px "PingFang SC","Heiti SC",sans-serif',1.1,'#89909a');
+    c.strokeStyle='rgba(172,120,89,.21)';c.lineWidth=1;c.beginPath();c.moveTo(180,1232);c.lineTo(925,1232);c.stroke();
+    tracking('给身体一点余地，再处理眼前的事。',180,1294,'400 25px "PingFang SC","Heiti SC",sans-serif',.5,'#686f7c');
+    c.font='650 190px "PingFang SC","Heiti SC",sans-serif';
+    window.coverMetrics={width:W,height:H,titleFont:190,titleLastLineFont:214,titleMaxRight:165+c.measureText('先让身体').width,primarySubject:{x:1815,y:680}};
+    window.coverReady=true;
+  }
+  window.drawCover=drawCover;drawCover();
+})();
+</script>
+</body>
+</html>

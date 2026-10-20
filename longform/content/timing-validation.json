@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "duration": 400.8333333333333,
+  "frame_count": 12025,
+  "narration_seconds": 371.4768125,
+  "chapters": 10,
+  "script_segments": 35,
+  "audio_segments": 9,
+  "captions": 157,
+  "caption_min_seconds": 0.7666666666666799,
+  "caption_max_seconds": 5.333333333333343,
+  "max_caption_han": 24,
+  "word_cues": 10,
+  "title_at": 21.7,
+  "asr_difference_groups": 27,
+  "caption_review_flags": 43,
+  "checks": [
+    "9 current WAV SHA-256 values",
+    "raw playback rate 1.0",
+    "35 script paragraphs retained",
+    "subtitle text and punctuation conservation",
+    "single line <=24 Han characters",
+    "integer frame boundaries",
+    "all subtitle/title switches in cuts",
+    "no subtitle overlap or non-positive duration",
+    "10 observed action word cues"
+  ],
+  "listening_status": "not a human listening review; independent ASR differences retained"
+}

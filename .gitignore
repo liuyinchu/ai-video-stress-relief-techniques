@@ -13,3 +13,7 @@ __pycache__/
 *.pyc
 
 assets/audio/minimax/fitted/
+
+# Rebuildable long-film audio and scratch files; source narration stays versioned.
+longform/assets/audio/
+longform/.scratch/

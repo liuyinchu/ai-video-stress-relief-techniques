@@ -1,0 +1,2947 @@
+{
+  "id": "shake",
+  "audio": "longform/assets/voice/raw/shake.wav",
+  "source_sha256": "2379caab503f127308755a7d297bf2cde5678e4cfc38e6f1112e389b3664af71",
+  "model_path": "/Users/yangshuyun/workspace/dev/ai-video/proj1-1019/out/models/whisper-large-v3-turbo-q4",
+  "model_revision": "660c343bbf4e52ac257f0b7d952e5388e6f93bef",
+  "offline": true,
+  "reference_prompt_used": false,
+  "timestamp_origin": "seconds from unchanged raw chapter WAV start",
+  "asr_seconds": 9.160576,
+  "audio_info": {
+    "duration": 44.7894375,
+    "sample_rate": 32000,
+    "sample_frames": 1433262,
+    "channels": 1
+  },
+  "recognized_text": "第四种,像小动物甩甩毛那样,松动身体,站稳,轻轻抖一抖手腕,再让手臂、膝盖和肩膀跟着动起来,坐着坐,也可以。先从几十秒开始,舒服的话延长到一两分钟,保持自然呼吸,别甩头,随后停下来,感受肩膀和手脚有什么变化。压力大时,我们容易握紧拳头,摇紧牙,把肌肉一直绷着,轻柔活动提供了一个改变姿势,重新留意身体感觉的机会这类动作常被称作躯体抖动,把它当作活动休息就好目前没有可靠证据说明,抖动能排出压力激素或直接甩掉创伤",
+  "words": [
+    {
+      "word": "第",
+      "start": 0.0,
+      "end": 0.3,
+      "probability": 0.9375,
+      "index": 0
+    },
+    {
+      "word": "四",
+      "start": 0.3,
+      "end": 0.46,
+      "probability": 0.98974609375,
+      "index": 1
+    },
+    {
+      "word": "种,",
+      "start": 0.46,
+      "end": 0.68,
+      "probability": 0.9873046875,
+      "index": 2
+    },
+    {
+      "word": "像",
+      "start": 0.86,
+      "end": 1.28,
+      "probability": 0.99560546875,
+      "index": 3
+    },
+    {
+      "word": "小",
+      "start": 1.28,
+      "end": 1.56,
+      "probability": 1.0,
+      "index": 4
+    },
+    {
+      "word": "动",
+      "start": 1.56,
+      "end": 1.72,
+      "probability": 0.99951171875,
+      "index": 5
+    },
+    {
+      "word": "物",
+      "start": 1.72,
+      "end": 1.86,
+      "probability": 0.998046875,
+      "index": 6
+    },
+    {
+      "word": "甩",
+      "start": 1.86,
+      "end": 2.04,
+      "probability": 0.70263671875,
+      "index": 7
+    },
+    {
+      "word": "甩",
+      "start": 2.04,
+      "end": 2.2,
+      "probability": 0.9873046875,
+      "index": 8
+    },
+    {
+      "word": "毛",
+      "start": 2.2,
+      "end": 2.42,
+      "probability": 0.953125,
+      "index": 9
+    },
+    {
+      "word": "那",
+      "start": 2.42,
+      "end": 2.62,
+      "probability": 0.9990234375,
+      "index": 10
+    },
+    {
+      "word": "样,",
+      "start": 2.62,
+      "end": 2.8,
+      "probability": 0.99853515625,
+      "index": 11
+    },
+    {
+      "word": "松",
+      "start": 2.98,
+      "end": 3.18,
+      "probability": 0.99365234375,
+      "index": 12
+    },
+    {
+      "word": "动",
+      "start": 3.18,
+      "end": 3.34,
+      "probability": 0.99853515625,
+      "index": 13
+    },
+    {
+      "word": "身",
+      "start": 3.34,
+      "end": 3.58,
+      "probability": 1.0,
+      "index": 14
+    },
+    {
+      "word": "体,",
+      "start": 3.58,
+      "end": 3.8,
+      "probability": 0.99951171875,
+      "index": 15
+    },
+    {
+      "word": "站",
+      "start": 4.24,
+      "end": 4.34,
+      "probability": 0.99267578125,
+      "index": 16
+    },
+    {
+      "word": "稳,",
+      "start": 4.34,
+      "end": 4.54,
+      "probability": 0.9912109375,
+      "index": 17
+    },
+    {
+      "word": "轻",
+      "start": 4.94,
+      "end": 5.1,
+      "probability": 0.99853515625,
+      "index": 18
+    },
+    {
+      "word": "轻",
+      "start": 5.1,
+      "end": 5.24,
+      "probability": 0.99755859375,
+      "index": 19
+    },
+    {
+      "word": "抖",
+      "start": 5.24,
+      "end": 5.4,
+      "probability": 0.9931640625,
+      "index": 20
+    },
+    {
+      "word": "一",
+      "start": 5.4,
+      "end": 5.54,
+      "probability": 0.9990234375,
+      "index": 21
+    },
+    {
+      "word": "抖",
+      "start": 5.54,
+      "end": 5.66,
+      "probability": 0.9990234375,
+      "index": 22
+    },
+    {
+      "word": "手",
+      "start": 5.66,
+      "end": 5.88,
+      "probability": 0.998046875,
+      "index": 23
+    },
+    {
+      "word": "腕,",
+      "start": 5.88,
+      "end": 6.06,
+      "probability": 0.9970703125,
+      "index": 24
+    },
+    {
+      "word": "再",
+      "start": 6.48,
+      "end": 6.6,
+      "probability": 0.99853515625,
+      "index": 25
+    },
+    {
+      "word": "让",
+      "start": 6.6,
+      "end": 6.76,
+      "probability": 0.99951171875,
+      "index": 26
+    },
+    {
+      "word": "手",
+      "start": 6.76,
+      "end": 7.0,
+      "probability": 0.99951171875,
+      "index": 27
+    },
+    {
+      "word": "臂、",
+      "start": 7.0,
+      "end": 7.22,
+      "probability": 0.99560546875,
+      "index": 28
+    },
+    {
+      "word": "膝",
+      "start": 7.56,
+      "end": 7.68,
+      "probability": 0.994140625,
+      "index": 29
+    },
+    {
+      "word": "盖",
+      "start": 7.68,
+      "end": 7.92,
+      "probability": 0.97705078125,
+      "index": 30
+    },
+    {
+      "word": "和",
+      "start": 7.92,
+      "end": 8.28,
+      "probability": 0.9990234375,
+      "index": 31
+    },
+    {
+      "word": "肩",
+      "start": 8.28,
+      "end": 8.48,
+      "probability": 0.9990234375,
+      "index": 32
+    },
+    {
+      "word": "膀",
+      "start": 8.48,
+      "end": 8.68,
+      "probability": 0.9970703125,
+      "index": 33
+    },
+    {
+      "word": "跟",
+      "start": 8.68,
+      "end": 9.12,
+      "probability": 0.99755859375,
+      "index": 34
+    },
+    {
+      "word": "着",
+      "start": 9.12,
+      "end": 9.26,
+      "probability": 1.0,
+      "index": 35
+    },
+    {
+      "word": "动",
+      "start": 9.26,
+      "end": 9.42,
+      "probability": 0.9990234375,
+      "index": 36
+    },
+    {
+      "word": "起",
+      "start": 9.42,
+      "end": 9.6,
+      "probability": 0.99853515625,
+      "index": 37
+    },
+    {
+      "word": "来,",
+      "start": 9.6,
+      "end": 9.78,
+      "probability": 1.0,
+      "index": 38
+    },
+    {
+      "word": "坐",
+      "start": 10.16,
+      "end": 10.28,
+      "probability": 0.8408203125,
+      "index": 39
+    },
+    {
+      "word": "着",
+      "start": 10.28,
+      "end": 10.44,
+      "probability": 0.9990234375,
+      "index": 40
+    },
+    {
+      "word": "坐,",
+      "start": 10.44,
+      "end": 10.64,
+      "probability": 0.9716796875,
+      "index": 41
+    },
+    {
+      "word": "也可以。",
+      "start": 10.94,
+      "end": 11.26,
+      "probability": 0.9990234375,
+      "index": 42
+    },
+    {
+      "word": "先",
+      "start": 11.72,
+      "end": 12.12,
+      "probability": 0.9736328125,
+      "index": 43
+    },
+    {
+      "word": "从",
+      "start": 12.12,
+      "end": 12.4,
+      "probability": 1.0,
+      "index": 44
+    },
+    {
+      "word": "几",
+      "start": 12.4,
+      "end": 12.6,
+      "probability": 0.99951171875,
+      "index": 45
+    },
+    {
+      "word": "十",
+      "start": 12.6,
+      "end": 12.76,
+      "probability": 0.99560546875,
+      "index": 46
+    },
+    {
+      "word": "秒",
+      "start": 12.76,
+      "end": 12.9,
+      "probability": 0.99853515625,
+      "index": 47
+    },
+    {
+      "word": "开始,",
+      "start": 12.9,
+      "end": 13.32,
+      "probability": 0.99951171875,
+      "index": 48
+    },
+    {
+      "word": "舒",
+      "start": 13.82,
+      "end": 13.98,
+      "probability": 0.998046875,
+      "index": 49
+    },
+    {
+      "word": "服",
+      "start": 13.98,
+      "end": 14.1,
+      "probability": 0.9931640625,
+      "index": 50
+    },
+    {
+      "word": "的话",
+      "start": 14.1,
+      "end": 14.42,
+      "probability": 1.0,
+      "index": 51
+    },
+    {
+      "word": "延",
+      "start": 14.42,
+      "end": 14.72,
+      "probability": 0.9951171875,
+      "index": 52
+    },
+    {
+      "word": "长",
+      "start": 14.72,
+      "end": 14.88,
+      "probability": 0.99609375,
+      "index": 53
+    },
+    {
+      "word": "到",
+      "start": 14.88,
+      "end": 15.12,
+      "probability": 0.99658203125,
+      "index": 54
+    },
+    {
+      "word": "一",
+      "start": 15.12,
+      "end": 15.3,
+      "probability": 0.99951171875,
+      "index": 55
+    },
+    {
+      "word": "两",
+      "start": 15.3,
+      "end": 15.44,
+      "probability": 0.99609375,
+      "index": 56
+    },
+    {
+      "word": "分",
+      "start": 15.44,
+      "end": 15.68,
+      "probability": 0.99560546875,
+      "index": 57
+    },
+    {
+      "word": "钟,",
+      "start": 15.68,
+      "end": 15.86,
+      "probability": 0.99951171875,
+      "index": 58
+    },
+    {
+      "word": "保",
+      "start": 16.4,
+      "end": 16.52,
+      "probability": 0.9990234375,
+      "index": 59
+    },
+    {
+      "word": "持",
+      "start": 16.52,
+      "end": 16.76,
+      "probability": 0.99951171875,
+      "index": 60
+    },
+    {
+      "word": "自",
+      "start": 16.76,
+      "end": 17.0,
+      "probability": 1.0,
+      "index": 61
+    },
+    {
+      "word": "然",
+      "start": 17.0,
+      "end": 17.14,
+      "probability": 0.99951171875,
+      "index": 62
+    },
+    {
+      "word": "呼",
+      "start": 17.14,
+      "end": 17.34,
+      "probability": 0.99951171875,
+      "index": 63
+    },
+    {
+      "word": "吸,",
+      "start": 17.34,
+      "end": 17.54,
+      "probability": 0.99560546875,
+      "index": 64
+    },
+    {
+      "word": "别",
+      "start": 17.88,
+      "end": 18.04,
+      "probability": 0.998046875,
+      "index": 65
+    },
+    {
+      "word": "甩",
+      "start": 18.04,
+      "end": 18.2,
+      "probability": 0.9990234375,
+      "index": 66
+    },
+    {
+      "word": "头,",
+      "start": 18.2,
+      "end": 18.44,
+      "probability": 0.99853515625,
+      "index": 67
+    },
+    {
+      "word": "随",
+      "start": 18.92,
+      "end": 19.04,
+      "probability": 0.9990234375,
+      "index": 68
+    },
+    {
+      "word": "后",
+      "start": 19.04,
+      "end": 19.16,
+      "probability": 0.99853515625,
+      "index": 69
+    },
+    {
+      "word": "停",
+      "start": 19.16,
+      "end": 19.32,
+      "probability": 0.99951171875,
+      "index": 70
+    },
+    {
+      "word": "下",
+      "start": 19.32,
+      "end": 19.54,
+      "probability": 0.99951171875,
+      "index": 71
+    },
+    {
+      "word": "来,",
+      "start": 19.54,
+      "end": 19.76,
+      "probability": 1.0,
+      "index": 72
+    },
+    {
+      "word": "感",
+      "start": 20.14,
+      "end": 20.32,
+      "probability": 1.0,
+      "index": 73
+    },
+    {
+      "word": "受",
+      "start": 20.32,
+      "end": 20.52,
+      "probability": 0.99951171875,
+      "index": 74
+    },
+    {
+      "word": "肩",
+      "start": 20.52,
+      "end": 20.76,
+      "probability": 0.9990234375,
+      "index": 75
+    },
+    {
+      "word": "膀",
+      "start": 20.76,
+      "end": 21.0,
+      "probability": 0.998046875,
+      "index": 76
+    },
+    {
+      "word": "和",
+      "start": 21.0,
+      "end": 21.24,
+      "probability": 1.0,
+      "index": 77
+    },
+    {
+      "word": "手",
+      "start": 21.24,
+      "end": 21.48,
+      "probability": 0.99951171875,
+      "index": 78
+    },
+    {
+      "word": "脚",
+      "start": 21.48,
+      "end": 21.66,
+      "probability": 0.9990234375,
+      "index": 79
+    },
+    {
+      "word": "有",
+      "start": 21.66,
+      "end": 21.96,
+      "probability": 1.0,
+      "index": 80
+    },
+    {
+      "word": "什么",
+      "start": 21.96,
+      "end": 22.18,
+      "probability": 0.99951171875,
+      "index": 81
+    },
+    {
+      "word": "变",
+      "start": 22.18,
+      "end": 22.36,
+      "probability": 1.0,
+      "index": 82
+    },
+    {
+      "word": "化。",
+      "start": 22.36,
+      "end": 22.62,
+      "probability": 0.99853515625,
+      "index": 83
+    },
+    {
+      "word": "压",
+      "start": 23.139999999999993,
+      "end": 23.54,
+      "probability": 0.98779296875,
+      "index": 84
+    },
+    {
+      "word": "力",
+      "start": 23.54,
+      "end": 23.64,
+      "probability": 1.0,
+      "index": 85
+    },
+    {
+      "word": "大",
+      "start": 23.64,
+      "end": 23.82,
+      "probability": 0.99951171875,
+      "index": 86
+    },
+    {
+      "word": "时,",
+      "start": 23.82,
+      "end": 24.12,
+      "probability": 0.9833984375,
+      "index": 87
+    },
+    {
+      "word": "我们",
+      "start": 24.36,
+      "end": 24.68,
+      "probability": 0.99951171875,
+      "index": 88
+    },
+    {
+      "word": "容易",
+      "start": 24.68,
+      "end": 24.96,
+      "probability": 0.998046875,
+      "index": 89
+    },
+    {
+      "word": "握",
+      "start": 24.96,
+      "end": 25.18,
+      "probability": 0.9951171875,
+      "index": 90
+    },
+    {
+      "word": "紧",
+      "start": 25.18,
+      "end": 25.38,
+      "probability": 0.998046875,
+      "index": 91
+    },
+    {
+      "word": "拳",
+      "start": 25.38,
+      "end": 25.58,
+      "probability": 0.998046875,
+      "index": 92
+    },
+    {
+      "word": "头,",
+      "start": 25.58,
+      "end": 25.82,
+      "probability": 0.9990234375,
+      "index": 93
+    },
+    {
+      "word": "摇",
+      "start": 25.98,
+      "end": 26.2,
+      "probability": 0.71875,
+      "index": 94
+    },
+    {
+      "word": "紧",
+      "start": 26.2,
+      "end": 26.4,
+      "probability": 0.9990234375,
+      "index": 95
+    },
+    {
+      "word": "牙,",
+      "start": 26.4,
+      "end": 26.64,
+      "probability": 0.99658203125,
+      "index": 96
+    },
+    {
+      "word": "把",
+      "start": 26.86,
+      "end": 27.14,
+      "probability": 0.99951171875,
+      "index": 97
+    },
+    {
+      "word": "肌",
+      "start": 27.14,
+      "end": 27.36,
+      "probability": 0.982421875,
+      "index": 98
+    },
+    {
+      "word": "肉",
+      "start": 27.36,
+      "end": 27.5,
+      "probability": 0.99951171875,
+      "index": 99
+    },
+    {
+      "word": "一直",
+      "start": 27.5,
+      "end": 27.74,
+      "probability": 0.99853515625,
+      "index": 100
+    },
+    {
+      "word": "绷",
+      "start": 27.74,
+      "end": 27.96,
+      "probability": 0.9599609375,
+      "index": 101
+    },
+    {
+      "word": "着,",
+      "start": 27.96,
+      "end": 28.22,
+      "probability": 0.99755859375,
+      "index": 102
+    },
+    {
+      "word": "轻",
+      "start": 28.56,
+      "end": 28.7,
+      "probability": 0.9990234375,
+      "index": 103
+    },
+    {
+      "word": "柔",
+      "start": 28.7,
+      "end": 28.88,
+      "probability": 0.81982421875,
+      "index": 104
+    },
+    {
+      "word": "活",
+      "start": 28.88,
+      "end": 29.08,
+      "probability": 0.99853515625,
+      "index": 105
+    },
+    {
+      "word": "动",
+      "start": 29.08,
+      "end": 29.3,
+      "probability": 1.0,
+      "index": 106
+    },
+    {
+      "word": "提",
+      "start": 29.3,
+      "end": 29.98,
+      "probability": 0.63623046875,
+      "index": 107
+    },
+    {
+      "word": "供",
+      "start": 29.98,
+      "end": 30.16,
+      "probability": 0.99853515625,
+      "index": 108
+    },
+    {
+      "word": "了",
+      "start": 30.16,
+      "end": 30.28,
+      "probability": 1.0,
+      "index": 109
+    },
+    {
+      "word": "一个",
+      "start": 30.28,
+      "end": 30.52,
+      "probability": 1.0,
+      "index": 110
+    },
+    {
+      "word": "改",
+      "start": 30.52,
+      "end": 30.88,
+      "probability": 0.99951171875,
+      "index": 111
+    },
+    {
+      "word": "变",
+      "start": 30.88,
+      "end": 31.14,
+      "probability": 0.9990234375,
+      "index": 112
+    },
+    {
+      "word": "姿",
+      "start": 31.14,
+      "end": 31.34,
+      "probability": 0.99853515625,
+      "index": 113
+    },
+    {
+      "word": "势,",
+      "start": 31.34,
+      "end": 31.58,
+      "probability": 0.984375,
+      "index": 114
+    },
+    {
+      "word": "重",
+      "start": 31.84,
+      "end": 31.96,
+      "probability": 0.99951171875,
+      "index": 115
+    },
+    {
+      "word": "新",
+      "start": 31.96,
+      "end": 32.22,
+      "probability": 0.99951171875,
+      "index": 116
+    },
+    {
+      "word": "留",
+      "start": 32.22,
+      "end": 32.38,
+      "probability": 0.98828125,
+      "index": 117
+    },
+    {
+      "word": "意",
+      "start": 32.38,
+      "end": 32.5,
+      "probability": 0.99560546875,
+      "index": 118
+    },
+    {
+      "word": "身",
+      "start": 32.5,
+      "end": 32.66,
+      "probability": 0.99951171875,
+      "index": 119
+    },
+    {
+      "word": "体",
+      "start": 32.66,
+      "end": 32.82,
+      "probability": 0.99951171875,
+      "index": 120
+    },
+    {
+      "word": "感",
+      "start": 32.82,
+      "end": 32.96,
+      "probability": 1.0,
+      "index": 121
+    },
+    {
+      "word": "觉",
+      "start": 32.96,
+      "end": 33.12,
+      "probability": 0.9951171875,
+      "index": 122
+    },
+    {
+      "word": "的",
+      "start": 33.12,
+      "end": 33.24,
+      "probability": 1.0,
+      "index": 123
+    },
+    {
+      "word": "机",
+      "start": 33.24,
+      "end": 33.4,
+      "probability": 0.99951171875,
+      "index": 124
+    },
+    {
+      "word": "会",
+      "start": 33.4,
+      "end": 33.66,
+      "probability": 0.99951171875,
+      "index": 125
+    },
+    {
+      "word": "这",
+      "start": 33.66,
+      "end": 34.46,
+      "probability": 0.9912109375,
+      "index": 126
+    },
+    {
+      "word": "类",
+      "start": 34.46,
+      "end": 34.6,
+      "probability": 1.0,
+      "index": 127
+    },
+    {
+      "word": "动",
+      "start": 34.6,
+      "end": 34.72,
+      "probability": 0.9990234375,
+      "index": 128
+    },
+    {
+      "word": "作",
+      "start": 34.72,
+      "end": 34.98,
+      "probability": 0.99609375,
+      "index": 129
+    },
+    {
+      "word": "常",
+      "start": 34.98,
+      "end": 35.18,
+      "probability": 0.99609375,
+      "index": 130
+    },
+    {
+      "word": "被",
+      "start": 35.18,
+      "end": 35.32,
+      "probability": 0.998046875,
+      "index": 131
+    },
+    {
+      "word": "称",
+      "start": 35.32,
+      "end": 35.5,
+      "probability": 1.0,
+      "index": 132
+    },
+    {
+      "word": "作",
+      "start": 35.5,
+      "end": 35.7,
+      "probability": 0.95166015625,
+      "index": 133
+    },
+    {
+      "word": "躯",
+      "start": 35.7,
+      "end": 35.98,
+      "probability": 0.7626953125,
+      "index": 134
+    },
+    {
+      "word": "体",
+      "start": 35.98,
+      "end": 36.14,
+      "probability": 0.9873046875,
+      "index": 135
+    },
+    {
+      "word": "抖",
+      "start": 36.14,
+      "end": 36.36,
+      "probability": 0.98583984375,
+      "index": 136
+    },
+    {
+      "word": "动,",
+      "start": 36.36,
+      "end": 36.54,
+      "probability": 0.9951171875,
+      "index": 137
+    },
+    {
+      "word": "把它",
+      "start": 36.8,
+      "end": 37.14,
+      "probability": 0.986328125,
+      "index": 138
+    },
+    {
+      "word": "当",
+      "start": 37.14,
+      "end": 37.38,
+      "probability": 1.0,
+      "index": 139
+    },
+    {
+      "word": "作",
+      "start": 37.38,
+      "end": 37.6,
+      "probability": 0.94384765625,
+      "index": 140
+    },
+    {
+      "word": "活",
+      "start": 37.6,
+      "end": 37.86,
+      "probability": 0.99951171875,
+      "index": 141
+    },
+    {
+      "word": "动",
+      "start": 37.86,
+      "end": 38.02,
+      "probability": 1.0,
+      "index": 142
+    },
+    {
+      "word": "休",
+      "start": 38.02,
+      "end": 38.2,
+      "probability": 0.98779296875,
+      "index": 143
+    },
+    {
+      "word": "息",
+      "start": 38.2,
+      "end": 38.42,
+      "probability": 0.99951171875,
+      "index": 144
+    },
+    {
+      "word": "就",
+      "start": 38.42,
+      "end": 38.56,
+      "probability": 0.99951171875,
+      "index": 145
+    },
+    {
+      "word": "好",
+      "start": 38.56,
+      "end": 38.84,
+      "probability": 0.99853515625,
+      "index": 146
+    },
+    {
+      "word": "目前",
+      "start": 38.84,
+      "end": 39.4,
+      "probability": 0.99169921875,
+      "index": 147
+    },
+    {
+      "word": "没有",
+      "start": 39.4,
+      "end": 39.92,
+      "probability": 0.52978515625,
+      "index": 148
+    },
+    {
+      "word": "可",
+      "start": 39.92,
+      "end": 40.12,
+      "probability": 0.99951171875,
+      "index": 149
+    },
+    {
+      "word": "靠",
+      "start": 40.12,
+      "end": 40.28,
+      "probability": 0.9990234375,
+      "index": 150
+    },
+    {
+      "word": "证",
+      "start": 40.28,
+      "end": 40.44,
+      "probability": 0.9921875,
+      "index": 151
+    },
+    {
+      "word": "据",
+      "start": 40.44,
+      "end": 40.56,
+      "probability": 0.998046875,
+      "index": 152
+    },
+    {
+      "word": "说",
+      "start": 40.56,
+      "end": 40.72,
+      "probability": 0.99951171875,
+      "index": 153
+    },
+    {
+      "word": "明,",
+      "start": 40.72,
+      "end": 41.0,
+      "probability": 0.99951171875,
+      "index": 154
+    },
+    {
+      "word": "抖",
+      "start": 41.26,
+      "end": 41.58,
+      "probability": 0.99951171875,
+      "index": 155
+    },
+    {
+      "word": "动",
+      "start": 41.58,
+      "end": 41.76,
+      "probability": 0.9990234375,
+      "index": 156
+    },
+    {
+      "word": "能",
+      "start": 41.76,
+      "end": 42.0,
+      "probability": 1.0,
+      "index": 157
+    },
+    {
+      "word": "排",
+      "start": 42.0,
+      "end": 42.16,
+      "probability": 0.99951171875,
+      "index": 158
+    },
+    {
+      "word": "出",
+      "start": 42.16,
+      "end": 42.34,
+      "probability": 0.88134765625,
+      "index": 159
+    },
+    {
+      "word": "压",
+      "start": 42.34,
+      "end": 42.54,
+      "probability": 1.0,
+      "index": 160
+    },
+    {
+      "word": "力",
+      "start": 42.54,
+      "end": 42.66,
+      "probability": 1.0,
+      "index": 161
+    },
+    {
+      "word": "激",
+      "start": 42.66,
+      "end": 42.86,
+      "probability": 0.990234375,
+      "index": 162
+    },
+    {
+      "word": "素",
+      "start": 42.86,
+      "end": 43.06,
+      "probability": 0.85205078125,
+      "index": 163
+    },
+    {
+      "word": "或",
+      "start": 43.06,
+      "end": 43.4,
+      "probability": 0.79150390625,
+      "index": 164
+    },
+    {
+      "word": "直接",
+      "start": 43.4,
+      "end": 43.7,
+      "probability": 1.0,
+      "index": 165
+    },
+    {
+      "word": "甩",
+      "start": 43.7,
+      "end": 43.9,
+      "probability": 0.9951171875,
+      "index": 166
+    },
+    {
+      "word": "掉",
+      "start": 43.9,
+      "end": 44.06,
+      "probability": 0.99853515625,
+      "index": 167
+    },
+    {
+      "word": "创",
+      "start": 44.06,
+      "end": 44.26,
+      "probability": 0.9921875,
+      "index": 168
+    },
+    {
+      "word": "伤",
+      "start": 44.26,
+      "end": 44.48,
+      "probability": 0.990234375,
+      "index": 169
+    }
+  ],
+  "asr_segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 11.26,
+      "text": "第四种,像小动物甩甩毛那样,松动身体,站稳,轻轻抖一抖手腕,再让手臂、膝盖和肩膀跟着动起来,坐着坐,也可以。",
+      "tokens": [
+        50365,
+        7536,
+        19425,
+        39810,
+        11,
+        12760,
+        7322,
+        34961,
+        23516,
+        3526,
+        102,
+        3526,
+        102,
+        39057,
+        4184,
+        14496,
+        11,
+        36897,
+        34961,
+        19847,
+        29485,
+        11,
+        34155,
+        10415,
+        111,
+        11,
+        17819,
+        119,
+        17819,
+        119,
+        7235,
+        244,
+        2257,
+        7235,
+        244,
+        11389,
+        164,
+        12831,
+        11,
+        8623,
+        33650,
+        11389,
+        6784,
+        224,
+        1231,
+        39708,
+        251,
+        5419,
+        244,
+        12565,
+        14356,
+        102,
+        39708,
+        222,
+        9678,
+        20708,
+        34961,
+        9147,
+        6912,
+        11,
+        31123,
+        20708,
+        31123,
+        11,
+        47935,
+        1543,
+        50931
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.06615320841471355,
+      "compression_ratio": 1.1900826446280992,
+      "no_speech_prob": 1.2997413041671013e-11,
+      "words": [
+        {
+          "word": "第",
+          "start": 0.0,
+          "end": 0.3,
+          "probability": 0.9375
+        },
+        {
+          "word": "四",
+          "start": 0.3,
+          "end": 0.46,
+          "probability": 0.98974609375
+        },
+        {
+          "word": "种,",
+          "start": 0.46,
+          "end": 0.68,
+          "probability": 0.9873046875
+        },
+        {
+          "word": "像",
+          "start": 0.86,
+          "end": 1.28,
+          "probability": 0.99560546875
+        },
+        {
+          "word": "小",
+          "start": 1.28,
+          "end": 1.56,
+          "probability": 1.0
+        },
+        {
+          "word": "动",
+          "start": 1.56,
+          "end": 1.72,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "物",
+          "start": 1.72,
+          "end": 1.86,
+          "probability": 0.998046875
+        },
+        {
+          "word": "甩",
+          "start": 1.86,
+          "end": 2.04,
+          "probability": 0.70263671875
+        },
+        {
+          "word": "甩",
+          "start": 2.04,
+          "end": 2.2,
+          "probability": 0.9873046875
+        },
+        {
+          "word": "毛",
+          "start": 2.2,
+          "end": 2.42,
+          "probability": 0.953125
+        },
+        {
+          "word": "那",
+          "start": 2.42,
+          "end": 2.62,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "样,",
+          "start": 2.62,
+          "end": 2.8,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "松",
+          "start": 2.98,
+          "end": 3.18,
+          "probability": 0.99365234375
+        },
+        {
+          "word": "动",
+          "start": 3.18,
+          "end": 3.34,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "身",
+          "start": 3.34,
+          "end": 3.58,
+          "probability": 1.0
+        },
+        {
+          "word": "体,",
+          "start": 3.58,
+          "end": 3.8,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "站",
+          "start": 4.24,
+          "end": 4.34,
+          "probability": 0.99267578125
+        },
+        {
+          "word": "稳,",
+          "start": 4.34,
+          "end": 4.54,
+          "probability": 0.9912109375
+        },
+        {
+          "word": "轻",
+          "start": 4.94,
+          "end": 5.1,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "轻",
+          "start": 5.1,
+          "end": 5.24,
+          "probability": 0.99755859375
+        },
+        {
+          "word": "抖",
+          "start": 5.24,
+          "end": 5.4,
+          "probability": 0.9931640625
+        },
+        {
+          "word": "一",
+          "start": 5.4,
+          "end": 5.54,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "抖",
+          "start": 5.54,
+          "end": 5.66,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "手",
+          "start": 5.66,
+          "end": 5.88,
+          "probability": 0.998046875
+        },
+        {
+          "word": "腕,",
+          "start": 5.88,
+          "end": 6.06,
+          "probability": 0.9970703125
+        },
+        {
+          "word": "再",
+          "start": 6.48,
+          "end": 6.6,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "让",
+          "start": 6.6,
+          "end": 6.76,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "手",
+          "start": 6.76,
+          "end": 7.0,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "臂、",
+          "start": 7.0,
+          "end": 7.22,
+          "probability": 0.99560546875
+        },
+        {
+          "word": "膝",
+          "start": 7.56,
+          "end": 7.68,
+          "probability": 0.994140625
+        },
+        {
+          "word": "盖",
+          "start": 7.68,
+          "end": 7.92,
+          "probability": 0.97705078125
+        },
+        {
+          "word": "和",
+          "start": 7.92,
+          "end": 8.28,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "肩",
+          "start": 8.28,
+          "end": 8.48,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "膀",
+          "start": 8.48,
+          "end": 8.68,
+          "probability": 0.9970703125
+        },
+        {
+          "word": "跟",
+          "start": 8.68,
+          "end": 9.12,
+          "probability": 0.99755859375
+        },
+        {
+          "word": "着",
+          "start": 9.12,
+          "end": 9.26,
+          "probability": 1.0
+        },
+        {
+          "word": "动",
+          "start": 9.26,
+          "end": 9.42,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "起",
+          "start": 9.42,
+          "end": 9.6,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "来,",
+          "start": 9.6,
+          "end": 9.78,
+          "probability": 1.0
+        },
+        {
+          "word": "坐",
+          "start": 10.16,
+          "end": 10.28,
+          "probability": 0.8408203125
+        },
+        {
+          "word": "着",
+          "start": 10.28,
+          "end": 10.44,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "坐,",
+          "start": 10.44,
+          "end": 10.64,
+          "probability": 0.9716796875
+        },
+        {
+          "word": "也可以。",
+          "start": 10.94,
+          "end": 11.26,
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 11.72,
+      "end": 22.62,
+      "text": "先从几十秒开始,舒服的话延长到一两分钟,保持自然呼吸,别甩头,随后停下来,感受肩膀和手脚有什么变化。",
+      "tokens": [
+        50964,
+        10108,
+        35630,
+        6336,
+        254,
+        20145,
+        20956,
+        45213,
+        11,
+        46204,
+        27408,
+        44575,
+        17527,
+        114,
+        32271,
+        4511,
+        2257,
+        36257,
+        6627,
+        50064,
+        11,
+        24302,
+        17694,
+        9722,
+        5823,
+        38718,
+        46431,
+        11,
+        18453,
+        3526,
+        102,
+        39862,
+        11,
+        10673,
+        237,
+        13547,
+        36135,
+        4438,
+        6912,
+        11,
+        9709,
+        23151,
+        14356,
+        102,
+        39708,
+        222,
+        12565,
+        11389,
+        27067,
+        248,
+        2412,
+        10440,
+        2129,
+        246,
+        23756,
+        1543,
+        51498
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.06615320841471355,
+      "compression_ratio": 1.1900826446280992,
+      "no_speech_prob": 1.2997413041671013e-11,
+      "words": [
+        {
+          "word": "先",
+          "start": 11.72,
+          "end": 12.12,
+          "probability": 0.9736328125
+        },
+        {
+          "word": "从",
+          "start": 12.12,
+          "end": 12.4,
+          "probability": 1.0
+        },
+        {
+          "word": "几",
+          "start": 12.4,
+          "end": 12.6,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "十",
+          "start": 12.6,
+          "end": 12.76,
+          "probability": 0.99560546875
+        },
+        {
+          "word": "秒",
+          "start": 12.76,
+          "end": 12.9,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "开始,",
+          "start": 12.9,
+          "end": 13.32,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "舒",
+          "start": 13.82,
+          "end": 13.98,
+          "probability": 0.998046875
+        },
+        {
+          "word": "服",
+          "start": 13.98,
+          "end": 14.1,
+          "probability": 0.9931640625
+        },
+        {
+          "word": "的话",
+          "start": 14.1,
+          "end": 14.42,
+          "probability": 1.0
+        },
+        {
+          "word": "延",
+          "start": 14.42,
+          "end": 14.72,
+          "probability": 0.9951171875
+        },
+        {
+          "word": "长",
+          "start": 14.72,
+          "end": 14.88,
+          "probability": 0.99609375
+        },
+        {
+          "word": "到",
+          "start": 14.88,
+          "end": 15.12,
+          "probability": 0.99658203125
+        },
+        {
+          "word": "一",
+          "start": 15.12,
+          "end": 15.3,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "两",
+          "start": 15.3,
+          "end": 15.44,
+          "probability": 0.99609375
+        },
+        {
+          "word": "分",
+          "start": 15.44,
+          "end": 15.68,
+          "probability": 0.99560546875
+        },
+        {
+          "word": "钟,",
+          "start": 15.68,
+          "end": 15.86,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "保",
+          "start": 16.4,
+          "end": 16.52,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "持",
+          "start": 16.52,
+          "end": 16.76,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "自",
+          "start": 16.76,
+          "end": 17.0,
+          "probability": 1.0
+        },
+        {
+          "word": "然",
+          "start": 17.0,
+          "end": 17.14,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "呼",
+          "start": 17.14,
+          "end": 17.34,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "吸,",
+          "start": 17.34,
+          "end": 17.54,
+          "probability": 0.99560546875
+        },
+        {
+          "word": "别",
+          "start": 17.88,
+          "end": 18.04,
+          "probability": 0.998046875
+        },
+        {
+          "word": "甩",
+          "start": 18.04,
+          "end": 18.2,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "头,",
+          "start": 18.2,
+          "end": 18.44,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "随",
+          "start": 18.92,
+          "end": 19.04,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "后",
+          "start": 19.04,
+          "end": 19.16,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "停",
+          "start": 19.16,
+          "end": 19.32,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "下",
+          "start": 19.32,
+          "end": 19.54,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "来,",
+          "start": 19.54,
+          "end": 19.76,
+          "probability": 1.0
+        },
+        {
+          "word": "感",
+          "start": 20.14,
+          "end": 20.32,
+          "probability": 1.0
+        },
+        {
+          "word": "受",
+          "start": 20.32,
+          "end": 20.52,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "肩",
+          "start": 20.52,
+          "end": 20.76,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "膀",
+          "start": 20.76,
+          "end": 21.0,
+          "probability": 0.998046875
+        },
+        {
+          "word": "和",
+          "start": 21.0,
+          "end": 21.24,
+          "probability": 1.0
+        },
+        {
+          "word": "手",
+          "start": 21.24,
+          "end": 21.48,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "脚",
+          "start": 21.48,
+          "end": 21.66,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "有",
+          "start": 21.66,
+          "end": 21.96,
+          "probability": 1.0
+        },
+        {
+          "word": "什么",
+          "start": 21.96,
+          "end": 22.18,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "变",
+          "start": 22.18,
+          "end": 22.36,
+          "probability": 1.0
+        },
+        {
+          "word": "化。",
+          "start": 22.36,
+          "end": 22.62,
+          "probability": 0.99853515625
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 2262,
+      "start": 23.139999999999993,
+      "end": 29.3,
+      "text": "压力大时,我们容易握紧拳头,摇紧牙,把肌肉一直绷着,轻柔活动",
+      "tokens": [
+        50365,
+        5014,
+        233,
+        13486,
+        3582,
+        15729,
+        11,
+        15003,
+        49212,
+        11673,
+        94,
+        7732,
+        100,
+        6852,
+        111,
+        39862,
+        11,
+        34783,
+        229,
+        7732,
+        100,
+        6935,
+        247,
+        11,
+        16075,
+        14356,
+        234,
+        31980,
+        34448,
+        10115,
+        115,
+        20708,
+        11,
+        17819,
+        119,
+        17238,
+        242,
+        25956,
+        34961,
+        50700
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.06458611855140099,
+      "compression_ratio": 1.209205020920502,
+      "no_speech_prob": 8.939586050582538e-12,
+      "words": [
+        {
+          "word": "压",
+          "start": 23.139999999999993,
+          "end": 23.54,
+          "probability": 0.98779296875
+        },
+        {
+          "word": "力",
+          "start": 23.54,
+          "end": 23.64,
+          "probability": 1.0
+        },
+        {
+          "word": "大",
+          "start": 23.64,
+          "end": 23.82,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "时,",
+          "start": 23.82,
+          "end": 24.12,
+          "probability": 0.9833984375
+        },
+        {
+          "word": "我们",
+          "start": 24.36,
+          "end": 24.68,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "容易",
+          "start": 24.68,
+          "end": 24.96,
+          "probability": 0.998046875
+        },
+        {
+          "word": "握",
+          "start": 24.96,
+          "end": 25.18,
+          "probability": 0.9951171875
+        },
+        {
+          "word": "紧",
+          "start": 25.18,
+          "end": 25.38,
+          "probability": 0.998046875
+        },
+        {
+          "word": "拳",
+          "start": 25.38,
+          "end": 25.58,
+          "probability": 0.998046875
+        },
+        {
+          "word": "头,",
+          "start": 25.58,
+          "end": 25.82,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "摇",
+          "start": 25.98,
+          "end": 26.2,
+          "probability": 0.71875
+        },
+        {
+          "word": "紧",
+          "start": 26.2,
+          "end": 26.4,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "牙,",
+          "start": 26.4,
+          "end": 26.64,
+          "probability": 0.99658203125
+        },
+        {
+          "word": "把",
+          "start": 26.86,
+          "end": 27.14,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "肌",
+          "start": 27.14,
+          "end": 27.36,
+          "probability": 0.982421875
+        },
+        {
+          "word": "肉",
+          "start": 27.36,
+          "end": 27.5,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "一直",
+          "start": 27.5,
+          "end": 27.74,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "绷",
+          "start": 27.74,
+          "end": 27.96,
+          "probability": 0.9599609375
+        },
+        {
+          "word": "着,",
+          "start": 27.96,
+          "end": 28.22,
+          "probability": 0.99755859375
+        },
+        {
+          "word": "轻",
+          "start": 28.56,
+          "end": 28.7,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "柔",
+          "start": 28.7,
+          "end": 28.88,
+          "probability": 0.81982421875
+        },
+        {
+          "word": "活",
+          "start": 28.88,
+          "end": 29.08,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "动",
+          "start": 29.08,
+          "end": 29.3,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 2262,
+      "start": 29.3,
+      "end": 33.66,
+      "text": "提供了一个改变姿势,重新留意身体感觉的机会",
+      "tokens": [
+        50700,
+        20949,
+        3254,
+        249,
+        2289,
+        20182,
+        34490,
+        2129,
+        246,
+        7795,
+        123,
+        5087,
+        123,
+        11,
+        12624,
+        12560,
+        24456,
+        9042,
+        19847,
+        29485,
+        9709,
+        24447,
+        1546,
+        37960,
+        12949,
+        50918
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.06458611855140099,
+      "compression_ratio": 1.209205020920502,
+      "no_speech_prob": 8.939586050582538e-12,
+      "words": [
+        {
+          "word": "提",
+          "start": 29.3,
+          "end": 29.98,
+          "probability": 0.63623046875
+        },
+        {
+          "word": "供",
+          "start": 29.98,
+          "end": 30.16,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "了",
+          "start": 30.16,
+          "end": 30.28,
+          "probability": 1.0
+        },
+        {
+          "word": "一个",
+          "start": 30.28,
+          "end": 30.52,
+          "probability": 1.0
+        },
+        {
+          "word": "改",
+          "start": 30.52,
+          "end": 30.88,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "变",
+          "start": 30.88,
+          "end": 31.14,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "姿",
+          "start": 31.14,
+          "end": 31.34,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "势,",
+          "start": 31.34,
+          "end": 31.58,
+          "probability": 0.984375
+        },
+        {
+          "word": "重",
+          "start": 31.84,
+          "end": 31.96,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "新",
+          "start": 31.96,
+          "end": 32.22,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "留",
+          "start": 32.22,
+          "end": 32.38,
+          "probability": 0.98828125
+        },
+        {
+          "word": "意",
+          "start": 32.38,
+          "end": 32.5,
+          "probability": 0.99560546875
+        },
+        {
+          "word": "身",
+          "start": 32.5,
+          "end": 32.66,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "体",
+          "start": 32.66,
+          "end": 32.82,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "感",
+          "start": 32.82,
+          "end": 32.96,
+          "probability": 1.0
+        },
+        {
+          "word": "觉",
+          "start": 32.96,
+          "end": 33.12,
+          "probability": 0.9951171875
+        },
+        {
+          "word": "的",
+          "start": 33.12,
+          "end": 33.24,
+          "probability": 1.0
+        },
+        {
+          "word": "机",
+          "start": 33.24,
+          "end": 33.4,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "会",
+          "start": 33.4,
+          "end": 33.66,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 2262,
+      "start": 33.66,
+      "end": 38.84,
+      "text": "这类动作常被称作躯体抖动,把它当作活动休息就好",
+      "tokens": [
+        50918,
+        5562,
+        22113,
+        119,
+        34961,
+        11914,
+        11279,
+        23238,
+        8204,
+        108,
+        11914,
+        17514,
+        107,
+        29485,
+        7235,
+        244,
+        34961,
+        11,
+        42061,
+        16233,
+        11914,
+        25956,
+        34961,
+        39437,
+        26460,
+        3111,
+        2131,
+        51177
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.06458611855140099,
+      "compression_ratio": 1.209205020920502,
+      "no_speech_prob": 8.939586050582538e-12,
+      "words": [
+        {
+          "word": "这",
+          "start": 33.66,
+          "end": 34.46,
+          "probability": 0.9912109375
+        },
+        {
+          "word": "类",
+          "start": 34.46,
+          "end": 34.6,
+          "probability": 1.0
+        },
+        {
+          "word": "动",
+          "start": 34.6,
+          "end": 34.72,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "作",
+          "start": 34.72,
+          "end": 34.98,
+          "probability": 0.99609375
+        },
+        {
+          "word": "常",
+          "start": 34.98,
+          "end": 35.18,
+          "probability": 0.99609375
+        },
+        {
+          "word": "被",
+          "start": 35.18,
+          "end": 35.32,
+          "probability": 0.998046875
+        },
+        {
+          "word": "称",
+          "start": 35.32,
+          "end": 35.5,
+          "probability": 1.0
+        },
+        {
+          "word": "作",
+          "start": 35.5,
+          "end": 35.7,
+          "probability": 0.95166015625
+        },
+        {
+          "word": "躯",
+          "start": 35.7,
+          "end": 35.98,
+          "probability": 0.7626953125
+        },
+        {
+          "word": "体",
+          "start": 35.98,
+          "end": 36.14,
+          "probability": 0.9873046875
+        },
+        {
+          "word": "抖",
+          "start": 36.14,
+          "end": 36.36,
+          "probability": 0.98583984375
+        },
+        {
+          "word": "动,",
+          "start": 36.36,
+          "end": 36.54,
+          "probability": 0.9951171875
+        },
+        {
+          "word": "把它",
+          "start": 36.8,
+          "end": 37.14,
+          "probability": 0.986328125
+        },
+        {
+          "word": "当",
+          "start": 37.14,
+          "end": 37.38,
+          "probability": 1.0
+        },
+        {
+          "word": "作",
+          "start": 37.38,
+          "end": 37.6,
+          "probability": 0.94384765625
+        },
+        {
+          "word": "活",
+          "start": 37.6,
+          "end": 37.86,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "动",
+          "start": 37.86,
+          "end": 38.02,
+          "probability": 1.0
+        },
+        {
+          "word": "休",
+          "start": 38.02,
+          "end": 38.2,
+          "probability": 0.98779296875
+        },
+        {
+          "word": "息",
+          "start": 38.2,
+          "end": 38.42,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "就",
+          "start": 38.42,
+          "end": 38.56,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "好",
+          "start": 38.56,
+          "end": 38.84,
+          "probability": 0.99853515625
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 2262,
+      "start": 38.84,
+      "end": 44.48,
+      "text": "目前没有可靠证据说明,抖动能排出压力激素或直接甩掉创伤",
+      "tokens": [
+        51177,
+        39004,
+        17944,
+        4429,
+        5363,
+        254,
+        5233,
+        223,
+        26075,
+        106,
+        8090,
+        11100,
+        11,
+        7235,
+        244,
+        34961,
+        8225,
+        44647,
+        7781,
+        5014,
+        233,
+        13486,
+        26373,
+        222,
+        37204,
+        19780,
+        43297,
+        3526,
+        102,
+        29327,
+        2437,
+        249,
+        7384,
+        97,
+        51459
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.06458611855140099,
+      "compression_ratio": 1.209205020920502,
+      "no_speech_prob": 8.939586050582538e-12,
+      "words": [
+        {
+          "word": "目前",
+          "start": 38.84,
+          "end": 39.4,
+          "probability": 0.99169921875
+        },
+        {
+          "word": "没有",
+          "start": 39.4,
+          "end": 39.92,
+          "probability": 0.52978515625
+        },
+        {
+          "word": "可",
+          "start": 39.92,
+          "end": 40.12,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "靠",
+          "start": 40.12,
+          "end": 40.28,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "证",
+          "start": 40.28,
+          "end": 40.44,
+          "probability": 0.9921875
+        },
+        {
+          "word": "据",
+          "start": 40.44,
+          "end": 40.56,
+          "probability": 0.998046875
+        },
+        {
+          "word": "说",
+          "start": 40.56,
+          "end": 40.72,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "明,",
+          "start": 40.72,
+          "end": 41.0,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "抖",
+          "start": 41.26,
+          "end": 41.58,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "动",
+          "start": 41.58,
+          "end": 41.76,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "能",
+          "start": 41.76,
+          "end": 42.0,
+          "probability": 1.0
+        },
+        {
+          "word": "排",
+          "start": 42.0,
+          "end": 42.16,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "出",
+          "start": 42.16,
+          "end": 42.34,
+          "probability": 0.88134765625
+        },
+        {
+          "word": "压",
+          "start": 42.34,
+          "end": 42.54,
+          "probability": 1.0
+        },
+        {
+          "word": "力",
+          "start": 42.54,
+          "end": 42.66,
+          "probability": 1.0
+        },
+        {
+          "word": "激",
+          "start": 42.66,
+          "end": 42.86,
+          "probability": 0.990234375
+        },
+        {
+          "word": "素",
+          "start": 42.86,
+          "end": 43.06,
+          "probability": 0.85205078125
+        },
+        {
+          "word": "或",
+          "start": 43.06,
+          "end": 43.4,
+          "probability": 0.79150390625
+        },
+        {
+          "word": "直接",
+          "start": 43.4,
+          "end": 43.7,
+          "probability": 1.0
+        },
+        {
+          "word": "甩",
+          "start": 43.7,
+          "end": 43.9,
+          "probability": 0.9951171875
+        },
+        {
+          "word": "掉",
+          "start": 43.9,
+          "end": 44.06,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "创",
+          "start": 44.06,
+          "end": 44.26,
+          "probability": 0.9921875
+        },
+        {
+          "word": "伤",
+          "start": 44.26,
+          "end": 44.48,
+          "probability": 0.990234375
+        }
+      ]
+    }
+  ],
+  "silence": {
+    "-42": [
+      {
+        "start": 0.0,
+        "end": 0.196156,
+        "duration": 0.196156
+      },
+      {
+        "start": 0.671937,
+        "end": 1.1055,
+        "duration": 0.433563
+      },
+      {
+        "start": 2.762563,
+        "end": 3.060844,
+        "duration": 0.298281
+      },
+      {
+        "start": 3.806594,
+        "end": 4.235719,
+        "duration": 0.429125
+      },
+      {
+        "start": 4.528156,
+        "end": 4.945875,
+        "duration": 0.417719
+      },
+      {
+        "start": 6.109531,
+        "end": 6.514312,
+        "duration": 0.404781
+      },
+      {
+        "start": 7.286875,
+        "end": 7.488594,
+        "duration": 0.201719
+      },
+      {
+        "start": 7.959188,
+        "end": 8.252031,
+        "duration": 0.292843
+      },
+      {
+        "start": 8.695688,
+        "end": 9.034844,
+        "duration": 0.339156
+      },
+      {
+        "start": 9.77225,
+        "end": 10.173875,
+        "duration": 0.401625
+      },
+      {
+        "start": 10.630781,
+        "end": 10.931437,
+        "duration": 0.300656
+      },
+      {
+        "start": 11.422438,
+        "end": 11.991031,
+        "duration": 0.568593
+      },
+      {
+        "start": 13.369656,
+        "end": 13.80575,
+        "duration": 0.436094
+      },
+      {
+        "start": 15.939938,
+        "end": 16.417813,
+        "duration": 0.477875
+      },
+      {
+        "start": 17.682719,
+        "end": 17.965,
+        "duration": 0.282281
+      },
+      {
+        "start": 18.520969,
+        "end": 18.897,
+        "duration": 0.376031
+      },
+      {
+        "start": 19.709281,
+        "end": 20.196313,
+        "duration": 0.487032
+      },
+      {
+        "start": 21.701469,
+        "end": 21.865844,
+        "duration": 0.164375
+      },
+      {
+        "start": 22.601281,
+        "end": 23.430906,
+        "duration": 0.829625
+      },
+      {
+        "start": 24.20925,
+        "end": 24.549844,
+        "duration": 0.340594
+      },
+      {
+        "start": 25.84525,
+        "end": 26.090656,
+        "duration": 0.245406
+      },
+      {
+        "start": 26.693875,
+        "end": 27.058531,
+        "duration": 0.364656
+      },
+      {
+        "start": 28.237875,
+        "end": 28.519219,
+        "duration": 0.281344
+      },
+      {
+        "start": 29.321813,
+        "end": 29.8785,
+        "duration": 0.556687
+      },
+      {
+        "start": 30.619219,
+        "end": 30.795594,
+        "duration": 0.176375
+      },
+      {
+        "start": 31.59525,
+        "end": 31.861062,
+        "duration": 0.265812
+      },
+      {
+        "start": 33.656156,
+        "end": 34.375719,
+        "duration": 0.719563
+      },
+      {
+        "start": 36.562344,
+        "end": 37.01275,
+        "duration": 0.450406
+      },
+      {
+        "start": 37.632406,
+        "end": 37.743187,
+        "duration": 0.110781
+      },
+      {
+        "start": 38.812594,
+        "end": 39.142969,
+        "duration": 0.330375
+      },
+      {
+        "start": 39.597219,
+        "end": 39.757594,
+        "duration": 0.160375
+      },
+      {
+        "start": 41.025031,
+        "end": 41.445,
+        "duration": 0.419969
+      },
+      {
+        "start": 43.089562,
+        "end": 43.358156,
+        "duration": 0.268594
+      },
+      {
+        "start": 44.548906,
+        "end": 44.789437,
+        "duration": 0.240531
+      }
+    ],
+    "-36": [
+      {
+        "start": 0.0,
+        "end": 0.196188,
+        "duration": 0.196188
+      },
+      {
+        "start": 0.642031,
+        "end": 1.122937,
+        "duration": 0.480906
+      },
+      {
+        "start": 2.760156,
+        "end": 3.077313,
+        "duration": 0.317157
+      },
+      {
+        "start": 3.804719,
+        "end": 4.235844,
+        "duration": 0.431125
+      },
+      {
+        "start": 4.526063,
+        "end": 4.970469,
+        "duration": 0.444406
+      },
+      {
+        "start": 6.098719,
+        "end": 6.515594,
+        "duration": 0.416875
+      },
+      {
+        "start": 6.998438,
+        "end": 7.102344,
+        "duration": 0.103906
+      },
+      {
+        "start": 7.276875,
+        "end": 7.504875,
+        "duration": 0.228
+      },
+      {
+        "start": 7.942875,
+        "end": 8.254219,
+        "duration": 0.311344
+      },
+      {
+        "start": 8.653844,
+        "end": 9.034844,
+        "duration": 0.381
+      },
+      {
+        "start": 9.731594,
+        "end": 10.182219,
+        "duration": 0.450625
+      },
+      {
+        "start": 10.628781,
+        "end": 10.935562,
+        "duration": 0.306781
+      },
+      {
+        "start": 11.418844,
+        "end": 12.012969,
+        "duration": 0.594125
+      },
+      {
+        "start": 13.367625,
+        "end": 13.823844,
+        "duration": 0.456219
+      },
+      {
+        "start": 15.426969,
+        "end": 15.572375,
+        "duration": 0.145406
+      },
+      {
+        "start": 15.932063,
+        "end": 16.428937,
+        "duration": 0.496874
+      },
+      {
+        "start": 17.672031,
+        "end": 17.967156,
+        "duration": 0.295125
+      },
+      {
+        "start": 18.505875,
+        "end": 18.925875,
+        "duration": 0.42
+      },
+      {
+        "start": 19.707656,
+        "end": 20.196344,
+        "duration": 0.488688
+      },
+      {
+        "start": 21.073594,
+        "end": 21.216219,
+        "duration": 0.142625
+      },
+      {
+        "start": 21.700344,
+        "end": 21.867812,
+        "duration": 0.167468
+      },
+      {
+        "start": 22.585281,
+        "end": 23.434781,
+        "duration": 0.8495
+      },
+      {
+        "start": 24.1995,
+        "end": 24.551531,
+        "duration": 0.352031
+      },
+      {
+        "start": 25.84175,
+        "end": 26.093063,
+        "duration": 0.251313
+      },
+      {
+        "start": 26.682437,
+        "end": 27.072531,
+        "duration": 0.390094
+      },
+      {
+        "start": 28.208188,
+        "end": 28.536125,
+        "duration": 0.327937
+      },
+      {
+        "start": 28.916313,
+        "end": 29.02325,
+        "duration": 0.106937
+      },
+      {
+        "start": 29.317625,
+        "end": 29.8785,
+        "duration": 0.560875
+      },
+      {
+        "start": 30.605812,
+        "end": 30.795594,
+        "duration": 0.189782
+      },
+      {
+        "start": 31.594812,
+        "end": 31.874125,
+        "duration": 0.279313
+      },
+      {
+        "start": 33.652531,
+        "end": 34.375719,
+        "duration": 0.723188
+      },
+      {
+        "start": 35.701344,
+        "end": 35.802969,
+        "duration": 0.101625
+      },
+      {
+        "start": 36.56,
+        "end": 37.020437,
+        "duration": 0.460437
+      },
+      {
+        "start": 37.63,
+        "end": 37.812844,
+        "duration": 0.182844
+      },
+      {
+        "start": 38.768375,
+        "end": 39.145063,
+        "duration": 0.376688
+      },
+      {
+        "start": 39.590406,
+        "end": 39.762094,
+        "duration": 0.171688
+      },
+      {
+        "start": 41.015156,
+        "end": 41.445125,
+        "duration": 0.429969
+      },
+      {
+        "start": 43.086562,
+        "end": 43.360531,
+        "duration": 0.273969
+      },
+      {
+        "start": 44.535125,
+        "end": 44.789437,
+        "duration": 0.254312
+      }
+    ]
+  },
+  "generated_at_utc": "2026-10-20T18:42:26.106036+00:00"
+}

@@ -1,0 +1,87 @@
+{
+  "provider": "MiniMax Audio",
+  "url": "https://www.minimax.cn/audio/text-to-speech",
+  "generation_method": "Computer Use through the logged-in Chrome interface",
+  "model": "speech-2.8-hd",
+  "voice_display_name": "温暖闺蜜 - 温柔清亮,舒缓且充满关切,亲切自然",
+  "voice_speed": 1,
+  "voice_pitch": 0,
+  "voice_volume": 1,
+  "format": "WAV without watermark",
+  "script": "longform/content/script.json",
+  "proof": "longform/output/minimax-proof.jpg",
+  "files": [
+    {
+      "chapter": "hook",
+      "path": "longform/assets/voice/raw/hook.wav",
+      "sha256": "95bbdbe735182e642e1a286df0ac26bc08f210b2fffbdadb1b26e1f7ba523ad9",
+      "sample_rate": 32000,
+      "channels": 1,
+      "duration": 19.6744375
+    },
+    {
+      "chapter": "breath",
+      "path": "longform/assets/voice/raw/breath.wav",
+      "sha256": "5341f582e792dcec9b7812b5a1c2db2de6b70b65c1819cb9e322f7204b26eea3",
+      "sample_rate": 32000,
+      "channels": 1,
+      "duration": 65.50428125
+    },
+    {
+      "chapter": "cold",
+      "path": "longform/assets/voice/raw/cold.wav",
+      "sha256": "2ff5872afaa79f33a92ff81c045de65b5a6643df8ccf2352d722ddab44a2afd9",
+      "sample_rate": 32000,
+      "channels": 1,
+      "duration": 53.31828125
+    },
+    {
+      "chapter": "ear",
+      "path": "longform/assets/voice/raw/ear.wav",
+      "sha256": "646e76f0311ebaf6b6bca94549ee4629b0c309691e935db873ae80e316854a70",
+      "sample_rate": 32000,
+      "channels": 1,
+      "duration": 34.403
+    },
+    {
+      "chapter": "shake",
+      "path": "longform/assets/voice/raw/shake.wav",
+      "sha256": "2379caab503f127308755a7d297bf2cde5678e4cfc38e6f1112e389b3664af71",
+      "sample_rate": 32000,
+      "channels": 1,
+      "duration": 44.7894375
+    },
+    {
+      "chapter": "paper",
+      "path": "longform/assets/voice/raw/paper.wav",
+      "sha256": "f7aca8e1461d1100307b78e64566c18a755cad291b1fa9831d036757f74bec35",
+      "sample_rate": 32000,
+      "channels": 1,
+      "duration": 43.37303125
+    },
+    {
+      "chapter": "fractal",
+      "path": "longform/assets/voice/raw/fractal.wav",
+      "sha256": "bac635357ffb7b8b3cab07408a1cd5a236735f8ab532ed9186d8cec8cae08cd9",
+      "sample_rate": 32000,
+      "channels": 1,
+      "duration": 46.2523125
+    },
+    {
+      "chapter": "order",
+      "path": "longform/assets/voice/raw/order.wav",
+      "sha256": "d7610db8d0d1ee81dfae67226944ad86472869d6e4beeec4646f6d91d02462a1",
+      "sample_rate": 32000,
+      "channels": 1,
+      "duration": 41.3296875
+    },
+    {
+      "chapter": "closing",
+      "path": "longform/assets/voice/raw/closing.wav",
+      "sha256": "d53bde9535ca34311c0e4aa980cbbb1c0b6360db477e58ef3e4438df999352d1",
+      "sample_rate": 32000,
+      "channels": 1,
+      "duration": 22.83234375
+    }
+  ]
+}
