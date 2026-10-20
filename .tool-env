@@ -1,0 +1,2 @@
+export PATH="/opt/homebrew/opt/node@24/bin:/Users/yangshuyun/workspace/dev/ai-video/shortvideo-1020/.tools/venv/bin:$PATH"
+export MULTIPLANE_FFMPEG="/Users/yangshuyun/workspace/dev/ai-video/shortvideo-1020/.tools/venv/lib/python3.12/site-packages/imageio_ffmpeg/binaries/ffmpeg-macos-aarch64-v7.1"

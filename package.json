@@ -1,0 +1,15 @@
+{
+  "name": "shortvideo-1020",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Continuous wall camera short film rendered with Multiplane",
+  "scripts": {
+    "doctor": "multiplane doctor --json",
+    "lint:shot": "multiplane lint",
+    "render:shot": "multiplane render"
+  },
+  "dependencies": {
+    "multiplane": "0.3.13"
+  }
+}

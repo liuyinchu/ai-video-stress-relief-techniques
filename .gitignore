@@ -1,0 +1,13 @@
+node_modules/
+.tools/
+output/
+out/
+.DS_Store
+*.log
+assets/audio/voice/
+assets/audio/*.wav
+reference/style/*.png
+.env
+
+__pycache__/
+*.pyc

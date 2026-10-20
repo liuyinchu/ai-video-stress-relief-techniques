@@ -1,0 +1,29 @@
+{
+  "title": "先松一口气",
+  "subtitle": "7 个让身体缓下来的小动作",
+  "duration": 62,
+  "fps": 30,
+  "voice": {"direction": "平静、温暖的普通话女声；自然交谈；不用播音腔；不刻意气声", "provider": "pending-minimax"},
+  "segments": [
+    {"id":"intro", "start":0.4, "end":4.9, "text":"压力上来，先别急着说服自己。给身体一点缓冲。", "audio":"assets/audio/voice/intro.wav", "station":0},
+    {"id":"breath", "start":5.4, "end":16.6, "text":"一，鼻子吸气，再轻轻补一小口，嘴巴慢慢呼出。不要用力，头晕就停。", "audio":"assets/audio/voice/breath.wav", "station":1},
+    {"id":"cool", "start":17.4, "end":22.7, "text":"二，用凉毛巾轻敷脸颊，保持自然呼吸。", "audio":"assets/audio/voice/cool.wav", "station":2},
+    {"id":"ear", "start":23.4, "end":27.7, "text":"三，轻揉耳廓，以舒服为准。", "audio":"assets/audio/voice/ear.wav", "station":3},
+    {"id":"shake", "start":28.4, "end":33.7, "text":"四，轻轻抖动手脚，放松肩膀，别甩头。", "audio":"assets/audio/voice/shake.wav", "station":4},
+    {"id":"paper", "start":34.4, "end":41.7, "text":"五，把烦心事写下来，揉成纸团，再丢掉。", "audio":"assets/audio/voice/paper.wav", "station":5},
+    {"id":"nature", "start":42.4, "end":48.7, "text":"六，看一会儿树叶、云朵，让目光慢下来。", "audio":"assets/audio/voice/nature.wav", "station":6},
+    {"id":"order", "start":49.4, "end":54.7, "text":"七，只整理桌面一小块，让眼前恢复一点秩序。", "audio":"assets/audio/voice/order.wav", "station":7},
+    {"id":"outro", "start":55.5, "end":61.5, "text":"不必全做，挑一个就好。先松一口气，再处理眼前的事。", "audio":"assets/audio/voice/outro.wav", "station":8}
+  ],
+  "stations": [
+    {"id":"intro", "start":0, "end":5, "x":0,"y":0, "label":"先松一口气"},
+    {"id":"breath", "start":5, "end":17, "x":1800,"y":0, "label":"双吸 · 长呼"},
+    {"id":"cool", "start":17, "end":23, "x":3600,"y":0, "label":"一条凉毛巾"},
+    {"id":"ear", "start":23, "end":28, "x":3600,"y":1800, "label":"轻揉耳廓"},
+    {"id":"shake", "start":28, "end":34, "x":1800,"y":1800, "label":"松开肩膀"},
+    {"id":"paper", "start":34, "end":42, "x":0,"y":1800, "label":"写下，再放下"},
+    {"id":"nature", "start":42, "end":49, "x":0,"y":3600, "label":"让目光休息"},
+    {"id":"order", "start":49, "end":55, "x":1800,"y":3600, "label":"只收拾一小块"},
+    {"id":"outro", "start":55, "end":62, "x":3600,"y":3600, "label":"挑一个，就好"}
+  ]
+}

@@ -1,0 +1,4 @@
+PyMuPDF==1.26.5
+numpy==2.3.3
+Pillow==11.3.0
+imageio-ffmpeg==0.6.0
