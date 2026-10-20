@@ -265,7 +265,7 @@ def main(argv=None):
     parser.add_argument('--output-dir', default='longform/output')
     parser.add_argument('--chapter', action='append', help='Render selected chapter ID(s), comma-separated or repeated; no full-film mux.')
     parser.add_argument('--workers', type=int, choices=(1, 2), default=2, help='Chromium workers inside one chapter; chapters run sequentially.')
-    parser.add_argument('--raster', choices=('software', 'gpu'), default='software')
+    parser.add_argument('--raster', choices=('software', 'gpu'), default='gpu')
     parser.add_argument('--quality', choices=('standard', 'fast', 'high'), default='standard')
     parser.add_argument('--ffmpeg')
     parser.add_argument('--resume', action='store_true', help='Reuse only successful chapter files with matching source fingerprints and SHA-256.')

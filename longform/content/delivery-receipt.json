@@ -1,0 +1,44 @@
+{
+  "complete": true,
+  "duration": 400.8333333333333,
+  "frames": 12025,
+  "fps": 30,
+  "master_sha256": "1c081afa138b241d4e4d3a72b5850f488f025754a3e619746f6130dc38964540",
+  "master_bytes": 80163151,
+  "delivery_1080_sha256": "cd7ad39c076a2c6f415b5e3b45c7d94088d932f257cfd41ba12afc938c547c72",
+  "delivery_1080_bytes": 46692219,
+  "final_aac_loudness": {
+    "input_i": -15.51,
+    "input_tp": -1.7,
+    "input_lra": 3.5,
+    "input_thresh": -25.8
+  },
+  "preserved_short_films": [
+    {
+      "path": "output/review-landscape-v1.mp4",
+      "unchanged": true,
+      "sha256": "5a489184d2f33ef7e2a79492b28ccf7caade1e8a9e790c3f88dd8753c08ce3b7"
+    },
+    {
+      "path": "output/review-portrait-v1.mp4",
+      "unchanged": true,
+      "sha256": "484ba10ab2cf2a9872c48716d51ceafc994d4505cace4869c496f80f470ca034"
+    },
+    {
+      "path": "output/review-landscape-minimax-v2.mp4",
+      "unchanged": true,
+      "sha256": "dae5246746025ad5ba59f05f5cd0b95d4d6ec73302a86fd9cfcb350eed63b144"
+    },
+    {
+      "path": "output/review-portrait-minimax-v2.mp4",
+      "unchanged": true,
+      "sha256": "8b85e808fbe966fb390e8f0f3525f92bc07701643d863a9ed2ae1fea45e74620"
+    }
+  ],
+  "cover": {
+    "width": 2560,
+    "height": 1440,
+    "sha256": "c10eb5add6264850c07d1b8bc93cbc86d3f50b896dbfbcaa8eaa73bdd43df3bc"
+  },
+  "verification_scope": "Complete frame/audio decoding and timestamps; ASR-based subtitle alignment; sampled visual QA. This is not a claim of a full human listening pass."
+}

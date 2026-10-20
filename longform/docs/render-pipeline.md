@@ -53,7 +53,7 @@ python3 longform/scripts/render_film.py --chapter paper,order --resume
 python3 longform/scripts/render_film.py --mux-only --resume --delivery-1080
 ```
 
-`--workers` 只接受 1 或 2。章节按顺序处理，不同时启动多个章节，因此浏览器 worker 总上限始终为 2。默认 `--raster software --quality standard`；可根据已做的机器测试显式选择 `--raster gpu`。更改画面设置会使旧章节失效并重渲染。没有使用 `--draft`。
+`--workers` 只接受 1 或 2。章节按顺序处理，不同时启动多个章节，因此浏览器 worker 总上限始终为 2。默认 `--raster gpu --quality standard`，与本机 M1 加速样片测试一致；可显式选择软件绘制作为兼容回退。更改画面设置会使旧章节失效并重渲染。没有使用 `--draft`。
 
 实际时间线未完成时，只允许制作标注为估算的计划，不能据此正式渲染：
 
@@ -99,3 +99,5 @@ python3 longform/scripts/render_film.py \
 ## 本次管线自检
 
 独立测试镜头和 2 秒测试音频保存在 `longform/output/pipeline-qa/`，与正式影片隔离。测试覆盖两个 30 帧章节，其中第一章含 3 帧章间空档；检验确定性、整数帧范围、章节渲染、流复制拼接、AAC 封装、1080p 缩放与续跑。该素材仅用于管线验证，不是正式影片预览。
+
+M1 主机正式输出采用 `--raster gpu`，与通过验收的样片配置一致。软件绘制可用 `--raster software` 显式选择，但在本片细密曲面上明显更慢。后端改变会使画面指纹失效，所有章节必须用同一后端重新验证和生成。
