@@ -1,0 +1,212 @@
+{
+  "complete": true,
+  "preview": {
+    "complete": true,
+    "mode": "preview",
+    "output": "/Users/yangshuyun/workspace/dev/ai-video/shortvideo-1020/longform/onetake/output/film-1080p30.mp4",
+    "sha256": "16b3eaf18fc1c5525936febaccb062b8de51e78312270d143c52db3a5fb32873",
+    "bytes": 54564396,
+    "duration": 400.8333333333333,
+    "frames": 12025,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "audio_packet_hash": "SHA256=423974c5b0d58f6427087e947e897d80a22d02ce664c0b0b3c739b02c018659d",
+    "audio_unchanged": true,
+    "probe": {
+      "frames": 12025,
+      "packet_count": 12025,
+      "duration": 400.8333333333333,
+      "first_pts": 0.0,
+      "fps": 30.0,
+      "width": 1920,
+      "height": 1080,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "audio_decoded": true
+    },
+    "fingerprint": "e5dec3b2abfd2126b79873414076bafcc3272a619f457c07c465976fddae66e9"
+  },
+  "final": {
+    "complete": true,
+    "mode": "final",
+    "output": "/Users/yangshuyun/workspace/dev/ai-video/shortvideo-1020/longform/onetake/output/film-4k60.mp4",
+    "sha256": "584056a1efd981119c79bace71564f83ec5dfa5fd75fa4059d1b9d1dd670c8f7",
+    "bytes": 133059704,
+    "duration": 400.8333333333333,
+    "frames": 24050,
+    "fps": 60,
+    "width": 3840,
+    "height": 2160,
+    "audio_packet_hash": "SHA256=423974c5b0d58f6427087e947e897d80a22d02ce664c0b0b3c739b02c018659d",
+    "audio_unchanged": true,
+    "probe": {
+      "frames": 24050,
+      "packet_count": 24050,
+      "duration": 400.8333333333333,
+      "first_pts": 0.0,
+      "fps": 60.0,
+      "width": 3840,
+      "height": 2160,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "audio_decoded": true
+    },
+    "fingerprint": "9121d7de70e86a4beab78b3b6fcf03b50ce7578be8534053529a9583ce5be652"
+  },
+  "audio_unchanged": true,
+  "audio_packet_hash": "SHA256=423974c5b0d58f6427087e947e897d80a22d02ce664c0b0b3c739b02c018659d",
+  "locked_inputs": [
+    {
+      "path": "longform/assets/audio/final-mix.wav",
+      "sha256": "57ddc910052176bcf8635a7e4a7554aaebbfe4300fb1c146997b6179bcdf854a"
+    },
+    {
+      "path": "longform/assets/audio/music.wav",
+      "sha256": "a08a5326f29d4782a36c39bbc2459837c6b3a21f43e1701beb4f44ab1f82a64c"
+    },
+    {
+      "path": "longform/assets/audio/narration.wav",
+      "sha256": "aef11a1b7facf1957e303fddcb8fcbc8fd1e88fbad1eb3341c610447368a1c71"
+    },
+    {
+      "path": "longform/assets/audio/sfx.wav",
+      "sha256": "46645ee210f2d6b142daf35650682c7794eb4f924d31df0b7a95e00bda800901"
+    },
+    {
+      "path": "longform/content/timeline.json",
+      "sha256": "81bf219861832f01d11db6b89a12abb07a499819104e7dd4dda8e83dd46a3659"
+    },
+    {
+      "path": "longform/content/captions.json",
+      "sha256": "a83b5da00af5f70bb0b0fe2a9876840a5ada57578c9db5b7b772fc812bdaf862"
+    }
+  ],
+  "preserved_films": [
+    {
+      "path": "longform/output/master-landscape.mp4",
+      "sha256": "1c081afa138b241d4e4d3a72b5850f488f025754a3e619746f6130dc38964540"
+    },
+    {
+      "path": "longform/output/master-landscape-1080p.mp4",
+      "sha256": "cd7ad39c076a2c6f415b5e3b45c7d94088d932f257cfd41ba12afc938c547c72"
+    },
+    {
+      "path": "output/review-landscape-v1.mp4",
+      "bytes": 8649486,
+      "sha256": "5a489184d2f33ef7e2a79492b28ccf7caade1e8a9e790c3f88dd8753c08ce3b7"
+    },
+    {
+      "path": "output/review-portrait-v1.mp4",
+      "bytes": 7993473,
+      "sha256": "484ba10ab2cf2a9872c48716d51ceafc994d4505cace4869c496f80f470ca034"
+    },
+    {
+      "path": "output/review-landscape-minimax-v2.mp4",
+      "bytes": 8544394,
+      "sha256": "dae5246746025ad5ba59f05f5cd0b95d4d6ec73302a86fd9cfcb350eed63b144"
+    },
+    {
+      "path": "output/review-portrait-minimax-v2.mp4",
+      "bytes": 8014868,
+      "sha256": "8b85e808fbe966fb390e8f0f3525f92bc07701643d863a9ed2ae1fea45e74620"
+    }
+  ],
+  "visual_qa": {
+    "preview_sha256": "16b3eaf18fc1c5525936febaccb062b8de51e78312270d143c52db3a5fb32873",
+    "reviewed_transition_sheets": [
+      "title",
+      "breath",
+      "cold",
+      "ear",
+      "shake",
+      "paper",
+      "fractal",
+      "order",
+      "closing"
+    ],
+    "sampled_transition_frames": 108,
+    "method": "Visual inspection of adjacent frames extracted from the actual encoded 1080p preview, plus current-source rendered keyframes.",
+    "findings": [],
+    "observations": [
+      "The gold line survives each handoff in the sampled frames.",
+      "Paper geometry and surface change progressively into the leaf.",
+      "Leaf outline travels toward and aligns with the desk boundary.",
+      "Object and camera motion continue across encoded chapter boundaries."
+    ],
+    "browser_preview": {
+      "duration": 400.833333,
+      "width": 1920,
+      "height": 1080,
+      "seekable": [
+        0,
+        400.833333
+      ],
+      "handoff_autopause_at": 284.394573,
+      "closing_autopause_at": 399.861675
+    },
+    "encoded_4k_samples": [
+      {
+        "chapter": "breath",
+        "global_time": 64.0,
+        "width": 3840,
+        "height": 2160,
+        "chapter_sha256": "a26a93c47710fc7e402d00ef82f52502fab0265bfda12301d62585b4856d713d",
+        "frame": "longform/onetake/output/4k-encoded-breath.png",
+        "inspection": "Subtitle and fine geometry remain legible after H.264 encoding; no unexpected cropping or encoding artifacts observed in this sample."
+      }
+    ],
+    "browser_final": {
+      "source_sha256": "584056a1efd981119c79bace71564f83ec5dfa5fd75fa4059d1b9d1dd670c8f7",
+      "duration": 400.833333,
+      "videoWidth": 3840,
+      "videoHeight": 2160,
+      "seekable": [
+        0,
+        400.833333
+      ],
+      "handoff_autopause_at": 284.388238,
+      "paused": true
+    }
+  },
+  "motion_audit": {
+    "persistent_geometry": true,
+    "minimum_projected_in_frame_fraction": 1,
+    "locked_holds": [
+      {
+        "time": 50,
+        "displacement": 0
+      },
+      {
+        "time": 140,
+        "displacement": 0
+      },
+      {
+        "time": 170,
+        "displacement": 0
+      },
+      {
+        "time": 219,
+        "displacement": 0
+      },
+      {
+        "time": 266,
+        "displacement": 0
+      },
+      {
+        "time": 323,
+        "displacement": 0
+      },
+      {
+        "time": 363,
+        "displacement": 0
+      },
+      {
+        "time": 390,
+        "displacement": 0
+      }
+    ]
+  },
+  "review": "http://127.0.0.1:18878/longform/onetake/output/review.html",
+  "scope": "Full frame/audio decoding, deterministic rendering, continuity geometry and sampled visual QA; audio is copied from the approved version."
+}
