@@ -1,0 +1,26 @@
+[
+  {
+    "path": "longform/assets/audio/final-mix.wav",
+    "sha256": "57ddc910052176bcf8635a7e4a7554aaebbfe4300fb1c146997b6179bcdf854a"
+  },
+  {
+    "path": "longform/assets/audio/music.wav",
+    "sha256": "a08a5326f29d4782a36c39bbc2459837c6b3a21f43e1701beb4f44ab1f82a64c"
+  },
+  {
+    "path": "longform/assets/audio/narration.wav",
+    "sha256": "aef11a1b7facf1957e303fddcb8fcbc8fd1e88fbad1eb3341c610447368a1c71"
+  },
+  {
+    "path": "longform/assets/audio/sfx.wav",
+    "sha256": "46645ee210f2d6b142daf35650682c7794eb4f924d31df0b7a95e00bda800901"
+  },
+  {
+    "path": "longform/content/timeline.json",
+    "sha256": "81bf219861832f01d11db6b89a12abb07a499819104e7dd4dda8e83dd46a3659"
+  },
+  {
+    "path": "longform/content/captions.json",
+    "sha256": "a83b5da00af5f70bb0b0fe2a9876840a5ada57578c9db5b7b772fc812bdaf862"
+  }
+]
