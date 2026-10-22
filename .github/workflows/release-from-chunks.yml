@@ -1,0 +1,68 @@
+name: Reassemble and verify complete project backup
+
+on:
+  push:
+    branches: [backup-upload-20261022]
+    paths: [READY]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-complete-backup-v1
+  cancel-in-progress: false
+
+jobs:
+  release:
+    if: github.ref == 'refs/heads/backup-upload-20261022'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - name: Fetch the exact transport commit
+        shell: bash
+        run: |
+          set -euo pipefail
+          git init payload
+          cd payload
+          git remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
+          git fetch --depth=1 origin "$GITHUB_SHA"
+          git checkout --detach FETCH_HEAD
+      - name: Reassemble and verify every archived entry
+        working-directory: payload
+        run: |
+          set -euo pipefail
+          python3 assemble-release.py
+          cd release
+          sha256sum --check SHA256SUMS
+          python3 ../verify-backup.py complete-project-20261022.tar.zst MANIFEST.json --receipt actions-verification.json
+      - name: Upload verified files and publish the release
+        working-directory: payload
+        run: |
+          set -euo pipefail
+          if ! gh release view v1.0.0 >/dev/null 2>&1; then
+            gh release create v1.0.0 --verify-tag --draft --title 'Stress relief film - official release' --notes-file RELEASE.md
+          fi
+          gh release upload v1.0.0 release/complete-project-20261022.tar.zst release/MANIFEST.json release/stress-relief-4k60.mp4 release/RESTORE.md release/SHA256SUMS release/actions-verification.json --clobber
+          gh release edit v1.0.0 --draft=false --latest --notes-file RELEASE.md
+      - name: Verify published GitHub asset digests
+        working-directory: payload
+        run: |
+          set -euo pipefail
+          gh api "repos/${GITHUB_REPOSITORY}/releases/tags/v1.0.0" > published-release.json
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          wanted = json.loads(Path('transport.json').read_text())['assets']
+          release = json.loads(Path('published-release.json').read_text())
+          assert not release['draft'], 'Release must be public'
+          assets = {a['name']: a for a in release['assets']}
+          for item in wanted:
+              actual = assets[item['name']]
+              assert actual['size'] == item['size'], item['name']
+              assert actual['digest'] == 'sha256:' + item['sha256'], item['name']
+              print('Verified GitHub asset:', item['name'])
+          PY
