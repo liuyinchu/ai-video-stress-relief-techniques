@@ -40,6 +40,8 @@ Git 保存版本化源代码、制作文档、原始旁白和正式网站。**�
 
 完整条目清单为 [MANIFEST.json](backup/MANIFEST.json)。`scripts/verify-backup.py` 会逐项验证内容、大小、权限和符号链接，不执行或展开归档中的文件。
 
+完整归档已从 GitHub Release 重新下载并逐项验证，记录见 [下载校验回执](backup/remote-verification.json)；源码和历史的检查见 [Git 校验回执](backup/git-verification.json)。另保留 [通过 Git 分块恢复](backup/GIT-TRANSPORT.md) 的备用方式。只需要源码时，可使用 `git clone --single-branch --branch main`，避免同时拉取完整备份分支。
+
 ## 本地预览与制作
 
 正式页面为纯静态 HTML / CSS / JavaScript，直接使用已完成的视频。恢复完整工程后，可以运行：

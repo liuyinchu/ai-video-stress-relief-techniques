@@ -1,0 +1,23 @@
+{
+  "checked_utc": "2026-10-22T02:26:59.278312+00:00",
+  "local_loopback_ports": {
+    "18877": "closed",
+    "18878": "closed",
+    "18920": "closed"
+  },
+  "remote_loopback_ports": {
+    "18877": "closed",
+    "18878": "closed"
+  },
+  "stopped_project_processes": {
+    "remote": [
+      39073,
+      87637
+    ],
+    "local": [
+      72034,
+      15789
+    ]
+  },
+  "unrelated_services": "left unchanged"
+}

@@ -1,0 +1,60 @@
+{
+  "verified": true,
+  "release": "https://github.com/liuyinchu/ai-video-stress-relief-techniques/releases/tag/v1.0.0",
+  "release_id": 420240059,
+  "checked_utc": "2026-10-22T02:44:13Z",
+  "assets": [
+    {
+      "name": "complete-project-20261022.tar.zst",
+      "bytes": 1633009667,
+      "sha256": "1889b7e93c714c5a3c68d9260f8dddc812c0353d1892d060bd09b99ee5df14e5",
+      "download_url": "https://github.com/liuyinchu/ai-video-stress-relief-techniques/releases/download/v1.0.0/complete-project-20261022.tar.zst",
+      "asset_id": 664447257
+    },
+    {
+      "name": "stress-relief-4k60.mp4",
+      "bytes": 133059704,
+      "sha256": "584056a1efd981119c79bace71564f83ec5dfa5fd75fa4059d1b9d1dd670c8f7",
+      "download_url": "https://github.com/liuyinchu/ai-video-stress-relief-techniques/releases/download/v1.0.0/stress-relief-4k60.mp4",
+      "asset_id": 664447264
+    },
+    {
+      "name": "MANIFEST.json",
+      "bytes": 1484552,
+      "sha256": "1f272f8b9c4d7910bb9f5c816c5519f6eee0e471bcb6b6f71f2613dad1ef8809",
+      "download_url": "https://github.com/liuyinchu/ai-video-stress-relief-techniques/releases/download/v1.0.0/MANIFEST.json",
+      "asset_id": 664447269
+    },
+    {
+      "name": "RESTORE.md",
+      "bytes": 2581,
+      "sha256": "9b5ea7f2e57cff5c62c32057450699bb854127bc1f5f6a98a02d4cc4ef026366",
+      "download_url": "https://github.com/liuyinchu/ai-video-stress-relief-techniques/releases/download/v1.0.0/RESTORE.md",
+      "asset_id": 664447256
+    },
+    {
+      "name": "SHA256SUMS",
+      "bytes": 346,
+      "sha256": "def603b21cd88f0055ef2f4182a538e0bf36e3152a4963c4f175c37f8fb4c1df",
+      "download_url": "https://github.com/liuyinchu/ai-video-stress-relief-techniques/releases/download/v1.0.0/SHA256SUMS",
+      "asset_id": 664447262
+    }
+  ],
+  "archive": {
+    "verified": true,
+    "entries": 6607,
+    "regular_file_bytes": 2205073739,
+    "archive_sha256": "1889b7e93c714c5a3c68d9260f8dddc812c0353d1892d060bd09b99ee5df14e5",
+    "manifest_sha256": "1f272f8b9c4d7910bb9f5c816c5519f6eee0e471bcb6b6f71f2613dad1ef8809",
+    "original_commit": "06d2e1a1101168f50fea6a923826c8a545ab7f98"
+  },
+  "github_actions_archive_verification": {
+    "verified": true,
+    "entries": 6607,
+    "regular_file_bytes": 2205073739,
+    "archive_sha256": "1889b7e93c714c5a3c68d9260f8dddc812c0353d1892d060bd09b99ee5df14e5",
+    "manifest_sha256": "1f272f8b9c4d7910bb9f5c816c5519f6eee0e471bcb6b6f71f2613dad1ef8809",
+    "original_commit": "06d2e1a1101168f50fea6a923826c8a545ab7f98"
+  },
+  "workflow_run": "https://github.com/liuyinchu/ai-video-stress-relief-techniques/actions/runs/39711690790"
+}
