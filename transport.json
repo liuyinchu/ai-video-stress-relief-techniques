@@ -1,0 +1,234 @@
+{
+  "assets": [
+    {
+      "name": "complete-project-20261022.tar.zst",
+      "size": 1633009667,
+      "sha256": "1889b7e93c714c5a3c68d9260f8dddc812c0353d1892d060bd09b99ee5df14e5",
+      "parts": [
+        {
+          "path": "parts/complete-project-20261022.tar.zst.000",
+          "size": 50331648,
+          "sha256": "3a03bb7f8b1ff20d65aff51bb434b1af85ffba02299fe9336f6b33405c07dc3b"
+        },
+        {
+          "path": "parts/complete-project-20261022.tar.zst.001",
+          "size": 50331648,
+          "sha256": "5dc6c28e0d4891b914c16c7d15a39c1f831d749f8537b0d6a43f1a245acd1c56"
+        },
+        {
+          "path": "parts/complete-project-20261022.tar.zst.002",
+          "size": 50331648,
+          "sha256": "6049423b0c6ccf96f5182f4b52196f9ecd3777633cc10e6c5506a271eb759296"
+        },
+        {
+          "path": "parts/complete-project-20261022.tar.zst.003",
+          "size": 50331648,
+          "sha256": "9428437f880175028e945fbccf9300c3529ca0830cf46d77479c46fab2684e3a"
+        },
+        {
+          "path": "parts/complete-project-20261022.tar.zst.004",
+          "size": 50331648,
+          "sha256": "ee891c9a464181de779e7e7e61e67ffc9f949e97ba29bae15b3c500db4529e89"
+        },
+        {
+          "path": "parts/complete-project-20261022.tar.zst.005",
+          "size": 50331648,
+          "sha256": "1e894ef8405156692e55b9d52528cc162626021f7c41db31b9d67de77f6d18fe"
+        },
+        {
+          "path": "parts/complete-project-20261022.tar.zst.006",
+          "size": 50331648,
+          "sha256": "0568976b1f62d17380f85213a698b61a6e7046cc22469ff6c0a87f06b8048357"
+        },
+        {
+          "path": "parts/complete-project-20261022.tar.zst.007",
+          "size": 50331648,
+          "sha256": "07d0cbd64f8356a001694cf03877872f48ef7ef42b0fe4408a8db94cad7b327c"
+        },
+        {
+          "path": "parts/complete-project-20261022.tar.zst.008",
+          "size": 50331648,
+          "sha256": "4f8019c95e1635e0e6daf783df20323f6398fe9aa4232181b9b915c6cb70ba48"
+        },
+        {
+          "path": "parts/complete-project-20261022.tar.zst.009",
+          "size": 50331648,
+          "sha256": "c4acea59faec7231b12b5df4185fc4a95f82b15019ab07e7a467e6e16d6b4eff"
+        },
+        {
+          "path": "parts/complete-project-20261022.tar.zst.010",
+          "size": 50331648,
+          "sha256": "3100cbc4f6dcb6d727a915824c3e6f92bbbdb9d69a650ea85e4df2128b07578a"
+        },
+        {
+          "path": "parts/complete-project-20261022.tar.zst.011",
+          "size": 50331648,
+          "sha256": "fdf20477daeccda3b89eda6b80ea99e5e17c45eb928e7dce715444d54127d515"
+        },
+        {
+          "path": "parts/complete-project-20261022.tar.zst.012",
+          "size": 50331648,
+          "sha256": "51095f2b70ca2cb0d6a330a75e996234ff0aebfc441b8dd39b82720676538a9c"
+        },
+        {
+          "path": "parts/complete-project-20261022.tar.zst.013",
+          "size": 50331648,
+          "sha256": "b1838f634d9fa1a45607331bc83fd351fc4510d793640201243c7c1bc2e23679"
+        },
+        {
+          "path": "parts/complete-project-20261022.tar.zst.014",
+          "size": 50331648,
+          "sha256": "e39facc936a507d4a495de47b5fc518045ee41d8ac2443b8e1cf8ffa8768c978"
+        },
+        {
+          "path": "parts/complete-project-20261022.tar.zst.015",
+          "size": 50331648,
+          "sha256": "3c2979be3ae50e7a3704363503236e0c82fdd7dc19e00559244adf1f42056f4c"
+        },
+        {
+          "path": "parts/complete-project-20261022.tar.zst.016",
+          "size": 50331648,
+          "sha256": "78ebfb92ab840e900803b41aa63b9218f1965d6ffe76890920eb9e0c6e5f6458"
+        },
+        {
+          "path": "parts/complete-project-20261022.tar.zst.017",
+          "size": 50331648,
+          "sha256": "7597b98bb9d4c461397d0d199dbaa70f5e87f8264dd72764e4b788bea4864f67"
+        },
+        {
+          "path": "parts/complete-project-20261022.tar.zst.018",
+          "size": 50331648,
+          "sha256": "487a24d934d4f2741af2be62e9d7ef2f5e399dd1fc228ac3468a362ba41c1e2c"
+        },
+        {
+          "path": "parts/complete-project-20261022.tar.zst.019",
+          "size": 50331648,
+          "sha256": "1fd8110467ae626b3d972391e03cb8c4de8a04accb0e1971bd30d4991d4a151f"
+        },
+        {
+          "path": "parts/complete-project-20261022.tar.zst.020",
+          "size": 50331648,
+          "sha256": "cd188aaeee2c01a437b83a4a6924ede8f2a172d3896b2ec1810d242b0eadecf1"
+        },
+        {
+          "path": "parts/complete-project-20261022.tar.zst.021",
+          "size": 50331648,
+          "sha256": "12ab3e9186f8e5c517ec6fb4b5a5187378d2078d14b88657cfaf26f42a2b8f5b"
+        },
+        {
+          "path": "parts/complete-project-20261022.tar.zst.022",
+          "size": 50331648,
+          "sha256": "5edb7990555188e6c5345588d4a9cdff1a1915e5fbe62d8e6c1b86115401d69f"
+        },
+        {
+          "path": "parts/complete-project-20261022.tar.zst.023",
+          "size": 50331648,
+          "sha256": "0a3658220534cc1afa35e34c6dda46bc9fe14055f6cf8abc508e23418eadeb34"
+        },
+        {
+          "path": "parts/complete-project-20261022.tar.zst.024",
+          "size": 50331648,
+          "sha256": "db69b339a95d78c8dac2070f5a76a59cc2f3519c6f7d73ef2663f5ed5644d205"
+        },
+        {
+          "path": "parts/complete-project-20261022.tar.zst.025",
+          "size": 50331648,
+          "sha256": "2c94546761bba11c2185fba040c9ba7b75750184eb786bd36df154632f3d4526"
+        },
+        {
+          "path": "parts/complete-project-20261022.tar.zst.026",
+          "size": 50331648,
+          "sha256": "ee553d5abf0be9e2724523a47024bf3955a381ecd7834b7442b03f77fc7339b1"
+        },
+        {
+          "path": "parts/complete-project-20261022.tar.zst.027",
+          "size": 50331648,
+          "sha256": "47a32f931aca1baeb4650b9f82dd598eca6815d159dc16c37d43fc735455a243"
+        },
+        {
+          "path": "parts/complete-project-20261022.tar.zst.028",
+          "size": 50331648,
+          "sha256": "d2e77a1cdc2d46137fb0c7af720e9f7c2bc7d769421f8dd4f8c91317cacc9c51"
+        },
+        {
+          "path": "parts/complete-project-20261022.tar.zst.029",
+          "size": 50331648,
+          "sha256": "f0ecc801cdfcdf6c8989fc8feceddbaeaa37260e82856bad7584a77b81e7647e"
+        },
+        {
+          "path": "parts/complete-project-20261022.tar.zst.030",
+          "size": 50331648,
+          "sha256": "7f87eec6299a3f7afdb8f26c8a344649d920e7e961061b43a949230d736674af"
+        },
+        {
+          "path": "parts/complete-project-20261022.tar.zst.031",
+          "size": 50331648,
+          "sha256": "8c247ef32c807d4dcd95ae1b0b5a8c5ed7f5270a455fe3f4c785c8fbfa53d82b"
+        },
+        {
+          "path": "parts/complete-project-20261022.tar.zst.032",
+          "size": 22396931,
+          "sha256": "74aa8e7dc829e8fc291e887fc998b05b49f347ea36be85dd5170e403f1bd9be2"
+        }
+      ]
+    },
+    {
+      "name": "stress-relief-4k60.mp4",
+      "size": 133059704,
+      "sha256": "584056a1efd981119c79bace71564f83ec5dfa5fd75fa4059d1b9d1dd670c8f7",
+      "parts": [
+        {
+          "path": "parts/stress-relief-4k60.mp4.000",
+          "size": 50331648,
+          "sha256": "7cbfd40ac586f66c19f5d97a94c73f721acdbf41a07de2cf1aea46cfbdde3f5b"
+        },
+        {
+          "path": "parts/stress-relief-4k60.mp4.001",
+          "size": 50331648,
+          "sha256": "28e8318639764e6d4b2e674ccbdd602374e233404fb216933431b50bb348a868"
+        },
+        {
+          "path": "parts/stress-relief-4k60.mp4.002",
+          "size": 32396408,
+          "sha256": "d774bfe79220d50ce923d59edc08d3370da94d09f6e860e193cab7c2a34c3c89"
+        }
+      ]
+    },
+    {
+      "name": "MANIFEST.json",
+      "size": 1484552,
+      "sha256": "1f272f8b9c4d7910bb9f5c816c5519f6eee0e471bcb6b6f71f2613dad1ef8809",
+      "parts": [
+        {
+          "path": "parts/MANIFEST.json.000",
+          "size": 1484552,
+          "sha256": "1f272f8b9c4d7910bb9f5c816c5519f6eee0e471bcb6b6f71f2613dad1ef8809"
+        }
+      ]
+    },
+    {
+      "name": "RESTORE.md",
+      "size": 2581,
+      "sha256": "9b5ea7f2e57cff5c62c32057450699bb854127bc1f5f6a98a02d4cc4ef026366",
+      "parts": [
+        {
+          "path": "parts/RESTORE.md.000",
+          "size": 2581,
+          "sha256": "9b5ea7f2e57cff5c62c32057450699bb854127bc1f5f6a98a02d4cc4ef026366"
+        }
+      ]
+    },
+    {
+      "name": "SHA256SUMS",
+      "size": 346,
+      "sha256": "def603b21cd88f0055ef2f4182a538e0bf36e3152a4963c4f175c37f8fb4c1df",
+      "parts": [
+        {
+          "path": "parts/SHA256SUMS.000",
+          "size": 346,
+          "sha256": "def603b21cd88f0055ef2f4182a538e0bf36e3152a4963c4f175c37f8fb4c1df"
+        }
+      ]
+    }
+  ]
+}
