@@ -1,0 +1,44 @@
+{
+  "site": "https://liuyinchu.github.io/ai-video-stress-relief-techniques/",
+  "checked_utc": "2026-10-22T02:21:23.621306+00:00",
+  "http": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": 7303,
+      "sha256": "9b34db63e4fbc9601d073f3c8a9ac22a434d82d961065881c6896a1ab98c5808"
+    },
+    {
+      "path": "styles.css",
+      "status": 200,
+      "bytes": 7264,
+      "sha256": "b016f6d201a3483f9f500bdc2b756b2ceac89a2775be2a9b5a51c34fae409736"
+    },
+    {
+      "path": "app.js",
+      "status": 200,
+      "bytes": 1489,
+      "sha256": "70eed872052ed9c3b15a3100c626bc623c579e3dc24d155ee2c8605cb5676caf"
+    },
+    {
+      "path": "transcript.html",
+      "status": 200,
+      "bytes": 7327,
+      "sha256": "ed9dd52ead1aecfe1e4c588f548770f080210a5c591efe7c82aa62c72474d4bf"
+    },
+    {
+      "path": "media/narration.srt",
+      "status": 200,
+      "bytes": 10964,
+      "sha256": "5e4a8bf521afeb44b9e2ac1cd14a4a0ff68470201f90b4959bf92c18fc642f40"
+    }
+  ],
+  "browser": {
+    "duration_seconds": 400.833333,
+    "video_width": 1920,
+    "video_height": 1080,
+    "chapter_6_seek_seconds": 282.1,
+    "playback_advanced_to_seconds": 286.182146,
+    "paused_after_check": true
+  }
+}
