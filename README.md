@@ -1,72 +1,64 @@
-# 先松一口气 · shortvideo-1020
+# 先让身体缓一缓
 
-62秒中文短视频，连续发光墙镜头，横版1920×1080与竖版1080×1920。所有工程在远端 `yangshuyun@10.10.10.1:/Users/yangshuyun/workspace/dev/ai-video/shortvideo-1020`。
+一部关于压力、身体与日常小动作的中文影片。七个主题在同一空间中连续衔接：双吸长呼、凉意、耳部触感、温和活动、写下烦心事、自然纹理，以及整理一小块桌面。
 
-## 当前版本：MiniMax v2
+**[观看影片](https://liuyinchu.github.io/ai-video-stress-relief-techniques/) · [4K 成片与完整工程备份](https://github.com/liuyinchu/ai-video-stress-relief-techniques/releases/tag/v1.0.0)**
 
-正式旁白已通过Chrome网页生成，模型speech-2.8-hd、音色「温暖闺蜜」。新版使用`content/timeline-minimax.json`、`content/captions-minimax.json`和`shots/*-minimax.html`；审片入口为`output/review-minimax.html`或原有`output/review.html`。旧v1及临时音轨保留。
+## 成片
 
-完整重建新版：`bash scripts/build-minimax.sh`。原始九段WAV与来源记录已保存；不用再次请求MiniMax生成。修改语音后须重新做时间核验。详见`docs/minimax-v2.md`。
+- 连续镜头长片：400.833333 秒，原生 3840×2160 / 60fps；另有 1920×1080 / 30fps 版。
+- 画面：Multiplane 0.3.13 + Three.js 0.180.0，时间驱动的三维模型、连续相机轨迹与线性光运动模糊采样。
+- 声音：MiniMax 中文女声、原创程序配乐与音效。连续镜头版直接保留已确认版本的音轨。
+- 原有横屏、竖屏短片及前一版长片完整保留在工程快照内。
 
-## 初版制作结构
+影片内容为科普与自助体验介绍，各方法的证据强弱不同。[研究依据与表述边界](longform/docs/evidence.md)随项目保留。
 
-- 台本与时间轴：`content/timeline.json`、`content/narration.txt`
-- 分镜：`docs/storyboard.md`
-- 健康表述核验：`docs/evidence.md`
-- 配音交接：`docs/tts-handoff.md`
-- 发布文案：`docs/publish-copy.md`
-- 风格参考：`reference/style/style-guide.pdf`（用户提供，作为参考资料）
-- 画面源代码：`shots/wall.js`、`shots/illustrations.js`，两个画幅分别取景
-- 原创程序音轨：`scripts/synth_audio.py`；混音：`scripts/mix_audio.py`
+## 文件导航
 
-所有画面由Multiplane逐帧渲染。没有使用PowerPoint或图片翻页。相机短移、停稳；主体通过时间驱动的Canvas绘制。图像素材均为程序绘制，没有调用生成式图像服务。
+| 内容 | 位置 |
+| --- | --- |
+| 正式网站 | `site/`；发布到 `gh-pages` 分支根目录 |
+| 连续镜头画面与管线 | `longform/onetake/` |
+| 长片台本、字幕、动作时序 | `longform/content/` |
+| 已生成的原始旁白 | `longform/assets/voice/raw/` |
+| 前一版长片源代码 | `longform/shots/` |
+| 两种画幅的短片源代码 | `shots/` |
+| 配乐、音效与混音程序 | `scripts/`、`longform/scripts/` |
+| 完整备份清单、校验与恢复说明 | `backup/` |
 
-## 运行环境
+## 完整工程备份
 
-```bash
-cd /Users/yangshuyun/workspace/dev/ai-video/shortvideo-1020
-source .tool-env
-npm run doctor
+Git 保存版本化源代码、制作文档、原始旁白和正式网站。**恢复全部制作文件，请下载 Release 中的 `complete-project-20261022.tar.zst`。** 该快照还包含 `.git` 历史、所有忽略文件、依赖、虚拟环境、全部旧版视频、音轨、渲染日志与关键帧，共 6,607 个文件系统条目、2,205,073,739 字节的普通文件内容。
+
+快照对应制作完成时的提交 `06d2e1a1101168f50fea6a923826c8a545ab7f98`。本次上线新增的网站和备份工具保存在当前 Git 分支中；恢复快照后可快进到当前 `main`。步骤见 **[恢复说明](backup/RESTORE.md)**。
+
+原始快照 SHA-256：
+
+```text
+1889b7e93c714c5a3c68d9260f8dddc812c0353d1892d060bd09b99ee5df14e5
 ```
 
-Node24；Multiplane锁定0.3.13；Playwright Chromium；Python3.12 venv；imageio-ffmpeg内置FFmpeg7.1。字体使用远端系统PingFang SC及Arial。跨机器需安装等同字体并重新verify，不保证跨字体像素一致。依赖不进入Git。
+完整条目清单为 [MANIFEST.json](backup/MANIFEST.json)。`scripts/verify-backup.py` 会逐项验证内容、大小、权限和符号链接，不执行或展开归档中的文件。
 
-## 检查与渲染
+## 本地预览与制作
 
-```bash
-npx multiplane lint shots/landscape.html --json
-npx multiplane stills shots/landscape.html --at 2.6,8,19,25,31,38,45,52,58 --out output/stills-landscape --json
-npx multiplane verify shots/landscape.html --at 2,5,10,18,28,43,56 --workers 2 --json
-bash scripts/render.sh landscape
-bash scripts/render.sh portrait
+正式页面为纯静态 HTML / CSS / JavaScript，直接使用已完成的视频。恢复完整工程后，可以运行：
+
+```sh
+python3 longform/scripts/serve_review.py --port 18920
+# 浏览器打开 http://127.0.0.1:18920/site/
 ```
 
-先通过verify再渲染。视频和截图在`output/`；编码、核验作业在`out/jobs/`。默认2 workers，避免与其他远端项目抢占过多资源。另有`draft`参数用于低清快速预览，不作为最终画质交付。
+停止预览使用 Ctrl+C。网站通过 GitHub Pages 提供服务，不依赖开发机器或 SSH 转发。
 
-## 语音与声音
+重新渲染的入口见 [连续镜头制作说明](longform/onetake/README.md)。依赖由 `package-lock.json` 与 `requirements.lock` 锁定；跨机器使用时应重新创建虚拟环境并准备等同字体，再执行 Multiplane 的确定性校验。随快照保存的虚拟环境用于完整留档，其绝对路径不保证在另一台机器上直接可用。
 
-`content/timeline.json`以每段start/end/audio声明旁白。MiniMax网页可逐段生成并替换音频文件；导入后重新核对字幕与动作。`scripts/temp_voice.py`仅生成macOS Tingting临时配音，须明确标注临时音色，不能冒充MiniMax成品。
+## 发布网站
 
-原创配乐与音效可在Python中固定种子重新生成，无外部歌曲依赖。最终目标-16 LUFS、true peak不超过-1.5dBTP。保留无旁白版本便于导演试听或换声。
+先将网站变更提交到 `main` 并推送，再执行：
 
-本仓库没有外发或发布操作。影视版权和健康说明参考`docs/publish-copy.md`与`docs/evidence.md`。
-
-## 一键重建与审片
-
-```bash
-# 使用现有分段旁白文件重建：
-bash scripts/build.sh
-# 仅当需要明确标注的临时女声时：
-bash scripts/build.sh --scratch-voice
+```sh
+bash scripts/publish-pages.sh
 ```
 
-脚本不会调用或冒充MiniMax；导入真实MiniMax语音后，需要更新审片页的临时声线说明，并核对`content/captions.json`的时间点。最终审片素材的显示状态以页面说明为准。
-
-通过SSH转发在本机审片（保持这个连接运行）：
-
-```bash
-ssh -L 18877:127.0.0.1:18877 yangshuyun@10.10.10.1 \
-  'cd ~/workspace/dev/ai-video/shortvideo-1020 && .tools/venv/bin/python -m http.server 18877 --bind 127.0.0.1'
-```
-
-然后打开 `http://127.0.0.1:18877/output/review.html`。服务仅监听远端回环地址，没有公网发布。
+脚本仅将提交中的 `site/` 树发布到 `gh-pages`；GitHub Pages 采用该分支的根目录。正式页面不包含工程验收入口或本地服务地址。

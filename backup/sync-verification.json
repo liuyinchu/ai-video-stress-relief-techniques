@@ -1,0 +1,14 @@
+{
+  "complete": true,
+  "method": "rsync archive copy followed by checksum dry run with no differences",
+  "entries": 6607,
+  "regular_file_bytes": 2205073739,
+  "secret_scan": {
+    "working_tree_findings": 0,
+    "history_findings": 0
+  },
+  "services_stopped": [
+    "remote review ports 18877 and 18878",
+    "local SSH forwarding port 18878"
+  ]
+}
